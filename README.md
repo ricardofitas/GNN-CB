@@ -6,7 +6,7 @@ A trained **graph neural surrogate for corrugated-board deformation**, with audi
 
 The current primary benchmark uses **five physical specimens**, expanded from the original two. Four further camera recordings were recovered and processed into graphs and masked tracks; their quality qualification and supplementary experiments are kept distinct from the fixed five-specimen benchmark.
 
-[Read the approach report](reports/GNN_CB_Approach_Report.pdf) · [Expanded data audit](reports/EXPANDED_DATA_AUDIT.md) · [Recorded benchmark](results/expanded/five_specimens/metrics.json) · [Why augmentation regressed](reports/AUGMENTATION_DIAGNOSIS.md)
+[Read the approach report](reports/GNN_CB_Approach_Report.pdf) · [Expanded data audit](reports/EXPANDED_DATA_AUDIT.md) · [Recorded benchmark](results/expanded/five_specimens/metrics.json) · [Why augmentation regressed](reports/AUGMENTATION_DIAGNOSIS.md) · [More labels and statistical evidence](reports/DERIVED_SUPERVISION_AND_SIGNIFICANCE.md)
 
 ![Additional source images and initial graphs](reports/figures/expanded_source_graphs.png)
 
@@ -268,6 +268,51 @@ controls, source fingerprints, loss histories, and reproducible commands.
 [All quantitative ablations](results/diagnosis/ablation_table.csv) ·
 [Protocol](results/diagnosis/protocol.json) ·
 [Verification](results/diagnosis/verification.json)
+
+## More supervision from the same observations
+
+A second registered exploratory study runs **9 arms × 5 unchanged tests × 3
+seeds = 135 fits**. It derives temporal displacement differences and relative
+edge displacement targets only from observed endpoints. The five original
+specimens provide **1,125,113 absolute/derived vector relationships**, versus
+19,252 absolute observations (**58.44×**). These correlated relationships add
+**zero independent physical measurements**; missing trajectories stay masked.
+
+| Original-task comparison | RMSE / initial height | Paired nominal p vs corresponding control |
+|---|---:|---:|
+| Original GNN, exact replay | **13.539302%** | — |
+| GNN with temporal + edge difference objectives | 13.411865% | 0.4375 |
+| GNN with Monte Carlo geometry input noise | 13.586782% | 0.5000 |
+| Original three-seed prediction ensemble | 13.253484% | — |
+| Global-readout + joint-objective three-seed ensemble | 12.930042% | 0.3750 |
+
+The joint objective reduces mean error by **0.127437 pp (0.941236% relative)**,
+improving four of five specimen scores. Its conditional case-bootstrap interval
+for the difference is **[−0.340430, +0.192766] pp**. The exploratory ensemble
+reduces error by **0.323442 pp (2.440433%)** against the original ensemble;
+its interval also crosses zero. Equal prediction averaging uses three models
+from the same held-out fold, and is distinct from averaging seed RMSEs.
+
+**Neither reduction establishes statistical significance.** Every new-arm and
+ensemble Holm-adjusted p-value is 1.0. Tests use five paired physical specimens,
+not independent frames, target pairs or optimizer seeds. Shared LOSO training
+sets leave the sign-flip assumptions unverified; reported p-values and empirical
+case-bootstrap intervals are sensitivity statistics, not population guarantees.
+The previously reported lower-video-weight result also lacks significance
+against the original GNN (nominal p = 0.875).
+
+This study tests Monte Carlo graph input noise, not a generative image model.
+Generated appearance alone cannot supply validated physical displacement labels.
+The report specifies how simulation-labelled or correspondence-preserving images
+could support a separate future experiment. The primary benchmark, original
+models, source data and earlier results remain unchanged. All **59 integrity
+tests pass**; all **135 checkpoint predictions** are reproduced bit-for-bit.
+
+[Scientific follow-up](reports/DERIVED_SUPERVISION_AND_SIGNIFICANCE.md) ·
+[All nine arms](results/derived_supervision/comparison.csv) ·
+[Statistical analysis](results/derived_supervision/statistics.json) ·
+[Frozen protocol](results/derived_supervision/protocol.json) ·
+[Verification](results/derived_supervision/verification.json)
 
 ## Model and evaluation details
 

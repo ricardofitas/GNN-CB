@@ -16,6 +16,16 @@ The observed regression mainly concerns common prediction biases: 88.3% of
 Exp5's added MSE lies in its per-frame mean-error component. Physical causes
 remain incompletely identified and no exploratory model replaces the reference.
 
+**Statistical follow-up (2026-10-10):** the seed standard deviations below are
+not significance tests. A subsequent [paired five-specimen analysis and new
+derived-supervision study](DERIVED_SUPERVISION_AND_SIGNIFICANCE.md) reports all
+earlier arms with exact nominal sign-flip tests, conditional case-bootstrap
+intervals and multiple-comparison adjustment. The lower-video-weight result
+versus the original GNN has nominal two-sided p = **0.875**; the negative phase
+warp has p = **0.8125**. Neither establishes a significant improvement. Shared
+LOSO fitting sets and the five-case sample limit population inference; no frame,
+pair or optimizer seed is counted as an independent physical replicate.
+
 ## Question and experimental unit
 
 The observed change was **13.539302% → 13.897997%** coordinate RMSE divided by

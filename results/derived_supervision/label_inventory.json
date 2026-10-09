@@ -1,0 +1,100 @@
+{
+  "unit": "2D vector target; multiply by two for scalar coordinate targets",
+  "warning": "These are dataset-wide descriptive counts. Each fold fits only its registered three primary groups and optional two training videos.",
+  "primary": {
+    "specimens": {
+      "Exp3_D12": {
+        "absolute_vector_targets": 2566,
+        "temporal_difference_vector_targets": 114194,
+        "spatial_difference_vector_targets": 2671,
+        "combined_vector_targets": 119431,
+        "combined_to_absolute_ratio": 46.543647700701484,
+        "temporal_incidence_rank_per_coordinate": 2535,
+        "independent_additional_measurements": 0,
+        "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+      },
+      "Exp4_D14": {
+        "absolute_vector_targets": 5403,
+        "temporal_difference_vector_targets": 310704,
+        "spatial_difference_vector_targets": 7324,
+        "combined_vector_targets": 323431,
+        "combined_to_absolute_ratio": 59.86137331112345,
+        "temporal_incidence_rank_per_coordinate": 5355,
+        "independent_additional_measurements": 0,
+        "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+      },
+      "Exp5_ID03": {
+        "absolute_vector_targets": 839,
+        "temporal_difference_vector_targets": 10621,
+        "spatial_difference_vector_targets": 805,
+        "combined_vector_targets": 12265,
+        "combined_to_absolute_ratio": 14.618593563766389,
+        "temporal_incidence_rank_per_coordinate": 800,
+        "independent_additional_measurements": 0,
+        "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+      },
+      "Probe1_22": {
+        "absolute_vector_targets": 4902,
+        "temporal_difference_vector_targets": 298198,
+        "spatial_difference_vector_targets": 7035,
+        "combined_vector_targets": 310135,
+        "combined_to_absolute_ratio": 63.26703386372909,
+        "temporal_incidence_rank_per_coordinate": 4862,
+        "independent_additional_measurements": 0,
+        "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+      },
+      "Probe2_7": {
+        "absolute_vector_targets": 5542,
+        "temporal_difference_vector_targets": 346250,
+        "spatial_difference_vector_targets": 8059,
+        "combined_vector_targets": 359851,
+        "combined_to_absolute_ratio": 64.93161313605196,
+        "temporal_incidence_rank_per_coordinate": 5498,
+        "independent_additional_measurements": 0,
+        "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+      }
+    },
+    "total": {
+      "absolute_vector_targets": 19252,
+      "temporal_difference_vector_targets": 1079967,
+      "spatial_difference_vector_targets": 25894,
+      "combined_vector_targets": 1125113,
+      "temporal_incidence_rank_per_coordinate": 19050,
+      "independent_additional_measurements": 0,
+      "combined_to_absolute_ratio": 58.44135674215666
+    }
+  },
+  "admitted_videos": {
+    "specimens": {
+      "ML2023_Probe1_8": {
+        "absolute_vector_targets": 9171,
+        "temporal_difference_vector_targets": 479538,
+        "spatial_difference_vector_targets": 11658,
+        "combined_vector_targets": 500367,
+        "combined_to_absolute_ratio": 54.55969905135754,
+        "temporal_incidence_rank_per_coordinate": 9078,
+        "independent_additional_measurements": 0,
+        "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+      },
+      "ML2023_Probe1_9": {
+        "absolute_vector_targets": 4745,
+        "temporal_difference_vector_targets": 242281,
+        "spatial_difference_vector_targets": 6399,
+        "combined_vector_targets": 253425,
+        "combined_to_absolute_ratio": 53.40885142255005,
+        "temporal_incidence_rank_per_coordinate": 4698,
+        "independent_additional_measurements": 0,
+        "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+      }
+    },
+    "total": {
+      "absolute_vector_targets": 13916,
+      "temporal_difference_vector_targets": 721819,
+      "spatial_difference_vector_targets": 18057,
+      "combined_vector_targets": 753792,
+      "temporal_incidence_rank_per_coordinate": 13776,
+      "independent_additional_measurements": 0,
+      "combined_to_absolute_ratio": 54.16728945099167
+    }
+  }
+}

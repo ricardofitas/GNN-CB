@@ -1,0 +1,278 @@
+{
+  "arm": "global_joint",
+  "fold_index": 1,
+  "protocol_sha256": "aa50fccc490dde93ddab03a2ba772f60174840edb28a4c720cc4fc64951d6b4d",
+  "training_physical_specimens": [
+    "Exp3_D12",
+    "Probe1_22",
+    "Probe2_7"
+  ],
+  "validation_physical_specimens": [
+    "Exp5_ID03"
+  ],
+  "held_out_physical_specimen": "Exp4_D14",
+  "seed": 29,
+  "selected_epoch": 50,
+  "completed_epochs": 125,
+  "validation_mse": 0.01137840747833252,
+  "residual_scale": 0.16319437325000763,
+  "history": [
+    {
+      "epoch": 0,
+      "clean_train_mse": 0.02663240395486355,
+      "validation_mse": 0.017438406124711037
+    },
+    {
+      "epoch": 5,
+      "clean_train_mse": 0.026520224288105965,
+      "validation_mse": 0.01749490574002266
+    },
+    {
+      "epoch": 10,
+      "clean_train_mse": 0.02595130354166031,
+      "validation_mse": 0.01723499596118927
+    },
+    {
+      "epoch": 15,
+      "clean_train_mse": 0.02201317623257637,
+      "validation_mse": 0.01611333154141903
+    },
+    {
+      "epoch": 20,
+      "clean_train_mse": 0.012785769999027252,
+      "validation_mse": 0.013682710006833076
+    },
+    {
+      "epoch": 25,
+      "clean_train_mse": 0.014001615345478058,
+      "validation_mse": 0.018662918359041214
+    },
+    {
+      "epoch": 30,
+      "clean_train_mse": 0.012930253520607948,
+      "validation_mse": 0.014881163835525513
+    },
+    {
+      "epoch": 35,
+      "clean_train_mse": 0.01278405636548996,
+      "validation_mse": 0.012257128953933716
+    },
+    {
+      "epoch": 40,
+      "clean_train_mse": 0.012315102852880955,
+      "validation_mse": 0.013282482512295246
+    },
+    {
+      "epoch": 45,
+      "clean_train_mse": 0.012005060911178589,
+      "validation_mse": 0.013197572901844978
+    },
+    {
+      "epoch": 50,
+      "clean_train_mse": 0.011443162336945534,
+      "validation_mse": 0.01137840747833252
+    },
+    {
+      "epoch": 55,
+      "clean_train_mse": 0.011094663292169571,
+      "validation_mse": 0.012714683078229427
+    },
+    {
+      "epoch": 60,
+      "clean_train_mse": 0.010066227987408638,
+      "validation_mse": 0.011902696453034878
+    },
+    {
+      "epoch": 65,
+      "clean_train_mse": 0.009383264929056168,
+      "validation_mse": 0.011489520780742168
+    },
+    {
+      "epoch": 70,
+      "clean_train_mse": 0.008939726278185844,
+      "validation_mse": 0.011929827742278576
+    },
+    {
+      "epoch": 75,
+      "clean_train_mse": 0.008258204907178879,
+      "validation_mse": 0.013610782101750374
+    },
+    {
+      "epoch": 80,
+      "clean_train_mse": 0.008112561888992786,
+      "validation_mse": 0.015104352496564388
+    },
+    {
+      "epoch": 85,
+      "clean_train_mse": 0.007764137350022793,
+      "validation_mse": 0.013764627277851105
+    },
+    {
+      "epoch": 90,
+      "clean_train_mse": 0.007397832348942757,
+      "validation_mse": 0.015511494129896164
+    },
+    {
+      "epoch": 95,
+      "clean_train_mse": 0.006815850269049406,
+      "validation_mse": 0.015605565160512924
+    },
+    {
+      "epoch": 100,
+      "clean_train_mse": 0.006600001826882362,
+      "validation_mse": 0.017852749675512314
+    },
+    {
+      "epoch": 105,
+      "clean_train_mse": 0.006635114550590515,
+      "validation_mse": 0.020224981009960175
+    },
+    {
+      "epoch": 110,
+      "clean_train_mse": 0.006422484293580055,
+      "validation_mse": 0.017701199278235435
+    },
+    {
+      "epoch": 115,
+      "clean_train_mse": 0.005978310946375132,
+      "validation_mse": 0.01844792254269123
+    },
+    {
+      "epoch": 120,
+      "clean_train_mse": 0.00575649319216609,
+      "validation_mse": 0.020143281668424606
+    },
+    {
+      "epoch": 125,
+      "clean_train_mse": 0.005533470772206783,
+      "validation_mse": 0.021342655643820763
+    }
+  ],
+  "runtime_seconds": 16.612945426997612,
+  "trainable_parameters": 22756,
+  "test_specimen_id": "Exp4",
+  "test_source_sha256": "a246c9b64b675c10eaaaebb2ef00dfec7db2ada50c3556a6636a9a2f43c8f3e3",
+  "test": {
+    "compression_window": {
+      "observed_node_frames": 5403,
+      "rmse_normalized": 0.15017781744807066,
+      "rmse_px": 12.314581030741794,
+      "mae_px": 9.483531951904297,
+      "mean_endpoint_error_px": 14.857913970947266,
+      "mean_endpoint_error_normalized": 0.18119406700134277,
+      "p95_endpoint_error_px": 31.892658233642578,
+      "r2_variance_weighted": 0.30540968136135715,
+      "rmse_x_px": 14.523240089416504,
+      "rmse_y_px": 9.611104011535645
+    },
+    "early_phase": {
+      "observed_node_frames": 4255,
+      "rmse_normalized": 0.13380450138754638,
+      "rmse_px": 10.971969113778803,
+      "mae_px": 8.662242889404297,
+      "mean_endpoint_error_px": 13.599300384521484,
+      "mean_endpoint_error_normalized": 0.16584512591362,
+      "p95_endpoint_error_px": 27.13587188720703,
+      "r2_variance_weighted": 0.07667188325880792,
+      "rmse_x_px": 13.498193740844727,
+      "rmse_y_px": 7.652906894683838
+    },
+    "late_phase": {
+      "observed_node_frames": 897,
+      "rmse_normalized": 0.2039124009238719,
+      "rmse_px": 16.720816875757496,
+      "mae_px": 12.863443374633789,
+      "mean_endpoint_error_px": 19.996089935302734,
+      "mean_endpoint_error_normalized": 0.24385476112365723,
+      "p95_endpoint_error_px": 47.55512237548828,
+      "r2_variance_weighted": 0.4489002711388418,
+      "rmse_x_px": 18.041013717651367,
+      "rmse_y_px": 15.287031173706055
+    },
+    "complete_track_subset": {
+      "nodes": 20,
+      "observed_node_frames": 2520,
+      "rmse_normalized": 0.1681346351404565,
+      "rmse_px": 13.787040081517434,
+      "mae_px": 10.927339553833008,
+      "mean_endpoint_error_px": 16.804262161254883,
+      "mean_endpoint_error_normalized": 0.20493003726005554,
+      "p95_endpoint_error_px": 39.437923431396484,
+      "r2_variance_weighted": 0.14037022341004357,
+      "rmse_x_px": 15.964595794677734,
+      "rmse_y_px": 11.193595886230469
+    },
+    "phase_quintiles": [
+      {
+        "lo": 0.0,
+        "hi": 0.2,
+        "n": 1184,
+        "rmse_percent": 11.098011016845703
+      },
+      {
+        "lo": 0.2,
+        "hi": 0.4,
+        "n": 1156,
+        "rmse_percent": 12.221183776855469
+      },
+      {
+        "lo": 0.4,
+        "hi": 0.6,
+        "n": 1118,
+        "rmse_percent": 14.187108993530273
+      },
+      {
+        "lo": 0.6,
+        "hi": 0.8,
+        "n": 1048,
+        "rmse_percent": 16.977590560913086
+      },
+      {
+        "lo": 0.8,
+        "hi": 1.0,
+        "n": 897,
+        "rmse_percent": 20.3912410736084
+      }
+    ]
+  },
+  "training": [
+    {
+      "physical_id": "Exp3_D12",
+      "weight": 0.3333333333333333,
+      "absolute_vector_targets": 2566,
+      "temporal_difference_vector_targets": 114194,
+      "spatial_difference_vector_targets": 2671,
+      "combined_vector_targets": 119431,
+      "combined_to_absolute_ratio": 46.543647700701484,
+      "temporal_incidence_rank_per_coordinate": 2535,
+      "independent_additional_measurements": 0,
+      "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+    },
+    {
+      "physical_id": "Probe1_22",
+      "weight": 0.3333333333333333,
+      "absolute_vector_targets": 4902,
+      "temporal_difference_vector_targets": 298198,
+      "spatial_difference_vector_targets": 7035,
+      "combined_vector_targets": 310135,
+      "combined_to_absolute_ratio": 63.26703386372909,
+      "temporal_incidence_rank_per_coordinate": 4862,
+      "independent_additional_measurements": 0,
+      "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+    },
+    {
+      "physical_id": "Probe2_7",
+      "weight": 0.3333333333333333,
+      "absolute_vector_targets": 5542,
+      "temporal_difference_vector_targets": 346250,
+      "spatial_difference_vector_targets": 8059,
+      "combined_vector_targets": 359851,
+      "combined_to_absolute_ratio": 64.93161313605196,
+      "temporal_incidence_rank_per_coordinate": 5498,
+      "independent_additional_measurements": 0,
+      "warning": "Derived differences reuse noisy observed endpoints; no masks revived."
+    }
+  ],
+  "checkpoint_sha256": "076a20945b5938606b03c581a8beee6d0eab6be705db057c28a4ed0b916c4f84",
+  "prediction_sha256": "5e601c1ef99d402abccb0b10d234249610254472bc9f63e56cc8ba1c1d51baff"
+}

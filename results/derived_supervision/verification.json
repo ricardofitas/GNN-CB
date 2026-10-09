@@ -1,0 +1,137 @@
+{
+  "source_commit": "eba8d358de1e4b6a045c8c318bd2ddac7f7e9406",
+  "remote_registration_commit": "061a38f46c9bc0e0b51a364ec24f186ae6d63b91",
+  "protocol_sha256": "aa50fccc490dde93ddab03a2ba772f60174840edb28a4c720cc4fc64951d6b4d",
+  "all_protocol_input_and_code_hashes_match": true,
+  "fits": 135,
+  "arms": 9,
+  "physical_test_specimens": 5,
+  "optimizer_seeds": [
+    11,
+    29,
+    47
+  ],
+  "original_replays": [
+    {
+      "specimen": "Exp3_D12",
+      "seed": 11,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp3_D12",
+      "seed": 29,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp3_D12",
+      "seed": 47,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp4_D14",
+      "seed": 11,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp4_D14",
+      "seed": 29,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp4_D14",
+      "seed": 47,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp5_ID03",
+      "seed": 11,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp5_ID03",
+      "seed": 29,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Exp5_ID03",
+      "seed": 47,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Probe1_22",
+      "seed": 11,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Probe1_22",
+      "seed": 29,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Probe1_22",
+      "seed": 47,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Probe2_7",
+      "seed": 11,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Probe2_7",
+      "seed": 29,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    },
+    {
+      "specimen": "Probe2_7",
+      "seed": 47,
+      "selected_epoch_identical": true,
+      "full_predictions_bitwise_identical": true
+    }
+  ],
+  "bitwise_checkpoint_prediction_replays": 135,
+  "saved_prediction_rescores": 135,
+  "maximum_rescore_rmse_error": 0.0,
+  "complete_registered_fold_seed_matrix": true,
+  "all_train_validation_test_physical_ids_disjoint": true,
+  "all_epochs_selected_only_from_original_validation_cases": true,
+  "all_original_test_masks_frames_and_node_ids_unchanged": true,
+  "statistical_unit_is_physical_case_not_frame_or_seed": true,
+  "training_seconds_summed_over_fits": 2600.6239074940386,
+  "tests_passed": 59,
+  "tests_skipped": 0,
+  "test_log_sha256": "16764374707f68efe88b0b99751ca63c8c77e58aaca9753c66a9b0aab0f623f4",
+  "upstream_preservation": {
+    "source_commit": "eba8d358de1e4b6a045c8c318bd2ddac7f7e9406",
+    "original_blob_count": 666,
+    "unchanged_count": 663,
+    "intentionally_updated_documents": [
+      ".gitignore",
+      "README.md",
+      "reports/AUGMENTATION_DIAGNOSIS.md"
+    ],
+    "all_original_data_models_results_and_core_code_unchanged": true
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "device": "cpu",
+    "threads_per_fit": 2
+  }
+}
