@@ -1,0 +1,2227 @@
+{
+  "scope": "Descriptive input/mask/prediction audit; no test-based fitting or hyperparameter choice",
+  "specimens": [
+    {
+      "specimen_id": "Exp3",
+      "physical_specimen_id": "Exp3_D12",
+      "npz_sha256": "64557a7250936aa6ff4afec683a021c444a1e9b2bcb946ff57415d6e60e47b71",
+      "nodes": 46,
+      "undirected_edges": 67,
+      "connected_components": 1,
+      "degree": {
+        "min": 2.0,
+        "p25": 3.0,
+        "median": 3.0,
+        "p75": 3.0,
+        "p95": 3.0,
+        "max": 3.0
+      },
+      "graph_height_px": 80.0,
+      "aspect_ratio": 26.537500381469727,
+      "normalized_edge_length": {
+        "min": 0.537645697593689,
+        "p25": 0.745605856180191,
+        "median": 1.0405076742172241,
+        "p75": 1.6720978915691376,
+        "p95": 1.7624988555908203,
+        "max": 1.900164008140564
+      },
+      "initial_y_distribution": {
+        "min": 0.0,
+        "p25": 0.03750000149011612,
+        "median": 0.5875000059604645,
+        "p75": 0.9593749791383743,
+        "p95": 0.971875011920929,
+        "max": 1.0
+      },
+      "three_hop_node_reach_mean": 0.24385633270321366,
+      "max_coordinate_normalization_error": 0.0,
+      "max_target_normalization_error": 0.0,
+      "initial_height_relative_error": 0.0,
+      "compression_states": 95,
+      "supervised_states": 95,
+      "observations": 2566,
+      "coverage": 0.5871853546910755,
+      "complete_nodes_full_window": 13,
+      "complete_nodes_observed_frames_only": 13,
+      "phase_range_observed": [
+        0.0,
+        1.0
+      ],
+      "observation_weighted_phase": 0.4872099963758672,
+      "zero_rmse_percent": 27.795930862426758,
+      "first_observed_phase": 0.0,
+      "first_observed_displacement_rms_percent": 5.338647842407227,
+      "first_observed_mean_xy_percent": [
+        -0.23148146271705627,
+        5.555555820465088
+      ],
+      "mean_displacement_xy_percent": [
+        -5.397502899169922,
+        31.01664161682129
+      ],
+      "phase_convention": "see source metadata",
+      "vertical_thirds": [
+        {
+          "band": 0,
+          "nodes": 23,
+          "coverage": 0.9464530892448513,
+          "observation_mass": 0.8059236165237724,
+          "rms_percent": 29.30644416809082
+        },
+        {
+          "band": 1,
+          "nodes": 0,
+          "coverage": null,
+          "observation_mass": 0.0,
+          "rms_percent": null
+        },
+        {
+          "band": 2,
+          "nodes": 23,
+          "coverage": 0.22791762013729977,
+          "observation_mass": 0.1940763834762276,
+          "rms_percent": 20.357696533203125
+        }
+      ],
+      "phase_quintiles": [
+        {
+          "lo": 0.0,
+          "hi": 0.2,
+          "observations": 520,
+          "observation_mass": 0.20265003897116135,
+          "coverage": 0.5949656750572082,
+          "mean_xy_percent": [
+            -0.6033656001091003,
+            8.819707870483398
+          ],
+          "rms_percent": 7.1119561195373535
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.4,
+          "observations": 540,
+          "observation_mass": 0.21044427123928294,
+          "coverage": 0.6178489702517163,
+          "mean_xy_percent": [
+            -6.608796119689941,
+            19.981489181518555
+          ],
+          "rms_percent": 16.066133499145508
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.6,
+          "observations": 530,
+          "observation_mass": 0.20654715510522215,
+          "coverage": 0.6064073226544623,
+          "mean_xy_percent": [
+            -8.716988563537598,
+            30.983495712280273
+          ],
+          "rms_percent": 25.147645950317383
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.8,
+          "observations": 517,
+          "observation_mass": 0.2014809041309431,
+          "coverage": 0.5915331807780321,
+          "mean_xy_percent": [
+            -6.2548370361328125,
+            42.47098922729492
+          ],
+          "rms_percent": 33.92935562133789
+        },
+        {
+          "lo": 0.8,
+          "hi": 1.0,
+          "observations": 459,
+          "observation_mass": 0.17887763055339048,
+          "coverage": 0.5251716247139588,
+          "mean_xy_percent": [
+            -4.605120658874512,
+            56.28268051147461
+          ],
+          "rms_percent": 43.947265625
+        }
+      ],
+      "observed_sample_step_norm_percent": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 1.2499988079071045,
+        "p75": 1.2500017881393433,
+        "p95": 2.500000476837158,
+        "max": 12.5
+      },
+      "sampling_frame_gap": {
+        "min": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      }
+    },
+    {
+      "specimen_id": "Exp4",
+      "physical_specimen_id": "Exp4_D14",
+      "npz_sha256": "a246c9b64b675c10eaaaebb2ef00dfec7db2ada50c3556a6636a9a2f43c8f3e3",
+      "nodes": 48,
+      "undirected_edges": 71,
+      "connected_components": 1,
+      "degree": {
+        "min": 2.0,
+        "p25": 3.0,
+        "median": 3.0,
+        "p75": 3.0,
+        "p95": 3.0,
+        "max": 3.0
+      },
+      "graph_height_px": 82.0,
+      "aspect_ratio": 27.390243530273438,
+      "normalized_edge_length": {
+        "min": 0.21985071897506714,
+        "p25": 0.7582012116909027,
+        "median": 1.0181277990341187,
+        "p75": 1.4896380305290222,
+        "p95": 1.7320760130882262,
+        "max": 1.8049194812774658
+      },
+      "initial_y_distribution": {
+        "min": 0.0,
+        "p25": 0.0335365841165185,
+        "median": 0.8475609719753265,
+        "p75": 0.9146341681480408,
+        "p95": 0.9390243887901306,
+        "max": 1.0
+      },
+      "three_hop_node_reach_mean": 0.23524305555555558,
+      "max_coordinate_normalization_error": 0.0,
+      "max_target_normalization_error": 0.0,
+      "initial_height_relative_error": 0.0,
+      "compression_states": 126,
+      "supervised_states": 126,
+      "observations": 5403,
+      "coverage": 0.8933531746031746,
+      "complete_nodes_full_window": 20,
+      "complete_nodes_observed_frames_only": 20,
+      "phase_range_observed": [
+        0.0,
+        1.0
+      ],
+      "observation_weighted_phase": 0.4699063493625259,
+      "zero_rmse_percent": 20.47260856628418,
+      "first_observed_phase": 0.0,
+      "first_observed_displacement_rms_percent": 0.746795654296875,
+      "first_observed_mean_xy_percent": [
+        -0.05081300437450409,
+        -0.05081300437450409
+      ],
+      "mean_displacement_xy_percent": [
+        -6.409707546234131,
+        12.15607738494873
+      ],
+      "phase_convention": "see source metadata",
+      "vertical_thirds": [
+        {
+          "band": 0,
+          "nodes": 23,
+          "coverage": 0.860248447204969,
+          "observation_mass": 0.4614103275957801,
+          "rms_percent": 25.811471939086914
+        },
+        {
+          "band": 1,
+          "nodes": 0,
+          "coverage": null,
+          "observation_mass": 0.0,
+          "rms_percent": null
+        },
+        {
+          "band": 2,
+          "nodes": 25,
+          "coverage": 0.9238095238095239,
+          "observation_mass": 0.5385896724042198,
+          "rms_percent": 14.40253734588623
+        }
+      ],
+      "phase_quintiles": [
+        {
+          "lo": 0.0,
+          "hi": 0.2,
+          "observations": 1184,
+          "observation_mass": 0.21913751619470664,
+          "coverage": 0.9866666666666667,
+          "mean_xy_percent": [
+            -0.874463677406311,
+            1.7118556499481201
+          ],
+          "rms_percent": 3.169079065322876
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.4,
+          "observations": 1156,
+          "observation_mass": 0.21395521006848048,
+          "coverage": 0.9633333333333334,
+          "mean_xy_percent": [
+            -8.002801895141602,
+            6.29063081741333
+          ],
+          "rms_percent": 11.570503234863281
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.6,
+          "observations": 1118,
+          "observation_mass": 0.20692208032574497,
+          "coverage": 0.9316666666666666,
+          "mean_xy_percent": [
+            -9.470309257507324,
+            12.6696195602417
+          ],
+          "rms_percent": 19.211423873901367
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.8,
+          "observations": 1048,
+          "observation_mass": 0.19396631501017952,
+          "coverage": 0.8733333333333333,
+          "mean_xy_percent": [
+            -7.965230941772461,
+            18.383434295654297
+          ],
+          "rms_percent": 25.818241119384766
+        },
+        {
+          "lo": 0.8,
+          "hi": 1.0,
+          "observations": 897,
+          "observation_mass": 0.1660188784008884,
+          "coverage": 0.71875,
+          "mean_xy_percent": [
+            -6.030941963195801,
+            25.58529281616211
+          ],
+          "rms_percent": 33.16603469848633
+        }
+      ],
+      "observed_sample_step_norm_percent": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 1.2195110321044922,
+        "p75": 1.2195124626159668,
+        "p95": 2.7269127368927,
+        "max": 12.195122718811035
+      },
+      "sampling_frame_gap": {
+        "min": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      }
+    },
+    {
+      "specimen_id": "Exp5",
+      "physical_specimen_id": "Exp5_ID03",
+      "npz_sha256": "81fb03be3d0a6f873867274e061b3e57f8432f17b7c2140bc790ffbd504c5b7c",
+      "nodes": 42,
+      "undirected_edges": 61,
+      "connected_components": 1,
+      "degree": {
+        "min": 2.0,
+        "p25": 3.0,
+        "median": 3.0,
+        "p75": 3.0,
+        "p95": 3.0,
+        "max": 3.0
+      },
+      "graph_height_px": 133.0,
+      "aspect_ratio": 18.85714340209961,
+      "normalized_edge_length": {
+        "min": 0.19548869132995605,
+        "p25": 0.6543076038360596,
+        "median": 0.944918692111969,
+        "p75": 1.1729567050933838,
+        "p95": 1.4812793731689453,
+        "max": 1.6542035341262817
+      },
+      "initial_y_distribution": {
+        "min": 0.0,
+        "p25": 0.08458646386861801,
+        "median": 0.3684210479259491,
+        "p75": 0.9774436354637146,
+        "p95": 0.9924812316894531,
+        "max": 1.0
+      },
+      "three_hop_node_reach_mean": 0.26530612244897955,
+      "max_coordinate_normalization_error": 0.0,
+      "max_target_normalization_error": 0.0,
+      "initial_height_relative_error": 0.0,
+      "compression_states": 40,
+      "supervised_states": 40,
+      "observations": 839,
+      "coverage": 0.4994047619047619,
+      "complete_nodes_full_window": 0,
+      "complete_nodes_observed_frames_only": 0,
+      "phase_range_observed": [
+        0.0,
+        1.0
+      ],
+      "observation_weighted_phase": 0.35949391060252367,
+      "zero_rmse_percent": 25.812726974487305,
+      "first_observed_phase": 0.0,
+      "first_observed_displacement_rms_percent": 12.066941261291504,
+      "first_observed_mean_xy_percent": [
+        -7.79806661605835,
+        11.793771743774414
+      ],
+      "mean_displacement_xy_percent": [
+        -7.708765029907227,
+        27.132204055786133
+      ],
+      "phase_convention": "see source metadata",
+      "vertical_thirds": [
+        {
+          "band": 0,
+          "nodes": 21,
+          "coverage": 0.6214285714285714,
+          "observation_mass": 0.6221692491060786,
+          "rms_percent": 31.35831069946289
+        },
+        {
+          "band": 1,
+          "nodes": 1,
+          "coverage": 0.075,
+          "observation_mass": 0.003575685339690107,
+          "rms_percent": 9.764792442321777
+        },
+        {
+          "band": 2,
+          "nodes": 20,
+          "coverage": 0.3925,
+          "observation_mass": 0.3742550655542312,
+          "rms_percent": 12.028578758239746
+        }
+      ],
+      "phase_quintiles": [
+        {
+          "lo": 0.0,
+          "hi": 0.2,
+          "observations": 269,
+          "observation_mass": 0.3206197854588796,
+          "coverage": 0.8005952380952381,
+          "mean_xy_percent": [
+            -7.778736114501953,
+            15.484786033630371
+          ],
+          "rms_percent": 15.264141082763672
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.4,
+          "observations": 262,
+          "observation_mass": 0.31227651966626935,
+          "coverage": 0.7797619047619048,
+          "mean_xy_percent": [
+            -6.617688179016113,
+            23.509117126464844
+          ],
+          "rms_percent": 22.48198890686035
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.6,
+          "observations": 142,
+          "observation_mass": 0.16924910607866508,
+          "coverage": 0.4226190476190476,
+          "mean_xy_percent": [
+            -7.349360942840576,
+            25.754520416259766
+          ],
+          "rms_percent": 27.547317504882812
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.8,
+          "observations": 85,
+          "observation_mass": 0.10131108462455304,
+          "coverage": 0.25297619047619047,
+          "mean_xy_percent": [
+            -8.597968101501465,
+            52.428157806396484
+          ],
+          "rms_percent": 38.91714096069336
+        },
+        {
+          "lo": 0.8,
+          "hi": 1.0,
+          "observations": 81,
+          "observation_mass": 0.09654350417163289,
+          "coverage": 0.24107142857142858,
+          "mean_xy_percent": [
+            -10.70268440246582,
+            53.40205383300781
+          ],
+          "rms_percent": 39.66353988647461
+        }
+      ],
+      "observed_sample_step_norm_percent": {
+        "min": 0.0,
+        "p25": 0.7518798112869263,
+        "median": 1.5037596225738525,
+        "p75": 2.2556395530700684,
+        "p95": 4.048996472358704,
+        "max": 7.4051594734191895
+      },
+      "sampling_frame_gap": {
+        "min": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      }
+    },
+    {
+      "specimen_id": "Probe1_22",
+      "physical_specimen_id": "Probe1_22",
+      "npz_sha256": "18615d76608cdb68f6654332ccfb49cd601513b5f252fc9c307cc6b42c257a3a",
+      "nodes": 40,
+      "undirected_edges": 58,
+      "connected_components": 1,
+      "degree": {
+        "min": 2.0,
+        "p25": 3.0,
+        "median": 3.0,
+        "p75": 3.0,
+        "p95": 3.0,
+        "max": 3.0
+      },
+      "graph_height_px": 39.0,
+      "aspect_ratio": 22.794872283935547,
+      "normalized_edge_length": {
+        "min": 0.5641026496887207,
+        "p25": 0.6666660308837891,
+        "median": 1.1132458448410034,
+        "p75": 1.6923084259033203,
+        "p95": 1.7499997019767761,
+        "max": 1.7694166898727417
+      },
+      "initial_y_distribution": {
+        "min": 0.0,
+        "p25": 0.025641025975346565,
+        "median": 0.5128205120563507,
+        "p75": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "three_hop_node_reach_mean": 0.2775,
+      "max_coordinate_normalization_error": 0.0,
+      "max_target_normalization_error": 0.0,
+      "initial_height_relative_error": 0.0,
+      "compression_states": 125,
+      "supervised_states": 125,
+      "observations": 4902,
+      "coverage": 0.9804,
+      "complete_nodes_full_window": 15,
+      "complete_nodes_observed_frames_only": 15,
+      "phase_range_observed": [
+        0.0,
+        1.0
+      ],
+      "observation_weighted_phase": 0.4908431050292038,
+      "zero_rmse_percent": 31.792888641357422,
+      "first_observed_phase": 0.0,
+      "first_observed_displacement_rms_percent": 6.067774295806885,
+      "first_observed_mean_xy_percent": [
+        3.5256412029266357,
+        6.730771064758301
+      ],
+      "mean_displacement_xy_percent": [
+        -4.673132419586182,
+        26.855024337768555
+      ],
+      "phase_convention": "(frame - compression_start)/(compression_end - compression_start)",
+      "vertical_thirds": [
+        {
+          "band": 0,
+          "nodes": 20,
+          "coverage": 0.9952,
+          "observation_mass": 0.507547939616483,
+          "rms_percent": 41.003639221191406
+        },
+        {
+          "band": 1,
+          "nodes": 0,
+          "coverage": null,
+          "observation_mass": 0.0,
+          "rms_percent": null
+        },
+        {
+          "band": 2,
+          "nodes": 20,
+          "coverage": 0.9656,
+          "observation_mass": 0.4924520603835169,
+          "rms_percent": 17.880800247192383
+        }
+      ],
+      "phase_quintiles": [
+        {
+          "lo": 0.0,
+          "hi": 0.2,
+          "observations": 1000,
+          "observation_mass": 0.2039983680130559,
+          "coverage": 1.0,
+          "mean_xy_percent": [
+            1.1461554765701294,
+            9.98720645904541
+          ],
+          "rms_percent": 11.126255989074707
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.4,
+          "observations": 998,
+          "observation_mass": 0.20359037127702978,
+          "coverage": 0.998,
+          "mean_xy_percent": [
+            -6.623503684997559,
+            18.182540893554688
+          ],
+          "rms_percent": 21.44537353515625
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.6,
+          "observations": 1000,
+          "observation_mass": 0.2039983680130559,
+          "coverage": 1.0,
+          "mean_xy_percent": [
+            -8.184601783752441,
+            26.784626007080078
+          ],
+          "rms_percent": 30.031431198120117
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.8,
+          "observations": 1000,
+          "observation_mass": 0.2039983680130559,
+          "coverage": 1.0,
+          "mean_xy_percent": [
+            -4.820508003234863,
+            34.88206481933594
+          ],
+          "rms_percent": 37.76932907104492
+        },
+        {
+          "lo": 0.8,
+          "hi": 1.0,
+          "observations": 904,
+          "observation_mass": 0.18441452468380254,
+          "coverage": 0.904,
+          "mean_xy_percent": [
+            -4.909805774688721,
+            46.287105560302734
+          ],
+          "rms_percent": 47.54707717895508
+        }
+      ],
+      "observed_sample_step_norm_percent": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 2.5641024112701416,
+        "p95": 3.6261887550354004,
+        "max": 23.218935012817383
+      },
+      "sampling_frame_gap": {
+        "min": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      }
+    },
+    {
+      "specimen_id": "Probe2_7",
+      "physical_specimen_id": "Probe2_7",
+      "npz_sha256": "985d93e0544c72e53506785c4afe2a93289a73ed33f2f8e076d640622b5295c5",
+      "nodes": 44,
+      "undirected_edges": 64,
+      "connected_components": 1,
+      "degree": {
+        "min": 2.0,
+        "p25": 3.0,
+        "median": 3.0,
+        "p75": 3.0,
+        "p95": 3.0,
+        "max": 3.0
+      },
+      "graph_height_px": 41.0,
+      "aspect_ratio": 24.024391174316406,
+      "normalized_edge_length": {
+        "min": 0.4390244483947754,
+        "p25": 0.5609760284423828,
+        "median": 1.142173945903778,
+        "p75": 1.6829262971878052,
+        "p95": 1.7560977935791016,
+        "max": 1.7804880142211914
+      },
+      "initial_y_distribution": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.5121951401233673,
+        "p75": 0.9756097793579102,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "three_hop_node_reach_mean": 0.2541322314049586,
+      "max_coordinate_normalization_error": 0.0,
+      "max_target_normalization_error": 0.0,
+      "initial_height_relative_error": 0.0,
+      "compression_states": 126,
+      "supervised_states": 126,
+      "observations": 5542,
+      "coverage": 0.9996392496392497,
+      "complete_nodes_full_window": 42,
+      "complete_nodes_observed_frames_only": 42,
+      "phase_range_observed": [
+        0.0,
+        1.0
+      ],
+      "observation_weighted_phase": 0.49985997938560756,
+      "zero_rmse_percent": 30.41165542602539,
+      "first_observed_phase": 0.0,
+      "first_observed_displacement_rms_percent": 3.9345271587371826,
+      "first_observed_mean_xy_percent": [
+        3.3813741207122803,
+        2.6607532501220703
+      ],
+      "mean_displacement_xy_percent": [
+        12.762024879455566,
+        21.02268409729004
+      ],
+      "phase_convention": "(frame - compression_start)/(compression_end - compression_start)",
+      "vertical_thirds": [
+        {
+          "band": 0,
+          "nodes": 22,
+          "coverage": 0.9996392496392497,
+          "observation_mass": 0.5,
+          "rms_percent": 38.87845993041992
+        },
+        {
+          "band": 1,
+          "nodes": 0,
+          "coverage": null,
+          "observation_mass": 0.0,
+          "rms_percent": null
+        },
+        {
+          "band": 2,
+          "nodes": 22,
+          "coverage": 0.9996392496392497,
+          "observation_mass": 0.5,
+          "rms_percent": 18.39028549194336
+        }
+      ],
+      "phase_quintiles": [
+        {
+          "lo": 0.0,
+          "hi": 0.2,
+          "observations": 1100,
+          "observation_mass": 0.19848430169613857,
+          "coverage": 1.0,
+          "mean_xy_percent": [
+            4.552114963531494,
+            6.274983882904053
+          ],
+          "rms_percent": 8.897501945495605
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.4,
+          "observations": 1100,
+          "observation_mass": 0.19848430169613857,
+          "coverage": 1.0,
+          "mean_xy_percent": [
+            8.909101486206055,
+            13.337079048156738
+          ],
+          "rms_percent": 19.445772171020508
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.6,
+          "observations": 1100,
+          "observation_mass": 0.19848430169613857,
+          "coverage": 1.0,
+          "mean_xy_percent": [
+            14.944558143615723,
+            20.476608276367188
+          ],
+          "rms_percent": 28.640579223632812
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.8,
+          "observations": 1100,
+          "observation_mass": 0.19848430169613857,
+          "coverage": 1.0,
+          "mean_xy_percent": [
+            16.22838020324707,
+            28.108552932739258
+          ],
+          "rms_percent": 36.375972747802734
+        },
+        {
+          "lo": 0.8,
+          "hi": 1.0,
+          "observations": 1142,
+          "observation_mass": 0.20606279321544568,
+          "coverage": 0.9982517482517482,
+          "mean_xy_percent": [
+            18.939804077148438,
+            36.331241607666016
+          ],
+          "rms_percent": 44.53244400024414
+        }
+      ],
+      "observed_sample_step_norm_percent": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 2.4390242099761963,
+        "p95": 3.44930100440979,
+        "max": 7.317073822021484
+      },
+      "sampling_frame_gap": {
+        "min": 1.0,
+        "p25": 1.0,
+        "median": 1.0,
+        "p75": 1.0,
+        "p95": 1.0,
+        "max": 1.0
+      }
+    },
+    {
+      "specimen_id": "Probe1_8",
+      "physical_specimen_id": "ML2023_Probe1_8",
+      "npz_sha256": "cd1ab2bf8971c12d222dff15a05ece6120b080db02084d1189b7819cb559a55a",
+      "nodes": 106,
+      "undirected_edges": 154,
+      "connected_components": 1,
+      "degree": {
+        "min": 1.0,
+        "p25": 3.0,
+        "median": 3.0,
+        "p75": 3.0,
+        "p95": 3.0,
+        "max": 4.0
+      },
+      "graph_height_px": 84.0,
+      "aspect_ratio": 12.178571701049805,
+      "normalized_edge_length": {
+        "min": 0.043931785970926285,
+        "p25": 0.26167169213294983,
+        "median": 0.34177273511886597,
+        "p75": 0.5575087070465088,
+        "p95": 0.7660347849130623,
+        "max": 0.8135941028594971
+      },
+      "initial_y_distribution": {
+        "min": 0.0,
+        "p25": 0.1552579514682293,
+        "median": 0.4151785671710968,
+        "p75": 0.7894345372915268,
+        "p95": 0.9573413133621216,
+        "max": 1.0
+      },
+      "three_hop_node_reach_mean": 0.14400142399430405,
+      "max_coordinate_normalization_error": 0.0,
+      "max_target_normalization_error": 0.0,
+      "initial_height_relative_error": 0.0,
+      "compression_states": 135,
+      "supervised_states": 111,
+      "observations": 9171,
+      "coverage": 0.6408805031446541,
+      "complete_nodes_full_window": 0,
+      "complete_nodes_observed_frames_only": 67,
+      "phase_range_observed": [
+        0.0,
+        0.8295964002609253
+      ],
+      "observation_weighted_phase": 0.39122475845312327,
+      "zero_rmse_percent": 10.111857414245605,
+      "first_observed_phase": 0.0,
+      "first_observed_displacement_rms_percent": 2.0301997661590576,
+      "first_observed_mean_xy_percent": [
+        1.4295154809951782,
+        1.5685577392578125
+      ],
+      "mean_displacement_xy_percent": [
+        3.7344188690185547,
+        8.619101524353027
+      ],
+      "phase_convention": "(original_video_frame - loading_start)/(loading_end-loading_start); phase not renormalized after masking",
+      "vertical_thirds": [
+        {
+          "band": 0,
+          "nodes": 29,
+          "coverage": 0.6983397190293742,
+          "observation_mass": 0.29811361901646494,
+          "rms_percent": 12.095050811767578
+        },
+        {
+          "band": 1,
+          "nodes": 49,
+          "coverage": 0.5773242630385488,
+          "observation_mass": 0.4164213280994439,
+          "rms_percent": 9.923160552978516
+        },
+        {
+          "band": 2,
+          "nodes": 28,
+          "coverage": 0.6925925925925925,
+          "observation_mass": 0.28546505288409113,
+          "rms_percent": 7.859554767608643
+        }
+      ],
+      "phase_quintiles": [
+        {
+          "lo": 0.0,
+          "hi": 0.2,
+          "observations": 2449,
+          "observation_mass": 0.2670374005015811,
+          "coverage": 0.8556953179594688,
+          "mean_xy_percent": [
+            1.58524489402771,
+            2.28946852684021
+          ],
+          "rms_percent": 2.5552289485931396
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.4,
+          "observations": 2371,
+          "observation_mass": 0.2585323301711918,
+          "coverage": 0.8284416491963662,
+          "mean_xy_percent": [
+            2.0999209880828857,
+            3.5769317150115967
+          ],
+          "rms_percent": 3.632952928543091
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.6,
+          "observations": 2130,
+          "observation_mass": 0.23225384363755316,
+          "coverage": 0.7442348008385744,
+          "mean_xy_percent": [
+            5.604248046875,
+            12.175796508789062
+          ],
+          "rms_percent": 11.971400260925293
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.8,
+          "observations": 2014,
+          "observation_mass": 0.21960527750517936,
+          "coverage": 0.7037037037037037,
+          "mean_xy_percent": [
+            5.995239734649658,
+            17.3653621673584
+          ],
+          "rms_percent": 16.037385940551758
+        },
+        {
+          "lo": 0.8,
+          "hi": 1.0,
+          "observations": 207,
+          "observation_mass": 0.022571148184494603,
+          "coverage": 0.07232704402515723,
+          "mean_xy_percent": [
+            6.6470136642456055,
+            19.5657958984375
+          ],
+          "rms_percent": 18.01670265197754
+        }
+      ],
+      "observed_sample_step_norm_percent": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.8928570747375488,
+        "p95": 1.590410590171814,
+        "max": 12.256702423095703
+      },
+      "sampling_frame_gap": {
+        "min": 8.0,
+        "p25": 10.0,
+        "median": 10.0,
+        "p75": 10.0,
+        "p95": 10.0,
+        "max": 10.0
+      },
+      "raw_gap_continuity_retained": 9171,
+      "strict_jump_threshold_px": 2.870890974998474,
+      "strict_jump_retained": 8290,
+      "matched_dropout_retained": 8290,
+      "strict_matched_counts_by_frame_equal": true,
+      "raw_observed_match_distance_px": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.34360262751579285,
+        "p95": 1.1334450244903564,
+        "max": 9.893874168395996
+      }
+    },
+    {
+      "specimen_id": "Probe1_9",
+      "physical_specimen_id": "ML2023_Probe1_9",
+      "npz_sha256": "fe94bb34b8a50339bf752cf9ce135b3bd4d0a2e33b999a72f8cab44f25d19d84",
+      "nodes": 50,
+      "undirected_edges": 69,
+      "connected_components": 1,
+      "degree": {
+        "min": 1.0,
+        "p25": 3.0,
+        "median": 3.0,
+        "p75": 3.0,
+        "p95": 3.0,
+        "max": 3.0
+      },
+      "graph_height_px": 50.75,
+      "aspect_ratio": 20.13793182373047,
+      "normalized_edge_length": {
+        "min": 0.15667471289634705,
+        "p25": 0.4865124523639679,
+        "median": 0.9148364663124084,
+        "p75": 1.220367670059204,
+        "p95": 1.451559066772461,
+        "max": 1.471264362335205
+      },
+      "initial_y_distribution": {
+        "min": 0.0,
+        "p25": 0.10016410052776337,
+        "median": 0.724137932062149,
+        "p75": 0.8752053380012512,
+        "p95": 0.9481116890907287,
+        "max": 1.0
+      },
+      "three_hop_node_reach_mean": 0.22480000000000003,
+      "max_coordinate_normalization_error": 0.0,
+      "max_target_normalization_error": 0.0,
+      "initial_height_relative_error": 0.0,
+      "compression_states": 104,
+      "supervised_states": 104,
+      "observations": 4745,
+      "coverage": 0.9125,
+      "complete_nodes_full_window": 44,
+      "complete_nodes_observed_frames_only": 44,
+      "phase_range_observed": [
+        0.0,
+        1.0
+      ],
+      "observation_weighted_phase": 0.49715182323036256,
+      "zero_rmse_percent": 17.227638244628906,
+      "first_observed_phase": 0.0,
+      "first_observed_displacement_rms_percent": 5.688709259033203,
+      "first_observed_mean_xy_percent": [
+        3.9828155040740967,
+        3.741746425628662
+      ],
+      "mean_displacement_xy_percent": [
+        10.241522789001465,
+        11.498214721679688
+      ],
+      "phase_convention": "(original_video_frame - loading_start)/(loading_end-loading_start); phase not renormalized after masking",
+      "vertical_thirds": [
+        {
+          "band": 0,
+          "nodes": 24,
+          "coverage": 0.9799679487179487,
+          "observation_mass": 0.5154899894625922,
+          "rms_percent": 18.20148468017578
+        },
+        {
+          "band": 1,
+          "nodes": 0,
+          "coverage": null,
+          "observation_mass": 0.0,
+          "rms_percent": null
+        },
+        {
+          "band": 2,
+          "nodes": 26,
+          "coverage": 0.8502218934911243,
+          "observation_mass": 0.4845100105374078,
+          "rms_percent": 16.127086639404297
+        }
+      ],
+      "phase_quintiles": [
+        {
+          "lo": 0.0,
+          "hi": 0.2,
+          "observations": 977,
+          "observation_mass": 0.20590094836670178,
+          "coverage": 0.9304761904761905,
+          "mean_xy_percent": [
+            5.0288004875183105,
+            5.668643474578857
+          ],
+          "rms_percent": 8.793316841125488
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.4,
+          "observations": 966,
+          "observation_mass": 0.2035827186512118,
+          "coverage": 0.92,
+          "mean_xy_percent": [
+            7.737802028656006,
+            8.78201675415039
+          ],
+          "rms_percent": 13.367392539978027
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.6,
+          "observations": 917,
+          "observation_mass": 0.19325605900948367,
+          "coverage": 0.917,
+          "mean_xy_percent": [
+            12.24882984161377,
+            13.464871406555176
+          ],
+          "rms_percent": 19.051044464111328
+        },
+        {
+          "lo": 0.6,
+          "hi": 0.8,
+          "observations": 945,
+          "observation_mass": 0.19915700737618547,
+          "coverage": 0.9,
+          "mean_xy_percent": [
+            13.005979537963867,
+            14.29944896697998
+          ],
+          "rms_percent": 20.225875854492188
+        },
+        {
+          "lo": 0.8,
+          "hi": 1.0,
+          "observations": 940,
+          "observation_mass": 0.19810326659641728,
+          "coverage": 0.8952380952380953,
+          "mean_xy_percent": [
+            13.495260238647461,
+            15.614006996154785
+          ],
+          "rms_percent": 21.652860641479492
+        }
+      ],
+      "observed_sample_step_norm_percent": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 1.477832555770874,
+        "p95": 2.5064408779144287,
+        "max": 17.685230255126953
+      },
+      "sampling_frame_gap": {
+        "min": 7.0,
+        "p25": 10.0,
+        "median": 10.0,
+        "p75": 10.0,
+        "p95": 10.0,
+        "max": 10.0
+      },
+      "raw_gap_continuity_retained": 4745,
+      "strict_jump_threshold_px": 4.642795066535474,
+      "strict_jump_retained": 4422,
+      "matched_dropout_retained": 4422,
+      "strict_matched_counts_by_frame_equal": true,
+      "raw_observed_match_distance_px": {
+        "min": 0.0,
+        "p25": 0.0,
+        "median": 0.0,
+        "p75": 0.7453446388244629,
+        "p95": 1.25,
+        "max": 9.944293022155762
+      }
+    }
+  ],
+  "existing_predictions": {
+    "per_specimen": [
+      {
+        "physical_specimen": "Exp3_D12",
+        "variants": {
+          "five_specimens": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 95,
+                  "rmse_percent": 11.804482457610069,
+                  "coordinate_xy_rmse_percent": [
+                    12.169294357299805,
+                    11.42803955078125
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    2.4579672813415527,
+                    4.883918285369873
+                  ],
+                  "early_rmse_percent": 11.414608424040711,
+                  "late_rmse_percent": 13.246713641237504
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 30,
+                  "rmse_percent": 12.355743177214348,
+                  "coordinate_xy_rmse_percent": [
+                    13.281919479370117,
+                    11.354267120361328
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    0.8887782692909241,
+                    5.3915863037109375
+                  ],
+                  "early_rmse_percent": 12.615893713929058,
+                  "late_rmse_percent": 11.454252894629045
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 115,
+                  "rmse_percent": 11.32108987846727,
+                  "coordinate_xy_rmse_percent": [
+                    11.376603126525879,
+                    11.26530647277832
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    3.0304617881774902,
+                    4.70587158203125
+                  ],
+                  "early_rmse_percent": 10.986473930239068,
+                  "late_rmse_percent": 12.538107511809491
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 0,
+                  "rmse_percent": 12.976045509801848,
+                  "coordinate_xy_rmse_percent": [
+                    14.667145729064941,
+                    11.028603553771973
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    5.273014068603516,
+                    4.787649631500244
+                  ],
+                  "early_rmse_percent": 12.077277081596302,
+                  "late_rmse_percent": 15.398236101634355
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 0,
+                  "rmse_percent": 12.976045509801848,
+                  "coordinate_xy_rmse_percent": [
+                    14.667145729064941,
+                    11.028603553771973
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    5.273014068603516,
+                    4.787649631500244
+                  ],
+                  "early_rmse_percent": 12.077277081596302,
+                  "late_rmse_percent": 15.398236101634355
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 0,
+                  "rmse_percent": 12.976045509801848,
+                  "coordinate_xy_rmse_percent": [
+                    14.667145729064941,
+                    11.028603553771973
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    5.273014068603516,
+                    4.787649631500244
+                  ],
+                  "early_rmse_percent": 12.077277081596302,
+                  "late_rmse_percent": 15.398236101634355
+                }
+              ]
+            },
+            "affine_rmse_percent": 12.976045509801848
+          },
+          "seven_specimens_fixed_tests": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 85,
+                  "rmse_percent": 11.463140884348059,
+                  "coordinate_xy_rmse_percent": [
+                    13.674802780151367,
+                    8.706711769104004
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.527822494506836,
+                    -0.7507517337799072
+                  ],
+                  "early_rmse_percent": 10.377972130452196,
+                  "late_rmse_percent": 14.939971306404967
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 135,
+                  "rmse_percent": 11.512828647191853,
+                  "coordinate_xy_rmse_percent": [
+                    13.304726600646973,
+                    9.384812355041504
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    6.28947639465332,
+                    -0.6203499436378479
+                  ],
+                  "early_rmse_percent": 10.276922099135396,
+                  "late_rmse_percent": 15.384979907116616
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 145,
+                  "rmse_percent": 12.119185027257098,
+                  "coordinate_xy_rmse_percent": [
+                    14.18358039855957,
+                    9.621614456176758
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.757412433624268,
+                    -1.3890354633331299
+                  ],
+                  "early_rmse_percent": 11.288907139114983,
+                  "late_rmse_percent": 14.869763142702588
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 0,
+                  "rmse_percent": 12.83914154216887,
+                  "coordinate_xy_rmse_percent": [
+                    15.889843940734863,
+                    8.786358833312988
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.89929723739624,
+                    -1.9058396816253662
+                  ],
+                  "early_rmse_percent": 11.498700277076052,
+                  "late_rmse_percent": 16.50247793393653
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 0,
+                  "rmse_percent": 12.83914154216887,
+                  "coordinate_xy_rmse_percent": [
+                    15.889843940734863,
+                    8.786358833312988
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.89929723739624,
+                    -1.9058396816253662
+                  ],
+                  "early_rmse_percent": 11.498700277076052,
+                  "late_rmse_percent": 16.50247793393653
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 0,
+                  "rmse_percent": 12.83914154216887,
+                  "coordinate_xy_rmse_percent": [
+                    15.889843940734863,
+                    8.786358833312988
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.89929723739624,
+                    -1.9058396816253662
+                  ],
+                  "early_rmse_percent": 11.498700277076052,
+                  "late_rmse_percent": 16.50247793393653
+                }
+              ]
+            },
+            "affine_rmse_percent": 12.83914154216887
+          }
+        }
+      },
+      {
+        "physical_specimen": "Exp4_D14",
+        "variants": {
+          "five_specimens": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 70,
+                  "rmse_percent": 14.951778377138957,
+                  "coordinate_xy_rmse_percent": [
+                    17.008695602416992,
+                    12.562467575073242
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    4.019232273101807,
+                    8.783834457397461
+                  ],
+                  "early_rmse_percent": 12.683842686218338,
+                  "late_rmse_percent": 21.935418682319906
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 145,
+                  "rmse_percent": 14.2081421015848,
+                  "coordinate_xy_rmse_percent": [
+                    15.977428436279297,
+                    12.184577941894531
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    4.741532325744629,
+                    8.4888277053833
+                  ],
+                  "early_rmse_percent": 12.16893852006548,
+                  "late_rmse_percent": 20.42589994955235
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 100,
+                  "rmse_percent": 13.925203335448572,
+                  "coordinate_xy_rmse_percent": [
+                    15.630223274230957,
+                    11.979942321777344
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    4.927523612976074,
+                    8.236894607543945
+                  ],
+                  "early_rmse_percent": 11.841823889292426,
+                  "late_rmse_percent": 20.335626275183017
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 0,
+                  "rmse_percent": 15.476906629623333,
+                  "coordinate_xy_rmse_percent": [
+                    17.79057502746582,
+                    12.75009536743164
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.558748722076416,
+                    9.066643714904785
+                  ],
+                  "early_rmse_percent": 13.378487183627701,
+                  "late_rmse_percent": 21.79213821051085
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 0,
+                  "rmse_percent": 15.476906629623333,
+                  "coordinate_xy_rmse_percent": [
+                    17.79057502746582,
+                    12.75009536743164
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.558748722076416,
+                    9.066643714904785
+                  ],
+                  "early_rmse_percent": 13.378487183627701,
+                  "late_rmse_percent": 21.79213821051085
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 200,
+                  "rmse_percent": 16.083961746209166,
+                  "coordinate_xy_rmse_percent": [
+                    18.772789001464844,
+                    12.844051361083984
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    6.171886444091797,
+                    8.934053421020508
+                  ],
+                  "early_rmse_percent": 14.003734188539104,
+                  "late_rmse_percent": 22.34470395405944
+                }
+              ]
+            },
+            "affine_rmse_percent": 15.476906629623333
+          },
+          "seven_specimens_fixed_tests": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 30,
+                  "rmse_percent": 14.083764767128226,
+                  "coordinate_xy_rmse_percent": [
+                    17.48366928100586,
+                    9.540759086608887
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.552229404449463,
+                    4.180244445800781
+                  ],
+                  "early_rmse_percent": 12.480950368623727,
+                  "late_rmse_percent": 19.162988249275042
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 50,
+                  "rmse_percent": 14.907686668115232,
+                  "coordinate_xy_rmse_percent": [
+                    18.636619567871094,
+                    9.856715202331543
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    8.680546760559082,
+                    5.11533260345459
+                  ],
+                  "early_rmse_percent": 13.34008340913513,
+                  "late_rmse_percent": 20.0035478008196
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 25,
+                  "rmse_percent": 14.356904379753285,
+                  "coordinate_xy_rmse_percent": [
+                    17.71254539489746,
+                    9.925065994262695
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.994320392608643,
+                    5.253394603729248
+                  ],
+                  "early_rmse_percent": 12.87702941640492,
+                  "late_rmse_percent": 19.18992000720451
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 5,
+                  "rmse_percent": 15.03462106590169,
+                  "coordinate_xy_rmse_percent": [
+                    18.56460189819336,
+                    10.365083694458008
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    8.974472045898438,
+                    6.004078388214111
+                  ],
+                  "early_rmse_percent": 13.145279487523975,
+                  "late_rmse_percent": 20.739357211018525
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 5,
+                  "rmse_percent": 15.058330479162285,
+                  "coordinate_xy_rmse_percent": [
+                    18.68172836303711,
+                    10.222490310668945
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    9.249706268310547,
+                    5.759773254394531
+                  ],
+                  "early_rmse_percent": 13.165635487561108,
+                  "late_rmse_percent": 20.769722006945777
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 5,
+                  "rmse_percent": 15.07903830079749,
+                  "coordinate_xy_rmse_percent": [
+                    18.718360900878906,
+                    10.216537475585938
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    9.259522438049316,
+                    5.737359523773193
+                  ],
+                  "early_rmse_percent": 13.188582288931942,
+                  "late_rmse_percent": 20.783155432804932
+                }
+              ]
+            },
+            "affine_rmse_percent": 15.202814201910517
+          }
+        }
+      },
+      {
+        "physical_specimen": "Exp5_ID03",
+        "variants": {
+          "five_specimens": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 30,
+                  "rmse_percent": 11.336044305762258,
+                  "coordinate_xy_rmse_percent": [
+                    9.054790496826172,
+                    13.229608535766602
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    2.0940825939178467,
+                    -7.8979573249816895
+                  ],
+                  "early_rmse_percent": 11.502799853631668,
+                  "late_rmse_percent": 10.463802018810414
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 25,
+                  "rmse_percent": 13.08662355816598,
+                  "coordinate_xy_rmse_percent": [
+                    12.817705154418945,
+                    13.350129127502441
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    6.91778564453125,
+                    -8.125993728637695
+                  ],
+                  "early_rmse_percent": 13.389243705663842,
+                  "late_rmse_percent": 11.017786128517333
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 50,
+                  "rmse_percent": 12.326779666229875,
+                  "coordinate_xy_rmse_percent": [
+                    9.341391563415527,
+                    14.71861457824707
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -0.5949166417121887,
+                    -10.096116065979004
+                  ],
+                  "early_rmse_percent": 12.63627778216927,
+                  "late_rmse_percent": 9.936719325428726
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 5,
+                  "rmse_percent": 13.827833560523327,
+                  "coordinate_xy_rmse_percent": [
+                    14.471446990966797,
+                    13.152764320373535
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.397064685821533,
+                    -7.8521409034729
+                  ],
+                  "early_rmse_percent": 13.657880841738715,
+                  "late_rmse_percent": 15.672787070238225
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 20,
+                  "rmse_percent": 13.888177298820793,
+                  "coordinate_xy_rmse_percent": [
+                    14.722145080566406,
+                    13.00082015991211
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.7501325607299805,
+                    -7.420724868774414
+                  ],
+                  "early_rmse_percent": 13.65083506028909,
+                  "late_rmse_percent": 16.230753197225948
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 10,
+                  "rmse_percent": 13.98406340076091,
+                  "coordinate_xy_rmse_percent": [
+                    14.77185344696045,
+                    13.149160385131836
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.723972797393799,
+                    -7.537101745605469
+                  ],
+                  "early_rmse_percent": 13.744826508560145,
+                  "late_rmse_percent": 16.3299660352043
+                }
+              ]
+            },
+            "affine_rmse_percent": 13.832121153105433
+          },
+          "seven_specimens_fixed_tests": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 235,
+                  "rmse_percent": 16.147861942910026,
+                  "coordinate_xy_rmse_percent": [
+                    13.204854965209961,
+                    18.63165283203125
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.197353839874268,
+                    -15.311384201049805
+                  ],
+                  "early_rmse_percent": 15.763368083024432,
+                  "late_rmse_percent": 18.33721406098731
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 270,
+                  "rmse_percent": 14.6964614749559,
+                  "coordinate_xy_rmse_percent": [
+                    10.828287124633789,
+                    17.740354537963867
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    6.079185962677002,
+                    -14.373249053955078
+                  ],
+                  "early_rmse_percent": 14.798397499475882,
+                  "late_rmse_percent": 13.3229198029549
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 150,
+                  "rmse_percent": 14.068975547124774,
+                  "coordinate_xy_rmse_percent": [
+                    11.063055992126465,
+                    16.537256240844727
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    7.785233020782471,
+                    -13.046762466430664
+                  ],
+                  "early_rmse_percent": 14.556646764956897,
+                  "late_rmse_percent": 9.207050650393699
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 5,
+                  "rmse_percent": 14.782113174050975,
+                  "coordinate_xy_rmse_percent": [
+                    15.450400352478027,
+                    14.08215618133545
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    9.288055419921875,
+                    -10.288420677185059
+                  ],
+                  "early_rmse_percent": 14.845070654695158,
+                  "late_rmse_percent": 14.568896186451935
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 5,
+                  "rmse_percent": 14.867697396808113,
+                  "coordinate_xy_rmse_percent": [
+                    15.508575439453125,
+                    14.19791316986084
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    9.393441200256348,
+                    -10.454556465148926
+                  ],
+                  "early_rmse_percent": 14.93845767179398,
+                  "late_rmse_percent": 14.585172730202132
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 5,
+                  "rmse_percent": 14.874293875563414,
+                  "coordinate_xy_rmse_percent": [
+                    15.5180082321167,
+                    14.201432228088379
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    9.392411231994629,
+                    -10.450078964233398
+                  ],
+                  "early_rmse_percent": 14.942583648566538,
+                  "late_rmse_percent": 14.612947068093554
+                }
+              ]
+            },
+            "affine_rmse_percent": 15.062408162070504
+          }
+        }
+      },
+      {
+        "physical_specimen": "Probe1_22",
+        "variants": {
+          "five_specimens": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 25,
+                  "rmse_percent": 11.895654872695836,
+                  "coordinate_xy_rmse_percent": [
+                    13.337137222290039,
+                    10.253478050231934
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    0.7492412328720093,
+                    -6.763207912445068
+                  ],
+                  "early_rmse_percent": 9.962454848564096,
+                  "late_rmse_percent": 17.17978271711261
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 30,
+                  "rmse_percent": 12.50572818399536,
+                  "coordinate_xy_rmse_percent": [
+                    14.750948905944824,
+                    9.756832122802734
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -1.3714545965194702,
+                    -6.198607921600342
+                  ],
+                  "early_rmse_percent": 10.63872887890431,
+                  "late_rmse_percent": 17.648952102588737
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 25,
+                  "rmse_percent": 11.399538518402231,
+                  "coordinate_xy_rmse_percent": [
+                    12.760872840881348,
+                    9.851858139038086
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -0.36227941513061523,
+                    -6.162466526031494
+                  ],
+                  "early_rmse_percent": 9.520103647917272,
+                  "late_rmse_percent": 16.53048502552885
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 5,
+                  "rmse_percent": 17.51833974386465,
+                  "coordinate_xy_rmse_percent": [
+                    22.698871612548828,
+                    9.927042961120605
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -1.8749969005584717,
+                    -6.676705360412598
+                  ],
+                  "early_rmse_percent": 15.530137944273603,
+                  "late_rmse_percent": 23.147450838359173
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 0,
+                  "rmse_percent": 17.415060712118173,
+                  "coordinate_xy_rmse_percent": [
+                    22.67702293395996,
+                    9.608389854431152
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -1.989620566368103,
+                    -6.198919773101807
+                  ],
+                  "early_rmse_percent": 15.435898412026916,
+                  "late_rmse_percent": 23.01208893519142
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 0,
+                  "rmse_percent": 17.415060712118173,
+                  "coordinate_xy_rmse_percent": [
+                    22.67702293395996,
+                    9.608389854431152
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -1.989620566368103,
+                    -6.198919773101807
+                  ],
+                  "early_rmse_percent": 15.435898412026916,
+                  "late_rmse_percent": 23.01208893519142
+                }
+              ]
+            },
+            "affine_rmse_percent": 17.415060712118173
+          },
+          "seven_specimens_fixed_tests": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 85,
+                  "rmse_percent": 13.036552160120745,
+                  "coordinate_xy_rmse_percent": [
+                    13.589860916137695,
+                    12.45869255065918
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    1.4819034337997437,
+                    -8.288291931152344
+                  ],
+                  "early_rmse_percent": 10.883778811245005,
+                  "late_rmse_percent": 18.969030379747984
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 105,
+                  "rmse_percent": 13.278067431882846,
+                  "coordinate_xy_rmse_percent": [
+                    13.766328811645508,
+                    12.771150588989258
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    4.522016525268555,
+                    -7.89258337020874
+                  ],
+                  "early_rmse_percent": 11.030800136843565,
+                  "late_rmse_percent": 19.471465163309713
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 80,
+                  "rmse_percent": 12.940324717982524,
+                  "coordinate_xy_rmse_percent": [
+                    12.528510093688965,
+                    13.339421272277832
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    2.517657995223999,
+                    -8.891378402709961
+                  ],
+                  "early_rmse_percent": 10.690409980826153,
+                  "late_rmse_percent": 19.07993543315555
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 0,
+                  "rmse_percent": 19.020511394323535,
+                  "coordinate_xy_rmse_percent": [
+                    23.302858352661133,
+                    13.436405181884766
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    4.092482089996338,
+                    -9.885433197021484
+                  ],
+                  "early_rmse_percent": 16.665344570789788,
+                  "late_rmse_percent": 25.691494614871267
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 0,
+                  "rmse_percent": 19.020511394323535,
+                  "coordinate_xy_rmse_percent": [
+                    23.302858352661133,
+                    13.436405181884766
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    4.092482089996338,
+                    -9.885433197021484
+                  ],
+                  "early_rmse_percent": 16.665344570789788,
+                  "late_rmse_percent": 25.691494614871267
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 0,
+                  "rmse_percent": 19.020511394323535,
+                  "coordinate_xy_rmse_percent": [
+                    23.302858352661133,
+                    13.436405181884766
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    4.092482089996338,
+                    -9.885433197021484
+                  ],
+                  "early_rmse_percent": 16.665344570789788,
+                  "late_rmse_percent": 25.691494614871267
+                }
+              ]
+            },
+            "affine_rmse_percent": 19.020511394323535
+          }
+        }
+      },
+      {
+        "physical_specimen": "Probe2_7",
+        "variants": {
+          "five_specimens": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 60,
+                  "rmse_percent": 17.07195981106054,
+                  "coordinate_xy_rmse_percent": [
+                    23.762897491455078,
+                    4.269376277923584
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -19.325035095214844,
+                    2.21893572807312
+                  ],
+                  "early_rmse_percent": 15.908418025186338,
+                  "late_rmse_percent": 20.30127196666665
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 65,
+                  "rmse_percent": 17.557206953061797,
+                  "coordinate_xy_rmse_percent": [
+                    24.542821884155273,
+                    3.7631049156188965
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -20.081584930419922,
+                    1.7579082250595093
+                  ],
+                  "early_rmse_percent": 16.41975596228275,
+                  "late_rmse_percent": 20.672110052351062
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 110,
+                  "rmse_percent": 17.34355715910782,
+                  "coordinate_xy_rmse_percent": [
+                    23.937559127807617,
+                    5.347128391265869
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -19.699377059936523,
+                    3.860671043395996
+                  ],
+                  "early_rmse_percent": 16.422779407695444,
+                  "late_rmse_percent": 19.924879782468388
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 5,
+                  "rmse_percent": 22.63898191419912,
+                  "coordinate_xy_rmse_percent": [
+                    31.791889190673828,
+                    3.784332036972046
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -19.27923583984375,
+                    0.553912878036499
+                  ],
+                  "early_rmse_percent": 20.139465218734284,
+                  "late_rmse_percent": 28.911541119452792
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 5,
+                  "rmse_percent": 22.570699275826804,
+                  "coordinate_xy_rmse_percent": [
+                    31.6921329498291,
+                    3.805510997772217
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -19.111055374145508,
+                    0.6691524386405945
+                  ],
+                  "early_rmse_percent": 20.077538537392332,
+                  "late_rmse_percent": 28.82615410908686
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 5,
+                  "rmse_percent": 22.573644398070964,
+                  "coordinate_xy_rmse_percent": [
+                    31.697416305541992,
+                    3.796170711517334
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -19.129117965698242,
+                    0.6746365427970886
+                  ],
+                  "early_rmse_percent": 20.082361204875568,
+                  "late_rmse_percent": 28.824555452579688
+                }
+              ]
+            },
+            "affine_rmse_percent": 22.609802845753745
+          },
+          "seven_specimens_fixed_tests": {
+            "models": {
+              "gnn": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 90,
+                  "rmse_percent": 15.765973359485116,
+                  "coordinate_xy_rmse_percent": [
+                    21.578346252441406,
+                    5.613098621368408
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -16.954776763916016,
+                    2.189396381378174
+                  ],
+                  "early_rmse_percent": 14.863157133970223,
+                  "late_rmse_percent": 18.367673134884075
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 100,
+                  "rmse_percent": 14.443625730749979,
+                  "coordinate_xy_rmse_percent": [
+                    19.500133514404297,
+                    6.081229209899902
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -14.601358413696289,
+                    0.5843846797943115
+                  ],
+                  "early_rmse_percent": 13.504103838176023,
+                  "late_rmse_percent": 17.20670147686974
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 70,
+                  "rmse_percent": 15.648605873318115,
+                  "coordinate_xy_rmse_percent": [
+                    21.43934440612793,
+                    5.48743200302124
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -16.685237884521484,
+                    0.33848443627357483
+                  ],
+                  "early_rmse_percent": 14.754814449250144,
+                  "late_rmse_percent": 18.264398021293836
+                }
+              ],
+              "mlp": [
+                {
+                  "seed": 11,
+                  "selected_epoch": 5,
+                  "rmse_percent": 20.94354129574574,
+                  "coordinate_xy_rmse_percent": [
+                    28.980737686157227,
+                    6.114077091217041
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -14.970043182373047,
+                    -2.8248162269592285
+                  ],
+                  "early_rmse_percent": 18.376160111427698,
+                  "late_rmse_percent": 27.338283537357487
+                },
+                {
+                  "seed": 29,
+                  "selected_epoch": 5,
+                  "rmse_percent": 20.941251055785127,
+                  "coordinate_xy_rmse_percent": [
+                    28.954944610595703,
+                    6.2195329666137695
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -14.8945894241333,
+                    -3.1279993057250977
+                  ],
+                  "early_rmse_percent": 18.35636357709682,
+                  "late_rmse_percent": 27.373900820381387
+                },
+                {
+                  "seed": 47,
+                  "selected_epoch": 5,
+                  "rmse_percent": 20.94799387272803,
+                  "coordinate_xy_rmse_percent": [
+                    28.960693359375,
+                    6.2382330894470215
+                  ],
+                  "coordinate_xy_bias_percent": [
+                    -14.928439140319824,
+                    -3.102591037750244
+                  ],
+                  "early_rmse_percent": 18.366588027822388,
+                  "late_rmse_percent": 27.37340409055655
+                }
+              ]
+            },
+            "affine_rmse_percent": 20.456679039036054
+          }
+        }
+      }
+    ],
+    "paired_seed_changes": [
+      {
+        "seed": 11,
+        "macro_delta_pp": 0.6874746579449024,
+        "specimen_deltas_pp": [
+          -0.3413415732620102,
+          -0.8680136100107312,
+          4.811817637147769,
+          1.1408972874249095,
+          -1.305986451575425
+        ]
+      },
+      {
+        "seed": 29,
+        "macro_delta_pp": -0.17495480422529539,
+        "specimen_deltas_pp": [
+          -0.8429145300224956,
+          0.6995445665304327,
+          1.6098379167899193,
+          0.7723392478874853,
+          -3.1135812223118187
+        ]
+      },
+      {
+        "seed": 47,
+        "macro_delta_pp": 0.5635653975560053,
+        "specimen_deltas_pp": [
+          0.7980951487898285,
+          0.4317010443047131,
+          1.742195880894899,
+          1.5407861995802925,
+          -1.6949512857897062
+        ]
+      }
+    ],
+    "leave_one_test_case_out_macro_delta_pp": {
+      "Exp3_D12": 0.48054893423939493,
+      "Exp4_D14": 0.42643285462947045,
+      "Exp5_ID03": -0.23195209820454377,
+      "Probe1_22": 0.1605336267904478,
+      "Probe2_7": 0.9579121013379175
+    },
+    "uncertainty": "Only five physical tests; correlated folds share fitting specimens; optimizer seeds are not independent experiments."
+  }
+}

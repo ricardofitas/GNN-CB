@@ -1,0 +1,373 @@
+{
+  "scope": "Exact evaluation-only MSE decomposition of unchanged saved predictions.\n\nPer-frame mean error uses held-out labels ONLY to describe error. It is never\nfed into inference, fitting, normalization or model selection, and is not a\nnew deployable accuracy score or a measured physical rigid-body motion.\n",
+  "rows": [
+    {
+      "physical_specimen": "Exp3_D12",
+      "variant": "five_specimens",
+      "seed": 11,
+      "mse_percent_height_squared": 139.3458043270201,
+      "frame_mean_error_mse_percent_height_squared": 27.846868386614535,
+      "within_frame_centered_error_mse_percent_height_squared": 111.4989359404055,
+      "identity_absolute_residual": 3.469446951953614e-18
+    },
+    {
+      "physical_specimen": "Exp3_D12",
+      "variant": "five_specimens",
+      "seed": 29,
+      "mse_percent_height_squared": 152.6644044005052,
+      "frame_mean_error_mse_percent_height_squared": 27.1322665607597,
+      "within_frame_centered_error_mse_percent_height_squared": 125.53213783974553,
+      "identity_absolute_residual": 5.204170427930421e-18
+    },
+    {
+      "physical_specimen": "Exp3_D12",
+      "variant": "five_specimens",
+      "seed": 47,
+      "mse_percent_height_squared": 128.1670730961232,
+      "frame_mean_error_mse_percent_height_squared": 27.98948236376481,
+      "within_frame_centered_error_mse_percent_height_squared": 100.17759073235834,
+      "identity_absolute_residual": 5.204170427930421e-18
+    },
+    {
+      "physical_specimen": "Exp3_D12",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 11,
+      "mse_percent_height_squared": 131.4036124368907,
+      "frame_mean_error_mse_percent_height_squared": 52.84831338128016,
+      "within_frame_centered_error_mse_percent_height_squared": 78.55529905561055,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Exp3_D12",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 29,
+      "mse_percent_height_squared": 132.54522578105045,
+      "frame_mean_error_mse_percent_height_squared": 44.00248389371342,
+      "within_frame_centered_error_mse_percent_height_squared": 88.54274188733699,
+      "identity_absolute_residual": 3.469446951953614e-18
+    },
+    {
+      "physical_specimen": "Exp3_D12",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 47,
+      "mse_percent_height_squared": 146.87463430568712,
+      "frame_mean_error_mse_percent_height_squared": 53.303799097100125,
+      "within_frame_centered_error_mse_percent_height_squared": 93.57083520858704,
+      "identity_absolute_residual": 5.204170427930421e-18
+    },
+    {
+      "physical_specimen": "Exp4_D14",
+      "variant": "five_specimens",
+      "seed": 11,
+      "mse_percent_height_squared": 223.55567387145126,
+      "frame_mean_error_mse_percent_height_squared": 62.370917973477276,
+      "within_frame_centered_error_mse_percent_height_squared": 161.18475589797401,
+      "identity_absolute_residual": 3.469446951953614e-18
+    },
+    {
+      "physical_specimen": "Exp4_D14",
+      "variant": "five_specimens",
+      "seed": 29,
+      "mse_percent_height_squared": 201.87130488250207,
+      "frame_mean_error_mse_percent_height_squared": 52.03392184062542,
+      "within_frame_centered_error_mse_percent_height_squared": 149.8373830418767,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Exp4_D14",
+      "variant": "five_specimens",
+      "seed": 47,
+      "mse_percent_height_squared": 193.91128893945964,
+      "frame_mean_error_mse_percent_height_squared": 50.52305960774787,
+      "within_frame_centered_error_mse_percent_height_squared": 143.38822933171176,
+      "identity_absolute_residual": 0.0
+    },
+    {
+      "physical_specimen": "Exp4_D14",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 11,
+      "mse_percent_height_squared": 198.35241392006182,
+      "frame_mean_error_mse_percent_height_squared": 47.18217173712088,
+      "within_frame_centered_error_mse_percent_height_squared": 151.17024218294094,
+      "identity_absolute_residual": 0.0
+    },
+    {
+      "physical_specimen": "Exp4_D14",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 29,
+      "mse_percent_height_squared": 222.23912059941756,
+      "frame_mean_error_mse_percent_height_squared": 60.812891726137636,
+      "within_frame_centered_error_mse_percent_height_squared": 161.4262288732799,
+      "identity_absolute_residual": 0.0
+    },
+    {
+      "physical_specimen": "Exp4_D14",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 47,
+      "mse_percent_height_squared": 206.12070738666853,
+      "frame_mean_error_mse_percent_height_squared": 54.197072688139265,
+      "within_frame_centered_error_mse_percent_height_squared": 151.92363469852927,
+      "identity_absolute_residual": 0.0
+    },
+    {
+      "physical_specimen": "Exp5_ID03",
+      "variant": "five_specimens",
+      "seed": 11,
+      "mse_percent_height_squared": 128.50590801791384,
+      "frame_mean_error_mse_percent_height_squared": 57.64823834464073,
+      "within_frame_centered_error_mse_percent_height_squared": 70.85766967327314,
+      "identity_absolute_residual": 8.673617379884035e-19
+    },
+    {
+      "physical_specimen": "Exp5_ID03",
+      "variant": "five_specimens",
+      "seed": 29,
+      "mse_percent_height_squared": 171.25972138949766,
+      "frame_mean_error_mse_percent_height_squared": 81.37710521363142,
+      "within_frame_centered_error_mse_percent_height_squared": 89.88261617586627,
+      "identity_absolute_residual": 5.204170427930421e-18
+    },
+    {
+      "physical_specimen": "Exp5_ID03",
+      "variant": "five_specimens",
+      "seed": 47,
+      "mse_percent_height_squared": 151.94950247100897,
+      "frame_mean_error_mse_percent_height_squared": 74.5711525126147,
+      "within_frame_centered_error_mse_percent_height_squared": 77.37834995839425,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Exp5_ID03",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 11,
+      "mse_percent_height_squared": 260.7534478662608,
+      "frame_mean_error_mse_percent_height_squared": 155.29587907715944,
+      "within_frame_centered_error_mse_percent_height_squared": 105.4575687891014,
+      "identity_absolute_residual": 3.469446951953614e-18
+    },
+    {
+      "physical_specimen": "Exp5_ID03",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 29,
+      "mse_percent_height_squared": 215.9859757295404,
+      "frame_mean_error_mse_percent_height_squared": 131.25464777870994,
+      "within_frame_centered_error_mse_percent_height_squared": 84.73132795083048,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Exp5_ID03",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 47,
+      "mse_percent_height_squared": 197.93607662023518,
+      "frame_mean_error_mse_percent_height_squared": 124.01647347297349,
+      "within_frame_centered_error_mse_percent_height_squared": 73.91960314726164,
+      "identity_absolute_residual": 4.336808689942018e-18
+    },
+    {
+      "physical_specimen": "Probe1_22",
+      "variant": "five_specimens",
+      "seed": 11,
+      "mse_percent_height_squared": 141.50661600845518,
+      "frame_mean_error_mse_percent_height_squared": 38.915021383361655,
+      "within_frame_centered_error_mse_percent_height_squared": 102.59159462509353,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Probe1_22",
+      "variant": "five_specimens",
+      "seed": 29,
+      "mse_percent_height_squared": 156.39323178125775,
+      "frame_mean_error_mse_percent_height_squared": 34.992810035037394,
+      "within_frame_centered_error_mse_percent_height_squared": 121.40042174622036,
+      "identity_absolute_residual": 0.0
+    },
+    {
+      "physical_specimen": "Probe1_22",
+      "variant": "five_specimens",
+      "seed": 47,
+      "mse_percent_height_squared": 129.94948172404497,
+      "frame_mean_error_mse_percent_height_squared": 34.779644709210544,
+      "within_frame_centered_error_mse_percent_height_squared": 95.1698370148344,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Probe1_22",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 11,
+      "mse_percent_height_squared": 169.95167948683314,
+      "frame_mean_error_mse_percent_height_squared": 64.18354094834399,
+      "within_frame_centered_error_mse_percent_height_squared": 105.76813853848921,
+      "identity_absolute_residual": 5.204170427930421e-18
+    },
+    {
+      "physical_specimen": "Probe1_22",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 29,
+      "mse_percent_height_squared": 176.30706835357648,
+      "frame_mean_error_mse_percent_height_squared": 67.86597545408819,
+      "within_frame_centered_error_mse_percent_height_squared": 108.44109289948834,
+      "identity_absolute_residual": 5.204170427930421e-18
+    },
+    {
+      "physical_specimen": "Probe1_22",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 47,
+      "mse_percent_height_squared": 167.45199544696544,
+      "frame_mean_error_mse_percent_height_squared": 63.46727450493672,
+      "within_frame_centered_error_mse_percent_height_squared": 103.98472094202873,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Probe2_7",
+      "variant": "five_specimens",
+      "seed": 11,
+      "mse_percent_height_squared": 291.4518276634967,
+      "frame_mean_error_mse_percent_height_squared": 217.2617355126091,
+      "within_frame_centered_error_mse_percent_height_squared": 74.19009215088765,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Probe2_7",
+      "variant": "five_specimens",
+      "seed": 29,
+      "mse_percent_height_squared": 308.25550836816427,
+      "frame_mean_error_mse_percent_height_squared": 230.3662273843357,
+      "within_frame_centered_error_mse_percent_height_squared": 77.88928098382867,
+      "identity_absolute_residual": 1.3010426069826053e-17
+    },
+    {
+      "physical_specimen": "Probe2_7",
+      "variant": "five_specimens",
+      "seed": 47,
+      "mse_percent_height_squared": 300.7989876686383,
+      "frame_mean_error_mse_percent_height_squared": 228.11699894200927,
+      "within_frame_centered_error_mse_percent_height_squared": 72.68198872662913,
+      "identity_absolute_residual": 8.673617379884035e-18
+    },
+    {
+      "physical_specimen": "Probe2_7",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 11,
+      "mse_percent_height_squared": 248.56592071361962,
+      "frame_mean_error_mse_percent_height_squared": 165.85082670934267,
+      "within_frame_centered_error_mse_percent_height_squared": 82.71509400427698,
+      "identity_absolute_residual": 3.469446951953614e-18
+    },
+    {
+      "physical_specimen": "Probe2_7",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 29,
+      "mse_percent_height_squared": 208.6183263937576,
+      "frame_mean_error_mse_percent_height_squared": 121.73442925184266,
+      "within_frame_centered_error_mse_percent_height_squared": 86.88389714191497,
+      "identity_absolute_residual": 1.734723475976807e-18
+    },
+    {
+      "physical_specimen": "Probe2_7",
+      "variant": "seven_specimens_fixed_tests",
+      "seed": 47,
+      "mse_percent_height_squared": 244.87887319770502,
+      "frame_mean_error_mse_percent_height_squared": 154.96091309512445,
+      "within_frame_centered_error_mse_percent_height_squared": 89.9179601025806,
+      "identity_absolute_residual": 3.469446951953614e-18
+    }
+  ],
+  "per_specimen_seed_means": [
+    {
+      "physical_specimen": "Exp3_D12",
+      "mse_percent_height_squared": {
+        "original": 140.05909394121616,
+        "augmented": 136.9411575078761,
+        "change": -3.1179364333400486
+      },
+      "frame_mean_error_mse_percent_height_squared": {
+        "original": 27.65620577037968,
+        "augmented": 50.05153212403123,
+        "change": 22.39532635365155
+      },
+      "within_frame_centered_error_mse_percent_height_squared": {
+        "original": 112.40288817083645,
+        "augmented": 86.88962538384486,
+        "change": -25.51326278699159
+      }
+    },
+    {
+      "physical_specimen": "Exp4_D14",
+      "mse_percent_height_squared": {
+        "original": 206.44608923113765,
+        "augmented": 208.90408063538266,
+        "change": 2.457991404245007
+      },
+      "frame_mean_error_mse_percent_height_squared": {
+        "original": 54.97596647395019,
+        "augmented": 54.06404538379926,
+        "change": -0.9119210901509263
+      },
+      "within_frame_centered_error_mse_percent_height_squared": {
+        "original": 151.47012275718748,
+        "augmented": 154.84003525158337,
+        "change": 3.3699124943958907
+      }
+    },
+    {
+      "physical_specimen": "Exp5_ID03",
+      "mse_percent_height_squared": {
+        "original": 150.57171062614017,
+        "augmented": 224.89183340534547,
+        "change": 74.32012277920529
+      },
+      "frame_mean_error_mse_percent_height_squared": {
+        "original": 71.19883202362895,
+        "augmented": 136.85566677628097,
+        "change": 65.65683475265202
+      },
+      "within_frame_centered_error_mse_percent_height_squared": {
+        "original": 79.37287860251122,
+        "augmented": 88.0361666290645,
+        "change": 8.663288026553275
+      }
+    },
+    {
+      "physical_specimen": "Probe1_22",
+      "mse_percent_height_squared": {
+        "original": 142.61644317125263,
+        "augmented": 171.23691442912502,
+        "change": 28.620471257872396
+      },
+      "frame_mean_error_mse_percent_height_squared": {
+        "original": 36.2291587092032,
+        "augmented": 65.17226363578963,
+        "change": 28.943104926586436
+      },
+      "within_frame_centered_error_mse_percent_height_squared": {
+        "original": 106.38728446204944,
+        "augmented": 106.06465079333543,
+        "change": -0.3226336687140048
+      }
+    },
+    {
+      "physical_specimen": "Probe2_7",
+      "mse_percent_height_squared": {
+        "original": 300.16877456676644,
+        "augmented": 234.0210401016941,
+        "change": -66.14773446507235
+      },
+      "frame_mean_error_mse_percent_height_squared": {
+        "original": 225.2483206129847,
+        "augmented": 147.5153896854366,
+        "change": -77.73293092754813
+      },
+      "within_frame_centered_error_mse_percent_height_squared": {
+        "original": 74.92045395378182,
+        "augmented": 86.50565041625752,
+        "change": 11.585196462475707
+      }
+    }
+  ],
+  "macro_mse_changes": {
+    "mse_percent_height_squared": 7.22658290858206,
+    "frame_mean_error_mse_percent_height_squared": 7.67008280303819,
+    "within_frame_centered_error_mse_percent_height_squared": -0.44349989445614424
+  },
+  "warning": "MSE components, not additive RMSEs. Mean over observed nodes is not physical mass-weighted centre motion. Original RMSE benchmark is unchanged."
+}
