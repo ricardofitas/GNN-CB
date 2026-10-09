@@ -6,7 +6,7 @@ A trained **graph neural surrogate for corrugated-board deformation**, with audi
 
 The current primary benchmark uses **five physical specimens**, expanded from the original two. Four further camera recordings were recovered and processed into graphs and masked tracks; their quality qualification and supplementary experiments are kept distinct from the fixed five-specimen benchmark.
 
-[Read the approach report](reports/GNN_CB_Approach_Report.pdf) · [Expanded data audit](reports/EXPANDED_DATA_AUDIT.md) · [Recorded benchmark](results/expanded/five_specimens/metrics.json)
+[Read the approach report](reports/GNN_CB_Approach_Report.pdf) · [Expanded data audit](reports/EXPANDED_DATA_AUDIT.md) · [Recorded benchmark](results/expanded/five_specimens/metrics.json) · [Why augmentation regressed](reports/AUGMENTATION_DIAGNOSIS.md)
 
 ![Additional source images and initial graphs](reports/figures/expanded_source_graphs.png)
 
@@ -225,6 +225,49 @@ python -m gnn_cb.train_expanded \
 ```
 
 [Paired fixed-test comparison](results/expanded/fixed_test_comparison.json) and [complete results](results/expanded/seven_specimens_fixed_tests/metrics.json) preserve the numerical outcome. The new video labels are automatic pseudo-targets; no independent DIC or calibrated mechanical validation is implied.
+
+## Controlled diagnosis of the augmentation regression
+
+A follow-up investigation runs **14 prespecified exploratory variants × 5 fixed
+test specimens × 3 seeds = 210 GNN fits**. All original test/validation identities,
+test masks and primary scoring remain fixed. The original augmented predictions
+were reproduced bit-for-bit in all 15 fold/seed combinations.
+
+The evidence supports a change in the fitted domain mixture and predicted field
+biases: the new videos have smaller observed displacement amplitudes and positive
+mean horizontal motion, while four primary specimens have negative mean horizontal
+motion. About **88.3% of Exp5's increased MSE** is in the per-frame mean-error
+component. This is an error decomposition, not proof of camera motion or tracking
+error.
+
+| Diagnostic intervention | Fixed-test GNN RMSE / height | Seed SD (pp) |
+|---|---:|---:|
+| Original five-specimen benchmark, unchanged | **13.539%** | 0.357 |
+| Both training videos, total loss weight 40% | 13.898% | 0.177 |
+| Both videos, total loss weight reduced to 14.286% | 13.360% | 0.334 |
+| Video-only phase sensitivity: `p − 0.4 p(1−p)` | 13.327% | 0.718 |
+| Strict observed-jump filter | 14.239% | 0.167 |
+| Matched observation-removal control | 13.809% | 0.371 |
+
+Seed SD describes optimizer variability, not a population confidence interval.
+The negative phase warp has particularly high seed variability.
+
+Reduced video weight improves all three seed means relative to the augmented
+control, but still trades performance between specimens. The phase transformation
+is **not** an independently calibrated correction. The tested tracking filter
+worsens agreement compared with the matched-removal control. No inconsistent
+coordinate normalization or masked-value leakage was found.
+
+**These are diagnostic results, not replacement benchmark or deployment claims.**
+The five-specimen checkpoint remains the reference; no pseudo-label is treated as
+an independent physical measurement. Full results include unfavorable outcomes,
+existing affine/MLP baselines, phase and observation sensitivities, no-edge
+controls, source fingerprints, loss histories, and reproducible commands.
+
+[Scientific diagnosis](reports/AUGMENTATION_DIAGNOSIS.md) ·
+[All quantitative ablations](results/diagnosis/ablation_table.csv) ·
+[Protocol](results/diagnosis/protocol.json) ·
+[Verification](results/diagnosis/verification.json)
 
 ## Model and evaluation details
 

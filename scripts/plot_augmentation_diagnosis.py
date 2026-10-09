@@ -41,13 +41,22 @@ def main():
             'delta_vs_original_pp':r['macro_rmse_percent']-original,
             'delta_vs_augmented_pp':r['macro_rmse_percent']-summary['augmented_replay']['macro_rmse_percent'],
             'affine_rmse_percent':r['affine_rmse_percent'],**r['per_specimen']})
+    benchmark=json.loads((ROOT/'results/expanded/five_specimens/metrics.json').read_text())
+    original_seeds={str(seed):float(100*np.mean([next(r for r in f['models']['gnn'] if r['seed']==seed)['tests'][f['test_extractions'][0]]['compression_window']['rmse_normalized'] for f in benchmark['folds']])) for seed in [11,29,47]}
+    paired={'original_seed_macro_rmse_percent':original_seeds,'original_baselines':comparison['models'],'arms':{},
+            'warning':'Paired descriptive optimizer-seed differences on five known physical tests; no population significance claim or selection of a replacement benchmark.'}
+    for arm in LABELS:
+        r=summary[arm]
+        paired['arms'][arm]={'paired_seed_delta_vs_original_pp':{seed:r['seed_means'][seed]-original_seeds[seed] for seed in original_seeds},
+            'paired_seed_delta_vs_augmented_pp':{seed:r['seed_means'][seed]-summary['augmented_replay']['seed_means'][seed] for seed in original_seeds}}
+    (OUT/'paired_comparisons.json').write_text(json.dumps(paired,indent=2,allow_nan=False)+'\n')
     with (OUT/'ablation_table.csv').open('w',newline='') as file:
-        writer=csv.DictWriter(file,fieldnames=rows[0].keys());writer.writeheader();writer.writerows(rows)
+        writer=csv.DictWriter(file,fieldnames=rows[0].keys(),lineterminator='\n');writer.writeheader();writer.writerows(rows)
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':9,'axes.spines.top':False,'axes.spines.right':False,'svg.fonttype':'none'})
     figures=ROOT/'reports/figures';figures.mkdir(exist_ok=True);(OUT/'cache').mkdir(exist_ok=True)
     fig,axes=plt.subplots(2,2,figsize=(12,8),layout='constrained')
     for row in audit['specimens']:
-        video=row['specimen_id'] in ['Probe1_8','Probe1_9'];col={'Probe1_8':'#bb6232','Probe1_9':'#398b72'}.get(row['specimen_id'],'#65768a')
+        video=row['specimen_id'] in ['Probe1_8','Probe1_9'];col={'Exp3':'#687da1','Exp4':'#9475a0','Exp5':'#9b8057','Probe1_22':'#75927c','Probe2_7':'#617178','Probe1_8':'#bb6232','Probe1_9':'#398b72'}[row['specimen_id']]
         axes[0,0].scatter(row['aspect_ratio'],row['normalized_edge_length']['median'],s=row['nodes']*1.3,color=col,alpha=.8)
         axes[0,0].annotate(row['specimen_id'],(row['aspect_ratio'],row['normalized_edge_length']['median']),xytext=(4,5),textcoords='offset points',fontsize=8)
         bins=row['phase_quintiles'];phase=[(v['lo']+v['hi'])/2 for v in bins]
@@ -66,7 +75,7 @@ def main():
     labels=list(LABELS);names=list(LABELS.values());means=[summary[k]['macro_rmse_percent'] for k in labels];sd=[summary[k]['seed_sd_pp'] for k in labels]
     fig,(left,right)=plt.subplots(1,2,figsize=(14,8),gridspec_kw={'width_ratios':[1,1]},layout='constrained')
     ypos=np.arange(len(names));left.errorbar(means,ypos,xerr=sd,fmt='o',color='#285b80',capsize=3)
-    left.set_yticks(ypos,names,fontsize=9);left.invert_yaxis();left.axvline(original,color='#398b72',ls='--',label=f'Original GNN {original:.3f}%')
+    left.set_yticks(ypos,names,fontsize=9);left.set_ylim(len(names)-.5,-.5);left.axvline(original,color='#398b72',ls='--',label=f'Original GNN {original:.3f}%')
     left.axvline(comparison['models']['phase_affine']['five_rmse_percent_initial_height'],color='#777777',ls=':',label='Original affine')
     left.set(xlabel='Macro RMSE / initial height (%)',title='All prespecified interventions; three seeds each');left.legend(loc='lower right',fontsize=8)
     specimens=list(summary[labels[0]]['per_specimen']);base={r['physical_specimen_id']:r['gnn']['five'] for r in per}
@@ -80,6 +89,9 @@ def main():
     fig.colorbar(im,ax=right,shrink=.7,label='Positive = higher error')
     fig.suptitle('Exploratory ablations — original benchmark remains unchanged\nError bars: optimizer-seed standard deviation, not population confidence intervals',fontsize=12)
     fig.savefig(figures/'augmentation_ablation_results.svg');fig.savefig(OUT/'cache'/'augmentation_ablation_results.png',dpi=160);plt.close(fig)
+
+    for path in figures.glob('augmentation_*.svg'):
+        path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')
 
 
 if __name__=='__main__':main()

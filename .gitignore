@@ -11,3 +11,7 @@ results/expanded/**/*predictions.csv
 data/automatic/raw/
 data/automatic/graphs/*.jsonl.gz
 data/automatic/graphs/*.npz
+
+# Reproducible exploratory checkpoints/predictions; original benchmarks retained.
+results/diagnosis/cache/
+results/diagnosis/*execution.log

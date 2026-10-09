@@ -1,0 +1,351 @@
+{
+  "arm": "only9_mass40",
+  "protocol_sha256": "6564ce27167b28449fc9c975a3a614ad8da0509c212f65b7de173f51957539e2",
+  "held_out_physical_specimen": "Exp4_D14",
+  "validation_physical_specimens": [
+    "Exp5_ID03"
+  ],
+  "training_physical_specimens": [
+    "Exp3_D12",
+    "ML2023_Probe1_9",
+    "Probe1_22",
+    "Probe2_7"
+  ],
+  "seed": 29,
+  "selected_epoch": 75,
+  "completed_epochs": 150,
+  "validation_mse": 0.01597718521952629,
+  "residual_scale": 0.1592317372560501,
+  "runtime_seconds": 24.94200197799364,
+  "history": [
+    {
+      "epoch": 0,
+      "train_mse": 0.025354746729135513,
+      "validation_mse": 0.020651383325457573
+    },
+    {
+      "epoch": 5,
+      "train_mse": 0.025232361629605293,
+      "validation_mse": 0.020820124074816704
+    },
+    {
+      "epoch": 10,
+      "train_mse": 0.025001918897032738,
+      "validation_mse": 0.021705331280827522
+    },
+    {
+      "epoch": 15,
+      "train_mse": 0.02345777116715908,
+      "validation_mse": 0.02059822715818882
+    },
+    {
+      "epoch": 20,
+      "train_mse": 0.01588347926735878,
+      "validation_mse": 0.016714176163077354
+    },
+    {
+      "epoch": 25,
+      "train_mse": 0.014794807881116867,
+      "validation_mse": 0.019251134246587753
+    },
+    {
+      "epoch": 30,
+      "train_mse": 0.014958247542381287,
+      "validation_mse": 0.023668816313147545
+    },
+    {
+      "epoch": 35,
+      "train_mse": 0.014247283339500427,
+      "validation_mse": 0.017643075436353683
+    },
+    {
+      "epoch": 40,
+      "train_mse": 0.014073239639401436,
+      "validation_mse": 0.016994372010231018
+    },
+    {
+      "epoch": 45,
+      "train_mse": 0.014009636826813221,
+      "validation_mse": 0.017544636502861977
+    },
+    {
+      "epoch": 50,
+      "train_mse": 0.013836799189448357,
+      "validation_mse": 0.01807978004217148
+    },
+    {
+      "epoch": 55,
+      "train_mse": 0.013714229688048363,
+      "validation_mse": 0.01779961585998535
+    },
+    {
+      "epoch": 60,
+      "train_mse": 0.01356830820441246,
+      "validation_mse": 0.01744396798312664
+    },
+    {
+      "epoch": 65,
+      "train_mse": 0.013388250954449177,
+      "validation_mse": 0.017987366765737534
+    },
+    {
+      "epoch": 70,
+      "train_mse": 0.013060064986348152,
+      "validation_mse": 0.016989216208457947
+    },
+    {
+      "epoch": 75,
+      "train_mse": 0.012797056697309017,
+      "validation_mse": 0.01597718521952629
+    },
+    {
+      "epoch": 80,
+      "train_mse": 0.012501055374741554,
+      "validation_mse": 0.018408451229333878
+    },
+    {
+      "epoch": 85,
+      "train_mse": 0.011945891194045544,
+      "validation_mse": 0.01815195009112358
+    },
+    {
+      "epoch": 90,
+      "train_mse": 0.011517763137817383,
+      "validation_mse": 0.019714223220944405
+    },
+    {
+      "epoch": 95,
+      "train_mse": 0.011039824225008488,
+      "validation_mse": 0.020409762859344482
+    },
+    {
+      "epoch": 100,
+      "train_mse": 0.010659563355147839,
+      "validation_mse": 0.02081867679953575
+    },
+    {
+      "epoch": 105,
+      "train_mse": 0.010693436488509178,
+      "validation_mse": 0.021276958286762238
+    },
+    {
+      "epoch": 110,
+      "train_mse": 0.010407252237200737,
+      "validation_mse": 0.02303469553589821
+    },
+    {
+      "epoch": 115,
+      "train_mse": 0.010012990795075893,
+      "validation_mse": 0.022270768880844116
+    },
+    {
+      "epoch": 120,
+      "train_mse": 0.009629616513848305,
+      "validation_mse": 0.02325216680765152
+    },
+    {
+      "epoch": 125,
+      "train_mse": 0.009490304626524448,
+      "validation_mse": 0.025038082152605057
+    },
+    {
+      "epoch": 130,
+      "train_mse": 0.009322748519480228,
+      "validation_mse": 0.025958728045225143
+    },
+    {
+      "epoch": 135,
+      "train_mse": 0.009011647664010525,
+      "validation_mse": 0.025821946561336517
+    },
+    {
+      "epoch": 140,
+      "train_mse": 0.009035899303853512,
+      "validation_mse": 0.02478712797164917
+    },
+    {
+      "epoch": 145,
+      "train_mse": 0.008613436482846737,
+      "validation_mse": 0.0260436050593853
+    },
+    {
+      "epoch": 150,
+      "train_mse": 0.008397841826081276,
+      "validation_mse": 0.026385566219687462
+    }
+  ],
+  "test_specimen_id": "Exp4",
+  "test_source_sha256": "a246c9b64b675c10eaaaebb2ef00dfec7db2ada50c3556a6636a9a2f43c8f3e3",
+  "test": {
+    "compression_window": {
+      "observed_node_frames": 5403,
+      "rmse_normalized": 0.14917652096800066,
+      "rmse_px": 12.232474719376054,
+      "mae_px": 9.131624221801758,
+      "mean_endpoint_error_px": 14.83870792388916,
+      "mean_endpoint_error_normalized": 0.18095985054969788,
+      "p95_endpoint_error_px": 32.79560089111328,
+      "r2_variance_weighted": 0.3146410259755509,
+      "rmse_x_px": 15.479856491088867,
+      "rmse_y_px": 7.722750663757324
+    },
+    "early_phase": {
+      "observed_node_frames": 4255,
+      "rmse_normalized": 0.13202300045944032,
+      "rmse_px": 10.825886037674106,
+      "mae_px": 8.116811752319336,
+      "mean_endpoint_error_px": 13.287240982055664,
+      "mean_endpoint_error_normalized": 0.16203951835632324,
+      "p95_endpoint_error_px": 28.08049774169922,
+      "r2_variance_weighted": 0.10109492952422239,
+      "rmse_x_px": 14.036211013793945,
+      "rmse_y_px": 6.114278316497803
+    },
+    "late_phase": {
+      "observed_node_frames": 897,
+      "rmse_normalized": 0.20368516234092068,
+      "rmse_px": 16.702183311955498,
+      "mae_px": 13.206522941589355,
+      "mean_endpoint_error_px": 21.010021209716797,
+      "mean_endpoint_error_normalized": 0.2562197744846344,
+      "p95_endpoint_error_px": 41.39303970336914,
+      "r2_variance_weighted": 0.4501279037626207,
+      "rmse_x_px": 20.11102294921875,
+      "rmse_y_px": 12.388402938842773
+    },
+    "complete_track_subset": {
+      "nodes": 20,
+      "observed_node_frames": 2520,
+      "rmse_normalized": 0.15251395914023666,
+      "rmse_px": 12.506144649499406,
+      "mae_px": 9.439470291137695,
+      "mean_endpoint_error_px": 14.951845169067383,
+      "mean_endpoint_error_normalized": 0.18233957886695862,
+      "p95_endpoint_error_px": 34.5128288269043,
+      "r2_variance_weighted": 0.2926794935412982,
+      "rmse_x_px": 15.384760856628418,
+      "rmse_y_px": 8.724472999572754
+    },
+    "phase_quintiles": [
+      {
+        "lo": 0.0,
+        "hi": 0.2,
+        "n": 1184,
+        "rmse_percent": 9.076334953308105
+      },
+      {
+        "lo": 0.2,
+        "hi": 0.4,
+        "n": 1156,
+        "rmse_percent": 12.035860061645508
+      },
+      {
+        "lo": 0.4,
+        "hi": 0.6,
+        "n": 1118,
+        "rmse_percent": 14.825904846191406
+      },
+      {
+        "lo": 0.6,
+        "hi": 0.8,
+        "n": 1048,
+        "rmse_percent": 17.459789276123047
+      },
+      {
+        "lo": 0.8,
+        "hi": 1.0,
+        "n": 897,
+        "rmse_percent": 20.36851692199707
+      }
+    ]
+  },
+  "affine": {
+    "compression_window": {
+      "observed_node_frames": 5403,
+      "rmse_normalized": 0.15588818023399553,
+      "rmse_px": 12.782830779187634,
+      "mae_px": 8.477761268615723,
+      "mean_endpoint_error_px": 13.898833274841309,
+      "mean_endpoint_error_normalized": 0.16949796676635742,
+      "p95_endpoint_error_px": 40.677024841308594,
+      "r2_variance_weighted": 0.25158319090920955,
+      "rmse_x_px": 16.17447853088379,
+      "rmse_y_px": 8.073894500732422
+    },
+    "early_phase": {
+      "observed_node_frames": 4255,
+      "rmse_normalized": 0.13818698380156902,
+      "rmse_px": 11.33133267172866,
+      "mae_px": 7.369655132293701,
+      "mean_endpoint_error_px": 12.186712265014648,
+      "mean_endpoint_error_normalized": 0.1486184448003769,
+      "p95_endpoint_error_px": 35.91126251220703,
+      "r2_variance_weighted": 0.015198056039589347,
+      "rmse_x_px": 14.59732437133789,
+      "rmse_y_px": 6.6118316650390625
+    },
+    "late_phase": {
+      "observed_node_frames": 897,
+      "rmse_normalized": 0.20981845012974146,
+      "rmse_px": 17.2051129106388,
+      "mae_px": 12.72387981414795,
+      "mean_endpoint_error_px": 20.375871658325195,
+      "mean_endpoint_error_normalized": 0.2484862357378006,
+      "p95_endpoint_error_px": 45.97032165527344,
+      "r2_variance_weighted": 0.41651421776692166,
+      "rmse_x_px": 20.891307830810547,
+      "rmse_y_px": 12.473376274108887
+    },
+    "complete_track_subset": {
+      "nodes": 20,
+      "observed_node_frames": 2520,
+      "rmse_normalized": 0.14390124444819433,
+      "rmse_px": 11.799902044751935,
+      "mae_px": 8.014684677124023,
+      "mean_endpoint_error_px": 12.688854217529297,
+      "mean_endpoint_error_normalized": 0.15474212169647217,
+      "p95_endpoint_error_px": 40.77830123901367,
+      "r2_variance_weighted": 0.37031091622330514,
+      "rmse_x_px": 13.901405334472656,
+      "rmse_y_px": 9.231809616088867
+    }
+  },
+  "training": [
+    {
+      "specimen_id": "Exp3",
+      "physical_id": "Exp3_D12",
+      "weight": 0.19999999999999998,
+      "observations": 2566
+    },
+    {
+      "specimen_id": "Probe1_22",
+      "physical_id": "Probe1_22",
+      "weight": 0.19999999999999998,
+      "observations": 4902
+    },
+    {
+      "specimen_id": "Probe2_7",
+      "physical_id": "Probe2_7",
+      "weight": 0.19999999999999998,
+      "observations": 5542
+    },
+    {
+      "specimen_id": "Probe1_9",
+      "physical_id": "ML2023_Probe1_9",
+      "weight": 0.4,
+      "observations": 4745
+    }
+  ],
+  "fixed_original_validation_epoch": null,
+  "fixed_original_validation_epoch_reached": false,
+  "checkpoint_sha256": "01bda642e827692498b1877f52eb5e6ce74e7b4dfe72e890f37f6fb434027fc7",
+  "prediction_sha256": "0426686bb021c1019ae112e87c71eba1652dbe7728b5e4747609571027b323c4",
+  "raw_checkpoint_sha256": "445721219a5d185698131bd38af598fe0ef82eb7c4d02cf35da37f7a910b2606",
+  "primary_training_physical_specimens": [
+    "Exp3_D12",
+    "Probe1_22",
+    "Probe2_7"
+  ],
+  "checkpoint_metadata_finalized": true,
+  "checkpoint_metadata_note": "Actual fitting membership, arm and inference policy added from run record; parameter tensors unchanged. Raw hash preserved."
+}

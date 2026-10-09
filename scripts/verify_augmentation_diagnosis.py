@@ -92,7 +92,13 @@ def main():
             old=next(v for v in f['models']['gnn'] if v['seed']==r['seed'])
             difference=r['test']['compression_window']['rmse_normalized']-old['tests'][r['test_specimen_id']]['compression_window']['rmse_normalized']
             assert difference==0 and r['selected_epoch']==old['selected_epoch']
-            replay.append({'specimen':r['held_out_physical_specimen'],'seed':r['seed'],'rmse_difference':difference,'selected_epoch_identical':True})
+            same_predictions=None
+            if prediction.exists():
+                old_path=ROOT/'results/expanded/seven_specimens_fixed_tests'/f"test_{r['held_out_physical_specimen']}"/f"gnn_seed{r['seed']}_{r['test_specimen_id']}_predictions.npz"
+                with np.load(old_path,allow_pickle=False) as a,np.load(prediction,allow_pickle=False) as b:
+                    for key in ['prediction','mask','frame','node_ids']:np.testing.assert_array_equal(a[key],b[key])
+                same_predictions=True
+            replay.append({'specimen':r['held_out_physical_specimen'],'seed':r['seed'],'rmse_difference':difference,'selected_epoch_identical':True,'full_predictions_bitwise_identical':same_predictions})
         records.append(r)
     source_audit=None
     if args.upstream_tree:

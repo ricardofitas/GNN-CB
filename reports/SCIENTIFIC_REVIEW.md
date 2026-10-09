@@ -1,5 +1,7 @@
 # Independent scientific review of GNN-CB
 
+> Historical scope: this document reviews the original two-specimen pilot. The current five-specimen benchmark and later camera augmentation are documented in [the expanded audit](EXPANDED_DATA_AUDIT.md) and [the controlled augmentation diagnosis](AUGMENTATION_DIAGNOSIS.md). The original review below is retained for provenance.
+
 Review date: 2026-10-09. Scope: the two image/graph archives in `Graphs_Analysis_Corrugated_Boards`, their tracking workbooks and load curves, and the related `Graph-CB` source. This is a review of the proposed experiment, not certification of training results.
 
 ## Defensible objective
