@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the source data article and this repository when using this implementation."
+title: "GNN-CB: image-derived graph surrogate for corrugated-board deformation"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Fitas
+    given-names: Ricardo
+repository-code: "https://github.com/ricardofitas/GNN-CB"
+references:
+  - type: article
+    title: "Graph-Based Analysis for the Characterization of Corrugated Board Compression"
+    authors:
+      - family-names: Belfekih
+        given-names: T.
+      - family-names: Fitas
+        given-names: Ricardo
+      - family-names: Schaffrath
+        given-names: H.-J.
+      - family-names: Schabel
+        given-names: S.
+    doi: "10.3390/ma17246083"
+    year: 2024
+    journal: Materials

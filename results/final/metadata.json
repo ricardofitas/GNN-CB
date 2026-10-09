@@ -1,0 +1,24 @@
+{
+  "config": {
+    "kind": "gnn",
+    "hidden_dim": 32,
+    "message_steps": 3,
+    "mlp_width": 104
+  },
+  "training_specimens": [
+    "Probe1_22",
+    "Probe2_7"
+  ],
+  "seed": 11,
+  "selected_epoch": 198,
+  "epoch_rule": "rounded median GNN source-only validation-selected epochs in LOSO benchmark",
+  "input_semantics": "retrospective protocol-phase-conditioned node displacement",
+  "normalization": "initial graph height; centered initial xy neural features",
+  "fit_phase": [
+    0,
+    1
+  ],
+  "independent_evaluation": false,
+  "warning": "Both available independent specimens used for training. Demonstration model only.",
+  "trainable_parameters": 21634
+}

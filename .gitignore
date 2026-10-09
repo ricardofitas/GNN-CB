@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .pytest_cache/
 data/raw/
-data/processed/
 reports/rendered/
 *.egg-info/
+results/loso/*/*predictions.csv
+results/loso/*/predictions_phase_affine.csv

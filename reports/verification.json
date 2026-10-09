@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "tests": 17,
+  "suite": "python -m unittest discover -s tests -v",
+  "scope": [
+    "source tracking and mask integrity",
+    "chronological specimen-separated evaluation",
+    "held-out label perturbation cannot affect training or selected epochs",
+    "masked NaN labels cannot affect gradients or fitting",
+    "permutation equivariance and graph dependence",
+    "checkpoint reload equivalence",
+    "geometry-only inference and invalid-input rejection"
+  ],
+  "benchmark_fits": 12,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "independent_specimens": 2,
+  "pdf_visual_review": "7 pages rendered and inspected; no clipping or overlap detected",
+  "interpretation": "Software and leakage checks; not population generalization validation."
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "source_commit": "16eed74ff025e0e0f40f4f5d81c2b71af58b93b5",
+  "independent_specimens": 2,
+  "specimens": [
+    {
+      "specimen_id": "Probe2_7",
+      "experiment": "Ex1",
+      "source_repository": "https://github.com/ricardofitas/Graphs_Analysis_Corrugated_Boards",
+      "source_commit": "16eed74ff025e0e0f40f4f5d81c2b71af58b93b5",
+      "source_archive": "data_Probe2_7.zip",
+      "source_archive_sha256": "8294aba04b87e8d634370307156a359984641c121340d33ecb0bb41d04985490",
+      "source_members": {
+        "graph": "data_Probe2_7/Probe2_7_ske_rate10/graphs_Probe2_7_ske_rate10.pkl",
+        "tracking": "data_Probe2_7/Probe2_7_ske_rate10/Track_data_Probe2_7_ske_rate10.xlsx",
+        "annotations": "data_Probe2_7/Probe2_7_ske_rate10/img_analysis_Probe2_7_ske_rate10.xlsx"
+      },
+      "n_frames": 205,
+      "n_nodes": 44,
+      "n_undirected_edges": 64,
+      "n_directed_edges": 128,
+      "compression_window": [
+        33,
+        158
+      ],
+      "compression_frames": 126,
+      "observed_node_frames": 8377,
+      "compression_observed_node_frames": 5542,
+      "compression_coverage": 0.9996392496392497,
+      "tracking_gap_count": 59,
+      "duplicate_observed_coordinates": 0,
+      "initial_coordinate_mismatches": [],
+      "tracking_step_percentiles_px": {
+        "p50": 0.0,
+        "p95": 1.414213562373095,
+        "p99": 2.0,
+        "max": 7.280109889280518
+      },
+      "scale_px": 41.0,
+      "origin_px": [
+        15.0,
+        142.0
+      ],
+      "source_images": [
+        "images/Probe2_7_frame0000.jpg",
+        "images/Probe2_7_frame0033.jpg",
+        "images/Probe2_7_frame0095.jpg",
+        "images/Probe2_7_frame0158.jpg"
+      ],
+      "source_graph_overlay": "images/Probe2_7_source_graph_frame0000.jpg",
+      "image_registration": "Archived camera frames are already 1024x256 crops. Graph0 stores (row,column) in that camera crop; the supplied graph overlay is a separately rendered/cropped plot and must not be used as an unscaled image-coordinate background.",
+      "target": "Image-tracked nodal displacement relative to frame 0, divided by initial graph height",
+      "coordinate_convention": "x=column/right; y=row/down; source coordinates in pixels",
+      "progress_definition": "(frame - compression_start)/(compression_end - compression_start)",
+      "progress_limitations": "Author's offline compression-window annotation; this phase is not mechanical strain or an independently measured timestamp.",
+      "mask_policy": "Missing observations are zero placeholders with mask=False; no interpolation, smoothing, or forward fill.",
+      "label_limitations": "Automated image tracking can lose correspondence, merge nodes, and retain pixel quantization; not displacement ground truth from DIC or FEM.",
+      "force_labels": "Not exported: only displacement targets are supported by this importer."
+    },
+    {
+      "specimen_id": "Probe1_22",
+      "experiment": "Ex2",
+      "source_repository": "https://github.com/ricardofitas/Graphs_Analysis_Corrugated_Boards",
+      "source_commit": "16eed74ff025e0e0f40f4f5d81c2b71af58b93b5",
+      "source_archive": "data_Probe1_22.zip",
+      "source_archive_sha256": "01f820fc253a477812a7612d61bdfd3840b48cccdda61e88cc239a2f2ef32c72",
+      "source_members": {
+        "graph": "data_Probe1_22/Probe1_22_ske_rate10/graphs_Probe1_22_ske_rate10.pkl",
+        "tracking": "data_Probe1_22/Probe1_22_ske_rate10/Track_data_Probe1_22_ske_rate10.xlsx",
+        "annotations": "data_Probe1_22/Probe1_22_ske_rate10/img_analysis_Probe1_22_ske_rate10.xlsx"
+      },
+      "n_frames": 205,
+      "n_nodes": 40,
+      "n_undirected_edges": 58,
+      "n_directed_edges": 116,
+      "compression_window": [
+        40,
+        164
+      ],
+      "compression_frames": 125,
+      "observed_node_frames": 7853,
+      "compression_observed_node_frames": 4902,
+      "compression_coverage": 0.9804,
+      "tracking_gap_count": 54,
+      "duplicate_observed_coordinates": 0,
+      "initial_coordinate_mismatches": [],
+      "tracking_step_percentiles_px": {
+        "p50": 0.0,
+        "p95": 1.414213562373095,
+        "p99": 3.0,
+        "max": 9.219544457292887
+      },
+      "scale_px": 39.0,
+      "origin_px": [
+        99.0,
+        141.0
+      ],
+      "source_images": [
+        "images/Probe1_22_frame0000.jpg",
+        "images/Probe1_22_frame0040.jpg",
+        "images/Probe1_22_frame0102.jpg",
+        "images/Probe1_22_frame0164.jpg"
+      ],
+      "source_graph_overlay": "images/Probe1_22_source_graph_frame0000.jpg",
+      "image_registration": "Archived camera frames are already 1024x256 crops. Graph0 stores (row,column) in that camera crop; the supplied graph overlay is a separately rendered/cropped plot and must not be used as an unscaled image-coordinate background.",
+      "target": "Image-tracked nodal displacement relative to frame 0, divided by initial graph height",
+      "coordinate_convention": "x=column/right; y=row/down; source coordinates in pixels",
+      "progress_definition": "(frame - compression_start)/(compression_end - compression_start)",
+      "progress_limitations": "Author's offline compression-window annotation; this phase is not mechanical strain or an independently measured timestamp.",
+      "mask_policy": "Missing observations are zero placeholders with mask=False; no interpolation, smoothing, or forward fill.",
+      "label_limitations": "Automated image tracking can lose correspondence, merge nodes, and retain pixel quantization; not displacement ground truth from DIC or FEM.",
+      "force_labels": "Not exported: only displacement targets are supported by this importer."
+    }
+  ],
+  "split_rule": "Keep each complete specimen in one fold. Never random-split correlated frames or individual nodes.",
+  "excluded_data": [
+    "Graph-CB newer CSVs: different node labels / tracking versions, not joined to original image graphs.",
+    "Graph-CB data_st CSVs: duplicates of existing specimens, not independent measurements.",
+    "Exp3: incomplete and late-start trajectories; no corresponding full raw image/topology archive.",
+    "Exp4 and Exp5: missing initial-coordinate files and original images/topology; cannot reconstruct a geometry graph reliably."
+  ]
+}
