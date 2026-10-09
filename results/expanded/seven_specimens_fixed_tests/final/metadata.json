@@ -1,0 +1,34 @@
+{
+  "config": {
+    "kind": "gnn",
+    "hidden_dim": 32,
+    "message_steps": 3,
+    "mlp_width": 104
+  },
+  "seed": 11,
+  "selected_epoch": 90,
+  "epoch_rule": "rounded median expanded LOSO validation-selected GNN epochs",
+  "training_specimens": [
+    "Exp3",
+    "Exp4",
+    "Exp5",
+    "Probe1_22",
+    "Probe2_7",
+    "Probe1_8",
+    "Probe1_9"
+  ],
+  "training_physical_specimens": [
+    "Exp3_D12",
+    "Exp4_D14",
+    "Exp5_ID03",
+    "ML2023_Probe1_8",
+    "ML2023_Probe1_9",
+    "Probe1_22",
+    "Probe2_7"
+  ],
+  "independent_evaluation": false,
+  "input_semantics": "retrospective protocol-phase-conditioned image-tracked node displacement",
+  "normalization": "initial graph height; centered initial xy neural features",
+  "warning": "All admitted specimens used to fit this demonstration model; use outer-fold metrics for evaluation.",
+  "trainable_parameters": 21634
+}

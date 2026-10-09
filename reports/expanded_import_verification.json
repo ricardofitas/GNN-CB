@@ -1,0 +1,29 @@
+{
+  "dataset": "data/expanded",
+  "checks": [
+    {
+      "specimen": "Exp3",
+      "schema_masks_indices_and_symmetric_edges": "passed"
+    },
+    {
+      "specimen": "Exp4",
+      "schema_masks_indices_and_symmetric_edges": "passed"
+    },
+    {
+      "specimen": "Exp5",
+      "schema_masks_indices_and_symmetric_edges": "passed"
+    },
+    {
+      "specimen": "Probe1_22",
+      "schema_masks_indices_and_symmetric_edges": "passed"
+    },
+    {
+      "specimen": "Probe2_7",
+      "schema_masks_indices_and_symmetric_edges": "passed"
+    }
+  ],
+  "source_integrity": "All 3 graphs + 3 tracking workbooks + 3 annotations + 431 raw images verified against original source Git blob hashes during import.",
+  "coordinate_alignment": "Every source tracking observation agrees with the same node in the same archived graph; initial references and observed-event chains exact.",
+  "source_restore_test": "prepare_expanded --source-root ../additional_private/uncertain_cb completed using tracked source_tree.json only.",
+  "video_restore_test": "17 archives + 4 AVIs hash verified; Probe1_8 freshly extracted to a separate directory and all 2048 decoded frames reproduce pinned aggregate BGR pixel hash."
+}

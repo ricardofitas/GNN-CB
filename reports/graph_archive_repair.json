@@ -1,0 +1,8 @@
+{
+  "archive": "GNN-CB/data/automatic/graphs/Probe1_10.jsonl.gz",
+  "verified_existing_records": 2005,
+  "reextracted_missing_records": 43,
+  "all_records_after_repair": 2048,
+  "source_sha256_matches": 2048,
+  "action": "Decompressed complete valid records, re-extracted missing original image graphs with identical configuration, rewrote full gzip atomically and read all records to EOF. No footer patch or frame deletion."
+}

@@ -1,0 +1,3189 @@
+{
+  "schema_version": 2,
+  "independent_specimens": 5,
+  "specimens": [
+    {
+      "specimen_id": "Probe1_22",
+      "experiment": "Ex2",
+      "source_repository": "https://github.com/ricardofitas/Graphs_Analysis_Corrugated_Boards",
+      "source_commit": "16eed74ff025e0e0f40f4f5d81c2b71af58b93b5",
+      "source_archive": "data_Probe1_22.zip",
+      "source_archive_sha256": "01f820fc253a477812a7612d61bdfd3840b48cccdda61e88cc239a2f2ef32c72",
+      "source_members": {
+        "graph": "data_Probe1_22/Probe1_22_ske_rate10/graphs_Probe1_22_ske_rate10.pkl",
+        "tracking": "data_Probe1_22/Probe1_22_ske_rate10/Track_data_Probe1_22_ske_rate10.xlsx",
+        "annotations": "data_Probe1_22/Probe1_22_ske_rate10/img_analysis_Probe1_22_ske_rate10.xlsx"
+      },
+      "n_frames": 205,
+      "n_nodes": 40,
+      "n_undirected_edges": 58,
+      "n_directed_edges": 116,
+      "compression_window": [
+        40,
+        164
+      ],
+      "compression_frames": 125,
+      "observed_node_frames": 7853,
+      "compression_observed_node_frames": 4902,
+      "compression_coverage": 0.9804,
+      "tracking_gap_count": 54,
+      "duplicate_observed_coordinates": 0,
+      "initial_coordinate_mismatches": [],
+      "tracking_step_percentiles_px": {
+        "p50": 0.0,
+        "p95": 1.414213562373095,
+        "p99": 3.0,
+        "max": 9.219544457292887
+      },
+      "scale_px": 39.0,
+      "origin_px": [
+        99.0,
+        141.0
+      ],
+      "source_images": [
+        "images/Probe1_22_frame0000.jpg",
+        "images/Probe1_22_frame0040.jpg",
+        "images/Probe1_22_frame0102.jpg",
+        "images/Probe1_22_frame0164.jpg"
+      ],
+      "source_graph_overlay": "images/Probe1_22_source_graph_frame0000.jpg",
+      "image_registration": "Archived camera frames are already 1024x256 crops. Graph0 stores (row,column) in that camera crop; the supplied graph overlay is a separately rendered/cropped plot and must not be used as an unscaled image-coordinate background.",
+      "target": "Image-tracked nodal displacement relative to frame 0, divided by initial graph height",
+      "coordinate_convention": "x=column/right; y=row/down; source coordinates in pixels",
+      "progress_definition": "(frame - compression_start)/(compression_end - compression_start)",
+      "progress_limitations": "Author's offline compression-window annotation; this phase is not mechanical strain or an independently measured timestamp.",
+      "mask_policy": "Missing observations are zero placeholders with mask=False; no interpolation, smoothing, or forward fill.",
+      "label_limitations": "Automated image tracking can lose correspondence, merge nodes, and retain pixel quantization; not displacement ground truth from DIC or FEM.",
+      "force_labels": "Not exported: only displacement targets are supported by this importer.",
+      "physical_specimen_id": "Probe1_22",
+      "baseline_npz_unchanged": true,
+      "npz_sha256": "18615d76608cdb68f6654332ccfb49cd601513b5f252fc9c307cc6b42c257a3a"
+    },
+    {
+      "specimen_id": "Probe2_7",
+      "experiment": "Ex1",
+      "source_repository": "https://github.com/ricardofitas/Graphs_Analysis_Corrugated_Boards",
+      "source_commit": "16eed74ff025e0e0f40f4f5d81c2b71af58b93b5",
+      "source_archive": "data_Probe2_7.zip",
+      "source_archive_sha256": "8294aba04b87e8d634370307156a359984641c121340d33ecb0bb41d04985490",
+      "source_members": {
+        "graph": "data_Probe2_7/Probe2_7_ske_rate10/graphs_Probe2_7_ske_rate10.pkl",
+        "tracking": "data_Probe2_7/Probe2_7_ske_rate10/Track_data_Probe2_7_ske_rate10.xlsx",
+        "annotations": "data_Probe2_7/Probe2_7_ske_rate10/img_analysis_Probe2_7_ske_rate10.xlsx"
+      },
+      "n_frames": 205,
+      "n_nodes": 44,
+      "n_undirected_edges": 64,
+      "n_directed_edges": 128,
+      "compression_window": [
+        33,
+        158
+      ],
+      "compression_frames": 126,
+      "observed_node_frames": 8377,
+      "compression_observed_node_frames": 5542,
+      "compression_coverage": 0.9996392496392497,
+      "tracking_gap_count": 59,
+      "duplicate_observed_coordinates": 0,
+      "initial_coordinate_mismatches": [],
+      "tracking_step_percentiles_px": {
+        "p50": 0.0,
+        "p95": 1.414213562373095,
+        "p99": 2.0,
+        "max": 7.280109889280518
+      },
+      "scale_px": 41.0,
+      "origin_px": [
+        15.0,
+        142.0
+      ],
+      "source_images": [
+        "images/Probe2_7_frame0000.jpg",
+        "images/Probe2_7_frame0033.jpg",
+        "images/Probe2_7_frame0095.jpg",
+        "images/Probe2_7_frame0158.jpg"
+      ],
+      "source_graph_overlay": "images/Probe2_7_source_graph_frame0000.jpg",
+      "image_registration": "Archived camera frames are already 1024x256 crops. Graph0 stores (row,column) in that camera crop; the supplied graph overlay is a separately rendered/cropped plot and must not be used as an unscaled image-coordinate background.",
+      "target": "Image-tracked nodal displacement relative to frame 0, divided by initial graph height",
+      "coordinate_convention": "x=column/right; y=row/down; source coordinates in pixels",
+      "progress_definition": "(frame - compression_start)/(compression_end - compression_start)",
+      "progress_limitations": "Author's offline compression-window annotation; this phase is not mechanical strain or an independently measured timestamp.",
+      "mask_policy": "Missing observations are zero placeholders with mask=False; no interpolation, smoothing, or forward fill.",
+      "label_limitations": "Automated image tracking can lose correspondence, merge nodes, and retain pixel quantization; not displacement ground truth from DIC or FEM.",
+      "force_labels": "Not exported: only displacement targets are supported by this importer.",
+      "physical_specimen_id": "Probe2_7",
+      "baseline_npz_unchanged": true,
+      "npz_sha256": "985d93e0544c72e53506785c4afe2a93289a73ed33f2f8e076d640622b5295c5"
+    },
+    {
+      "specimen_id": "Exp3",
+      "physical_specimen_id": "Exp3_D12",
+      "admissibility": "admitted_with_masked_automated_tracking_labels",
+      "source_repository": "https://github.com/ricardofitas/uncertain_cb",
+      "source_commit": "1df856a4f2c71378744d4a73e3cd958f6f6d7a71",
+      "source_taieb_tree": "23b436f7c46b1d3f16d19d448b0b8c7a262aedbc",
+      "source_files": {
+        "graph": {
+          "path": "Taieb/data_Exp3/Exp3_ske_rate10/graphs_Exp3_ske_rate10.pkl",
+          "bytes": 1218399,
+          "sha256": "3e0abe07714716f634c1fdfb370461646e2c9d7a552bad2bd5503e534f9735d7",
+          "git_blob_sha1": "819cc3c6cd7b00c0578013c08e16c9c412025632"
+        },
+        "tracking": {
+          "path": "Taieb/data_Exp3/Exp3_ske_rate10/Track_data_Exp3_ske_rate10.xlsx",
+          "bytes": 128986,
+          "sha256": "711e328856d02c9a6f3ab6b3903ec9b29ddb803ef0959ee7a8c6706daceeb00d",
+          "git_blob_sha1": "38f244f803238676ee0f285e8ea3ca2af8c67842"
+        },
+        "annotations": {
+          "path": "Taieb/data_Exp3/Exp3_ske_rate10/img_analysis_Exp3_ske_rate10.xlsx",
+          "bytes": 5073,
+          "sha256": "8b965aad00bd907dd19346e99c8166a6d83e1cc843cb5ca8f4cf14793c7bd62c",
+          "git_blob_sha1": "4c47f486f84156fbab71fd1b8b150e0d86d36115"
+        }
+      },
+      "raw_experiment_alias": "experiments/2024_08_05_D12",
+      "alias_policy": "Taieb/Sample_videos aliases and experiment paths are one physical specimen, not extra folds.",
+      "processing_rate": 10,
+      "n_frames": 174,
+      "n_nodes": 46,
+      "n_undirected_edges": 67,
+      "n_directed_edges": 134,
+      "compression_window": [
+        20,
+        114
+      ],
+      "compression_frames": 95,
+      "source_observed_node_frames": 3672,
+      "observed_node_frames": 3652,
+      "source_compression_observed_node_frames": 2566,
+      "compression_observed_node_frames": 2566,
+      "compression_coverage": 0.5871853546910755,
+      "collision_observations_removed": 20,
+      "compression_collision_observations_removed": 0,
+      "initial_coordinate_mismatches": [],
+      "graph_coordinate_mismatches": [],
+      "tracking_chain_mismatches": [],
+      "excluded_later_born_nodes": [],
+      "first_observation_by_initial_node": {
+        "0": 1,
+        "1": 9,
+        "3": 1,
+        "4": 1,
+        "5": 129,
+        "6": 123,
+        "7": 1,
+        "8": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 2,
+        "14": 2,
+        "15": 1,
+        "16": 1,
+        "17": 31,
+        "18": 32,
+        "19": 1,
+        "20": 1,
+        "23": 1,
+        "24": 1,
+        "26": 1,
+        "28": 1,
+        "29": 39,
+        "30": 134,
+        "31": 1,
+        "32": 1,
+        "35": 1,
+        "36": 1,
+        "37": 34,
+        "39": 1,
+        "40": 1,
+        "42": 134,
+        "43": 1,
+        "44": 1,
+        "45": 134
+      },
+      "tracking_gap_count": 76,
+      "tracking_step_percentiles_px": {
+        "p50": 1.0,
+        "p95": 2.23606797749979,
+        "p99": 8.587744886611352,
+        "max": 10.0
+      },
+      "scale_px": 80.0,
+      "origin_px": [
+        409.0,
+        81.0
+      ],
+      "raw_frames_in_source_tree": 174,
+      "raw_frames_downloaded_and_hash_verified": 174,
+      "raw_frame_fingerprints": [
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0000.jpg",
+          "bytes": 155897,
+          "sha256": "a0194039312f564efae15ae93aa176ef8c0ba2316ba6b87a90193d1039d84bfa",
+          "git_blob_sha1": "e09a052cc3c7de97017e28247f7a3b8f964a4cbf"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0001.jpg",
+          "bytes": 155681,
+          "sha256": "45c3c280e35f6e41025b100c27f68c22a35c4902242d29fc6750cfef7f07039c",
+          "git_blob_sha1": "713356493b46df70c6044f19ede9a65722fa7506"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0002.jpg",
+          "bytes": 155123,
+          "sha256": "6aedd592e11eed99c23933b98937dbe77891fdcbcdb22f5112e8b749b930ce86",
+          "git_blob_sha1": "1e37782e25a46fe8914fe105566de717e47786d4"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0003.jpg",
+          "bytes": 155318,
+          "sha256": "ea4848017c682d4e086ff20dd398412e9b169771051241189666c13a0fde5760",
+          "git_blob_sha1": "b713e5d4ca77401a2a824f611eea72dd1fb8aa23"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0004.jpg",
+          "bytes": 155196,
+          "sha256": "32a8d2bed423a534e1fbeb98859c2b25a0dd139b3d8d628fb2490baf81597eec",
+          "git_blob_sha1": "fb5fb1d171311ce577a6a6efa07455e84f3f664b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0005.jpg",
+          "bytes": 155074,
+          "sha256": "7df95169af7ddb503f7617c71c4809f1f19c7b862647238df60b865ff1a9f282",
+          "git_blob_sha1": "a743e601d8c8823722f02c765efe71e5a4dc3aeb"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0006.jpg",
+          "bytes": 154653,
+          "sha256": "98bf30380eececc0f1afd136ec079fc637654aba48197a1e6273e5cc4c486d70",
+          "git_blob_sha1": "2164b84a7f3417d9bd3e284009ed68009af4134f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0007.jpg",
+          "bytes": 154427,
+          "sha256": "b6c720251a5e4343e7889c5e59895d2762e35f0c9a53c1a571e20ebf17622db7",
+          "git_blob_sha1": "dc5c889a99482f4d758d1706bee76c6b3613a0ca"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0008.jpg",
+          "bytes": 153780,
+          "sha256": "bb1e289ff9ea6e21ef3bd7b4ee052401355e99bc19b1d518b85a5066b16ba220",
+          "git_blob_sha1": "ec9b111bf3e77bd851345f11bdcfcffb849d52ee"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0009.jpg",
+          "bytes": 153529,
+          "sha256": "361c19385ea302ed89bd98dce6c4de88b01554da8879379a3a5e3ca363befe28",
+          "git_blob_sha1": "98ef2a19e05e757fc1485821a361a24cae80b83b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0010.jpg",
+          "bytes": 153245,
+          "sha256": "521da930b825b7af583c7b048db54ee2bd6f443fda10acefe11beaeb062cbf30",
+          "git_blob_sha1": "70f8ba2a37aa34dff162c8e7e8b81169656fbe3f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0011.jpg",
+          "bytes": 152748,
+          "sha256": "2b0f0b4f1952523ee769ada2282a8cb45125c147d562c43673faaf0244f1117c",
+          "git_blob_sha1": "bcd01e10e0a131e46e6f86a7426f6e3124ebee2e"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0012.jpg",
+          "bytes": 151988,
+          "sha256": "cf8bc57708098244058ee855ffae8376fc96b7cb137c9a88ede2d179d99071c0",
+          "git_blob_sha1": "a35c9ef028a77e4d5e6f1e4f0ea01f330df4e1fb"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0013.jpg",
+          "bytes": 151385,
+          "sha256": "84e8b0a2a26ca4552594cad420e8c3eb5b82bf6975c77d9562e5076410b96efc",
+          "git_blob_sha1": "9af94e701f20a70d6cec915b72205ae8c21e91d2"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0014.jpg",
+          "bytes": 151233,
+          "sha256": "3ba94860ace8b531424742333ae08b773132bc87e973b9f617e63596a3288b72",
+          "git_blob_sha1": "8b82ee8732f123b9ba8a2de93e4e80666d223a0e"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0015.jpg",
+          "bytes": 151209,
+          "sha256": "38437dbcc3512eac48ac9c113cffaf61e691c1748db2875b890a7d2f4749f744",
+          "git_blob_sha1": "7fdc7c2b314ade622d358473250511aaf66cdbdd"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0016.jpg",
+          "bytes": 150896,
+          "sha256": "ef38a9dc6e93901f5290314a4084db64adaa130f987ec8d880f5511e7842af4f",
+          "git_blob_sha1": "a2d317bc83e8b04f5c25bcca1c85ae54cc227ded"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0017.jpg",
+          "bytes": 149989,
+          "sha256": "0656cea81d3efe4c72fd77921090968a44368afc757b84ad87f45c4a1be5950a",
+          "git_blob_sha1": "b017cf4897d73098ec05848a2e20324f275c44db"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0018.jpg",
+          "bytes": 150097,
+          "sha256": "d41153ab0454f0e370fec674187487e1a52d87f22b20c01ab8960fa537ca0412",
+          "git_blob_sha1": "57a028b28785d03226016bed60ad336b16db935b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0019.jpg",
+          "bytes": 149116,
+          "sha256": "81cc465660986c961130ec472b3316a9d5cf78424d136dad0b126c94826e4b3c",
+          "git_blob_sha1": "f7c4d0edfd2c0bc137ff94048f130f38411f4be5"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0020.jpg",
+          "bytes": 148619,
+          "sha256": "073034b7899f5cffaf3b1345c77f9965f36eb1e32bb328ace75b13b1f7c38e0d",
+          "git_blob_sha1": "f34f3dfec67a40b20ee1d753430a9eab658ab7c5"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0021.jpg",
+          "bytes": 147919,
+          "sha256": "9464e35013a517de6aa2cb456eedfcd05522743efc32321cd7b11c849f9230fb",
+          "git_blob_sha1": "aff7254616b0f70b2ed21a64c4508fd7127c8874"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0022.jpg",
+          "bytes": 147734,
+          "sha256": "797f376eb9f4064a3c2eac0b74ceccc8e75fdc5f6301d396f1a85067061cb71f",
+          "git_blob_sha1": "3754ef9eb91fa40946124416b851ec06be2b63c8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0023.jpg",
+          "bytes": 147423,
+          "sha256": "70d881fbc2c8e56a32c0f846a838d6a075da02a5ae067e4322eeab14fd726c03",
+          "git_blob_sha1": "06f7e18d8b102595a6c95f86be0fb8e1cf4d8dce"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0024.jpg",
+          "bytes": 147370,
+          "sha256": "8a5aa5689636075603082d8da846ea0dd6de539d54c18e40b32bae8b12a6ff85",
+          "git_blob_sha1": "a583490856757933ac7e683c2a25de63693cdba9"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0025.jpg",
+          "bytes": 147340,
+          "sha256": "1fa3242faa4d48f0da635ece9ccde514448c60419344c07b17af3c0664b57e88",
+          "git_blob_sha1": "b5f7ceb911663621425b92233168615ab28c13cf"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0026.jpg",
+          "bytes": 147881,
+          "sha256": "3509bcbabc38d11d3fe8a36f4e17175254af826c6a87e7b679737f22d1e58fa0",
+          "git_blob_sha1": "118ad329454d8ffc1cbade6c0e0e96df2cc5f316"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0027.jpg",
+          "bytes": 147546,
+          "sha256": "27762098c850f467a2ef7e2f1332ad8f6dc9a1bbee99b791d3ad70776b38ae8f",
+          "git_blob_sha1": "de7205b652bf966d1fb5c47ada280f0b29250fbf"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0028.jpg",
+          "bytes": 147320,
+          "sha256": "315ca31b02c4153845fc129e268b2fb1254afb0ff9b7654e9b84f25ae2eeb4b4",
+          "git_blob_sha1": "ff95784343dcda660c9f06be31a8bbc5a0cb000a"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0029.jpg",
+          "bytes": 147182,
+          "sha256": "ef18470432376491f0d2b8b7c58b0b39f012a1582c62bec02e7634fb592764d7",
+          "git_blob_sha1": "c4a75037056e4a942269f22b3eca4874b21b3084"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0030.jpg",
+          "bytes": 147014,
+          "sha256": "e4982ec17293783888240b94349f135884a7ef047bc7254246b673e4b726e15c",
+          "git_blob_sha1": "b26a23439336157fbfb11a4cb45053573e24be07"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0031.jpg",
+          "bytes": 147807,
+          "sha256": "871d9d40c3f51d68ac988eea191c6aa92da8c2a5ec5f64686df4ac583130331e",
+          "git_blob_sha1": "8253460e0bd74846818c184b6cb2da741aab2efa"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0032.jpg",
+          "bytes": 147033,
+          "sha256": "45f63509ed7c9e1e98839c240813dadd8f447c3c94b558c4beea1948ba3d81fc",
+          "git_blob_sha1": "ea2932ae521cde8ec4364dd171f4daab8aae1d0d"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0033.jpg",
+          "bytes": 147020,
+          "sha256": "3a8056fdb0cd03e461e2f58db5e539c81dcada72977f13a72628a8ff82c69af2",
+          "git_blob_sha1": "d30cb36ece2ca29bb1491ddb09325fc44b0f5466"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0034.jpg",
+          "bytes": 147104,
+          "sha256": "3d102d50a8fea6e5a68ca42beeb0000d3785251a09bd16fdd5330496b28dc249",
+          "git_blob_sha1": "5a91fc61f13fd8e1f372f5fb584258e1e048e1ee"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0035.jpg",
+          "bytes": 146882,
+          "sha256": "626573e97c840f36e0391d4bee9dae502e9fc37f813a6a92bb0c92bc5ad3f8e6",
+          "git_blob_sha1": "ba8b8e319341ec86c5ed600639e320caeb1ae688"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0036.jpg",
+          "bytes": 146456,
+          "sha256": "bc37b9540d9f69c71ac95be2db8fd9d681a044b9a4f89c21a670ddb2ab9aa5a2",
+          "git_blob_sha1": "c4c7a06baacf3caa7dc2013700d455eff112e359"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0037.jpg",
+          "bytes": 146632,
+          "sha256": "2577d37ff02dfa679a139ee12bcc21cc5bde2dbb2fe391d884bd9e909630f4b2",
+          "git_blob_sha1": "e1ef980341ba2561009d48a1cfd90746d04d01f7"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0038.jpg",
+          "bytes": 146983,
+          "sha256": "cc52ba266778592ab05808c069947eefc983573467f69dea89400e56c6354d58",
+          "git_blob_sha1": "dbdc9397f499aa0bfe6efd2879d42914587c2120"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0039.jpg",
+          "bytes": 146301,
+          "sha256": "3256d2b2a517ddb3b27839cac925f3056519c1f03fe413f7db2a35eb7ca308ee",
+          "git_blob_sha1": "eadd4abd1d7b2deaa096487e2835b3e0ccbb7461"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0040.jpg",
+          "bytes": 146188,
+          "sha256": "a04135cc7d18d17ffc2d0e630ca4d7c3eddb5637b9ea948970128424e62acfa2",
+          "git_blob_sha1": "347d0a3f1ed64f0439d9ef9c1b77994ca392f0c0"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0041.jpg",
+          "bytes": 145910,
+          "sha256": "228c3f2459c136da726f620cdce6c666ae3367b679b04f356296315bd8ba4f05",
+          "git_blob_sha1": "eae770eb4f4d37f79d1e8beb3166022668eea423"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0042.jpg",
+          "bytes": 145824,
+          "sha256": "d04c33b08a5b6f653dad37fb6145c430e724b5c39a41b2b0ea0a48db9a215912",
+          "git_blob_sha1": "1609a36f154098a062189828df265209f8e15165"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0043.jpg",
+          "bytes": 145620,
+          "sha256": "58465d9dfb98f08a06c546f523afc9331e39bbc1073e9abb06a3e197afe2aad6",
+          "git_blob_sha1": "4097a678aac92b17c48a02b942cafa0d0a64af74"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0044.jpg",
+          "bytes": 145588,
+          "sha256": "ce655c34b4475dd104567c89e8bd8b964aee16650f134dc634f158243e9de332",
+          "git_blob_sha1": "b633afefa3fb8a1b57aebadb79dde1bd9a4527f3"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0045.jpg",
+          "bytes": 145300,
+          "sha256": "d2741664e08b4663429adbb94f5716c2e084c0a23cbcbe4072d04cecf0a3892b",
+          "git_blob_sha1": "3c28a9a65ea50250df75e25b89ae6f2b60154aa8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0046.jpg",
+          "bytes": 145251,
+          "sha256": "a53de806c793d10c31b59b30116b77bd1e86231335f2dcc45e59a34fd7b27498",
+          "git_blob_sha1": "a7000236d3d2c7734476f2865f8ccf5e8eff543c"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0047.jpg",
+          "bytes": 145224,
+          "sha256": "aa33ee5f26fa43c22cad37a5a3e7c9262b312edf02da9a85a1bd4cd9fcb8d0d2",
+          "git_blob_sha1": "df9af33cd4bf0e3d2a91860221f72fbaca831588"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0048.jpg",
+          "bytes": 145074,
+          "sha256": "377c663b58ccaa21890c696f1f8c910b3da5df2da7188c8b86896acdb8828a66",
+          "git_blob_sha1": "7ddfc0b205b6b34f71f87a7f46cb192f5c1049d8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0049.jpg",
+          "bytes": 144999,
+          "sha256": "0a9e47283810ea79b2efcfb3bc6f8936df7969fae5ceefc6ec0cdc4afaba25a9",
+          "git_blob_sha1": "3de51fddceaddd68b006f35465a70af073ef3e7f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0050.jpg",
+          "bytes": 144900,
+          "sha256": "fa847bf49a5c9c6f3bc926e423d01de465131af957be3640c1c636a1af732345",
+          "git_blob_sha1": "cf7a93bd3a40201ee50376090380b997f566eced"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0051.jpg",
+          "bytes": 144909,
+          "sha256": "d663eccbeb5687db9aa0587716866369d86b2408f2ea22f66cf839d6af8111b7",
+          "git_blob_sha1": "7a62b348b48351974b03f3e916b68e2ffccf9787"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0052.jpg",
+          "bytes": 144497,
+          "sha256": "823c10db8afb6b18c2ad4b72f749ab9496bcb97ee7ef36fab5ad2b074ff36cbc",
+          "git_blob_sha1": "fdad2f4918fae83b4e06f2e109c67a10bfeef01b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0053.jpg",
+          "bytes": 145014,
+          "sha256": "82663a707504664f12432e42dfd10de04e806a006f887b6e5ac1868a34f8ef1a",
+          "git_blob_sha1": "8add29813a48fd0147cb58bf4590e764d9dddace"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0054.jpg",
+          "bytes": 144203,
+          "sha256": "499a8008d99c5f1401404ca1a7605c77c4ce74c1758443334ee0c854904860e8",
+          "git_blob_sha1": "2505183cab7695cb1f8a9a665342408c8c3ffff8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0055.jpg",
+          "bytes": 144085,
+          "sha256": "133f78daba9a74ff2f245c732588fbc55889cf97c4735875b01939546d6e7e1e",
+          "git_blob_sha1": "88d6b2afbeb1682e609308887fd7c91443e39c10"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0056.jpg",
+          "bytes": 143698,
+          "sha256": "2c92b267744565c7cfd397b7aff667cea90655389d66b2209ed5449a5897631e",
+          "git_blob_sha1": "f5dfe368b1c872609a794bc0b10337e3581c2f3f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0057.jpg",
+          "bytes": 143494,
+          "sha256": "517b908473203436d2128d111207b8933251f7e40a8438abe8bf0b08a4243513",
+          "git_blob_sha1": "495accfcee32d4ac9f9d9b6c7c5e1b99102a2d64"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0058.jpg",
+          "bytes": 143161,
+          "sha256": "eca25fa59b3359baf42cf2cfa22b96bb75687368204733dc56e50a1b8c7a9ae2",
+          "git_blob_sha1": "3391b2e78f248a3666c64e42b28fa7058cefa646"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0059.jpg",
+          "bytes": 142910,
+          "sha256": "ff15797247d7e056c9668f027f9a3b4ffc7e3b13c4cbd198f1426b4002050846",
+          "git_blob_sha1": "a891017d825ad4246efb09c0d6643e62c5fdb1bb"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0060.jpg",
+          "bytes": 142912,
+          "sha256": "5faccb385be877dc95e09e5b628a364513463493416c368e35f354db42c45865",
+          "git_blob_sha1": "ae065b23aff0c7f6f72791356826c82b4488018b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0061.jpg",
+          "bytes": 143234,
+          "sha256": "b33c9ad982abb55e99358734107d8ea5732f64316d55b9198cb65a81983ac9cb",
+          "git_blob_sha1": "8a13797ef5f9cf2b2787fe01ae821d17068f2426"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0062.jpg",
+          "bytes": 142658,
+          "sha256": "c705a6ef5aa5cde18428885c4e735350becf65059b3e0cf8576286d3c9eb2443",
+          "git_blob_sha1": "7ea175a5b3d7f149d0e37eb21d9610f438b1f00f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0063.jpg",
+          "bytes": 142980,
+          "sha256": "59db7a79d06dc3c0c277534f21d83657757c8110415dee133e37aee200c751ba",
+          "git_blob_sha1": "dde241f60bdd1ccc1a841030f6d101e22d19666a"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0064.jpg",
+          "bytes": 142763,
+          "sha256": "64948cb2be7ee5e44a34897b76b194f43ed6418609494428c938c5acd7bea134",
+          "git_blob_sha1": "2bf32e3b5e7edb803852e5b7ef76d80a9cb77aca"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0065.jpg",
+          "bytes": 142443,
+          "sha256": "e3eb44da246210135b8ad54514f1d4ad568b93bffce305236cb91268bfaadfb5",
+          "git_blob_sha1": "5cc46c6275903e23a7353a5b0b3a01f0198f4635"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0066.jpg",
+          "bytes": 142354,
+          "sha256": "fcde85d23a205841b4cc739de59002638f7616c813141a9b970de3c366ac89b1",
+          "git_blob_sha1": "5a2c16ac7f22339eea3094aa3c141d404416ab97"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0067.jpg",
+          "bytes": 141927,
+          "sha256": "da6423db14070014f05acf02eebd593a8bee83e04b71ebf1ddd9decc0d270716",
+          "git_blob_sha1": "0cb8704c346daf0717f3b412304431fd2b5db3ba"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0068.jpg",
+          "bytes": 141828,
+          "sha256": "ad2386aca4d6ae0cfeefd17256a5ff744e4574c5fed50e1156ea4b42c2ae4a51",
+          "git_blob_sha1": "33e3b0c828d2053496bc6d04a2ad4ef2d7709ac8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0069.jpg",
+          "bytes": 141575,
+          "sha256": "e63858fcb0cb7ccb14851a66c664a4eba7384ce1ec1fbe47cfbc374b10be0e6d",
+          "git_blob_sha1": "3b5d43ee1ee447e6983fb223a496294065918659"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0070.jpg",
+          "bytes": 141366,
+          "sha256": "048c6dd53f44eca52bd97488920c2d64ac0abf9ff1e3b81d24e76ca619c5fb52",
+          "git_blob_sha1": "2a2cf1c13dd18928f0a3d6118b6b9cf71228b817"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0071.jpg",
+          "bytes": 141321,
+          "sha256": "285b952df9477a2c7c1a1d8221803995db430ca632e047485fbb0e2ed4265e20",
+          "git_blob_sha1": "e986fec9f092f3c8a6860afd1be79c8960787ee8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0072.jpg",
+          "bytes": 141344,
+          "sha256": "7d4e12b24458e1e8caec10201c0c117c68bf6ac9637d9bb6b86ab8c98dd5a0af",
+          "git_blob_sha1": "6a5c6f8bac5cbf61970537ba137b069ca292bb71"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0073.jpg",
+          "bytes": 141385,
+          "sha256": "e6b5362ce27a4064f70d14d1ac544cd8e413936ee5832a78fc7c313bcf1d74fa",
+          "git_blob_sha1": "b1237a25b1ee2a7fd236d347de17642fe18f826e"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0074.jpg",
+          "bytes": 141488,
+          "sha256": "8bfb093dca6b73071bd0817ea92de59677e32b94d843d28f4e9a2dac99e3c4ad",
+          "git_blob_sha1": "e1fd98832cd1dc6d4d7b78d521695901dddea0a1"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0075.jpg",
+          "bytes": 141132,
+          "sha256": "6d539078ae33e6aab567065219fbd80d08e2158f15f6a5803f42b98c6dfd4187",
+          "git_blob_sha1": "74cfdf73adc0755370166cf0ceed780742327805"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0076.jpg",
+          "bytes": 141084,
+          "sha256": "95ed7822c0b89efcaafd55609cb6185a785fcfaef9d51db6f8e6063649a4c0be",
+          "git_blob_sha1": "032b1fe26d73436f5e28a213d3c12d7c85b6e624"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0077.jpg",
+          "bytes": 140890,
+          "sha256": "2613cc6b28fa6c7e1d956ff9bcc28244aebae6dc68f3e6db77f59e4ee6bec7e0",
+          "git_blob_sha1": "2b839c644bdae6c45d3e7cf37c44adab6861db53"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0078.jpg",
+          "bytes": 140770,
+          "sha256": "a2ccc95d5f76fa080714f750db13db21bce93b890988925692f38d1ecab1cfe0",
+          "git_blob_sha1": "41d286e1ed55c7337eef5441827c9be744969e99"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0079.jpg",
+          "bytes": 140205,
+          "sha256": "f64cff486cd6ca2b504a2b56fba0093a92d5a2b4264eb0186b62a4d70beb2e2c",
+          "git_blob_sha1": "9f825bf416d6cbe66fb636d69c7a9cdd395037fe"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0080.jpg",
+          "bytes": 140011,
+          "sha256": "d23013f8caa55a2ba779af0d77091dbbc56bfc6c5a89f671c8c75fe6ba504f2e",
+          "git_blob_sha1": "67feab125d574fddefa9fe91027c29fd4f3842b4"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0081.jpg",
+          "bytes": 139607,
+          "sha256": "35c5c2227f5591a88e53c4bd4462976595f0975923eaf910e7709403082b84fc",
+          "git_blob_sha1": "26c772ddb2599fc07f2aa994bd23bb455bc1ebe6"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0082.jpg",
+          "bytes": 139281,
+          "sha256": "6bd8bb55fb70fe94ddbb4ed152ad36958130edcfc3141aa7c37af6ebfb2ddbb7",
+          "git_blob_sha1": "0da3bc8b27c90567bac4ecda62b1a76294743388"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0083.jpg",
+          "bytes": 139000,
+          "sha256": "63b3211c46d5d9524a3b0cb9921389e0ed1f875a54d3b94b5fc33106a042b962",
+          "git_blob_sha1": "835747ea8b8adf125657ef0094ee43d18632d8bf"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0084.jpg",
+          "bytes": 138784,
+          "sha256": "613798c0135fa1bd986e6a00aeb2d0c5c9c3279445bc0f483de956e577445c57",
+          "git_blob_sha1": "a7040c9e8294030e38e45b2d00df228212dad5c8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0085.jpg",
+          "bytes": 138898,
+          "sha256": "b63731c436e7d725837e7378ded77f271c1093c9c1dbd4838aae144ca1e0d487",
+          "git_blob_sha1": "825bf018b9978685e2727091498acd7cf96c9511"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0086.jpg",
+          "bytes": 138894,
+          "sha256": "5cb189ba3f63ccbf8fbe81932462a146f61256df98e29b5c2879cba20f321746",
+          "git_blob_sha1": "887a5657db9f84e4dbc4e3c0f2dced3c6dd15e63"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0087.jpg",
+          "bytes": 138914,
+          "sha256": "6e07b60a6598a7a1fa1e536468cc806de22be2f4065d63ab014b52911477c16f",
+          "git_blob_sha1": "539a4c3cb102e00d52843493cbd9994196f29dbe"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0088.jpg",
+          "bytes": 138671,
+          "sha256": "28c1a0014bb3e4f211e86cbaef3eadd929e11447cef9594f0ca40f23bc3ea518",
+          "git_blob_sha1": "6faaad281e7f6f7a9e52fa6b2bccba21cb4eb09e"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0089.jpg",
+          "bytes": 138543,
+          "sha256": "fc9ceaba52e8fc154041af2b2d8edac7bf34c7bacc8a4c3e5fd8bc76111187e4",
+          "git_blob_sha1": "7740ed17263e992ca64f1e9f6d7aa963b4ca32e3"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0090.jpg",
+          "bytes": 138240,
+          "sha256": "d64a2345cdfc2b7f8a025c19d8cf3b62bd60a38421f9866574cb04f9b4e4098e",
+          "git_blob_sha1": "0dc649455f69652a139ac53f5d23d342689bf74c"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0091.jpg",
+          "bytes": 137902,
+          "sha256": "f4bebd6c3c8100c510bcf11cc92bf9f20efcb31e8d98b9b6d0ae90c470f0c9a9",
+          "git_blob_sha1": "9c7d76e9ccd0e1940f51e7d776e0d32df26c35b6"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0092.jpg",
+          "bytes": 137163,
+          "sha256": "9cae10a379c74ab8edfc61429f31ad98858ee0925dc1f4061b39730cdeac7b0a",
+          "git_blob_sha1": "f3b013ebdb033f7c1afb93502c401b2a80f18422"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0093.jpg",
+          "bytes": 136829,
+          "sha256": "21eaa7a42ce52e1b6eedfecb254e289de8f17f5b9522c16b6a5cbf19bb20bbcf",
+          "git_blob_sha1": "2e5e9db67fd3c0810a9f351e8c905a61f10c4955"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0094.jpg",
+          "bytes": 136578,
+          "sha256": "4578cb01dfb4767e7b8afbaedc94199cf10cc3da3af39e9bc7dc813b1d85cf49",
+          "git_blob_sha1": "86946a92036ddef191275737b598faa3be008419"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0095.jpg",
+          "bytes": 136185,
+          "sha256": "0cff714e6a81c0be99bafb2b1d949325177cad44b423d2fe0120779584282535",
+          "git_blob_sha1": "fe7fb9d4f1e8bcad7d3f34d4fe719e2059b0c9fc"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0096.jpg",
+          "bytes": 136037,
+          "sha256": "428d65840ef12185bdd22e657f1c286f258e826cefcdd15e5a063e6ef8786e11",
+          "git_blob_sha1": "a75fdc6fa1ff5c98ccdb9cbe41a26e2005b5c5fc"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0097.jpg",
+          "bytes": 136083,
+          "sha256": "02fb078242a4df0c8128215a87a6d736841b61718d8cdd4df46a78f153e0d2b6",
+          "git_blob_sha1": "3e80710141edc25bf0a24635ab1ceed6dbf43328"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0098.jpg",
+          "bytes": 136066,
+          "sha256": "fa9c3251ea1fdb23599a9b61d46470f6c0747c6bae91f131caa7a663daa9e064",
+          "git_blob_sha1": "aa660ca66ecd2810ed395dfa2190a8718bca32b1"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0099.jpg",
+          "bytes": 135968,
+          "sha256": "807d78afe59f18c9d1618347cfad406cb7542552978a49a79730faf95b9e983d",
+          "git_blob_sha1": "e035f3a2fd521fc733993a84cf9a1fcb51786754"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0100.jpg",
+          "bytes": 135615,
+          "sha256": "9094182a418fbd80015ea10b1e2d4ab5c3f2c98a8fc6baff89c80d084b818f47",
+          "git_blob_sha1": "00a69a51aa64de83da7cd96a7cb13da40b41ed3a"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0101.jpg",
+          "bytes": 135139,
+          "sha256": "49e8a960c1264d52e2b98ef550b64e7a5f15bac366d1bc986a89bf3bc86ce692",
+          "git_blob_sha1": "3cae546a5a675c627785d7a7434eafbc173450bd"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0102.jpg",
+          "bytes": 134759,
+          "sha256": "0b4da2ac470d8b3e7a1cb448192614707d2f76fb07a60e603dea389f503e6d1f",
+          "git_blob_sha1": "b9b908335279fc35929099dfeb1de211b43b0661"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0103.jpg",
+          "bytes": 134248,
+          "sha256": "9b499b6069319b6a6fbcd8fb70ed61a56f2ca34c0a33d2382c327c791d4d5174",
+          "git_blob_sha1": "af367a5e6884745d7e7be7659c09f60caaf69cdb"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0104.jpg",
+          "bytes": 133657,
+          "sha256": "9d0996c1c5905ff83fbd2d15e1cfc51d0bf1e77de4dc69f1d601b8da79f6e454",
+          "git_blob_sha1": "ec422192f6ae5d451b72c179bfddfb94ca3c27b6"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0105.jpg",
+          "bytes": 132839,
+          "sha256": "72930e3ab1d1ce0bbdf61dc486dd2c7d567472dab9e6770d31923cefa10b2c4b",
+          "git_blob_sha1": "8b083cca25ecd415584d55cc2d36ce71f60b4444"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0106.jpg",
+          "bytes": 132466,
+          "sha256": "8e394e9a28aa4736b238c2add25e4aa23346c67831577345125bedd7cc065542",
+          "git_blob_sha1": "79fbbe4629391c8d1176d03364e884944022ccd2"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0107.jpg",
+          "bytes": 132400,
+          "sha256": "b66f86f27e2cc569454a1bfee1e70d031d9ff1cd63d8ab6d4e344d9857b31d6f",
+          "git_blob_sha1": "eea71528cfa2608b906f41407393006e5f9f3639"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0108.jpg",
+          "bytes": 132223,
+          "sha256": "d5e95ee920d891cdcb0d99b6c4d3361fd80b84291d78213103b3784d8ba1a7af",
+          "git_blob_sha1": "fa9f24d4a3714bfc1816a78f4061bbeafb01f03b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0109.jpg",
+          "bytes": 131997,
+          "sha256": "2d6656221a07edc735384d9c8e254a384f0e42ec6be1ed49783f7d5178acf52d",
+          "git_blob_sha1": "8437a82289f6ae9a7945f59e76b33a00e072a929"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0110.jpg",
+          "bytes": 132438,
+          "sha256": "c7ff1950714027615d565adfd04703ba9b45f9ee0db9f9ab5405f7036bfe5121",
+          "git_blob_sha1": "dcef6dc8b411f4a4e5792cb47e9c2561595e4371"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0111.jpg",
+          "bytes": 131760,
+          "sha256": "52ca69f1e1312db94682653b0e86141e6a392d955312317c027b81878ca472f1",
+          "git_blob_sha1": "41657a4ca750580f4a03e4bf523674847c6442e9"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0112.jpg",
+          "bytes": 131496,
+          "sha256": "62ab65ec23272f4b1591c94f8aa4872443de219d76de48642387bb55f004fa03",
+          "git_blob_sha1": "e2dc90efa80ba38e71b3541044e3b5add4ce0649"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0113.jpg",
+          "bytes": 131258,
+          "sha256": "919db90e57ca5e4665bb38e917f4ef43eb70a5a9e60bf8efd7ff5fb32127b89d",
+          "git_blob_sha1": "028e84ac7c35e8b596b40ea3ca72efc0344f4071"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0114.jpg",
+          "bytes": 130714,
+          "sha256": "273b7f3cc7652095b1cc3cef6f927b29e6c50a48314de28ed84ec29026c85fc9",
+          "git_blob_sha1": "bc6003387eedbecb0149b5039d97f91bf9fafa16"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0115.jpg",
+          "bytes": 130210,
+          "sha256": "587ee7479bd55d817c6f9c0975927ff90bda473303e6990e8325c600deed4abc",
+          "git_blob_sha1": "487194db033d6ba368a25cdff727b0ce8e526b79"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0116.jpg",
+          "bytes": 129958,
+          "sha256": "d9751408f8e1e372ef6f31d070a3db36f107c1c54fc428dbb9c2b3693979630b",
+          "git_blob_sha1": "061b8fa651878769181f54fc041777dd12a4a855"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0117.jpg",
+          "bytes": 129125,
+          "sha256": "f16c5cb7615a5fd401d4a71136650caea183c016563aab5bbd99a47983cef952",
+          "git_blob_sha1": "328a4a0dda49268e824ce52c0d20e0b6486721c7"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0118.jpg",
+          "bytes": 128955,
+          "sha256": "86721c695792819b0145e456d105dac2602dc7ed2470c2fa46ef7349279735b9",
+          "git_blob_sha1": "b698088ce37b742feb4d11580b99e0c449b5a017"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0119.jpg",
+          "bytes": 128695,
+          "sha256": "a036c4125d5c3601a8f287777bf1f49b5f784b18bc312b9df979b3fe094bddf2",
+          "git_blob_sha1": "d07126cf3e1ef67077638a66e99b88da569c0eb3"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0120.jpg",
+          "bytes": 128220,
+          "sha256": "33da0ae4502032cfb6220dc743a9a002402a4382f12df6717d024f8c54f8be0f",
+          "git_blob_sha1": "4452cc4ae648a0058a4a0a7763e5a1a53b60b276"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0121.jpg",
+          "bytes": 128093,
+          "sha256": "7c7066966724e0a8eb624f6ec0cbc44a72b777ebe8a328b9880435a7b720f3ac",
+          "git_blob_sha1": "ee26e9c1481ca0fd49fc583db14bd4da7763150f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0122.jpg",
+          "bytes": 128076,
+          "sha256": "476bf38a729b38fd354fd231145b1d278e696720553cc1964a83849e1693fd99",
+          "git_blob_sha1": "f2fa34c7c78b19f9965b1764933b86280059050f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0123.jpg",
+          "bytes": 127832,
+          "sha256": "96ff088ea12f7b1c1f7f7b2afc763551cde67e55c211dc9f14464c171626c7a3",
+          "git_blob_sha1": "9fcfec92e84fd4b2dd15c28b7888a7e37f0a4df6"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0124.jpg",
+          "bytes": 127512,
+          "sha256": "8c0c38597b7d4528088f2b84c94db2bbbafd486ba0276cbaecab07cc241baa90",
+          "git_blob_sha1": "b30b63bf2dcb807bfd9663bf6c3bf1cab99f7f53"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0125.jpg",
+          "bytes": 126942,
+          "sha256": "5486d4c9fd66d54c12b76921d469704f28540dd32151a6cf79cd19a86265cfb1",
+          "git_blob_sha1": "8dac6ad0ae3a4943cfd172754eff59b24217dfe1"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0126.jpg",
+          "bytes": 126672,
+          "sha256": "c104e22c6a72a24815c254fce9fdd385f81f8f7fc4581e31d3bb9e353e63aea7",
+          "git_blob_sha1": "982f8fca68071ea8a2e8bca2eed63cce85a9c663"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0127.jpg",
+          "bytes": 126498,
+          "sha256": "18e2ff7a9cce48fc11cf39275285ae5a5339192f823a8d5e8b37de8041412932",
+          "git_blob_sha1": "7c0181aac6506535b5e3a347a8c0d2555080f402"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0128.jpg",
+          "bytes": 126361,
+          "sha256": "92890ff79e8e8d5e0dfe598bac134b237dcc25a0d458ba9ae036d7157e459159",
+          "git_blob_sha1": "a1b1c392c62553e2ef8a98f4b7f3e39d2bff6907"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0129.jpg",
+          "bytes": 126379,
+          "sha256": "b13f3a58f4b3771b66931ed4458556e2d987ae69ec098dcda7487807765650b8",
+          "git_blob_sha1": "208f4bd5791485bbd3e1582553d589033c7d0904"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0130.jpg",
+          "bytes": 126252,
+          "sha256": "55227b471460336047ce0e44096cfb388442d9b23a1d78694e1b63fe8839b968",
+          "git_blob_sha1": "0123d45dbe7a03dbd78dbe2af760258231dd491f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0131.jpg",
+          "bytes": 126184,
+          "sha256": "036996e787a0e766938047ae5e9ef5654dfd8d703df53f67fd68b0c586eda6fd",
+          "git_blob_sha1": "81b2b2704a3c838c860118a785478d65d5824323"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0132.jpg",
+          "bytes": 137657,
+          "sha256": "7a83697d91a00a58f248c97fa1519c88b7568d0e3ffe3282975a196eb8a953b9",
+          "git_blob_sha1": "8a6fb95c2abc7c197218367fe402159a38b9314e"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0133.jpg",
+          "bytes": 147503,
+          "sha256": "b3d22d029bb93d9c53dcbc61affea6ba8a56ba3ec241aed7450f9f7efa555b58",
+          "git_blob_sha1": "069bec55129f00a90b81794eb7fe7a4b881efd8b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0134.jpg",
+          "bytes": 144659,
+          "sha256": "a1dfa333b9baafd08da20ce631fbf04a3cdef9c96d5163ee724a9603ea3ca122",
+          "git_blob_sha1": "612f2c45ec11104a3f9325e9b1ddc3f1fe1cbc92"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0135.jpg",
+          "bytes": 144349,
+          "sha256": "4756606a89ead368636984643d2010afb9c052378791ee4971d1a5b524163734",
+          "git_blob_sha1": "0bbad1965f567f9ff5a1213f7ab75b0030c99036"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0136.jpg",
+          "bytes": 145469,
+          "sha256": "326ffa635613e5300574eb51ebcd5631501dbc2e990417a3bf72d4af3d5b77f5",
+          "git_blob_sha1": "2d063eca463da6997ca6a58a6f31b271fa2b33ac"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0137.jpg",
+          "bytes": 146074,
+          "sha256": "4ede2120245bb1d4bbbfd7a1304a1ef7098c2637047f66288f1fb1bbdc137ce8",
+          "git_blob_sha1": "b76bfd66850bb9b518778331623b9c0ae9b7cf9b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0138.jpg",
+          "bytes": 146346,
+          "sha256": "985daedb9b732dd9ecbf505b305890f9d2ebc3ca891dc9d2e27a756833c14ca3",
+          "git_blob_sha1": "938e5532a227aae5bbbbae8318983f73f88d9ff4"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0139.jpg",
+          "bytes": 146437,
+          "sha256": "854b2f56ee76d775b1230b1d4d8d7b35e0b305775d44dcabe4d5457171e3c6fa",
+          "git_blob_sha1": "8c3592c666f31f13c168749343ab8c16131c29d6"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0140.jpg",
+          "bytes": 146758,
+          "sha256": "c38145f97f267aa7daecbbf68d9b7391e9ec55282097dbf0bb9376f26cc9c7d3",
+          "git_blob_sha1": "a73b7bc316e87d228726531b3890db480c605222"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0141.jpg",
+          "bytes": 146776,
+          "sha256": "1c00bb3746cfbe05a2141cfec47a7a53cca13a08ff0ed312c7688747786c1bb4",
+          "git_blob_sha1": "ec3f5dc2cccdf977a32f4a49cd1b7094c2f0d0ec"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0142.jpg",
+          "bytes": 146964,
+          "sha256": "c59c7f29b2120254694873ee69e9c1ace44e8a5635e01197333a4d1576f4b314",
+          "git_blob_sha1": "1792b94436f0220159f566cc6808bd6f936ac7b3"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0143.jpg",
+          "bytes": 146832,
+          "sha256": "d5a8427a363133512c5cbc3d402a95e38c7b0b69d3e05125fb62c162790ffca9",
+          "git_blob_sha1": "5431abee7731852bcc2506552d35bd0072df9b97"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0144.jpg",
+          "bytes": 147074,
+          "sha256": "b35d038a9cc41aec0bc0f846e91ea19c78b19619d65d179ca866e2b65b44380d",
+          "git_blob_sha1": "60f16ea884fd7f44a0b992543687778944a434ac"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0145.jpg",
+          "bytes": 146917,
+          "sha256": "a5caf9251df61758e192b40d302524a98fc675044ef32ab8490e059b3bb3f436",
+          "git_blob_sha1": "f42028a90c96748a34b38cc37ad9b290060830f5"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0146.jpg",
+          "bytes": 147109,
+          "sha256": "fce111b092f10a96d1633be3fb7e72e6486e5ec21b5052cd029495f3b0564422",
+          "git_blob_sha1": "8e9f73105b99403ad5bae61a8ea3bfcec165b306"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0147.jpg",
+          "bytes": 147179,
+          "sha256": "851ad1e3fdb7a997a0963652535dd800e9df0a5e4ffdc7488cf9b1e5f1cd326f",
+          "git_blob_sha1": "b586f59d4152a699b2cb86c8e76c8783f4080485"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0148.jpg",
+          "bytes": 147367,
+          "sha256": "adff1c1b5dcf6383f032a3fe73c1c30b552be8f0129e29fcbbd6c53698c750b1",
+          "git_blob_sha1": "e78a65819f61b4da8d917b424e17c24f9b0fe790"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0149.jpg",
+          "bytes": 147093,
+          "sha256": "b96570bdf23579208c0c32ad2b6dd77328dc0292723d26ee8f23cc7b30ff3feb",
+          "git_blob_sha1": "893d4062ec46c0f6df35497bdbb1e4e73cceaf05"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0150.jpg",
+          "bytes": 147296,
+          "sha256": "6d8e99d1a70a78bfe888103cb63887bb56b48233b9e5f299ddd15c80bb93d2f8",
+          "git_blob_sha1": "fccc341bb5a4528f456167827cad2cd0253a19af"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0151.jpg",
+          "bytes": 147223,
+          "sha256": "9142ee48384eade7def6afdbe9ab504efe55032b893291db400809d502807900",
+          "git_blob_sha1": "c5a082d15d6ae15cd31f02245d7770a0d71c0ff4"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0152.jpg",
+          "bytes": 147290,
+          "sha256": "28a5e17e56659bc208bc01a867f565f800ae3bd791075c6969ead3c7cebce5f7",
+          "git_blob_sha1": "0724937f990c2329dcd5d3b882e1038bf0cb3398"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0153.jpg",
+          "bytes": 147207,
+          "sha256": "43b2c0888b09b3d16374a2da5c05f3940f0c0a4f70920a19a2bf6a868e4cc51c",
+          "git_blob_sha1": "d6ba63c5bbb9d279e1d887af829cbc2cce9aa515"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0154.jpg",
+          "bytes": 147234,
+          "sha256": "bc0f0416e786a23f9d34ca3ba041900496f03a7383d19d28fd412731a1680b30",
+          "git_blob_sha1": "1fb07b827a212e8df6b20bdbabdfe619d9d6cd9b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0155.jpg",
+          "bytes": 147307,
+          "sha256": "3efa4c1a5b4a746c12b52a83b08c9368ea812e5ebec07c2ca7d83f3f4cbe62a0",
+          "git_blob_sha1": "951fe9602e4c2114eeacaa01b611a834420caa77"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0156.jpg",
+          "bytes": 147428,
+          "sha256": "28b0fdd68be344fbfc5c4eb1d18efd499e5b1958cb75a21ab98d37bb714138d8",
+          "git_blob_sha1": "8339054f605b68063db1d012fae62b2d350762d1"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0157.jpg",
+          "bytes": 147330,
+          "sha256": "6b03e36b5871312b250eef12290252eb0fb9dba25c1f9040f8e4327def831a25",
+          "git_blob_sha1": "afea953f06cf7fa837c544fc574e01f3b439dfb7"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0158.jpg",
+          "bytes": 147331,
+          "sha256": "97c368ba2c6aad507df9d7644b46cfd11cadfa38d2ca62d16845528036b46306",
+          "git_blob_sha1": "ce91db11c3fc86f7a6548f4eab348295903f38f8"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0159.jpg",
+          "bytes": 147368,
+          "sha256": "2aaa8458d7a33405d4a707dc5ed6a568951dfc310273c9f483b4dcfaa17ca487",
+          "git_blob_sha1": "c291c0299942eef712b9087dc38777d907da0864"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0160.jpg",
+          "bytes": 147292,
+          "sha256": "22983a5a5f80ae0c840ed22a35db4f2d54b3b914670cbace18ab49204944f9e5",
+          "git_blob_sha1": "060e12084dac64aa15d8f2f1c98323d1d66a990a"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0161.jpg",
+          "bytes": 147383,
+          "sha256": "ade95d44e774914dd96075123f21990b1637cc9fc1ec5626802e8d64d8f392ec",
+          "git_blob_sha1": "cea115221d17abf804ba4f746572ea5dc8a86e7c"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0162.jpg",
+          "bytes": 147366,
+          "sha256": "7f2ac4578f91a4707e24ad525fa734a4f6a5d32980ca2fc6b3930e3b0d3b90ff",
+          "git_blob_sha1": "3bca48faead69bfbbeef0c8deba4f842344069a3"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0163.jpg",
+          "bytes": 147475,
+          "sha256": "16874284530ad633f4b58b49d7544c02ca22cbcd1d45d78b8c0e2e497f73844b",
+          "git_blob_sha1": "3bceef16aa6b02b3805e80a239445307ce27bf20"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0164.jpg",
+          "bytes": 147503,
+          "sha256": "baf0705d819ec8b68075d29acc6b90df36a9d1b18f036cb84122b9d915eeb54e",
+          "git_blob_sha1": "15db2bc260e9e22e11232cb2d0f0810e2ddc09a5"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0165.jpg",
+          "bytes": 147675,
+          "sha256": "1a537041330e320ff719a010db3694636f27c043f5c4e0da42bd0797d725447d",
+          "git_blob_sha1": "04a304fb2dee2db91978ca88f670e96e59244906"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0166.jpg",
+          "bytes": 147565,
+          "sha256": "1a833d71c9d748e2b7d19e96cbf5e131aad8872749ab3f38280197a831c6c31d",
+          "git_blob_sha1": "8e28ae959aeda0aca2dfc18feb1cbbf6dfc71ccc"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0167.jpg",
+          "bytes": 147697,
+          "sha256": "5a81547e17d662ec1c4a5f14f9ac544bc5cc0104f816037e8290df762414764c",
+          "git_blob_sha1": "6077e9000876250043045c9543d636519e9794e7"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0168.jpg",
+          "bytes": 147625,
+          "sha256": "1eb329049ca098f8f293ab6ba06b94a44f30b99e1c60416055ecb26446f59b88",
+          "git_blob_sha1": "3c5087b52bae924c890bcf89e0607b3acd62c808"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0169.jpg",
+          "bytes": 147729,
+          "sha256": "b8854fc46d763368c7eb57f60324c2b3bd005df70b997f561aeaaa2c2761c09d",
+          "git_blob_sha1": "b0c4f60514d80b7a6ae270a2a7a9b2ed0103535b"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0170.jpg",
+          "bytes": 147715,
+          "sha256": "b8652bc8d64ac7c6b2f367a48a81c6b72c369f779c2bcf91c1b7fc99ae50f243",
+          "git_blob_sha1": "be9cd218ec019581298adfc1ebcb99d95eb8f430"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0171.jpg",
+          "bytes": 147594,
+          "sha256": "5c636cca105b89f3334fcd1fc2ae80bc193d1b871aa31efdecc8e47aebb03a56",
+          "git_blob_sha1": "1136c4b8d8dc80899e86d98b35529b3d32d5a9e5"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0172.jpg",
+          "bytes": 147665,
+          "sha256": "00b9b1d0ee0c69cf4eb1fd0baa5f93162f400d567dad66df030115ebbdd76f55",
+          "git_blob_sha1": "cbf7e421678d653ae28e388e8becfbb5d33c560f"
+        },
+        {
+          "path": "Taieb/data_Exp3/Frames_Exp3_rate10/frame_0173.jpg",
+          "bytes": 147639,
+          "sha256": "523afff9cdb2c52fceb1941b68f801b7973f5005584feed23cc0beee4587f374",
+          "git_blob_sha1": "222162cb44524baa396f8091c8368734c2ed6e3a"
+        }
+      ],
+      "selected_source_images": [
+        {
+          "frame": 0,
+          "path": "images/Exp3_frame0000.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 155897,
+          "sha256": "a0194039312f564efae15ae93aa176ef8c0ba2316ba6b87a90193d1039d84bfa",
+          "git_blob_sha1": "e09a052cc3c7de97017e28247f7a3b8f964a4cbf"
+        },
+        {
+          "frame": 20,
+          "path": "images/Exp3_frame0020.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 148619,
+          "sha256": "073034b7899f5cffaf3b1345c77f9965f36eb1e32bb328ace75b13b1f7c38e0d",
+          "git_blob_sha1": "f34f3dfec67a40b20ee1d753430a9eab658ab7c5"
+        },
+        {
+          "frame": 67,
+          "path": "images/Exp3_frame0067.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 141927,
+          "sha256": "da6423db14070014f05acf02eebd593a8bee83e04b71ebf1ddd9decc0d270716",
+          "git_blob_sha1": "0cb8704c346daf0717f3b412304431fd2b5db3ba"
+        },
+        {
+          "frame": 114,
+          "path": "images/Exp3_frame0114.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 130714,
+          "sha256": "273b7f3cc7652095b1cc3cef6f927b29e6c50a48314de28ed84ec29026c85fc9",
+          "git_blob_sha1": "bc6003387eedbecb0149b5039d97f91bf9fafa16"
+        }
+      ],
+      "selected_source_images_not_yet_downloaded": [],
+      "mask_policy": "Only explicit workbook matches; all duplicate-coordinate matches masked. Missing labels remain mask=False with zero placeholders. No interpolation or graph carry-forward as labels.",
+      "reference_policy": "Every included node exists in graph0, its first pre-coordinate equals graph0, its track is continuous in observed-event order, and every observed coordinate equals the same node in the same archived graph frame. Late first observations retain the true graph0 reference.",
+      "target": "Image-tracked displacement relative to frame0 / initial graph height, in image x-right/y-down coordinates.",
+      "progress_limitations": "Author's offline compression-window annotation; not measured strain. Exp3/4/5 all use start=20; these annotations were not independently force/time calibrated.",
+      "label_limitations": "Automated skeleton matching is a noisy image-derived label, not DIC/FEM ground truth; exact consistency does not establish physical node identity after buckling.",
+      "force_labels": "Not imported: no verified synchronization to an independent mechanical force series."
+    },
+    {
+      "specimen_id": "Exp4",
+      "physical_specimen_id": "Exp4_D14",
+      "admissibility": "admitted_with_masked_automated_tracking_labels",
+      "source_repository": "https://github.com/ricardofitas/uncertain_cb",
+      "source_commit": "1df856a4f2c71378744d4a73e3cd958f6f6d7a71",
+      "source_taieb_tree": "23b436f7c46b1d3f16d19d448b0b8c7a262aedbc",
+      "source_files": {
+        "graph": {
+          "path": "Taieb/data_Exp4/Exp4_ske_rate10/graphs_Exp4_ske_rate10.pkl",
+          "bytes": 1362783,
+          "sha256": "01f347fa2ae329721f35fc1e7de5641e47337696e84ab936778ac6326f28c605",
+          "git_blob_sha1": "0700f6fc61af412c60519a3f292f69859de7d048"
+        },
+        "tracking": {
+          "path": "Taieb/data_Exp4/Exp4_ske_rate10/Track_data_Exp4_ske_rate10.xlsx",
+          "bytes": 227610,
+          "sha256": "30a52127188287757327e9b76dad92a5532dd4f8c0325dfcf77cfbcfae8f2944",
+          "git_blob_sha1": "2047315c73639085cabd2eea41db70df2d0c6561"
+        },
+        "annotations": {
+          "path": "Taieb/data_Exp4/Exp4_ske_rate10/img_analysis_Exp4_ske_rate10.xlsx",
+          "bytes": 5072,
+          "sha256": "b2d520a460fbb4896363ed4f1c2e6defb81d8289f60cc3f58ab4e520426865a5",
+          "git_blob_sha1": "4ff655760db195d49ff132ddbfe487ff78e09b6e"
+        }
+      },
+      "raw_experiment_alias": "experiments/2024_08_05_D14",
+      "alias_policy": "Taieb/Sample_videos aliases and experiment paths are one physical specimen, not extra folds.",
+      "processing_rate": 10,
+      "n_frames": 185,
+      "n_nodes": 48,
+      "n_undirected_edges": 71,
+      "n_directed_edges": 142,
+      "compression_window": [
+        20,
+        145
+      ],
+      "compression_frames": 126,
+      "source_observed_node_frames": 7716,
+      "observed_node_frames": 7289,
+      "source_compression_observed_node_frames": 5630,
+      "compression_observed_node_frames": 5403,
+      "compression_coverage": 0.8933531746031746,
+      "collision_observations_removed": 427,
+      "compression_collision_observations_removed": 227,
+      "initial_coordinate_mismatches": [],
+      "graph_coordinate_mismatches": [],
+      "tracking_chain_mismatches": [],
+      "excluded_later_born_nodes": [],
+      "first_observation_by_initial_node": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 1,
+        "35": 1,
+        "36": 1,
+        "37": 1,
+        "38": 1,
+        "39": 1,
+        "40": 1,
+        "41": 1,
+        "42": 1,
+        "43": 1,
+        "44": 1,
+        "45": 1,
+        "46": 1,
+        "47": 1
+      },
+      "tracking_gap_count": 112,
+      "tracking_step_percentiles_px": {
+        "p50": 0.0,
+        "p95": 2.23606797749979,
+        "p99": 8.06225774829855,
+        "max": 10.0
+      },
+      "scale_px": 82.0,
+      "origin_px": [
+        297.0,
+        67.0
+      ],
+      "raw_frames_in_source_tree": 185,
+      "raw_frames_downloaded_and_hash_verified": 185,
+      "raw_frame_fingerprints": [
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0000.jpg",
+          "bytes": 186107,
+          "sha256": "7795b3ac8a3880e2a4c18c45a880c84418b6a05ec40f48968fa90441480d9a3d",
+          "git_blob_sha1": "bfa38c5d7d9de1f30b87adc2983817cd9ebbfdfe"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0001.jpg",
+          "bytes": 185630,
+          "sha256": "f44f1e73dd9ae4518b7da9b3f4a7c8005fc8564890818738fb83f15b844853cd",
+          "git_blob_sha1": "5ef4152a044b4a8ff59e46f942f2baf4b2a3e2dc"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0002.jpg",
+          "bytes": 185432,
+          "sha256": "5b4964903e706d2c967d1d9f54bd3853dc3a33ecc166a44f046133ba230e512a",
+          "git_blob_sha1": "cf00d7c7c31c4a76ad2a0242b59cb48e4d152837"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0003.jpg",
+          "bytes": 185674,
+          "sha256": "9a3af72e12cc12c2beac709ee4d4d23ba8b229f3325eea459000c56766c8d215",
+          "git_blob_sha1": "f599fd39bccbec826e6313ba40aecbf903c9db7f"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0004.jpg",
+          "bytes": 185697,
+          "sha256": "899ed4401f91f4709bd87e8ea6185d8fbb6dd00271ece49a90b0a69644d5ac73",
+          "git_blob_sha1": "946b48ff43e65048c7ae5c7254e761decb435a4a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0005.jpg",
+          "bytes": 185705,
+          "sha256": "7d34aac3e527f6b336096d62de3f8dabd4efafc10956bef173adb95af2de33c4",
+          "git_blob_sha1": "fe45b9954baede7edcafa0206b8b6fc63a3149af"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0006.jpg",
+          "bytes": 185585,
+          "sha256": "e8179fd8d6eb94e6d96bb60f13195e1c075ee7810d00f057a0ee51265ba2735a",
+          "git_blob_sha1": "82b32002b108702fa66520685377560729789de5"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0007.jpg",
+          "bytes": 185336,
+          "sha256": "fcf97ae8992450bdb2fa30227f948d5c1b52ee769b1a124f14c45b053844084c",
+          "git_blob_sha1": "27043736e56075c85974f886719ce6f0d5db3642"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0008.jpg",
+          "bytes": 185070,
+          "sha256": "154a744ec4982c41689917a042b8560771bb597ecf448095134296ee2e51c60e",
+          "git_blob_sha1": "57cfc48022ca270065a687f8095b6f3ac4759fcd"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0009.jpg",
+          "bytes": 184217,
+          "sha256": "985093e1bf75f561da788356e0c09c21345b0175c1dbf832c9f42d49311750b4",
+          "git_blob_sha1": "af8690a059929ae31c08a06ae0403e23788ff087"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0010.jpg",
+          "bytes": 184110,
+          "sha256": "3c7ae8081fdc758baed719c33de13d10d4e43d2a784cdfca3da32e228ace9220",
+          "git_blob_sha1": "c955d40d78982e11d8e9a256c9bd1c1c6fcd4f08"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0011.jpg",
+          "bytes": 183683,
+          "sha256": "c66dc363a1724ca957abdbbc748787dae69a7590883fff16025645b86e546bd1",
+          "git_blob_sha1": "10895b281183a3e9569e2b1de9735e05ec4f45c1"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0012.jpg",
+          "bytes": 183332,
+          "sha256": "5771f0dfa1cdab761b116a9b7e2e671bef3a2da117d0d15899b8ee958b2c9315",
+          "git_blob_sha1": "30f4de88f419b45c1e0e271d3c2c7e45477b9390"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0013.jpg",
+          "bytes": 183079,
+          "sha256": "5e4314c4068e09cc51ecf2e32685db85dcc7a2809f3ff31531698039642ee77f",
+          "git_blob_sha1": "a84140d29d29aa4c0358ecd35c30cfe6c707a5fd"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0014.jpg",
+          "bytes": 182584,
+          "sha256": "0cd233da945a977056d726a3ddbfb39b66ece12ff3012da7a0c0bc141417c00c",
+          "git_blob_sha1": "f792b26cd89c0c88489064a6bf1de7d79224b803"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0015.jpg",
+          "bytes": 181844,
+          "sha256": "17a45d9152e8aa942471bd2bb999e420d2b205fc619d75937cabff7c689c59f6",
+          "git_blob_sha1": "6385d40b28615132e52172aed27e228db4b26a32"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0016.jpg",
+          "bytes": 181431,
+          "sha256": "d0a28514a8d9b2f122f9053533e2b880acf5447063dcb80fc6e5bbe1b47918e2",
+          "git_blob_sha1": "54eaebfc169440b8e20350dc300866c70f20fdd1"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0017.jpg",
+          "bytes": 180350,
+          "sha256": "785a13dcc8e4743a090ca4fbdf3e0f05b2fbf233c74ab4b4c7d3453a72227653",
+          "git_blob_sha1": "9d2be4a71fbc579004ca05be50fb46be079fe29a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0018.jpg",
+          "bytes": 179763,
+          "sha256": "3559f3c756fb1e57721bc6d78fff0f14851e8ed04d5d6cd1c14ae0d535ef4847",
+          "git_blob_sha1": "e0102ca1f006871759efd0e64b3eb29fcff7294f"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0019.jpg",
+          "bytes": 179277,
+          "sha256": "8374d1c9c1d92f307afafd8a85bc78614909cf1b150529079c1170403acd0bf4",
+          "git_blob_sha1": "5fafcd9afdf7df679a6bf6d7b3a8d3c8327b45ac"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0020.jpg",
+          "bytes": 178378,
+          "sha256": "628904e0a84a40d515de60b10db444dbac69669f38dc56a47881196fd50cd363",
+          "git_blob_sha1": "43517238a6458ac2f3770d72c3e6bd4ac230e420"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0021.jpg",
+          "bytes": 177364,
+          "sha256": "67298502fdcc8e6223e92a2653d643952f9c1ff03d43513eb3a36381e5f10014",
+          "git_blob_sha1": "95a983b84f6318bada9ee376a0aae7dfc5c0b727"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0022.jpg",
+          "bytes": 176562,
+          "sha256": "1ccf5f652d82801be26b4fa499920332fb4803761b3371f299d6beb49135c83c",
+          "git_blob_sha1": "e8133c9b547484bb79fc7ae70bb02a2b95544112"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0023.jpg",
+          "bytes": 175597,
+          "sha256": "ccc8d38a6d52feb50d774cdb58910497c516fbee1e114ef56f61dd705da9c2fb",
+          "git_blob_sha1": "ff4b401b396814d5a3b3af6c9f4c395839f84f3c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0024.jpg",
+          "bytes": 174584,
+          "sha256": "d76e1f8d9cae4c1dbd14967bf371a8d82aeaa0f0b32140cdbdbf049b0efeb7d7",
+          "git_blob_sha1": "7c8b785e63de2aa510ec316d521582772cc4245e"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0025.jpg",
+          "bytes": 173742,
+          "sha256": "7ae3478be365b7ad3449c034ec0ad7b3019a3c34d769328983da8b5b07f64217",
+          "git_blob_sha1": "c24cdce480a06632c23db56646f516fa19a360f3"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0026.jpg",
+          "bytes": 172845,
+          "sha256": "bd7d9b5d1cf169ecbf6723a724c36c4174a093cbf2b770ccdf928499b0b07257",
+          "git_blob_sha1": "80416eda377bb3b491cad547e286134522844bc2"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0027.jpg",
+          "bytes": 171827,
+          "sha256": "c5b21f21a7f028f2e42ef7ded283fa2b2976f66338f15047218c29fda12e5542",
+          "git_blob_sha1": "189ab834eed6f777f93dd8e3cd56be69370db48f"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0028.jpg",
+          "bytes": 170942,
+          "sha256": "9297d725423d07aef4a45982df090d4ee4be81f745063fcdb7fe9c9c32557e8d",
+          "git_blob_sha1": "d6cbbbc032bbeedc5105d699127cd6b216311084"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0029.jpg",
+          "bytes": 170358,
+          "sha256": "4d723311f8b8a89b80f82d9ba2684b3cde678bba8c0861d738f0a1e4f9173d4e",
+          "git_blob_sha1": "2f860868cd731ef47c509aaf584693617e774396"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0030.jpg",
+          "bytes": 170512,
+          "sha256": "70407e2c6758abe20b632224bbc3cff1238dc9fa9c81a2e01ce08a4a4c3f01ff",
+          "git_blob_sha1": "6d89eabd865f0f7586deda87c5c3bdad4cb9e228"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0031.jpg",
+          "bytes": 170249,
+          "sha256": "d25dfd8fbab64a9ca1e37d9563e83563d78986176d452e5964872037bd7e16b1",
+          "git_blob_sha1": "f02bddcc86ea05d81659126b40bd5e1182eeee77"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0032.jpg",
+          "bytes": 170301,
+          "sha256": "58075412bd04ef57cf6318cc5256c58dd4bb92afaacda3d1903fa750148a7572",
+          "git_blob_sha1": "62947c5c26931872e0ca0330560649b26b2bbee4"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0033.jpg",
+          "bytes": 170265,
+          "sha256": "6d26722ca47af9d26e1454f15ef9edca85474909b74271338f6a75d38b99d2ea",
+          "git_blob_sha1": "ea3d6d335ff1c7306531acee17468bf737a1c3fb"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0034.jpg",
+          "bytes": 169897,
+          "sha256": "aefcd78096519d3ac8f30d4c2299658b07831f6dd47896f7b131d223c2618f85",
+          "git_blob_sha1": "3796e3252c79c6a441d538c7e8da6edcc03a4124"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0035.jpg",
+          "bytes": 169620,
+          "sha256": "512c6971904278ad785d6aea1c8f4d2e3efa3782b5f0b1aa35370d23cdb13217",
+          "git_blob_sha1": "73ce194388719c1168501a443804d68064fa8a8a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0036.jpg",
+          "bytes": 169197,
+          "sha256": "e075281ea35fec503d1d18d3546f18ffb9d895e2c06987044bb70b54f4c09d83",
+          "git_blob_sha1": "da06ac79d3ac55a107d52ac7b8587e31763e8025"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0037.jpg",
+          "bytes": 168738,
+          "sha256": "f814f2f5b3b29af103573885c07f4857dc194c0bc507215df79a8626a5db21f0",
+          "git_blob_sha1": "5af6adc5ba0bfa80520921795ffae3b2df979d93"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0038.jpg",
+          "bytes": 168699,
+          "sha256": "a23560583c29d8a4ede34d8ab8aa2a8efa538a96e426824a05ca18fa6e8bcb26",
+          "git_blob_sha1": "e0c531dbadbf6104d88d7a9b65380111392ab8a3"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0039.jpg",
+          "bytes": 168444,
+          "sha256": "e919f57ee020aabd37aee004e906802d71aebdbd43166b719dfe46e06f14f854",
+          "git_blob_sha1": "874fcfd5e245bcab248bab291c8184b9964bd653"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0040.jpg",
+          "bytes": 168695,
+          "sha256": "47797f6518c88b0cf530dae304f1a38f3822d6e7ee285fca463ee3f8fcd4d6c8",
+          "git_blob_sha1": "608eb5d5ea5747e2bba055a4c3dc6f247df8a451"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0041.jpg",
+          "bytes": 168310,
+          "sha256": "26a038530a17817f577c5f8d477a39e7a67bb6bd2949cbbe790c554eeac11c33",
+          "git_blob_sha1": "e25d29b7b9b18769b5ab157711a3f892dc6f39e4"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0042.jpg",
+          "bytes": 168162,
+          "sha256": "8287a436d24bd106713023b2ff02b6c201e95b88fdfc48d1465409ae833c82a9",
+          "git_blob_sha1": "fdce3f4fcd7344474082d6767adbccc17ade9ba1"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0043.jpg",
+          "bytes": 168044,
+          "sha256": "1cb6f32b596c16f8cf262d87bb877ba134164e8aa19e6f6dbb66d9750c3ef2ac",
+          "git_blob_sha1": "4f179b088f35e4d88fbcf1c8f5afcf8a668673f3"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0044.jpg",
+          "bytes": 167930,
+          "sha256": "8f8ee7555309b4f70145b766bfe85223e8e2fde98604ffa504a33d9cef85cd0f",
+          "git_blob_sha1": "96ad7bcb5f82f3e513fe71059dc1abd3966bcbe4"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0045.jpg",
+          "bytes": 167676,
+          "sha256": "e68d31f706d98b5b389ef94e2115351594ef23245ef2191674b21be072f80c39",
+          "git_blob_sha1": "03477d3334d097dc05453d87c9e452320aff30c1"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0046.jpg",
+          "bytes": 167178,
+          "sha256": "c024df1a48ead50fa4c468c4e35b573480df5faf06d2d37d4e26a9077b7863c6",
+          "git_blob_sha1": "461057d8843dc14711e00a6532f99df60add2c0c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0047.jpg",
+          "bytes": 167023,
+          "sha256": "bff45df64072a7eb4523b310b6ec3e7980b4ae55b9302f59580611bab692f7ee",
+          "git_blob_sha1": "d21b5d35841888b34179749cefb59ca91a67e0d3"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0048.jpg",
+          "bytes": 166848,
+          "sha256": "e2bdaa8c8aae217c708d86caad8d0c930f44db9193b2b85576bd575b5285d9f3",
+          "git_blob_sha1": "832892f60778078cc6b41f272ba88b24046574be"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0049.jpg",
+          "bytes": 166811,
+          "sha256": "52f46a7538767b2b0e33489c94ff112c240ef9320e8912fd644f5de461d85955",
+          "git_blob_sha1": "3d528c64ad42e388a65a08bb093b1984d9d556ab"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0050.jpg",
+          "bytes": 166736,
+          "sha256": "27aec7aaad5482a2eb106ccd725c1d4bddfd00714e89bcb3a3e4237b2e9fc915",
+          "git_blob_sha1": "7b27ba41466017a1582e7e3e7486a6d231c12c56"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0051.jpg",
+          "bytes": 166635,
+          "sha256": "9049e5c6cdad430984f024fbf3175280d2a3aea0f2684900168c7e0cb66e84a2",
+          "git_blob_sha1": "f2e68541a79c4e29cc680bf3aeed1751306b82e4"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0052.jpg",
+          "bytes": 166660,
+          "sha256": "f82c6f2e00d879a50248fee95e8b1e6dc76b16f88d5a08cb4f99fb4b828b89c1",
+          "git_blob_sha1": "14cb767516f32e7ac0cd3d19ab9adf51a9abbaaf"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0053.jpg",
+          "bytes": 166174,
+          "sha256": "545cccb5ab7f90ff26220621a4b9d6ef8d135cf5f9ecc8d43d87c79dbc332122",
+          "git_blob_sha1": "a7f24574212a58a5b1708011cd03c08eacf2f72a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0054.jpg",
+          "bytes": 165923,
+          "sha256": "ea5ca6247bc08f05ab6181da7731b85e982ccc9cce411a94dca97b454d9522a6",
+          "git_blob_sha1": "1c1694cd7fa9bfe84b3ab02d48247a03015ca98e"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0055.jpg",
+          "bytes": 165536,
+          "sha256": "210ce54c04c7c513d8f051c9c046a4b82046a117fb45f85577061b6df58fecbe",
+          "git_blob_sha1": "dcda748a6c0276e6cad743f41a5d3a6fc1289d43"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0056.jpg",
+          "bytes": 165047,
+          "sha256": "0e520c2305037bec7ee47db7ea2213eea2cca81d027d1fcaf800fe0cd0b55d68",
+          "git_blob_sha1": "8c8a6fa0ca53915aa25bbce04311eb3a391a8d25"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0057.jpg",
+          "bytes": 164831,
+          "sha256": "f03e830747b03297201308006d6cf33a29fc1cfc411b3e84168c78744ae6e722",
+          "git_blob_sha1": "bc222ec669f46e766c7e912ae4bed42ae4b01844"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0058.jpg",
+          "bytes": 164661,
+          "sha256": "bea995d3a2588020cd098a7b0353dd33243076fea210c43a82798555aee41d49",
+          "git_blob_sha1": "fb86e44e4cbe6cc8d3d7bf07f6909f933fee7d28"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0059.jpg",
+          "bytes": 164192,
+          "sha256": "5b96609e6ea845523779ba8ef6065092be894f385ecbb184dc0d4534a97bb049",
+          "git_blob_sha1": "8ec7ae5b7b9046c8b3dcc7d6802cf6c9f7177890"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0060.jpg",
+          "bytes": 164549,
+          "sha256": "41c63e4d7ff2ccd77abbe405c53d2afb186629cf3f0289c7637ca57b49b346ed",
+          "git_blob_sha1": "356cf3c04aae8539845aa46bce860d1453475b24"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0061.jpg",
+          "bytes": 164213,
+          "sha256": "162400c2296c5787fb1ef6aba44c1049cf99b5470b7ebdf1ae2321fc21ee860b",
+          "git_blob_sha1": "97f657dd8f0cf05698dec8deaea40e4f80a64f0a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0062.jpg",
+          "bytes": 164344,
+          "sha256": "3744b13d37ecbce45fa8002a5b1643a295ab70ad906811929766bbada0e615c3",
+          "git_blob_sha1": "c876e264fae947ac187e3c23bdc4cf6046773702"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0063.jpg",
+          "bytes": 164328,
+          "sha256": "d0f8f6425dfedc51099cba6ed3614f6f64584c29371cf63a139b156a335a6010",
+          "git_blob_sha1": "a90ed2f2b9521ff87bd2bfa83ea6abc4d40bdf51"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0064.jpg",
+          "bytes": 164396,
+          "sha256": "d986534263941d78e5d5495b882fd38037f26387609dd85ab7b5b75093259bcc",
+          "git_blob_sha1": "61abfd538cc1d459a2eaf2f8b69bd58cc258172a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0065.jpg",
+          "bytes": 164220,
+          "sha256": "1618b6bd19dc752c95c0f373217af38bbe9a8302397a6bb3eef82be282c18f0f",
+          "git_blob_sha1": "cf7b1d6ca867b63210ad982f8768ed2baf571eb9"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0066.jpg",
+          "bytes": 164072,
+          "sha256": "bbbb21ad49d06e1a6fc3a26e78a04946196a38bbebf46b4977a1e4f070ade691",
+          "git_blob_sha1": "b4094db31a10a71bf9f12e1c11c2ef155d237620"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0067.jpg",
+          "bytes": 164011,
+          "sha256": "f531e43052842ca1f5496ba3363e8d62cc77e4ccdc546d8606976083999815f9",
+          "git_blob_sha1": "f22de4244aebd6e24cdd45d2ef531c48ae37285e"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0068.jpg",
+          "bytes": 163417,
+          "sha256": "233f97530f507ed3aad2a3f65dbd9de7c27c6a44f127426c5a3a6741a0d665ae",
+          "git_blob_sha1": "2ad91eb3ac2df78f600727fca6e60514dca0a343"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0069.jpg",
+          "bytes": 163175,
+          "sha256": "37e17737b53fd19e3c70ee5b495f550eeae29f10c943f515be65c3f0dffc0832",
+          "git_blob_sha1": "e5894c2673dc972d9b5716ca36aec08b531c7be9"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0070.jpg",
+          "bytes": 162576,
+          "sha256": "452b4aa170e81c18e27a43489516965d70fd2e5d7a2abe68e519767352e1f2db",
+          "git_blob_sha1": "ca2dafbbf8befc46d7d6114cea22fa81b0ef92af"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0071.jpg",
+          "bytes": 162243,
+          "sha256": "77a2517a25328523987b14223f3711d10158486856e5b5ea312c4d5f1b9ceda4",
+          "git_blob_sha1": "85ac1c07fe2654ccf0f055eab47568bce0bcba4b"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0072.jpg",
+          "bytes": 162115,
+          "sha256": "8211435921edb52a0595cbd4fb1c9d4e25e16021bbe9603d9fe01a89104930ee",
+          "git_blob_sha1": "7a541208c9e6e5869b08a378af146d119b2d0e64"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0073.jpg",
+          "bytes": 162134,
+          "sha256": "ec10ba4dc19887d23a2f85f38b70919998089bc2c66ea59c3f63a015a7faf964",
+          "git_blob_sha1": "91158dd73d1a6e432ebca682b518da294e68f3bf"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0074.jpg",
+          "bytes": 162001,
+          "sha256": "8f7ec02be479f95bbc385ce7c7dcfadc6317500fe09bc5a3b70c06f4d42c42c0",
+          "git_blob_sha1": "3d20a7efe4a330fd42f93b89f4372b2bd571beed"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0075.jpg",
+          "bytes": 161554,
+          "sha256": "1eba9a9d1bd455eaebc8ca3b95e502b236300eacfdce66634700d30a953e64bc",
+          "git_blob_sha1": "ca7696c9e2768cadff1accbe2628c286352f1e82"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0076.jpg",
+          "bytes": 161446,
+          "sha256": "859bf9a6b9eb70bd1ffb01f74aa7504d1a38e5389b2e9e4addde00d80b49bd58",
+          "git_blob_sha1": "d28ec238f47ed918276d2bfdeda59e49526fafdc"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0077.jpg",
+          "bytes": 161390,
+          "sha256": "f13e6769b3527831faa729ddae08017ea1d9083aad4bdef6d08ff5444411ed2e",
+          "git_blob_sha1": "981839b111668c0174d094205ea6de44681edd1a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0078.jpg",
+          "bytes": 161201,
+          "sha256": "2b0e9927dc7b0264fd9b4a973aee022fb43251b1baabca34714516509f0a680f",
+          "git_blob_sha1": "2aebfa630370bdf00a259d691ff03dcc445fae9d"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0079.jpg",
+          "bytes": 161011,
+          "sha256": "64ee2f639b4ad3b2ac15f0f395a63adf70f268d04d343e9db3a53af56f09a3ef",
+          "git_blob_sha1": "2764c1371a47d9812694aa0157f093393a0b7fc1"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0080.jpg",
+          "bytes": 160337,
+          "sha256": "089351d4d3e48ac1f77f93c631448b4b1a4b7e6282c965e9e470158a48482df0",
+          "git_blob_sha1": "6633d990e7a109e6a4303a75578870559d590094"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0081.jpg",
+          "bytes": 159969,
+          "sha256": "977cb82c2832460ee5e00270cfc9748d9d2b9baac8c5ae775309bca13c44dd5b",
+          "git_blob_sha1": "2f946704759cefdae05d573015dc3677629a79bd"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0082.jpg",
+          "bytes": 159726,
+          "sha256": "c2bc4ccd9c4c6b97793e686966cf331473574146a52501ff0bf7d94a869c8eb9",
+          "git_blob_sha1": "92dc83f1a31ff818dea4e185b78dea6ae7464e19"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0083.jpg",
+          "bytes": 159689,
+          "sha256": "a15e6eb901288dc85d84a60324d46b5951e7ec71aa94f3c1533b51ce05264e54",
+          "git_blob_sha1": "7eb630391a9bad202edc03790ee6bcc2b03ae395"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0084.jpg",
+          "bytes": 159797,
+          "sha256": "570f085496c39f85551ba0a23032512d1ef1f34c3bcc22d76b328362e7a6567e",
+          "git_blob_sha1": "8bbf89958bf02fbf8450f3f6a34f111cdbc7aa6c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0085.jpg",
+          "bytes": 159565,
+          "sha256": "e343dcc94be47ee88910fe8e993fd660b724ceaeb3c64c397fee880b05945815",
+          "git_blob_sha1": "6208b0c119e013b8214c02168aaf99eae2672709"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0086.jpg",
+          "bytes": 159615,
+          "sha256": "9f3c882dc95f0b3d83036bcb7f662c6c01cb2b1f2c5026f107083b6e96532780",
+          "git_blob_sha1": "72fbf71f534fd83b59088b1179fc047ac9ba826a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0087.jpg",
+          "bytes": 159912,
+          "sha256": "af876536b93673fee2b95de733a61c09881b3b27107d002141137d10902595cf",
+          "git_blob_sha1": "e936a1a447c515c18af0c8d4c2e580e2d6cf01f9"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0088.jpg",
+          "bytes": 159491,
+          "sha256": "4c5b7097c8736ff5d2473f36b3e0461026d556758dc467455fa04331d6815e1b",
+          "git_blob_sha1": "5926bf583ffe154744a95d4454624d10f63bc2e4"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0089.jpg",
+          "bytes": 159359,
+          "sha256": "670d7f1e32e178b7d82a554d60b7dd375c5fdd03e6114269705c1523ca14ead3",
+          "git_blob_sha1": "f5bf45e601880bca0fddb706bb988842f5c6e8f0"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0090.jpg",
+          "bytes": 159530,
+          "sha256": "8dba65247cd5f734e6608a0c2a4a54200ea1048b5bcd00de0bf1fe49f3d9cc1e",
+          "git_blob_sha1": "c1a30f7bf2a6e5e0e9ce4d6ea7ef86053a47da93"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0091.jpg",
+          "bytes": 158925,
+          "sha256": "b4df2a57cefbb0df1a4f076fd3ac68bfce036232bda4867e2072e20913bb823d",
+          "git_blob_sha1": "ae6208263f6bf517299f58a81d5e554bd80f4595"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0092.jpg",
+          "bytes": 158740,
+          "sha256": "092411a6ce7e29a767a62a5aea1b6eab29611eed15622c241a21377678533e72",
+          "git_blob_sha1": "2535405a2c3dbe57f0ab6b273682acf6816e79b5"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0093.jpg",
+          "bytes": 158404,
+          "sha256": "0704d52cb96a58d20eb37452862865bbcc6f2c25e2e44e799841a42b2d34f05e",
+          "git_blob_sha1": "d84f34bead6d23de0e4ca881b673e89d09f632f5"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0094.jpg",
+          "bytes": 157993,
+          "sha256": "5cd0e897808b99024b822f7b711d67d82f30035aa22ae7953d7dcb630611a3f1",
+          "git_blob_sha1": "98dc4dfb7b3aaba0a62099bc82fb185d6341f59c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0095.jpg",
+          "bytes": 158017,
+          "sha256": "1322f2fafe32a5c775a11b98d252870b47fa54fdad51ce8a5f84ff10d883adaf",
+          "git_blob_sha1": "9c8de2433c8677f607456b23a21c433adbf9d467"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0096.jpg",
+          "bytes": 157875,
+          "sha256": "80a2bc26bcf6625bfa531ef51fe374fdf9f0728a4fd5b7815212ed28e55e756d",
+          "git_blob_sha1": "9be27870273a1acf0c3656945164bbd1f9e803c5"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0097.jpg",
+          "bytes": 158032,
+          "sha256": "d7ac67157c76730ab246ab91ad85a83246142aaf9c0c8ad159b40ae9065a0d86",
+          "git_blob_sha1": "50b01ca64bcb899c3e0437fa2462c468e0d6dc63"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0098.jpg",
+          "bytes": 157919,
+          "sha256": "be2b0615e77c380ae9724787d8ae17fdb5066d97a9213b68c9767126c90ae949",
+          "git_blob_sha1": "35848e0df7b8e96f1e8b11484c2baa4b54c5ed14"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0099.jpg",
+          "bytes": 157924,
+          "sha256": "7482fe015717c916697b5e115ac0b30d0fd06c01181c6c1c150826bf989eed0a",
+          "git_blob_sha1": "364859bcf047dc08b73f0cf840e6c4a1982a5d15"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0100.jpg",
+          "bytes": 157670,
+          "sha256": "a733d5db7d3b21c023f346133157b8664766a439f03343d33ee195ac1c3ab2a6",
+          "git_blob_sha1": "1476289e6b49b8af7c4d06e7824e3e7ff48496b6"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0101.jpg",
+          "bytes": 157359,
+          "sha256": "4c87d8b7830d92aa6224d5958b903d864626f5a0a37f72977219234dfbfbb5fc",
+          "git_blob_sha1": "454dd5d14b16242773e87bff6f9c1996211bab60"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0102.jpg",
+          "bytes": 157219,
+          "sha256": "a6e0b4b12f7f664fa619c90990182acca8c5cb38ffdd7bc1ed7d496b227972c2",
+          "git_blob_sha1": "4e284101df74b6dca1e54a811085608fac1ef97b"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0103.jpg",
+          "bytes": 156969,
+          "sha256": "5a9bcc35c93daa2e17068f4d510526e67dc5afc9471ae31e1b39ee7fbc6ccf6b",
+          "git_blob_sha1": "231dfdd763fee0f5575512c884b09151820c38b7"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0104.jpg",
+          "bytes": 156370,
+          "sha256": "72942a7a5c6a254e47e754cba9e9ba0a67db0b4940da82aeebdd570e953a961a",
+          "git_blob_sha1": "223da59d9885faf4355b449f342252ad7ecf1d8e"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0105.jpg",
+          "bytes": 155653,
+          "sha256": "e9964bcb6171576fe6b83bc7a4e2d00c13b0e15d4fda98d0266d113021993dc8",
+          "git_blob_sha1": "e410cdeef353b314217d2d53d0903501cdb93a03"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0106.jpg",
+          "bytes": 155627,
+          "sha256": "dc6fac190bed503b908c85cf2b403ecc66a822b4b7df91f7dce4f808411f0941",
+          "git_blob_sha1": "89d9ff811dcfcb018fc7ad8610ad8ed18dbb9512"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0107.jpg",
+          "bytes": 155116,
+          "sha256": "7a13d025928c01b768717c73ddf799720fa8e100c69602e9f9f702d310b99857",
+          "git_blob_sha1": "6520c61a03ed391e22b9c248f1757942bea5be7c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0108.jpg",
+          "bytes": 154569,
+          "sha256": "db60b89e919c0ddf1cf9ba2b69fdae6a11a125b7b8452e9be9ab0174b42a1d93",
+          "git_blob_sha1": "7c962d4f45c95e249530e0bfd615950ef013a4b7"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0109.jpg",
+          "bytes": 154786,
+          "sha256": "7bab9d0ff07eae87ac742b0787a543426de72a171442f3160490e6a78142defa",
+          "git_blob_sha1": "f3063850dc5b4aeec80836a271a70dfaa6e3a77d"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0110.jpg",
+          "bytes": 154487,
+          "sha256": "68d133073edb3aac21a182735b4b403820d81e3393097a233cb2b28a21b229f7",
+          "git_blob_sha1": "513d7ba62484f30af46be0edd328eeec43723a24"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0111.jpg",
+          "bytes": 154323,
+          "sha256": "db0abd0a142d71c05525d0dc6c5010190cc2627bf726c993e80103838463cb4c",
+          "git_blob_sha1": "1583a02edb498dd6df008cdc92b2cf220ec509ba"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0112.jpg",
+          "bytes": 154268,
+          "sha256": "0d39571c5a7f0cbadd31a56eeb963100ffee1796b3a7f0cd78cc3526bbb3a33b",
+          "git_blob_sha1": "80fc0efa5c478bd5563d552e2babda81e4d4020a"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0113.jpg",
+          "bytes": 153908,
+          "sha256": "c2d8fb298117f4bc3d842958c87974ef43af7e9a04624fe59fd11af93a96e198",
+          "git_blob_sha1": "8e344fbfd9a382469724d47cba9ea6214dffea12"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0114.jpg",
+          "bytes": 153498,
+          "sha256": "7ba4ca4265eda5bba19f116bb20331858d0d1d01dd6cf196f7886a219db09953",
+          "git_blob_sha1": "b30b5273c344d64c22a20b314ae62621ae4c0b48"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0115.jpg",
+          "bytes": 152960,
+          "sha256": "d5b9a4f463fd3ed2cc061ad1670af5d664a764f33a722b6add9de3427629ef13",
+          "git_blob_sha1": "607bcef0a115d4f2c2819d7bc1184d15c66f8015"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0116.jpg",
+          "bytes": 152547,
+          "sha256": "1e0f3eb170cf7b188f3c6454ba525e806fa42d396dd35b4d3cbaa0cddbcb8c7b",
+          "git_blob_sha1": "531b14b22fed23619b547e51d592093247fcb18d"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0117.jpg",
+          "bytes": 151748,
+          "sha256": "d34a78ad8eb77392f0e40092d5cdb56f6ea253786da6fcc916c830bc07e95cf4",
+          "git_blob_sha1": "9e3636f6da377284f6139e38ef9e363de800ca91"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0118.jpg",
+          "bytes": 151467,
+          "sha256": "82f526df624c791306cfcbf238b7502217bc19674724210feba973e4eab899ae",
+          "git_blob_sha1": "684976fa82d67478664d7734aebe9afd4317aa69"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0119.jpg",
+          "bytes": 151340,
+          "sha256": "21538f50ef894c563e5e5f201fc0f8f33a2dc998f63d2993bf10c00039c731dc",
+          "git_blob_sha1": "df69f84db145d238741ad800afe3ba2ccfa312c0"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0120.jpg",
+          "bytes": 151122,
+          "sha256": "04cc892d99ae77386a04623b5cb7bed991851324fe290bd654c7ec0149d3a022",
+          "git_blob_sha1": "2feea710999eaa1acd0957c99275b4036e12fcd4"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0121.jpg",
+          "bytes": 150877,
+          "sha256": "f19066f91896f9147c97c6437de6e56bd7a22c41b7b77291ebc567c51a6e54d7",
+          "git_blob_sha1": "bd840c8ff189645d6b0eee9601e0068491907fe2"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0122.jpg",
+          "bytes": 150544,
+          "sha256": "c4e205add2d13cc55381ac8c46055565be1467540a42fc6d126e61b394014715",
+          "git_blob_sha1": "c63283c237a029ded7c8900abc0b5134fc14c3ac"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0123.jpg",
+          "bytes": 150522,
+          "sha256": "d7364fedca2a4aa60887f40f7066214dc7bb6e171943d14e6174f2e90682f0d7",
+          "git_blob_sha1": "5dea2cab3b5b39393975848c1fcfc139ddf82409"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0124.jpg",
+          "bytes": 150019,
+          "sha256": "3e0d38b7b7d6e3f19cdb0a37cf063e0934a0b886c98467efab4eb4aa5aa173ec",
+          "git_blob_sha1": "20e5f74b31c579e7e973f1c3987e9d403b48c8e2"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0125.jpg",
+          "bytes": 149544,
+          "sha256": "c7736e4bd9747a288a7be72cd851fa4c58cacfdac8c4d61d286e2d61a279d4e6",
+          "git_blob_sha1": "619d134e8b2d0bf82d43ebe243beb1554058c49b"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0126.jpg",
+          "bytes": 148921,
+          "sha256": "43d909f608a8f5c763c73cb226f6283dae9a5ccb39a0c56914b5e65a9fa2ddaa",
+          "git_blob_sha1": "ff4a7bcde17c08dbeca927bdc386869b178b678c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0127.jpg",
+          "bytes": 148325,
+          "sha256": "8ca45022e28beb85a11ef630ea4f6a35a323d8d2c1cc8541869f5be163385b02",
+          "git_blob_sha1": "05d9243fbc06c3cd1a115a540f87e8150a3cdd89"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0128.jpg",
+          "bytes": 147874,
+          "sha256": "a3d12da45edb492eb5409f8f14da3d5d12cbb143b137cb79779d229e26dbbb90",
+          "git_blob_sha1": "6186ce9ebdb06be1850e7a1f783067f80162318b"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0129.jpg",
+          "bytes": 147410,
+          "sha256": "13e650c84a32d13ba2574b41341777954f7cebf6be4e1fca8eb733be9bace7b5",
+          "git_blob_sha1": "d10c30e5a59202e96aaec4cd2c598bb624aae1c6"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0130.jpg",
+          "bytes": 146825,
+          "sha256": "fddf58cfbfd281c8962dfa10a46ef922d7b151708707f5719332a12c9c8bb044",
+          "git_blob_sha1": "00dd4b4c94747fb98dc90fefb77fa12f44d7298f"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0131.jpg",
+          "bytes": 146589,
+          "sha256": "467319006a15a8a7f1c87e782979850e3f2474e3d1156b215206202634158452",
+          "git_blob_sha1": "7655d4b5412d419baffdd390c90fb6d9ae53aced"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0132.jpg",
+          "bytes": 146222,
+          "sha256": "5e53d8772d4c6de07a753d20b743a875165d7f08ad0b871d2dd7f4af6403279a",
+          "git_blob_sha1": "13b250818fe1d4ce955ee9b08990a51dad9a1cd1"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0133.jpg",
+          "bytes": 145535,
+          "sha256": "5aa783fd0675fd3557ded71f5ba90377ac63afb192eafa73038567c95acba6b3",
+          "git_blob_sha1": "468dfba506e086b53fad3d7d3a4f9ad7030c3166"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0134.jpg",
+          "bytes": 145460,
+          "sha256": "0a8dfcc37220f81d5fa42b2c2c6681be3892c459cb048c9f196008fc2218b5fb",
+          "git_blob_sha1": "a4a73f28263de756762842943014ffb48d8ef7a6"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0135.jpg",
+          "bytes": 144664,
+          "sha256": "b47d7129e09f4085bba62a25c55b7121938cb21b3f54e0977b997fcd9a641352",
+          "git_blob_sha1": "92689c49055119754067806ae6bcbb773f4a7f11"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0136.jpg",
+          "bytes": 144194,
+          "sha256": "499443203aa460e99e40e39d5e81529599b1ce33b834fd904527d11e48440c8d",
+          "git_blob_sha1": "a6e45069102a5a971fdad7cc88c6c40c5184ccd0"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0137.jpg",
+          "bytes": 143550,
+          "sha256": "75de2cc35e48f3fafddac0fae4ec8b6d9e6373a4f6f40a17b34a60ca94a38cb3",
+          "git_blob_sha1": "8df37e356ab0f6be440ee0f65621a10cf5106560"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0138.jpg",
+          "bytes": 142727,
+          "sha256": "951739b7d4a0a43562ab494bba61a8a0449e98061193380ff8afc7e868c28620",
+          "git_blob_sha1": "d11db34e5a0251b6713d38b88edcc9accdeddbac"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0139.jpg",
+          "bytes": 141734,
+          "sha256": "6998e0d2df1e3b26699857a1ba2c774e0678f09bb001eade5465cb3e992c8d8c",
+          "git_blob_sha1": "16a67f68871ad29893a1359219278ef2dc7a261c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0140.jpg",
+          "bytes": 140833,
+          "sha256": "4f9d70d1deaecce24a22259614e6a52b238b4873e1e51911a06d8f690ff677e7",
+          "git_blob_sha1": "c2cb19b6d09971ec6a13cf05560a6b0a0314ecb6"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0141.jpg",
+          "bytes": 139615,
+          "sha256": "63926c080b01de9b146cfc0ac6da9ebed1318db1666d721cb0e3023dbe6af8b7",
+          "git_blob_sha1": "9af4c18acb84d9c87ffb2bc137138f67343f829c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0142.jpg",
+          "bytes": 139013,
+          "sha256": "8478ba9265622802b6b29b287d3997e029ea87c0c03fd8eeb1a28b68a0bd48e7",
+          "git_blob_sha1": "d73bc57ff39aa69b367f1deb961597e379ef2588"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0143.jpg",
+          "bytes": 138333,
+          "sha256": "d5bffa6d39eb1c36dda5b6385fa4337c79887a6e9ba9dd7d4f9033bea84f71ba",
+          "git_blob_sha1": "8e9276cdacce8274fe8dde7133202d2e1cf3a151"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0144.jpg",
+          "bytes": 137608,
+          "sha256": "cbaa820d72e0940bd802ffde5fd0f297621412ba973a6eeeefebcfe43ff2442f",
+          "git_blob_sha1": "ca2f9f9b795a21071a62821cf46e7ac37b777861"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0145.jpg",
+          "bytes": 136926,
+          "sha256": "2a54dfb7b5013d31d6abcf4ea38f00ef7aa172365464a2b997073ae961ae4b8a",
+          "git_blob_sha1": "b67b34241912f1a22021639bbbe3177523f7e35d"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0146.jpg",
+          "bytes": 136303,
+          "sha256": "1f6519dd1e12c133f20e1b83eb2a5b0a964b914007b98cfa5406408d91a7d006",
+          "git_blob_sha1": "7d61054f41722d12449a3b3ea9dc6c8852363caf"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0147.jpg",
+          "bytes": 135304,
+          "sha256": "82991786ec4de90a466c65ed9417be24e513d01677859d8909997466da58d9d3",
+          "git_blob_sha1": "1d47c2a3f724126f3840dba4b8f775c3bd7167b8"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0148.jpg",
+          "bytes": 134383,
+          "sha256": "03c043993305a5e8d294f2b604a0171de8e25dd7637001a0cdcc4588c07ff1fd",
+          "git_blob_sha1": "85817b61cba9b79fef858ac214579b0713379d8c"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0149.jpg",
+          "bytes": 134003,
+          "sha256": "f4c404c9aeb3fd8ccbdf00085b9b487b5ff07a6c077082379c156c00ebf6c5ef",
+          "git_blob_sha1": "320661910e4a2331f6893ae48508ea612e7d02e2"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0150.jpg",
+          "bytes": 133619,
+          "sha256": "fb1a65ac75818e9ce465ed139cf0b7947e70f184b873374e056bae9e2428c2d7",
+          "git_blob_sha1": "3447daf5bcd199d4548ded46cabf1107e595811d"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0151.jpg",
+          "bytes": 133706,
+          "sha256": "3756cc1ac9d5c3debb5763ca58cf35e1ae73767486d139c436a1bcd15346acea",
+          "git_blob_sha1": "0d6f7fb84f930bdd80fa619506c6fe7ca6cf8572"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0152.jpg",
+          "bytes": 133482,
+          "sha256": "e358167fd02539a3552d6df37454363da3602a33ac700784ab6b811d593303b0",
+          "git_blob_sha1": "81a75182cd5ea0dc2d43fcd105ed4eb961fca2ae"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0153.jpg",
+          "bytes": 133122,
+          "sha256": "e1c270d6a15bd457b2a582519f11726aa068893a466ff6842d615ce61c687ffd",
+          "git_blob_sha1": "50cb221f2fdd0d6b60eb83fa7b3d0a2e83b576d6"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0154.jpg",
+          "bytes": 133352,
+          "sha256": "18633a613c41a2a1afbd4be66e4a2dcc21ec9f5b38e2db1d880cf8a9f7a89017",
+          "git_blob_sha1": "94630dcf7d03cab64b7e16aecf89ba5a027b370d"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0155.jpg",
+          "bytes": 133325,
+          "sha256": "224ed5070cbb4d3fec82cea359ae438a40f6d65c889260fce67ca790bf8c3d34",
+          "git_blob_sha1": "ec1a5679e8923eab33f3f45595994774846b7dbc"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0156.jpg",
+          "bytes": 133311,
+          "sha256": "07ba8e5ddf26a446a61a0068c1c26ff08b94b76ab03aed640e3cca78c9272204",
+          "git_blob_sha1": "2416667459d359a32e10e5d1a1160a5d24b37aa2"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0157.jpg",
+          "bytes": 133273,
+          "sha256": "5e964971c6d70d12f934bf18d1847b12d3aad38339627994ecd708929af74082",
+          "git_blob_sha1": "67906e8d83af27b82fb1f8f92227a1e50b92c0f1"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0158.jpg",
+          "bytes": 133254,
+          "sha256": "590abc13e7964f430b3aac4382b5ebddcafdf83295849d084eea093261b3eb28",
+          "git_blob_sha1": "3c8edaceef9e8b521dfcdf544e8958d8fb918cf5"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0159.jpg",
+          "bytes": 133420,
+          "sha256": "c3063b6910e97761f814b71e48b3cf38830e460752f537129f34eeb2481b8789",
+          "git_blob_sha1": "7a68c4c31de1ad95aefa2b02bb89d0ce644dff6e"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0160.jpg",
+          "bytes": 133376,
+          "sha256": "56fdad98ba5258bf284df7566fe97de9ad8e90bd8a724cc585b8143b6b90e966",
+          "git_blob_sha1": "9d0c859cdc60764415f70e3eda1e3c9579d47698"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0161.jpg",
+          "bytes": 133342,
+          "sha256": "ca3234b01ebddb598f389442a4e9a8d9f448aefae0677460c9db5b8f397f8bdf",
+          "git_blob_sha1": "be41b9f55a200760526066ce112c516e46a31913"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0162.jpg",
+          "bytes": 133296,
+          "sha256": "8cae42db61f515f33c4db50604d56eeb674e3f394bb820af553e2001ccb19b3e",
+          "git_blob_sha1": "9666efef8a7b5e826ef3b7de0531d4e29b558fef"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0163.jpg",
+          "bytes": 133300,
+          "sha256": "53cf5983ce06ed5035e86523c02aec67bcd2960c8041dcb62f9f35124d4a53b0",
+          "git_blob_sha1": "8691c8d33f26defa16d37f1ffdba5f75964f3297"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0164.jpg",
+          "bytes": 133182,
+          "sha256": "9f2b5365de9364f4751504791c6e1dfba484e3f46d5ee501efc518940f4f4bfa",
+          "git_blob_sha1": "d7386d853161177e53d893ccce64af7a38b2f04d"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0165.jpg",
+          "bytes": 133205,
+          "sha256": "4c1079db052b407bf972468a3762bd5756c2c204ea68fd28f8d76cb3464ffb47",
+          "git_blob_sha1": "c35538e58cf958567aad93d60f57f51276adf47f"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0166.jpg",
+          "bytes": 133103,
+          "sha256": "7262f2a779cac3b055cd75f94c1846e41c06e5d547f5259eb5355cae08e24745",
+          "git_blob_sha1": "ebb06681895019a422f5a12e237c0c10ca855385"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0167.jpg",
+          "bytes": 132996,
+          "sha256": "1fb4ae5184b460b23ec92c40a82969f2fda4c00d4edf361a0e948e9b1331a540",
+          "git_blob_sha1": "1d826d21b44797c6170b47b10d8ca7916a89db05"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0168.jpg",
+          "bytes": 133077,
+          "sha256": "cc91975ee547160dd8290a2bacf93d6102a72dc4d40c7d53eaf32617c4f44266",
+          "git_blob_sha1": "e59fedb986e8b2c9917d2eadd80c09ed8dbee273"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0169.jpg",
+          "bytes": 133178,
+          "sha256": "5bc5c830d5501016ad823654fec4ef00e57e2cc2668c4b1a45e3b3003fdc43ab",
+          "git_blob_sha1": "90e1847daa1164a4347639170e64bc994dff5c76"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0170.jpg",
+          "bytes": 133097,
+          "sha256": "29bac16fbcf6be5b1645a0fd776c1a42d0c1de8cdbd9f3f705ee92b8638bac85",
+          "git_blob_sha1": "a0f5fad274e9f0b05a60d0a311a1fbe67d337cd6"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0171.jpg",
+          "bytes": 133228,
+          "sha256": "eae898c5105be09f3a5c75487faaaeae9c2c3d8aab5a34de9cccd2382ba43f11",
+          "git_blob_sha1": "9777ba5f133ddd6bb6095387968f424aee14c474"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0172.jpg",
+          "bytes": 133044,
+          "sha256": "fba47da807a710b9170f58ccd881d8fa9b18c5fece928638eca41d0ed51e779a",
+          "git_blob_sha1": "ed7f28aabe016d9b9a6c7f16e36ec9a5b73e6c73"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0173.jpg",
+          "bytes": 132935,
+          "sha256": "ff3f97b5097aaee0feeb80fc0e05fa742d30ffe1bb6c45b56d7360b27d619d35",
+          "git_blob_sha1": "9b25019c16072b0c5717616824c1635dbd9931cb"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0174.jpg",
+          "bytes": 132858,
+          "sha256": "c7807a570d4af4233de7ea131c112893233e5ad213332d205c554eb34076cb1c",
+          "git_blob_sha1": "bc8a704d23f3a4c353f716f482e7b305e461d352"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0175.jpg",
+          "bytes": 132857,
+          "sha256": "ce376c23dd9a2298fa831058e08fcd6e5028661fe47d41093ddef96c5b7ff491",
+          "git_blob_sha1": "a581a2490314a1b0734d0472250b0cac979204dc"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0176.jpg",
+          "bytes": 132920,
+          "sha256": "73856341d4061d0941f48e3e222acfff1fefe9ab5e6ebe1cd9009b0c0e707e69",
+          "git_blob_sha1": "cd98722a332664110ed3d93cd7f34e42fae2ac3e"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0177.jpg",
+          "bytes": 132957,
+          "sha256": "f41499d263a21317e688ea1634a39cff19773375baa5284f91ee74c3f8171f3f",
+          "git_blob_sha1": "a7030314676af797d7d7de280f1b72d64508099b"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0178.jpg",
+          "bytes": 149354,
+          "sha256": "8cda5aad8eb50facc45c4873e781c389937cb1dbbb3f5cd316bc30a7d9dc7eb4",
+          "git_blob_sha1": "bd1017fbff995f7be389b9b758a4b94a0372c1af"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0179.jpg",
+          "bytes": 165960,
+          "sha256": "d5fee300571254b6cb3b9627970414fdea41f3bb130b1509c212b43154a561d6",
+          "git_blob_sha1": "fcee5b3233756ebc130bfeb8dbf9760285c37251"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0180.jpg",
+          "bytes": 170617,
+          "sha256": "825ba3796706b230b605d3329e4ab9b7da55f68e1e64430d587dbedaf8ea3545",
+          "git_blob_sha1": "9f96860c0e3dd7cab05ea4f99c13cc16440f69dd"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0181.jpg",
+          "bytes": 159262,
+          "sha256": "00bd322d15e137a7caa4fec6b3f1d4cde4cd9f08afd4a51e5659d109285b069c",
+          "git_blob_sha1": "88474edd6a82051c7ba7f20c72d9ab99af07ed9b"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0182.jpg",
+          "bytes": 159892,
+          "sha256": "927cea9702e5e583f944734f5f816cf15b286da718353cca3d7b45c8cfd9244c",
+          "git_blob_sha1": "91e25598168c0dbbe0b5cf5caa2e264bb2eec4fd"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0183.jpg",
+          "bytes": 160160,
+          "sha256": "a92653890ed554793b63085bd72d624b284f1b299da6e83ae0e0f8d4c1eef770",
+          "git_blob_sha1": "0c837f1f204ef80bb4a1a771db2d823fb54591c0"
+        },
+        {
+          "path": "Taieb/data_Exp4/Frames_Exp4_rate10/frame_0184.jpg",
+          "bytes": 160193,
+          "sha256": "d901d8c30b62a724202030c23912c1335e5d929deef4acf936d1921305cc13e3",
+          "git_blob_sha1": "4c4c8eda1d9fa68198467dcda53f67021604c59b"
+        }
+      ],
+      "selected_source_images": [
+        {
+          "frame": 0,
+          "path": "images/Exp4_frame0000.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 186107,
+          "sha256": "7795b3ac8a3880e2a4c18c45a880c84418b6a05ec40f48968fa90441480d9a3d",
+          "git_blob_sha1": "bfa38c5d7d9de1f30b87adc2983817cd9ebbfdfe"
+        },
+        {
+          "frame": 20,
+          "path": "images/Exp4_frame0020.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 178378,
+          "sha256": "628904e0a84a40d515de60b10db444dbac69669f38dc56a47881196fd50cd363",
+          "git_blob_sha1": "43517238a6458ac2f3770d72c3e6bd4ac230e420"
+        },
+        {
+          "frame": 82,
+          "path": "images/Exp4_frame0082.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 159726,
+          "sha256": "c2bc4ccd9c4c6b97793e686966cf331473574146a52501ff0bf7d94a869c8eb9",
+          "git_blob_sha1": "92dc83f1a31ff818dea4e185b78dea6ae7464e19"
+        },
+        {
+          "frame": 145,
+          "path": "images/Exp4_frame0145.jpg",
+          "width": 2752,
+          "height": 300,
+          "bytes": 136926,
+          "sha256": "2a54dfb7b5013d31d6abcf4ea38f00ef7aa172365464a2b997073ae961ae4b8a",
+          "git_blob_sha1": "b67b34241912f1a22021639bbbe3177523f7e35d"
+        }
+      ],
+      "selected_source_images_not_yet_downloaded": [],
+      "mask_policy": "Only explicit workbook matches; all duplicate-coordinate matches masked. Missing labels remain mask=False with zero placeholders. No interpolation or graph carry-forward as labels.",
+      "reference_policy": "Every included node exists in graph0, its first pre-coordinate equals graph0, its track is continuous in observed-event order, and every observed coordinate equals the same node in the same archived graph frame. Late first observations retain the true graph0 reference.",
+      "target": "Image-tracked displacement relative to frame0 / initial graph height, in image x-right/y-down coordinates.",
+      "progress_limitations": "Author's offline compression-window annotation; not measured strain. Exp3/4/5 all use start=20; these annotations were not independently force/time calibrated.",
+      "label_limitations": "Automated skeleton matching is a noisy image-derived label, not DIC/FEM ground truth; exact consistency does not establish physical node identity after buckling.",
+      "force_labels": "Not imported: no verified synchronization to an independent mechanical force series."
+    },
+    {
+      "specimen_id": "Exp5",
+      "physical_specimen_id": "Exp5_ID03",
+      "admissibility": "admitted_with_masked_automated_tracking_labels",
+      "source_repository": "https://github.com/ricardofitas/uncertain_cb",
+      "source_commit": "1df856a4f2c71378744d4a73e3cd958f6f6d7a71",
+      "source_taieb_tree": "23b436f7c46b1d3f16d19d448b0b8c7a262aedbc",
+      "source_files": {
+        "graph": {
+          "path": "Taieb/data_Exp5/Exp5_ske_rate3/graphs_Exp5_ske_rate3.pkl",
+          "bytes": 460544,
+          "sha256": "b5bc4f943456a9345304e5f436f7ce646cc9425380f860f8cfd64793f5bc31e4",
+          "git_blob_sha1": "59f0382ecf71b7a8262714f2f852c88d57f74103"
+        },
+        "tracking": {
+          "path": "Taieb/data_Exp5/Exp5_ske_rate3/Track_data_Exp5_ske_rate3.xlsx",
+          "bytes": 83400,
+          "sha256": "43dd03a7f1f1fe10628a2a5bc2d0133a9399645a21beae9e152d9936d9810b0e",
+          "git_blob_sha1": "a26e07bfa5e57ebf16dcecdd75621a6a1c59b8dc"
+        },
+        "annotations": {
+          "path": "Taieb/data_Exp5/Exp5_ske_rate3/img_analysis_Exp5_ske_rate3.xlsx",
+          "bytes": 5072,
+          "sha256": "b6a3adfff7e9500692544b6fdfccd9121f6945ee6458429cfc4cd797f0e5d5db",
+          "git_blob_sha1": "62fdb991b3fd58a0baea4169172b646ab63c7c93"
+        }
+      },
+      "raw_experiment_alias": "experiments/2024_12_03_ID_03",
+      "alias_policy": "Taieb/Sample_videos aliases and experiment paths are one physical specimen, not extra folds.",
+      "processing_rate": 3,
+      "n_frames": 72,
+      "n_nodes": 42,
+      "n_undirected_edges": 61,
+      "n_directed_edges": 122,
+      "compression_window": [
+        20,
+        59
+      ],
+      "compression_frames": 40,
+      "source_observed_node_frames": 1723,
+      "observed_node_frames": 1723,
+      "source_compression_observed_node_frames": 839,
+      "compression_observed_node_frames": 839,
+      "compression_coverage": 0.4994047619047619,
+      "collision_observations_removed": 0,
+      "compression_collision_observations_removed": 0,
+      "initial_coordinate_mismatches": [],
+      "graph_coordinate_mismatches": [],
+      "tracking_chain_mismatches": [],
+      "excluded_later_born_nodes": [],
+      "first_observation_by_initial_node": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 6,
+        "4": 6,
+        "5": 1,
+        "6": 1,
+        "7": 5,
+        "8": 5,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 3,
+        "16": 1,
+        "17": 1,
+        "18": 1,
+        "19": 1,
+        "20": 1,
+        "21": 1,
+        "22": 1,
+        "23": 1,
+        "24": 1,
+        "25": 1,
+        "26": 1,
+        "27": 1,
+        "28": 1,
+        "29": 1,
+        "30": 1,
+        "31": 1,
+        "32": 1,
+        "33": 1,
+        "34": 1,
+        "35": 1,
+        "36": 1,
+        "37": 1,
+        "38": 1,
+        "39": 1,
+        "40": 1,
+        "41": 1
+      },
+      "tracking_gap_count": 34,
+      "tracking_step_percentiles_px": {
+        "p50": 1.414213562373095,
+        "p95": 5.385164807134504,
+        "p99": 9.0,
+        "max": 10.0
+      },
+      "scale_px": 133.0,
+      "origin_px": [
+        101.0,
+        136.0
+      ],
+      "raw_frames_in_source_tree": 72,
+      "raw_frames_downloaded_and_hash_verified": 72,
+      "raw_frame_fingerprints": [
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0000.jpg",
+          "bytes": 211397,
+          "sha256": "2f2337b3a125e783af1bba0012e407d5e32625d96d9782d9404464aa92573991",
+          "git_blob_sha1": "2ffde796f8932f8da082b33d8cc1b114d1f7c2e1"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0001.jpg",
+          "bytes": 211388,
+          "sha256": "a511ffb805335d67f5e5b0bf7e758d731ba47bc1360b3b74c170fb41b2553ade",
+          "git_blob_sha1": "a1aea04ec5c3e0e0553f73dd2aa6c0381d830783"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0002.jpg",
+          "bytes": 210347,
+          "sha256": "5b984299090e72ee4663ba18f49e016dd583aa9c1f363d04c492aace2826c624",
+          "git_blob_sha1": "bdb21da08b1af5c4f6826c3c1cce355313ffa223"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0003.jpg",
+          "bytes": 210138,
+          "sha256": "265356867a5bae35ac8c2b29fd2c1e333197686cfe56309d0e4902babb5cfeb1",
+          "git_blob_sha1": "81830ff2e8bbe18fdf71c259d741f675d74f0dd0"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0004.jpg",
+          "bytes": 209117,
+          "sha256": "a212d2fbdc2aeb0d9e70c14a5ebeb80033b8535c99174b11e2a8bae04e1cb5e5",
+          "git_blob_sha1": "e1984584816f6a02aba15de153b0fc1665055c65"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0005.jpg",
+          "bytes": 207967,
+          "sha256": "51b4911fdf2dfd46011477a504306ad08402015f064e930430923eab1bccbfeb",
+          "git_blob_sha1": "03b85c24a1c0e5043c6a8b4403184a43057ae2e4"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0006.jpg",
+          "bytes": 207598,
+          "sha256": "50940a44b9bea0c65ea6f0d1497d775c192d5f3cd23af4a33ed23c5de203171b",
+          "git_blob_sha1": "b93b33f15960d7480646e25b9dca8cd6ab7fcf9e"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0007.jpg",
+          "bytes": 206040,
+          "sha256": "c067e63c1dc0d773312ae7f3a1659c55559b9fb0f7722d8c8f4b19516fef884f",
+          "git_blob_sha1": "c04b7b708ee17b1acfd1536c9614eff163e0ef9a"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0008.jpg",
+          "bytes": 203752,
+          "sha256": "d5ce10f161492fd237d8fc58e6ef1029cbd17fc26ed3d584cecc52ca846f6365",
+          "git_blob_sha1": "4863c6df82b357572d5d615fb6d89b066c0a51fd"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0009.jpg",
+          "bytes": 203039,
+          "sha256": "e88d02a96a2f5a22373a31adac82d28d5eb089ca15e3e78cfa84d67793188f72",
+          "git_blob_sha1": "67048bd971943d857de8ffda0dbf6595ad9438b9"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0010.jpg",
+          "bytes": 202447,
+          "sha256": "4e821369cae75028529050b7d57c815020a15e8c267363ceacc408d9a8b48390",
+          "git_blob_sha1": "df7f8bb1d1fd13ebde4ddde04cc2ee6e1e9b9438"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0011.jpg",
+          "bytes": 202746,
+          "sha256": "23af0513926c3004c1207582e1197db0446549e8f03f582da98b0abeab78cd59",
+          "git_blob_sha1": "4cd3fe09485161c9aa3b26d67f4ea3f614d7fece"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0012.jpg",
+          "bytes": 201841,
+          "sha256": "251a9c8b415998a948c0bad08459ca73aba462e81764ce95efc27e38eed44bff",
+          "git_blob_sha1": "42d8f839e32d5504950733a7575dbb3051c9dd84"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0013.jpg",
+          "bytes": 200646,
+          "sha256": "ab80506db367e9ecad1d297e839ee1191d172b9fb767d694aa31d2cf33c06cb6",
+          "git_blob_sha1": "7b853c99be6ecbda04571ea7eca169768556189c"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0014.jpg",
+          "bytes": 199677,
+          "sha256": "3e4cdf4926780a2e9b6e0d93aaa7f58885dd09925016a9817f08a5c8d2a0e8c9",
+          "git_blob_sha1": "3adc3d6bed8cb7c70656343e3e1fea464d00fdb0"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0015.jpg",
+          "bytes": 200010,
+          "sha256": "f6d64ba199110fa21d0ea7933c2105b93baaea7b48c6ef7b9e9231a1315a6204",
+          "git_blob_sha1": "624004ca82af3c03238093b4ae1dd63c79bad663"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0016.jpg",
+          "bytes": 199096,
+          "sha256": "86f42f764749baa12aea0f50788b7226015ff5bb7abb10fcdb14ba8e74138a97",
+          "git_blob_sha1": "7390b7d827e09887d3896cf21cd0516f9802f0df"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0017.jpg",
+          "bytes": 197452,
+          "sha256": "0a39370a8c34752854d7b1bbaefbebf1c7f26babda91fb4510e3b0c7a656f166",
+          "git_blob_sha1": "70e0b8b6204b0b89e2c448f06c56515f9e4bb45e"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0018.jpg",
+          "bytes": 197370,
+          "sha256": "f8ade8bf173fd683e0bcf41140d10047865601d4803d0b8cb793b8c4c3fcf6ba",
+          "git_blob_sha1": "1654ce3224251d3c6a0179ef9b1a1aeb37428c3b"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0019.jpg",
+          "bytes": 197114,
+          "sha256": "567565ae28e178f90c7fd4717967944334004ea6bf079cb9675bf212f758ef98",
+          "git_blob_sha1": "7ef4b626cbaaffdd028f4685a3536b25a4a971fa"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0020.jpg",
+          "bytes": 195099,
+          "sha256": "2af1cc1f212fa964bda53ec084b8a1bca5d26a3ba0f46ca7dc4be9854fd65510",
+          "git_blob_sha1": "df3c0b07eb293af3d610d409cdf2e180abd83f1c"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0021.jpg",
+          "bytes": 195616,
+          "sha256": "47c0598075b295ce60a3fb15b78d94b6bf2a82888d6044b91ca1e95e93fdc2ac",
+          "git_blob_sha1": "599eea604d3ef4351be5916dcf8786b4ff6e89b2"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0022.jpg",
+          "bytes": 194765,
+          "sha256": "9a41d97dba00c16f6f185f8a8cd9b4e6f745a3439e05141708b848798e78cc68",
+          "git_blob_sha1": "21fbe3b484c231926fd4f595df7c8681d278fc16"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0023.jpg",
+          "bytes": 193757,
+          "sha256": "7e80ac37670d4a2341dc1db090b25bbd85eaf1aaa3bbfb5665ee18c526b2e1b6",
+          "git_blob_sha1": "67cdbdc7ecc16545232709e83bee2d1e9cb2d491"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0024.jpg",
+          "bytes": 192659,
+          "sha256": "bec6ab4759d84bc9eda2f51433d237dc25b8e5a4f0ab4eaf8eb839dbd88426f7",
+          "git_blob_sha1": "58c0111a4a0ad9a9b3bf73ccacf72d58e34e81b0"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0025.jpg",
+          "bytes": 191899,
+          "sha256": "f2bfc1f7d6cb49b7a1f94fabd48feba236c1d0821548ab7e50f5dc2dbd93dd86",
+          "git_blob_sha1": "d90a973b2c2087bd18e6a9d23007cae9c7aff0ca"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0026.jpg",
+          "bytes": 191220,
+          "sha256": "0017c0047acd97d2417e3681eb2ba061ed03f62f3b7a3abb834da70312b0fa11",
+          "git_blob_sha1": "d94af6a91f0d55d8026acecb56e91104aa791a6b"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0027.jpg",
+          "bytes": 190441,
+          "sha256": "9b54b6fa8cf16158820e86acf41da4cfdaad8a98b8982fa3ee86a518814b5f53",
+          "git_blob_sha1": "af0783655ffdda9a4b977af088e7765c7bcd84e2"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0028.jpg",
+          "bytes": 189438,
+          "sha256": "a76d60e9765f6640d1fd053f4d3aead0d2ffbc5f557588390ddba6a71141b815",
+          "git_blob_sha1": "5b74b3104f159ea7e718d37a6e3f5de6b72f5102"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0029.jpg",
+          "bytes": 188415,
+          "sha256": "7716d9d004c71590cda9725d39dc7aa072ac9d49f2ba8e842c9dd168e21f7e65",
+          "git_blob_sha1": "8329c39526a505d83ed9264e5f11f79e5f399565"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0030.jpg",
+          "bytes": 187522,
+          "sha256": "17cec6bf86d4d0f25693ec4255fab7027cb6091f70a6514a6c95533ad557b515",
+          "git_blob_sha1": "fabf461c54379f36fd2c19654068bd1d272f4d83"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0031.jpg",
+          "bytes": 186750,
+          "sha256": "f88c0a91c37a82d9ba102b451c80696f2e91c1af32959872a80ef967ac05b2fe",
+          "git_blob_sha1": "fe051cd21d3a9acbcf1dd449808e791700bf9381"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0032.jpg",
+          "bytes": 185920,
+          "sha256": "789454a56dfaa95e091cd2bff7ada93028122d37bea71326cb36b42e774a2e30",
+          "git_blob_sha1": "35b3060faec988c0b9f031eb629c5487602d9d5e"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0033.jpg",
+          "bytes": 184877,
+          "sha256": "7ae1d26cff11916f5979672e565d5e32e65234fac77376ba6ac336ecfe834410",
+          "git_blob_sha1": "4ea615c68038067d4b04fffd7b321f27e14447cd"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0034.jpg",
+          "bytes": 183486,
+          "sha256": "1e1e64f90a70ec1aa9de09619bdf99d1f07d7b37b976687f698315dcef961d6a",
+          "git_blob_sha1": "a7ce726831adbbfd2c0dff8198e19873c4600fb6"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0035.jpg",
+          "bytes": 181465,
+          "sha256": "9dedf3bf8472641a959c227ddbfcd82269df2c66736f4665d63cb61b5f1856de",
+          "git_blob_sha1": "1f5c91f3feb8634c712c5e97c614be071d0f1b16"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0036.jpg",
+          "bytes": 180337,
+          "sha256": "cf18eaa2128c1883bcdc203d437941e045e5734256836e27dbb510656e65d948",
+          "git_blob_sha1": "866491758268dcc8a89563d2e054a88feb0c9643"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0037.jpg",
+          "bytes": 178946,
+          "sha256": "66d0e0529417643134535bf637fda67ea1f2b9d495100a7057c57e6dcff8b43c",
+          "git_blob_sha1": "a060f57e268c02d8ee4969acae994cfe9aec307b"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0038.jpg",
+          "bytes": 177203,
+          "sha256": "0c2f1f73e1ddcf665240739d1d0d92b0dabfb07f2271bb2cf19f290bb469cbd0",
+          "git_blob_sha1": "927ccfda49bebb8608c0bc4b04483384bcd5884e"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0039.jpg",
+          "bytes": 176626,
+          "sha256": "f0462345788d1a1edadc174df72c30898c8070fee2163f559f0db0be6b46911f",
+          "git_blob_sha1": "1f4c5f49f921026d2f8d5d760e958a5a1d6b82c2"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0040.jpg",
+          "bytes": 175445,
+          "sha256": "893b10488a5efc1ce56d6745cd3612e94ddf5238c8c82996f1c78df8c43a3fca",
+          "git_blob_sha1": "75ec85923ea3d3f890b99ecacafe03e356d56f12"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0041.jpg",
+          "bytes": 173645,
+          "sha256": "d07a6ab3a8d48d13db09b917e340bd693ca3aeafe3075d8b8040d8f1eb5e4962",
+          "git_blob_sha1": "ddc2f09c31befe920920d2e74530b7e4d237f6a8"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0042.jpg",
+          "bytes": 172811,
+          "sha256": "94020253bb73be5b363b42e6833c0d2a6d3547a1ccf1168b0902142f1208bbed",
+          "git_blob_sha1": "7f41cc1d408c376187070ca467fc252dd7d065b0"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0043.jpg",
+          "bytes": 172859,
+          "sha256": "38e502cfc98553936cfbe26827aa1053dc3dc3c26407e7156eb12201020906f3",
+          "git_blob_sha1": "87f7f6aa504874a4c387ee994be401e603bb490a"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0044.jpg",
+          "bytes": 198071,
+          "sha256": "03776f51ce4286f28df6dc45080cadc46dcdc6ca1da9d960a4ff25f7caeec5e0",
+          "git_blob_sha1": "cade7d60de527ec218f0047e6aa11b66d25be6c5"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0045.jpg",
+          "bytes": 198845,
+          "sha256": "97c874a3636c9f410f99350d72e8da34dad4efc02fea78b8003f0d9df2e2a215",
+          "git_blob_sha1": "9fe91498ed264fba49effa750da75479beb62a2a"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0046.jpg",
+          "bytes": 200614,
+          "sha256": "eff95944a2b8059beb95e2a569bde45bac6fa9eb6b949caf54debdb8ee4e36e0",
+          "git_blob_sha1": "7c089ef2d587861470c6d9b81a677ce761f4ca63"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0047.jpg",
+          "bytes": 201198,
+          "sha256": "44e4edec2be411fdce90133d2df57047d11b66527862638c7b5e007c71b76cc5",
+          "git_blob_sha1": "64a24fd995dd92b68d6c27bf3f8a8e0c2f081404"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0048.jpg",
+          "bytes": 200719,
+          "sha256": "d204b409e8f259c2f321a34479dbfa7c2cfe5150b90101aad164f759c7109d14",
+          "git_blob_sha1": "71686a5484971b10cd8e685aab3f2ae1757114b5"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0049.jpg",
+          "bytes": 200948,
+          "sha256": "4fd1f1bd559fc5ed9b3026569aae2f7d02849bd3efb81214d6d45a7d2a0f1411",
+          "git_blob_sha1": "b0268382a09500b35811742d78442afcd1af7e2c"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0050.jpg",
+          "bytes": 200969,
+          "sha256": "b192d9f0fe715c433043e7488968eec1aacf740b91e90603825c698208536a62",
+          "git_blob_sha1": "7d2f4ab0f7ff049b6604d6fa74cb7dca6e846ac6"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0051.jpg",
+          "bytes": 201271,
+          "sha256": "22f86884a247676c2328ae2f03004a2f3102ab104d18665caf182cf2cc58b43d",
+          "git_blob_sha1": "10235d0ba376d9fb5af719c399b3127f7719520a"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0052.jpg",
+          "bytes": 201293,
+          "sha256": "93c94021ef0196760f0dd0352f3a6c8b3aee325d59b727d735367fe25cee002b",
+          "git_blob_sha1": "52633f003081a4fa8f3618c7fcc26923e0772e9e"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0053.jpg",
+          "bytes": 201228,
+          "sha256": "9e15d5ee432d36411e03221f4100e70b34cc794d77147058241fb3fb408da3d5",
+          "git_blob_sha1": "450b929f8aae0e1235997533ae85031760b952d0"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0054.jpg",
+          "bytes": 201386,
+          "sha256": "c5367f273715de00e91fdfb044553c50491a3c2dfc60763af89b4c9dc51db271",
+          "git_blob_sha1": "860b7ddfdff9f03423536f0578b31e415dcc1264"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0055.jpg",
+          "bytes": 201055,
+          "sha256": "6be2ae36c566cb516e813b89ad74517d47175c8e0eeccf4092498860cb1c18bf",
+          "git_blob_sha1": "72dabfe73e45b361c7e1e2f110125ca87444fea8"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0056.jpg",
+          "bytes": 200876,
+          "sha256": "d5366001472f18e50e45b4e7d1f526cb734bcee7a363153084279255336a7ded",
+          "git_blob_sha1": "ecb54f505c590346abd8d0fe0271947a6fa336e1"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0057.jpg",
+          "bytes": 200810,
+          "sha256": "2c0f1348a50a6868b6e1d8929d78669ae52f62f60c9478338ae7627db070355a",
+          "git_blob_sha1": "9ccdf6e7a8292e93b8b957ffa98b756e442144a2"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0058.jpg",
+          "bytes": 201005,
+          "sha256": "aa1129d3a3a1def3f796a74f9f17cee4e7e52b163a9987839bceacd89d5f54fd",
+          "git_blob_sha1": "68cccc840ba086fec1d4a9960c9cf753728c04d0"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0059.jpg",
+          "bytes": 201009,
+          "sha256": "657b1a0040a6a13935ea801ee691fc67cd41d2ce85a736e43569806b7b14aaa8",
+          "git_blob_sha1": "3f650751524b370ed12f7268821da550f9be428d"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0060.jpg",
+          "bytes": 200693,
+          "sha256": "684221c953eea9d39935a4fc8f2e1872f5169b7899bd10e69202188805d93494",
+          "git_blob_sha1": "dd3f7b297f8545fb3d791aaf90f5a02ab741f305"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0061.jpg",
+          "bytes": 201057,
+          "sha256": "2f8ee4317e1a3575026a60c7dd55efc16be53b9fd9751384f07b4ace63d85fe7",
+          "git_blob_sha1": "d0ab34944e3d742c06a6087c35a6f34ffc72c137"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0062.jpg",
+          "bytes": 200847,
+          "sha256": "2123de0cb45fbdf9c1bbffcbc4b81d84b69cc490b2597e21f06913ec9b955c8f",
+          "git_blob_sha1": "9423a9b2d2dc26b87b9af4704a035d48a0262891"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0063.jpg",
+          "bytes": 201470,
+          "sha256": "b8a91b52d45f562603d1ed72573485eb400579c8619ea4db318256f6c12279ce",
+          "git_blob_sha1": "5e692435e8a84c4b6b7ed203e04da3810a91c507"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0064.jpg",
+          "bytes": 201361,
+          "sha256": "f6b1dc11d27af3bd281e8a28440f1725c2c892beda1ed1ec6c0cd339ce3baa18",
+          "git_blob_sha1": "57a3e3258dd5071f1dab1317e0719ee9488c3fa5"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0065.jpg",
+          "bytes": 201317,
+          "sha256": "0ec9fbdcacf21f72ec2c2d318a5a3759cc113c41a43d2334c2d0f57e4f3ff994",
+          "git_blob_sha1": "a40f6f4c1d1fb1b1e9277eccdb4377ed670ddeed"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0066.jpg",
+          "bytes": 200991,
+          "sha256": "979749b04756a606f20ae66ea55ee8aa5efe44de863d81374bc9a2c71b09cd97",
+          "git_blob_sha1": "2f8e630860f161830713b7d55be3a90cbcc81ccd"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0067.jpg",
+          "bytes": 201125,
+          "sha256": "42e0e5206f4b47db9aea44d614d3586a0a19439a623eea66a8353fedd4c5f048",
+          "git_blob_sha1": "34c97ca2a887887e946d81fe202a834ce2366678"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0068.jpg",
+          "bytes": 201403,
+          "sha256": "a549781234a373b1d74610e5b806099c4f94357297f7d8773ba0df6af9e8905c",
+          "git_blob_sha1": "b8cb0d467425f4c4ce8c378d48ba2494f5bc6241"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0069.jpg",
+          "bytes": 201337,
+          "sha256": "f6e40cbbbf721b9ed7e88b89575edaf2ec0fba73e4dee7edcc885e9b63f6c20a",
+          "git_blob_sha1": "b99c2a07f853f77a843399196856f061ad0c98cd"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0070.jpg",
+          "bytes": 201164,
+          "sha256": "45f5be20925a3729fcda522ff2088fa181df7a32793cef73c143e8a0be5287db",
+          "git_blob_sha1": "23c7ff6187334c8eb93e8a2abf415eb04ececf08"
+        },
+        {
+          "path": "Taieb/data_Exp5/Frames_Exp5_rate3/frame_0071.jpg",
+          "bytes": 201130,
+          "sha256": "6d27abbf4bb8aac7b0aedbb95570718640d6b10b1fed90e4bd242490490fb3c1",
+          "git_blob_sha1": "9b7ad18ec3daee94af9b4eda33be4d5d5a7f98c9"
+        }
+      ],
+      "selected_source_images": [
+        {
+          "frame": 0,
+          "path": "images/Exp5_frame0000.jpg",
+          "width": 2752,
+          "height": 400,
+          "bytes": 211397,
+          "sha256": "2f2337b3a125e783af1bba0012e407d5e32625d96d9782d9404464aa92573991",
+          "git_blob_sha1": "2ffde796f8932f8da082b33d8cc1b114d1f7c2e1"
+        },
+        {
+          "frame": 20,
+          "path": "images/Exp5_frame0020.jpg",
+          "width": 2752,
+          "height": 400,
+          "bytes": 195099,
+          "sha256": "2af1cc1f212fa964bda53ec084b8a1bca5d26a3ba0f46ca7dc4be9854fd65510",
+          "git_blob_sha1": "df3c0b07eb293af3d610d409cdf2e180abd83f1c"
+        },
+        {
+          "frame": 39,
+          "path": "images/Exp5_frame0039.jpg",
+          "width": 2752,
+          "height": 400,
+          "bytes": 176626,
+          "sha256": "f0462345788d1a1edadc174df72c30898c8070fee2163f559f0db0be6b46911f",
+          "git_blob_sha1": "1f4c5f49f921026d2f8d5d760e958a5a1d6b82c2"
+        },
+        {
+          "frame": 59,
+          "path": "images/Exp5_frame0059.jpg",
+          "width": 2752,
+          "height": 400,
+          "bytes": 201009,
+          "sha256": "657b1a0040a6a13935ea801ee691fc67cd41d2ce85a736e43569806b7b14aaa8",
+          "git_blob_sha1": "3f650751524b370ed12f7268821da550f9be428d"
+        }
+      ],
+      "selected_source_images_not_yet_downloaded": [],
+      "mask_policy": "Only explicit workbook matches; all duplicate-coordinate matches masked. Missing labels remain mask=False with zero placeholders. No interpolation or graph carry-forward as labels.",
+      "reference_policy": "Every included node exists in graph0, its first pre-coordinate equals graph0, its track is continuous in observed-event order, and every observed coordinate equals the same node in the same archived graph frame. Late first observations retain the true graph0 reference.",
+      "target": "Image-tracked displacement relative to frame0 / initial graph height, in image x-right/y-down coordinates.",
+      "progress_limitations": "Author's offline compression-window annotation; not measured strain. Exp3/4/5 all use start=20; these annotations were not independently force/time calibrated.",
+      "label_limitations": "Automated skeleton matching is a noisy image-derived label, not DIC/FEM ground truth; exact consistency does not establish physical node identity after buckling.",
+      "force_labels": "Not imported: no verified synchronization to an independent mechanical force series."
+    }
+  ],
+  "totals": {
+    "n_frames": 841,
+    "n_nodes": 220,
+    "n_undirected_edges": 321,
+    "compression_frames": 512,
+    "compression_observed_node_frames": 19252
+  },
+  "split_rule": "Entire physical specimen is one group; aliases, rates and re-extractions never count as independent experiments.",
+  "exclusions": [
+    "Taieb/Exp5 rate10 duplicates the physical specimen represented by rate3; use only rate3.",
+    "Later CSV exports have different processing versions; use only the archived original graph+workbook pair.",
+    "Graph-carried coordinates without an explicit workbook observation are excluded from labels.",
+    "Duplicate-coordinate source matches are excluded in the three newly imported datasets."
+  ],
+  "new_data_qualification": "Three additional physical specimens recovered from existing private repository artifacts. Re-extraction from images is a separate sensitivity analysis; this importer validates and curates the original image extraction."
+}

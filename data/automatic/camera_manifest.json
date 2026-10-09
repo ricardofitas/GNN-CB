@@ -1,0 +1,78 @@
+{
+  "sequences": [
+    {
+      "specimen_id": "Probe1_2",
+      "lineage_id": "ML2023_Probe1_2",
+      "image_directory": "../raw/videos/Probe1_2",
+      "glob": "image*.png",
+      "config": {
+        "threshold": 20
+      },
+      "source": {
+        "repository": "https://github.com/ricardofitas/ML_Corrugated_Boards",
+        "type": "original_camera_video",
+        "video": "Probe1_2.avi",
+        "camera_fps": 49.326,
+        "decoded_frames": 2048,
+        "lineage_status": "different physical runs, specimen-specific video",
+        "commit": "bec78551eac3c25e7b3c9cf76a0068d78103785f"
+      }
+    },
+    {
+      "specimen_id": "Probe1_8",
+      "lineage_id": "ML2023_Probe1_8",
+      "image_directory": "../raw/videos/Probe1_8",
+      "glob": "image*.png",
+      "config": {
+        "threshold": 40,
+        "min_spur_length": 15
+      },
+      "source": {
+        "repository": "https://github.com/ricardofitas/ML_Corrugated_Boards",
+        "type": "original_camera_video",
+        "video": "Probe1_8.avi",
+        "camera_fps": 49.326,
+        "decoded_frames": 2048,
+        "lineage_status": "different physical runs, specimen-specific video",
+        "commit": "bec78551eac3c25e7b3c9cf76a0068d78103785f"
+      }
+    },
+    {
+      "specimen_id": "Probe1_9",
+      "lineage_id": "ML2023_Probe1_9",
+      "image_directory": "../raw/videos/Probe1_9",
+      "glob": "image*.png",
+      "config": {
+        "threshold": 20
+      },
+      "source": {
+        "repository": "https://github.com/ricardofitas/ML_Corrugated_Boards",
+        "type": "original_camera_video",
+        "video": "Probe1_9.avi",
+        "camera_fps": 49.326,
+        "decoded_frames": 2048,
+        "lineage_status": "different physical runs, specimen-specific video",
+        "commit": "bec78551eac3c25e7b3c9cf76a0068d78103785f"
+      }
+    },
+    {
+      "specimen_id": "Probe1_10",
+      "lineage_id": "ML2023_Probe1_10",
+      "image_directory": "../raw/videos/Probe1_10",
+      "glob": "image*.png",
+      "config": {
+        "threshold": 40
+      },
+      "source": {
+        "repository": "https://github.com/ricardofitas/ML_Corrugated_Boards",
+        "type": "original_camera_video",
+        "video": "Probe1_10.avi",
+        "camera_fps": 49.326,
+        "decoded_frames": 2048,
+        "lineage_status": "different physical runs, specimen-specific video",
+        "commit": "bec78551eac3c25e7b3c9cf76a0068d78103785f"
+      }
+    }
+  ],
+  "instructions": "Paths are relative to this manifest: decoded original PNG frames under data/raw/videos/Probe1_x/imageNNNN.png. Configure image_directory if files are elsewhere. Run audit_camera_curation.py after extraction for retrospective loading annotations and admitted sampled NPZs."
+}

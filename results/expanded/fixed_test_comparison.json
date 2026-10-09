@@ -1,0 +1,197 @@
+{
+  "comparison": "five-specimen training availability versus seven-specimen training availability on the same five outer test and validation splits",
+  "independent_test_specimens": 5,
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "metric": "coordinate RMSE normalized by initial graph height, macro-averaged equally across physical specimens and then optimizer seeds",
+  "relative_change_convention": "100*(seven-five)/five; positive means higher error",
+  "models": {
+    "zero_displacement": {
+      "five_rmse_percent_initial_height": 27.25716241811289,
+      "seven_rmse_percent_initial_height": 27.25716241811289,
+      "change_percentage_points": 0.0,
+      "relative_error_change_percent": 0.0,
+      "five_seed_sd_percentage_points": 0.0,
+      "seven_seed_sd_percentage_points": 0.0,
+      "five_rmse_px": 19.644643693077317,
+      "seven_rmse_px": 19.644643693077317
+    },
+    "phase_affine": {
+      "five_rmse_percent_initial_height": 16.461987370080507,
+      "seven_rmse_percent_initial_height": 16.516310867901897,
+      "change_percentage_points": 0.054323497821389566,
+      "relative_error_change_percent": 0.32999355788671036,
+      "five_seed_sd_percentage_points": 0.0,
+      "seven_seed_sd_percentage_points": 0.0,
+      "five_rmse_px": 11.506102764449592,
+      "seven_rmse_px": 11.71517231692929
+    },
+    "gnn": {
+      "five_rmse_percent_initial_height": 13.539302157063046,
+      "seven_rmse_percent_initial_height": 13.897997240821585,
+      "change_percentage_points": 0.35869508375853876,
+      "relative_error_change_percent": 2.6492878258974253,
+      "five_seed_sd_percentage_points": 0.3571725690714601,
+      "seven_seed_sd_percentage_points": 0.17695250316711514,
+      "five_rmse_px": 9.85751969174505,
+      "seven_rmse_px": 10.497850356981598
+    },
+    "mlp": {
+      "five_rmse_percent_initial_height": 16.519851503410955,
+      "seven_rmse_percent_initial_height": 16.540522621734674,
+      "change_percentage_points": 0.02067111832371893,
+      "relative_error_change_percent": 0.1251289596607502,
+      "five_seed_sd_percentage_points": 0.07590676171225266,
+      "seven_seed_sd_percentage_points": 0.01472054806366533,
+      "five_rmse_px": 11.558776456041135,
+      "seven_rmse_px": 11.672498064790554
+    }
+  },
+  "per_test_specimen": [
+    {
+      "physical_specimen_id": "Exp3_D12",
+      "gnn": {
+        "five": 11.82710517109723,
+        "seven": 11.698384852932337,
+        "change_percentage_points": -0.12872031816489304
+      },
+      "mlp": {
+        "five": 12.976045509801848,
+        "seven": 12.83914154216887,
+        "change_percentage_points": -0.1369039676329784
+      }
+    },
+    {
+      "physical_specimen_id": "Exp4_D14",
+      "gnn": {
+        "five": 14.36170793805744,
+        "seven": 14.449451938332247,
+        "change_percentage_points": 0.08774400027480667
+      },
+      "mlp": {
+        "five": 15.679258335151944,
+        "seven": 15.057329948620488,
+        "change_percentage_points": -0.6219283865314562
+      }
+    },
+    {
+      "physical_specimen_id": "Exp5_ID03",
+      "gnn": {
+        "five": 12.249815843386038,
+        "seven": 14.9710996549969,
+        "change_percentage_points": 2.7212838116108617
+      },
+      "mlp": {
+        "five": 13.900024753368342,
+        "seven": 14.841368148807502,
+        "change_percentage_points": 0.9413433954391603
+      }
+    },
+    {
+      "physical_specimen_id": "Probe1_22",
+      "gnn": {
+        "five": 11.93364052503114,
+        "seven": 13.084981436662039,
+        "change_percentage_points": 1.1513409116308981
+      },
+      "mlp": {
+        "five": 17.449487056033668,
+        "seven": 19.020511394323535,
+        "change_percentage_points": 1.5710243382898668
+      }
+    },
+    {
+      "physical_specimen_id": "Probe2_7",
+      "gnn": {
+        "five": 17.324241307743385,
+        "seven": 15.286068321184402,
+        "change_percentage_points": -2.0381729865589833
+      },
+      "mlp": {
+        "five": 22.594441862698964,
+        "seven": 20.944262074752963,
+        "change_percentage_points": -1.6501797879460014
+      }
+    }
+  ],
+  "continuity_sensitivity": {
+    "zero_displacement": {
+      "five_rmse_percent_initial_height": 27.33226645247666,
+      "seven_rmse_percent_initial_height": 27.33226645247666,
+      "relative_error_change_percent": 0.0
+    },
+    "phase_affine": {
+      "five_rmse_percent_initial_height": 16.42965591881975,
+      "seven_rmse_percent_initial_height": 16.457590176373778,
+      "relative_error_change_percent": 0.1700233875380692
+    },
+    "gnn": {
+      "five_rmse_percent_initial_height": 13.66154433594247,
+      "seven_rmse_percent_initial_height": 13.99423379673782,
+      "relative_error_change_percent": 2.43522586183811
+    },
+    "mlp": {
+      "five_rmse_percent_initial_height": 16.483971152619446,
+      "seven_rmse_percent_initial_height": 16.470408181443112,
+      "relative_error_change_percent": -0.08227975559262636
+    }
+  },
+  "training_counts": {
+    "physical_specimens": 7,
+    "compression_states": 751,
+    "compression_states_with_observations": 727,
+    "observed_compression_node_frames": 33168,
+    "initial_nodes": 376,
+    "undirected_edges": 544
+  },
+  "additional_data": [
+    {
+      "specimen_id": "Probe1_8",
+      "physical_specimen_id": "ML2023_Probe1_8",
+      "npz_sha256": "cd1ab2bf8971c12d222dff15a05ece6120b080db02084d1189b7819cb559a55a",
+      "frames": 135,
+      "nodes": 106,
+      "compression_frames": 135,
+      "observed_compression_node_frames": 9171,
+      "compression_frames_with_observations": 111,
+      "compression_phase_with_observations": [
+        0.0,
+        0.8295964002609253
+      ],
+      "compression_observation_coverage": 0.6408805031446541,
+      "source_admissibility": "admitted_partial_loading"
+    },
+    {
+      "specimen_id": "Probe1_9",
+      "physical_specimen_id": "ML2023_Probe1_9",
+      "npz_sha256": "fe94bb34b8a50339bf752cf9ce135b3bd4d0a2e33b999a72f8cab44f25d19d84",
+      "frames": 104,
+      "nodes": 50,
+      "compression_frames": 104,
+      "observed_compression_node_frames": 4745,
+      "compression_frames_with_observations": 104,
+      "compression_phase_with_observations": [
+        0.0,
+        1.0
+      ],
+      "compression_observation_coverage": 0.9125,
+      "source_admissibility": "admitted_full_loading"
+    }
+  ],
+  "final_checkpoints": {
+    "five": "results/expanded/five_specimens/final/model.pt",
+    "seven": "results/expanded/seven_specimens_fixed_tests/final/model.pt"
+  },
+  "interpretation": "Adding the two automatically tracked camera experiments did not improve aggregate GNN error on the fixed five-test benchmark. Keep both results; this comparison is exploratory and does not demonstrate population-level superiority.",
+  "runtime_seconds": {
+    "five_sum_model_training": 313.18055187392747,
+    "seven_sum_model_training": 798.1818483030656
+  },
+  "final_fit_epochs": {
+    "five": 60,
+    "seven": 90
+  }
+}

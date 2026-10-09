@@ -1,0 +1,87 @@
+[
+  {
+    "epoch": 0,
+    "train_mse_normalized": 0.022331804037094116,
+    "validation_mse_normalized": 0.020758239552378654
+  },
+  {
+    "epoch": 5,
+    "train_mse_normalized": 0.022213272750377655,
+    "validation_mse_normalized": 0.02022256888449192
+  },
+  {
+    "epoch": 10,
+    "train_mse_normalized": 0.02215711772441864,
+    "validation_mse_normalized": 0.020980508998036385
+  },
+  {
+    "epoch": 15,
+    "train_mse_normalized": 0.02214483544230461,
+    "validation_mse_normalized": 0.022040970623493195
+  },
+  {
+    "epoch": 20,
+    "train_mse_normalized": 0.022129759192466736,
+    "validation_mse_normalized": 0.02138332650065422
+  },
+  {
+    "epoch": 25,
+    "train_mse_normalized": 0.02212674543261528,
+    "validation_mse_normalized": 0.021065346896648407
+  },
+  {
+    "epoch": 30,
+    "train_mse_normalized": 0.022114314138889313,
+    "validation_mse_normalized": 0.021504338830709457
+  },
+  {
+    "epoch": 35,
+    "train_mse_normalized": 0.022105302661657333,
+    "validation_mse_normalized": 0.021752743050456047
+  },
+  {
+    "epoch": 40,
+    "train_mse_normalized": 0.022096894681453705,
+    "validation_mse_normalized": 0.02146846428513527
+  },
+  {
+    "epoch": 45,
+    "train_mse_normalized": 0.02208709344267845,
+    "validation_mse_normalized": 0.02173013798892498
+  },
+  {
+    "epoch": 50,
+    "train_mse_normalized": 0.02207638882100582,
+    "validation_mse_normalized": 0.02182997390627861
+  },
+  {
+    "epoch": 55,
+    "train_mse_normalized": 0.022062962874770164,
+    "validation_mse_normalized": 0.021652067080140114
+  },
+  {
+    "epoch": 60,
+    "train_mse_normalized": 0.022045552730560303,
+    "validation_mse_normalized": 0.02156844176352024
+  },
+  {
+    "epoch": 65,
+    "train_mse_normalized": 0.022017942741513252,
+    "validation_mse_normalized": 0.021532952785491943
+  },
+  {
+    "epoch": 70,
+    "train_mse_normalized": 0.02199516072869301,
+    "validation_mse_normalized": 0.02160765416920185
+  },
+  {
+    "epoch": 75,
+    "train_mse_normalized": 0.02195482887327671,
+    "validation_mse_normalized": 0.021539224311709404
+  },
+  {
+    "epoch": 80,
+    "train_mse_normalized": 0.02190699800848961,
+    "validation_mse_normalized": 0.021548686549067497
+  }
+]

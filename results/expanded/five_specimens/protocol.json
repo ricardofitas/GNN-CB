@@ -1,0 +1,144 @@
+{
+  "task": "retrospective protocol-phase-conditioned image-tracked node displacement",
+  "independent_physical_specimens": 5,
+  "dataset_extractions": 5,
+  "outer_split": "leave-one-physical-specimen-out",
+  "validation_split": "next sorted physical specimen cyclically; whole specimen",
+  "phase_support_train_validation_test": [
+    0,
+    1
+  ],
+  "fit_weighting": "equal physical specimen; equal extraction within each physical specimen",
+  "affine_fit": "weighted least squares on fitting specimens only",
+  "epoch_selection": "minimum whole-validation-specimen normalized coordinate MSE; epoch zero eligible",
+  "primary_metric": "equal-specimen mean normalized coordinate RMSE, averaged across fixed seeds",
+  "secondary_metric": "equal-specimen mean pixel coordinate RMSE; camera scale dependent",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "maximum_epochs": 300,
+  "patience_epochs": 75,
+  "learning_rate": 0.002,
+  "weight_decay": 0.001,
+  "model_config": {
+    "kind": "gnn",
+    "hidden_dim": 32,
+    "message_steps": 3,
+    "mlp_width": 104
+  },
+  "test_labels_used_for_model_selection": false,
+  "label_warning": "Automated image-derived tracks are noisy supervision, not DIC/FEM ground truth.",
+  "independence_warning": "Extractions, frames, nodes and optimizer seeds are not independent experiments.",
+  "generalization_warning": "Known archived specimens extend the pilot; this is not a prospective locked external study.",
+  "datasets": [
+    {
+      "specimen_id": "Exp3",
+      "physical_specimen_id": "Exp3_D12",
+      "npz_sha256": "64557a7250936aa6ff4afec683a021c444a1e9b2bcb946ff57415d6e60e47b71",
+      "frames": 174,
+      "nodes": 46,
+      "directed_edges": 134,
+      "compression_frames": 95,
+      "observed_compression_node_frames": 2566
+    },
+    {
+      "specimen_id": "Exp4",
+      "physical_specimen_id": "Exp4_D14",
+      "npz_sha256": "a246c9b64b675c10eaaaebb2ef00dfec7db2ada50c3556a6636a9a2f43c8f3e3",
+      "frames": 185,
+      "nodes": 48,
+      "directed_edges": 142,
+      "compression_frames": 126,
+      "observed_compression_node_frames": 5403
+    },
+    {
+      "specimen_id": "Exp5",
+      "physical_specimen_id": "Exp5_ID03",
+      "npz_sha256": "81fb03be3d0a6f873867274e061b3e57f8432f17b7c2140bc790ffbd504c5b7c",
+      "frames": 72,
+      "nodes": 42,
+      "directed_edges": 122,
+      "compression_frames": 40,
+      "observed_compression_node_frames": 839
+    },
+    {
+      "specimen_id": "Probe1_22",
+      "physical_specimen_id": "Probe1_22",
+      "npz_sha256": "18615d76608cdb68f6654332ccfb49cd601513b5f252fc9c307cc6b42c257a3a",
+      "frames": 205,
+      "nodes": 40,
+      "directed_edges": 116,
+      "compression_frames": 125,
+      "observed_compression_node_frames": 4902
+    },
+    {
+      "specimen_id": "Probe2_7",
+      "physical_specimen_id": "Probe2_7",
+      "npz_sha256": "985d93e0544c72e53506785c4afe2a93289a73ed33f2f8e076d640622b5295c5",
+      "frames": 205,
+      "nodes": 44,
+      "directed_edges": 128,
+      "compression_frames": 126,
+      "observed_compression_node_frames": 5542
+    }
+  ],
+  "folds": [
+    {
+      "held_out_physical_specimen": "Exp3_D12",
+      "validation_physical_specimens": [
+        "Exp4_D14"
+      ],
+      "training_physical_specimens": [
+        "Exp5_ID03",
+        "Probe1_22",
+        "Probe2_7"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Exp4_D14",
+      "validation_physical_specimens": [
+        "Exp5_ID03"
+      ],
+      "training_physical_specimens": [
+        "Exp3_D12",
+        "Probe1_22",
+        "Probe2_7"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Exp5_ID03",
+      "validation_physical_specimens": [
+        "Probe1_22"
+      ],
+      "training_physical_specimens": [
+        "Exp3_D12",
+        "Exp4_D14",
+        "Probe2_7"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Probe1_22",
+      "validation_physical_specimens": [
+        "Probe2_7"
+      ],
+      "training_physical_specimens": [
+        "Exp3_D12",
+        "Exp4_D14",
+        "Exp5_ID03"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Probe2_7",
+      "validation_physical_specimens": [
+        "Exp3_D12"
+      ],
+      "training_physical_specimens": [
+        "Exp4_D14",
+        "Exp5_ID03",
+        "Probe1_22"
+      ]
+    }
+  ]
+}

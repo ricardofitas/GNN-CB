@@ -7,3 +7,7 @@ reports/rendered/
 *.egg-info/
 results/loso/*/*predictions.csv
 results/loso/*/predictions_phase_affine.csv
+results/expanded/**/*predictions.csv
+data/automatic/raw/
+data/automatic/graphs/*.jsonl.gz
+data/automatic/graphs/*.npz

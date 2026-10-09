@@ -1,0 +1,24 @@
+{
+  "Probe2_7": {
+    "archived_nodes": 44,
+    "reextracted_nodes": 48,
+    "matched_initial_nodes_within_5px": 44,
+    "matching_initial_median_distance_px": 1.7950643807061901,
+    "common_observed_compression_node_frames": 5440,
+    "displacement_disagreement_median_px": 2.1873929500579834,
+    "displacement_disagreement_p95_px": 4.295496940612793,
+    "displacement_disagreement_rmse_coordinate_px": 1.7570676803588867,
+    "note": "Re-extraction sensitivity only: archived automated labels are not independent ground truth; comparison cannot be interpreted as new independent specimen validation."
+  },
+  "Probe1_22": {
+    "archived_nodes": 40,
+    "reextracted_nodes": 48,
+    "matched_initial_nodes_within_5px": 39,
+    "matching_initial_median_distance_px": 1.6996801537090254,
+    "common_observed_compression_node_frames": 4725,
+    "displacement_disagreement_median_px": 1.75,
+    "displacement_disagreement_p95_px": 3.816084384918213,
+    "displacement_disagreement_rmse_coordinate_px": 1.595672369003296,
+    "note": "Re-extraction sensitivity only: archived automated labels are not independent ground truth; comparison cannot be interpreted as new independent specimen validation."
+  }
+}

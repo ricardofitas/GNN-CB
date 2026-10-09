@@ -1,0 +1,128 @@
+{
+  "headline": "<b>A GNN obteve 13,54% da altura inicial de RMSE, contra 16,46% do modelo afim: redução relativa de 17,75%.</b> A avaliação usa cinco espécimes reservados, um por fold, com três seeds fixas. A cobertura desigual do tracking limita a interpretação aos nós observados.",
+  "specimens": [
+    {
+      "specimen_id": "Probe1_22",
+      "n_nodes": 40,
+      "n_undirected_edges": 58,
+      "compression_frames": 125,
+      "compression_observed_node_frames": 4902,
+      "compression_coverage": 0.9804
+    },
+    {
+      "specimen_id": "Probe2_7",
+      "n_nodes": 44,
+      "n_undirected_edges": 64,
+      "compression_frames": 126,
+      "compression_observed_node_frames": 5542,
+      "compression_coverage": 0.9996392496392497
+    },
+    {
+      "specimen_id": "Exp3",
+      "n_nodes": 46,
+      "n_undirected_edges": 67,
+      "compression_frames": 95,
+      "compression_observed_node_frames": 2566,
+      "compression_coverage": 0.5871853546910755
+    },
+    {
+      "specimen_id": "Exp4",
+      "n_nodes": 48,
+      "n_undirected_edges": 71,
+      "compression_frames": 126,
+      "compression_observed_node_frames": 5403,
+      "compression_coverage": 0.8933531746031746
+    },
+    {
+      "specimen_id": "Exp5",
+      "n_nodes": 42,
+      "n_undirected_edges": 61,
+      "compression_frames": 40,
+      "compression_observed_node_frames": 839,
+      "compression_coverage": 0.4994047619047619
+    }
+  ],
+  "aggregate_rows": [
+    [
+      "GNN",
+      "13,54 ± 0,36%",
+      "9,86 ± 0,30 px"
+    ],
+    [
+      "MLP sem mensagens",
+      "16,52 ± 0,08%",
+      "11,56 ± 0,07 px"
+    ],
+    [
+      "Modelo afim",
+      "16,46%",
+      "11,51 px"
+    ]
+  ],
+  "fold_rows": [
+    [
+      "Probe1_22",
+      "11,93 ± 0,55",
+      "17,42",
+      "98,0%"
+    ],
+    [
+      "Probe2_7",
+      "17,32 ± 0,24",
+      "22,61",
+      "100,0%"
+    ],
+    [
+      "Exp3",
+      "11,83 ± 0,52",
+      "12,98",
+      "58,7%"
+    ],
+    [
+      "Exp4",
+      "14,36 ± 0,53",
+      "15,48",
+      "89,3%"
+    ],
+    [
+      "Exp5",
+      "12,25 ± 0,88",
+      "13,83",
+      "49,9%"
+    ]
+  ],
+  "result_interpretation": "A redução relativa de 17,75% face à base afim refere-se à média do RMSE normalizado com o mesmo peso por espécime. A GNN apresenta menor erro médio nos cinco folds; a MLP permanece próxima da base afim. Isto apoia a utilidade das mensagens entre nós nesta amostra, mas não estabelece generalização a outras campanhas ou materiais. Os valores ± medem apenas variação entre as três seeds.",
+  "continuity_text": "Sem voltar a treinar nem escolher épocas, cada trajetória foi truncada permanentemente após a primeira lacuna com mais de dois frames intermédios sem observação (separação entre frames observados superior a três). Restaram 18 097 de 19 252 observações. Nesse subconjunto, o RMSE normalizado é 13,66% para a GNN e 16,43% para a base afim, uma redução relativa de 16,85%. A conclusão agregada mantém-se, mas o filtro seleciona as trajetórias mais persistentes e não confirma por si a identidade física dos nós.",
+  "external_text": "O checkpoint da primeira versão, treinado nos dois ensaios originais e congelado, obteve 15,4595% de RMSE normalizado nos três ensaios adicionais. Nos mesmos três ensaios, cada um reservado no seu fold do novo protocolo, a GNN obteve 12,8129% ± 0,3604% entre seeds: erro médio 17,12% inferior. As máscaras de avaliação são as mesmas; os conjuntos de ajuste e a escolha de época mudaram. Esta comparação é descritiva e não uma ablação controlada do tamanho do dataset.",
+  "verification_text": "Foram aprovados 36 testes unitários. Incluem invariância à renumeração dos nós, influência das arestas, máscaras, gradientes, recarregamento dos checkpoints, independência de alvos de teste, rejeição de dados em quarentena e a exportação completa imagem-grafo-tracking. Auditorias adicionais verificam hashes dos vídeos, integridade dos arquivos de grafos e inferência sem acesso a alvos.",
+  "automatic_caption": "Quatro vídeos, três instantes por registo. Nós e arestas extraídos independentemente em cada imagem. Grafos de frames tardios com perda de qualidade permanecem visíveis na auditoria; a sua presença nesta figura não significa admissão no treino.",
+  "automatic_decisions": [
+    "<b>ML2023 / Probe1_9:</b> 50 nós e 69 arestas iniciais; 2 048 frames; cobertura média 92,67%. Janela observada [1006, 2033], com 1 028 frames válidos. O treino amostra 104 estados e 4 745 observações de nós.",
+    "<b>ML2023 / Probe1_8:</b> parede dupla; 106 nós e 154 arestas. O fim da compressão foi observado, mas o tracking perde qualidade durante o colapso. Mantêm-se apenas frames com pelo menos 65% dos nós observados: 1 105 frames elegíveis, até à fase 0,8296 da janela completa [136, 1474]. A amostragem de treino tem 135 estados, 111 com supervisão e 9 171 observações; não se renormalizou a fase ao intervalo truncado.",
+    "<b>ML2023 / Probe1_2 e Probe1_10:</b> 4 096 frames com grafos e trajetórias. Não se observa um fim de compressão seguido de recuperação; as sequências foram retidas para geometria e inspeção, sem alvos de fase para treino."
+  ],
+  "automatic_evaluation": [
+    "Todas as 8 192 imagens foram convertidas em grafos. O tracking produziu 496 861 correspondências nó-frame ao longo dos quatro vídeos; este total inclui estados fora da compressão e dados sem qualificação para treino.",
+    "A extensão supervisionada contém 2 registos adicionais e 13 916 observações selecionadas: 239 estados amostrados, dos quais 215 têm supervisão válida. Juntamente com o conjunto principal, ficam disponíveis 7 espécimes, 751 estados de compressão (727 com supervisão) e 33 168 observações. Os testes reservados continuam a cobrir os mesmos 5 espécimes.",
+    "A inferência foi executada sobre as quatro geometrias iniciais, retirando fisicamente os alvos dos ficheiros: 1 545 previsões nó-fase finitas e idênticas às obtidas lendo apenas a geometria dos ficheiros completos. Isto verifica a execução em grafos de 48 a 106 nós; não mede precisão física.",
+    "Teste externo sem novo ajuste: o checkpoint dos cinco ensaios foi aplicado a todos os 2 133 frames qualificados dos dois vídeos, comparando 138 172 posições de nós. O RMSE médio foi 14,46% da altura, contra 13,67% para deslocamento zero e 13,93% para a componente afim do checkpoint. A GNN melhora em Probe1_9 e piora em Probe1_8; o R² é negativo em ambos. Portanto, esta transferência ainda não supera as referências simples no agregado, e mede concordância com rótulos automáticos, não precisão física independente.",
+    "Comparação de treino com dados adicionais concluída: 30 ajustes com cinco espécimes e outros 30 com os dois vídeos acrescentados apenas ao treino, mantendo exatamente os mesmos testes, validação e seeds. A GNN passou de 13.539% para 13.898% de RMSE normalizado (+0.359 pontos percentuais; +2.65% relativo). A base afim passou de 16,462% para 16,516%; a MLP de 16,520% para 16,541%. O aumento de dados não melhorou o resultado agregado. As diferenças de geometria, qualidade do tracking e convenção de fase são possíveis fatores, não causas isoladas por este teste."
+  ],
+  "numeric_audit": {
+    "gnn_relative_reduction_vs_affine_percent": 17.75414564057686,
+    "v1_external_three_macro_rmse_normalized": 0.15459534828037982,
+    "expanded_three_macro_rmse_normalized": 0.1281287631751357,
+    "expanded_three_macro_rmse_normalized_sd_over_seeds": 0.0036038408149508296,
+    "external_three_relative_reduction_percent": 17.119910398108075,
+    "continuity_retained_observations": 18097,
+    "continuity_original_observations": 19252,
+    "continuity_relative_reduction_vs_affine_percent": 16.848262657201985
+  },
+  "augmentation_headline": "A extensão de treino para <b>7 espécimes</b>, mantendo os mesmos cinco testes, ficou em <b>13.90%</b>: o erro aumentou 2.65%. Assim, os vídeos acrescentam dados utilizáveis, mas esta experiência não demonstrou uma melhoria de generalização.",
+  "augmentation_numeric": {
+    "five_gnn_rmse_normalized": 0.13539302157063046,
+    "seven_gnn_rmse_normalized": 0.13897997240821586,
+    "change_percentage_points": 0.35869508375853953,
+    "relative_change_percent": 2.6492878258974395
+  }
+}

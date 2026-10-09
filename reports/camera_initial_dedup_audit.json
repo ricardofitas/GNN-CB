@@ -1,0 +1,110 @@
+{
+  "method": "Decoded grayscale frame0 exact comparison and pixel distance. New double-wall versus original single-wall images visually inspected. Nonzero distance is evidence against exact duplicate images; not alone proof of independent physical specimens. Repo specimen-specific video provenance supplies physical lineage.",
+  "pairs": [
+    {
+      "specimen_a": "Probe1_2",
+      "specimen_b": "Probe1_8",
+      "pixel_mae": 20.217281341552734,
+      "pixel_rmse": 45.730713453034866,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_2",
+      "specimen_b": "Probe1_9",
+      "pixel_mae": 12.54638671875,
+      "pixel_rmse": 32.48350247031957,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_2",
+      "specimen_b": "Probe1_10",
+      "pixel_mae": 15.275394439697266,
+      "pixel_rmse": 37.120436930633545,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_2",
+      "specimen_b": "Probe2_7",
+      "pixel_mae": 15.559410095214844,
+      "pixel_rmse": 37.66675620504444,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_2",
+      "specimen_b": "Probe1_22",
+      "pixel_mae": 16.874778747558594,
+      "pixel_rmse": 40.8134628112228,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_8",
+      "specimen_b": "Probe1_9",
+      "pixel_mae": 16.003925323486328,
+      "pixel_rmse": 43.86866610201487,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_8",
+      "specimen_b": "Probe1_10",
+      "pixel_mae": 18.409027099609375,
+      "pixel_rmse": 46.4346765247693,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_8",
+      "specimen_b": "Probe2_7",
+      "pixel_mae": 17.507793426513672,
+      "pixel_rmse": 43.9806440000755,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_8",
+      "specimen_b": "Probe1_22",
+      "pixel_mae": 18.480937957763672,
+      "pixel_rmse": 45.5549435308226,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_9",
+      "specimen_b": "Probe1_10",
+      "pixel_mae": 6.063495635986328,
+      "pixel_rmse": 21.27417026788961,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_9",
+      "specimen_b": "Probe2_7",
+      "pixel_mae": 9.09283447265625,
+      "pixel_rmse": 28.03063923352166,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_9",
+      "specimen_b": "Probe1_22",
+      "pixel_mae": 10.51519775390625,
+      "pixel_rmse": 32.20432625371266,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_10",
+      "specimen_b": "Probe2_7",
+      "pixel_mae": 11.819828033447266,
+      "pixel_rmse": 33.60337451837563,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe1_10",
+      "specimen_b": "Probe1_22",
+      "pixel_mae": 12.869464874267578,
+      "pixel_rmse": 36.459359994147746,
+      "same_pixel_array": false
+    },
+    {
+      "specimen_a": "Probe2_7",
+      "specimen_b": "Probe1_22",
+      "pixel_mae": 5.2249603271484375,
+      "pixel_rmse": 20.31982214782257,
+      "same_pixel_array": false
+    }
+  ]
+}

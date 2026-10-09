@@ -1,0 +1,50 @@
+{
+  "specimen_id": "Probe1_9",
+  "physical_specimen_id": "ML2023_Probe1_9",
+  "lineage_id": "ML2023_Probe1_9",
+  "admissibility": "admitted_full_loading",
+  "approved_for_training": true,
+  "training_admitted": true,
+  "admission_scope": "full_loading_window",
+  "admission_reason": "Complete image-observed loading/rebound; connected initial material; every loading frame meets65% coverage; visual review completed.",
+  "source": {
+    "repository": "https://github.com/ricardofitas/ML_Corrugated_Boards",
+    "type": "original_camera_video",
+    "video": "Probe1_9.avi",
+    "camera_fps": 49.326,
+    "decoded_frames": 2048,
+    "lineage_status": "different physical runs, specimen-specific video",
+    "commit": "bec78551eac3c25e7b3c9cf76a0068d78103785f",
+    "visibility": "private",
+    "source_audit": "reports/video_source_audit.json"
+  },
+  "parent_video_sha256": "c692e9ca11dcc0cd62311b63181637b12b8cde5409bfbec1545509e9661b2803",
+  "parent_decoded_pixel_sha256": "724e46380caa85e30d2138b62f8b0b355a164176c6935afb24efd15101157dad",
+  "parent_frame_count": 2048,
+  "compression_window": [
+    1006,
+    2033
+  ],
+  "phase_definition": "(original_video_frame - loading_start)/(loading_end-loading_start); phase not renormalized after masking",
+  "annotation": {
+    "start": 1006,
+    "end": 2033,
+    "last_minimum_height_frame": 2033,
+    "minimum_height_plateau": [
+      1995,
+      2033
+    ],
+    "initial_height_proxy_px": 46.0,
+    "minimum_height_proxy_px": 30.0,
+    "rebound_px": 6.0,
+    "right_censored": false,
+    "method": "Median row intensity over central width; top bright-material front requires three consecutive rows above max(20,40% band maximum), lower liner is local row-intensity maximum. Median-filter21frames. Start=first50frame run at least2px below initial100frame median height; end=last minimum-height plateau frame before>=2px visible rebound. Initial row search bands and endpoint contact sheets visually reviewed.",
+    "limitations": "Retrospective image-only phase convention, not load, strain, physical timestamp calibration, or original author annotation. Onset carries pixel/threshold uncertainty; max-compression plateau end is defined operationally."
+  },
+  "sampling": "Every10th raw loading-window frame plus exact endpoints; original frame indices retained.",
+  "n_frames": 104,
+  "supervised_frames": 104,
+  "observed_node_frames": 4745,
+  "mask_policy": "Original unambiguous gated node matches AND at least65% initial-node coverage. Endpoint below gate remains all-false; no imputation.",
+  "split_policy": "Exploratory fit-only augmentation with fixed original5specimen held-out benchmark; physical lineage cannot overlaptest/validation."
+}

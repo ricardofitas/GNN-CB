@@ -1,0 +1,396 @@
+{
+  "audit_date": "2026-10-09",
+  "scope": "Eight additional public repositories, commit-pinned complete Git trees. Original Graph-CB/Graphs_Analysis and private repositories are audited separately.",
+  "summary": {
+    "repositories": 8,
+    "complete_repository_trees": 8,
+    "image_video_paths": 60232,
+    "unique_image_video_git_blobs_across_repositories": 28258,
+    "downloaded_additional_static_camera_photos": 22,
+    "additional_public_supervised_displacement_sequences_found": 0,
+    "independent_specimen_count_from_static_photos": null
+  },
+  "repositories": [
+    {
+      "repository": "ricardofitas/Opt_CBv2",
+      "commit_sha": "70836b8cd1ee8d0fd4afdcd81f4c3afb8e3f6300",
+      "tree_complete": true,
+      "blob_count": 102825,
+      "image_video_paths": 52906,
+      "unique_image_video_git_blobs": 27739,
+      "image_video_bytes": 3643860725,
+      "extensions": {
+        "": 2732,
+        ".py": 82,
+        ".svg": 1,
+        ".txt": 1709,
+        ".csv": 40800,
+        ".png": 52834,
+        ".xlsx": 9,
+        ".mp4": 71,
+        ".md": 3,
+        ".pyc": 18,
+        ".html": 1,
+        ".jpg": 1,
+        ".ipynb": 5,
+        ".pdf": 3,
+        ".sh": 1,
+        ".whl": 4,
+        ".bak": 1,
+        ".ps1": 4,
+        ".dot": 4342,
+        ".json": 135,
+        ".pt": 45,
+        ".log": 13,
+        ".bat": 11
+      },
+      "classification": "optimization_plot_sequences",
+      "note": "No camera deformation sequence found. Full tree reconstructed from truncated main tree and non-truncated part-b, part-c and toy_results subtrees. PNGs mostly optimizer traces/geometry drawings; dot files symbolic regression equation graphs."
+    },
+    {
+      "repository": "ricardofitas/Opt_CorrugatedBoards_Sim",
+      "commit_sha": "716372b5e7e622732af459b70eb43114fa8ccac3",
+      "tree_complete": true,
+      "blob_count": 6835,
+      "image_video_paths": 6829,
+      "unique_image_video_git_blobs": 6829,
+      "image_video_bytes": 928035688,
+      "extensions": {
+        ".yml": 1,
+        "": 2,
+        ".png": 6794,
+        ".mp4": 35,
+        ".txt": 1,
+        ".md": 1,
+        ".html": 1
+      },
+      "classification": "optimization_plot_sequences",
+      "note": "Representative Iteration_0.png inspected: Pareto objective plot and three candidate flute drawings. Iterations are optimization state, not material compression state."
+    },
+    {
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "tree_complete": true,
+      "blob_count": 964,
+      "image_video_paths": 440,
+      "unique_image_video_git_blobs": 435,
+      "image_video_bytes": 10442534,
+      "extensions": {
+        ".py": 62,
+        ".txt": 10,
+        ".md": 1,
+        ".png": 418,
+        ".xlsx": 11,
+        ".jpeg": 22,
+        ".stl": 22,
+        ".svg": 12,
+        ".pdf": 1,
+        ".pyc": 3,
+        ".csv": 402
+      },
+      "classification": "mixed_static_experimental_photos_and_optimization_figures",
+      "note": "22 JPEG photographs show multiple damaged corrugated strips each, perspective and blur, no time-indexed registered undeformed/deformed pairs or displacement labels. Other PNGs optimizer plots/geometry drawings."
+    },
+    {
+      "repository": "rfitas-lab/corrugated-board-size-shape-optimization",
+      "commit_sha": "9144fee32a0d98be2fc6229b5a94f3658807d0d6",
+      "tree_complete": true,
+      "blob_count": 248,
+      "image_video_paths": 24,
+      "unique_image_video_git_blobs": 24,
+      "image_video_bytes": 6967396,
+      "extensions": {
+        "": 3,
+        ".cff": 1,
+        ".md": 3,
+        ".csv": 66,
+        ".pdf": 34,
+        ".png": 24,
+        ".aux": 1,
+        ".log": 1,
+        ".tex": 31,
+        ".py": 58,
+        ".bbl": 1,
+        ".bib": 1,
+        ".txt": 2,
+        ".json": 8,
+        ".gz": 3,
+        ".npz": 5,
+        ".joblib": 3,
+        ".svg": 1,
+        ".bst": 1,
+        ".cls": 1
+      },
+      "classification": "publication_figures_and_tabular_data",
+      "note": "24 PNG manuscript figures; tabular optimization fronts, not raw camera sequence."
+    },
+    {
+      "repository": "ricardofitas/FEM_Corrugated_Boards",
+      "commit_sha": "6264c13dd01c780bf21e2f5cf0cda15ef56ac9f1",
+      "tree_complete": true,
+      "blob_count": 5,
+      "image_video_paths": 0,
+      "unique_image_video_git_blobs": 0,
+      "image_video_bytes": 0,
+      "extensions": {
+        "": 1,
+        ".md": 1,
+        ".xml": 2,
+        ".py": 1
+      },
+      "classification": "code_only",
+      "note": "No raster images/video in HEAD."
+    },
+    {
+      "repository": "ricardofitas/Finite-Element-Method-Applications",
+      "commit_sha": "24f1e0b02401288e6732290e7d9bde278e883b78",
+      "tree_complete": true,
+      "blob_count": 69,
+      "image_video_paths": 0,
+      "unique_image_video_git_blobs": 0,
+      "image_video_bytes": 0,
+      "extensions": {
+        ".txt": 51,
+        ".cae": 1,
+        ".jnl": 1,
+        ".sta": 9,
+        ".py": 2,
+        "": 2,
+        ".m": 2,
+        ".md": 1
+      },
+      "classification": "unrelated_fem_examples",
+      "note": "No raster images/video in HEAD."
+    },
+    {
+      "repository": "ricardofitas/TopOpt_DTU",
+      "commit_sha": "4f578db75a01b726a1e25a1648a9d02acbe2f0e9",
+      "tree_complete": true,
+      "blob_count": 36,
+      "image_video_paths": 33,
+      "unique_image_video_git_blobs": 25,
+      "image_video_bytes": 53388777,
+      "extensions": {
+        ".png": 7,
+        ".mp4": 26,
+        "": 1,
+        ".md": 1,
+        ".html": 1
+      },
+      "classification": "topology_optimization_figures",
+      "note": "33 image/video files of topology optimization, not corrugated camera specimens."
+    },
+    {
+      "repository": "ricardofitas/AI-Recommendation-System-for-Corrugated-Board-Design-Public",
+      "commit_sha": "9de991dffae04ea9cd12f49c9c22d2005d4a4e10",
+      "tree_complete": true,
+      "blob_count": 4,
+      "image_video_paths": 0,
+      "unique_image_video_git_blobs": 0,
+      "image_video_bytes": 0,
+      "extensions": {
+        "": 2,
+        ".xlsx": 1,
+        ".py": 1
+      },
+      "classification": "code_only",
+      "note": "No raster images/video in HEAD."
+    }
+  ],
+  "static_photos": [
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (1).jpeg",
+      "sha": "6e3e54d542401684b263d577bc7bb709b110952e",
+      "size": 106298,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (2).jpeg",
+      "sha": "7b002dd0955cdf491cc65532176c0fae8a58c398",
+      "size": 145861,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (3).jpeg",
+      "sha": "383561406ec6281af3848ce7352d7988a81499c4",
+      "size": 106734,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (4).jpeg",
+      "sha": "b67c7d343a0c0e0bc8bd8d0ea1f78f8d0f98b9d5",
+      "size": 147707,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (5).jpeg",
+      "sha": "127f7d18bce45b7fd826146e2796cb03f2d72b15",
+      "size": 124141,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (6).jpeg",
+      "sha": "abac4e83ca96bfccbbfacf6831e9dfbe27066282",
+      "size": 154538,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (7).jpeg",
+      "sha": "0eefe28562356f7b17e030ad6546bdf50c1d9a58",
+      "size": 129394,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48 (8).jpeg",
+      "sha": "e5b80bf0f41997e7d97e2363f63506e276ebc10b",
+      "size": 210345,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.48.jpeg",
+      "sha": "686b94d1fef92a946fc93bc2c02c0632d9bbf4a5",
+      "size": 103928,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (1).jpeg",
+      "sha": "1605e22964a01bec6a8614a81132d69eb5fd32cd",
+      "size": 101854,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (10).jpeg",
+      "sha": "ad3d54bc1b8518b49514644a90d7002562c7912b",
+      "size": 113243,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (11).jpeg",
+      "sha": "1dd1275230d9d21312c0fc15b4d40bfab67a22a6",
+      "size": 109060,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (12).jpeg",
+      "sha": "b8a549533cacacac856310f5be08b1da113bbb02",
+      "size": 164601,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (2).jpeg",
+      "sha": "8edbca043ebfa843e6f9e7790a83aab45932948b",
+      "size": 136593,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (3).jpeg",
+      "sha": "993b1c280a472bc121febd4d40a4e910e54ab8d5",
+      "size": 107591,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (4).jpeg",
+      "sha": "0399daf120fed2b5f0b8bb73ff1dc23b04ed38c5",
+      "size": 108325,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (5).jpeg",
+      "sha": "cf574804e351164e097bb8486242d895ee944724",
+      "size": 205884,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (6).jpeg",
+      "sha": "108ea06ea5a3c4bc92d49ee43766648f5fa2cd01",
+      "size": 113350,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (7).jpeg",
+      "sha": "54fa2b72ddabb64d98409b5a333333d381cc32e9",
+      "size": 100056,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (8).jpeg",
+      "sha": "41a475a919a57b2710be8a452ad807c61421d04a",
+      "size": 235910,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49 (9).jpeg",
+      "sha": "7c5f38f481cf191a88c304f14c880e0ffbe72acb",
+      "size": 226373,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    },
+    {
+      "path": "Scaled_parts/Images_Deformed/WhatsApp Image 2026-02-25 at 22.55.49.jpeg",
+      "sha": "2938457f9c0ffdbf7b424f9adc34112e67b43430",
+      "size": 109537,
+      "repository": "ricardofitas/Opt_CB",
+      "commit_sha": "8a3941c0132e1b404b8d42ef48509d91145ece7e",
+      "status": "static_photo_only_unpaired_no_displacement_labels"
+    }
+  ],
+  "experimental_count_warning": "The 22 static JPEGs are 22 images, not 22 independent specimens. Several show groups of strips and repeated views, without registered undeformed/deformed pairs or displacement labels.",
+  "optimization_sequence_resolution": {
+    "repository": "ricardofitas/Opt_CBv2",
+    "commit_sha": "70836b8cd1ee8d0fd4afdcd81f4c3afb8e3f6300",
+    "series": {
+      "Outputs": {
+        "frames": 6760,
+        "cases": 33
+      },
+      "part-b/Outputs": {
+        "frames": 7960,
+        "cases": 39
+      }
+    },
+    "classification": "optimization_iterations_not_physical_compression_frames",
+    "representative_inspected": "Outputs/C001/Iteration_0.png"
+  },
+  "curation_status": "All 22 static photos processed with fixed 30 and Otsu thresholds; 44 candidate graphs generated. Visual review of acquisition conditions and graph overlays rejected all 22 for physical graph and displacement training: multiple strips, perspective, illumination/background skeletons and no reference pairs. Detailed audit: static_photo_curation.json. Contact sheet: figures/static_photo_curation.jpg."
+}

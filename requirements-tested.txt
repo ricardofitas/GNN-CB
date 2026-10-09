@@ -7,3 +7,6 @@ Pillow==12.3.0
 matplotlib==3.10.8
 torch==2.14.1+cpu
 reportlab==4.4.9
+opencv-python-headless==5.0.0.93
+scikit-image==0.26.0
+libarchive-c==5.3

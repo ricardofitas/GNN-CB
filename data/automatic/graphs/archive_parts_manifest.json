@@ -1,0 +1,105 @@
+{
+  "format_version": "gnn_cb_binary_parts_v1",
+  "reconstructed_archive_format": "ragged_material_graph_v1",
+  "max_part_bytes": 3000000,
+  "archives": [
+    {
+      "specimen_id": "Probe1_10",
+      "archive_filename": "Probe1_10.npz",
+      "archive_bytes": 3498041,
+      "archive_sha256": "42a5ba5228762871f7e248936c33c7a898bfc40db919672a447566b0d3eb2cd9",
+      "parts": [
+        {
+          "index": 1,
+          "filename": "parts/Probe1_10.npz.part-001-of-002-3f2eb3c86818c934ae6cafb38c58c14435e98e0de81a311f332b2a98620afe1d.bin",
+          "bytes": 3000000,
+          "sha256": "3f2eb3c86818c934ae6cafb38c58c14435e98e0de81a311f332b2a98620afe1d"
+        },
+        {
+          "index": 2,
+          "filename": "parts/Probe1_10.npz.part-002-of-002-590d6df38850f91ec5567481390d860691426f8d7aad3562a3586b875b2cd713.bin",
+          "bytes": 498041,
+          "sha256": "590d6df38850f91ec5567481390d860691426f8d7aad3562a3586b875b2cd713"
+        }
+      ]
+    },
+    {
+      "specimen_id": "Probe1_2",
+      "archive_filename": "Probe1_2.npz",
+      "archive_bytes": 12681368,
+      "archive_sha256": "fec606098a0fbd08fe415ba2058fcb484d01e1a6a2ff4a05a08611873cd4ff70",
+      "parts": [
+        {
+          "index": 1,
+          "filename": "parts/Probe1_2.npz.part-001-of-005-e2cb90c819830da3618d824cee3610f79d7bc493bd7b84c604d2fa291357f07a.bin",
+          "bytes": 3000000,
+          "sha256": "e2cb90c819830da3618d824cee3610f79d7bc493bd7b84c604d2fa291357f07a"
+        },
+        {
+          "index": 2,
+          "filename": "parts/Probe1_2.npz.part-002-of-005-e29e42011af142ae4d9fad7aa57aacafe2e044cad66fbffdc98bbcd2d2a0c252.bin",
+          "bytes": 3000000,
+          "sha256": "e29e42011af142ae4d9fad7aa57aacafe2e044cad66fbffdc98bbcd2d2a0c252"
+        },
+        {
+          "index": 3,
+          "filename": "parts/Probe1_2.npz.part-003-of-005-80b7387bff20b62abcdd6784edb0779346c1a8ab6f2d0daeef9056d849b9dee8.bin",
+          "bytes": 3000000,
+          "sha256": "80b7387bff20b62abcdd6784edb0779346c1a8ab6f2d0daeef9056d849b9dee8"
+        },
+        {
+          "index": 4,
+          "filename": "parts/Probe1_2.npz.part-004-of-005-a46d5c9cf34a378fd3f8cbe7cfb5e428067b8082fb250f3679af6a43b69cd33b.bin",
+          "bytes": 3000000,
+          "sha256": "a46d5c9cf34a378fd3f8cbe7cfb5e428067b8082fb250f3679af6a43b69cd33b"
+        },
+        {
+          "index": 5,
+          "filename": "parts/Probe1_2.npz.part-005-of-005-da94388afbecf697175b7b582777fe263937f8ea7330b1dea8c078bb5fd7f10d.bin",
+          "bytes": 681368,
+          "sha256": "da94388afbecf697175b7b582777fe263937f8ea7330b1dea8c078bb5fd7f10d"
+        }
+      ]
+    },
+    {
+      "specimen_id": "Probe1_8",
+      "archive_filename": "Probe1_8.npz",
+      "archive_bytes": 6788217,
+      "archive_sha256": "5b8c53e1d8905dbdfb8110cf1b08f1a25179d02c18b1fba2766c0795d783ddeb",
+      "parts": [
+        {
+          "index": 1,
+          "filename": "parts/Probe1_8.npz.part-001-of-003-f0136f83bbe9ed8ab1bba45820c08a4837ed724a8c2d7abbbde254ec1ddde871.bin",
+          "bytes": 3000000,
+          "sha256": "f0136f83bbe9ed8ab1bba45820c08a4837ed724a8c2d7abbbde254ec1ddde871"
+        },
+        {
+          "index": 2,
+          "filename": "parts/Probe1_8.npz.part-002-of-003-45ec48ab1f4aa7fcc917607111c431320e041b629fda7fcaa2842dccbb554da3.bin",
+          "bytes": 3000000,
+          "sha256": "45ec48ab1f4aa7fcc917607111c431320e041b629fda7fcaa2842dccbb554da3"
+        },
+        {
+          "index": 3,
+          "filename": "parts/Probe1_8.npz.part-003-of-003-d487e58f51ef4863cd628a37dedb6d122852499813356d2057432903bbdc8628.bin",
+          "bytes": 788217,
+          "sha256": "d487e58f51ef4863cd628a37dedb6d122852499813356d2057432903bbdc8628"
+        }
+      ]
+    },
+    {
+      "specimen_id": "Probe1_9",
+      "archive_filename": "Probe1_9.npz",
+      "archive_bytes": 2889378,
+      "archive_sha256": "78509dfbb62053900d9efdabf4a009f037e79315ed1f64a3e8a48c57e1b56c61",
+      "parts": [
+        {
+          "index": 1,
+          "filename": "parts/Probe1_9.npz.part-001-of-001-78509dfbb62053900d9efdabf4a009f037e79315ed1f64a3e8a48c57e1b56c61.bin",
+          "bytes": 2889378,
+          "sha256": "78509dfbb62053900d9efdabf4a009f037e79315ed1f64a3e8a48c57e1b56c61"
+        }
+      ]
+    }
+  ]
+}

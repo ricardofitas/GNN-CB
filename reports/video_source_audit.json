@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "source_repository": "https://github.com/ricardofitas/ML_Corrugated_Boards",
+  "source_commit": "bec78551eac3c25e7b3c9cf76a0068d78103785f",
+  "source_tree_sha": "bec78551eac3c25e7b3c9cf76a0068d78103785f",
+  "archive_volumes": [
+    {
+      "path": "Data/Videos/Probe1_10.part01.rar",
+      "filename": "Probe1_10.part01.rar",
+      "specimen": "Probe1_10",
+      "bytes": 20971520,
+      "sha256": "56cc4261f7d6fb095d95bb3d999ed5c3fb9dddc242d3cacca6a909f9ebe044b1",
+      "git_blob_sha1": "734ff56bd5400676e6d42f7cbb05d96f42f616e5"
+    },
+    {
+      "path": "Data/Videos/Probe1_10.part02.rar",
+      "filename": "Probe1_10.part02.rar",
+      "specimen": "Probe1_10",
+      "bytes": 20971520,
+      "sha256": "357b57ee388e3fe8005f611d0259e1f3204cf93845dd09eef0ba577ccbe16cae",
+      "git_blob_sha1": "6804062b42cadebe0d11e6eed8cdd6100dd8ba26"
+    },
+    {
+      "path": "Data/Videos/Probe1_10.part03.rar",
+      "filename": "Probe1_10.part03.rar",
+      "specimen": "Probe1_10",
+      "bytes": 20971520,
+      "sha256": "f74c1ae95a1d8f3d4627f5c67206d0d1b9a15f2e06f9b183eba1ed4c0f0373d9",
+      "git_blob_sha1": "92b216a440ddeb56b4157953d96666d31fac65f5"
+    },
+    {
+      "path": "Data/Videos/Probe1_10.part04.rar",
+      "filename": "Probe1_10.part04.rar",
+      "specimen": "Probe1_10",
+      "bytes": 20371826,
+      "sha256": "f951bac08a5096f9a0cec339e11ab1ec14ae4e395fec32a3cd20c259b04ddc9a",
+      "git_blob_sha1": "c4a1e9304f4ec87b3660b12cacdcc48479e272a0"
+    },
+    {
+      "path": "Data/Videos/Probe1_2.part01.rar",
+      "filename": "Probe1_2.part01.rar",
+      "specimen": "Probe1_2",
+      "bytes": 20971520,
+      "sha256": "24cb2a7463a52f3c49495b15b4ea3c72ca47d35555f17405468efd877da4a2b7",
+      "git_blob_sha1": "296432218971cdb28fbbf102bb73272ce7f07df0"
+    },
+    {
+      "path": "Data/Videos/Probe1_2.part02.rar",
+      "filename": "Probe1_2.part02.rar",
+      "specimen": "Probe1_2",
+      "bytes": 20971520,
+      "sha256": "96b84ad4db8c97d915aba3c7d2a7dbf2f6219d73a02b97722b7576b9d7e0b5c0",
+      "git_blob_sha1": "cdabe2f37c1962ea3b13f911a6890bac8c6e7464"
+    },
+    {
+      "path": "Data/Videos/Probe1_2.part03.rar",
+      "filename": "Probe1_2.part03.rar",
+      "specimen": "Probe1_2",
+      "bytes": 20971520,
+      "sha256": "d2fb56937c8d35d2d58539adde70461c0621b5c48d53ea12af760c797e86de64",
+      "git_blob_sha1": "f27845d89c2b52cd321c8007ab7efc7c25722bcd"
+    },
+    {
+      "path": "Data/Videos/Probe1_2.part04.rar",
+      "filename": "Probe1_2.part04.rar",
+      "specimen": "Probe1_2",
+      "bytes": 20971520,
+      "sha256": "364bdd5f000801d88ab2bf867e63104035a4dd64cd6cf1e02c3dbdaddb75eb88",
+      "git_blob_sha1": "449d1bf9b82ba649e77b50f349d0b9af663fba5b"
+    },
+    {
+      "path": "Data/Videos/Probe1_2.part05.rar",
+      "filename": "Probe1_2.part05.rar",
+      "specimen": "Probe1_2",
+      "bytes": 10607603,
+      "sha256": "8794d7167f955362bdb1cc3531d1c6f272bb8b763482e88e32338c0ac5bf9677",
+      "git_blob_sha1": "a1a1f3199862b1bb7c4319020ae47e9311ae5b3b"
+    },
+    {
+      "path": "Data/Videos/Probe1_8.part01.rar",
+      "filename": "Probe1_8.part01.rar",
+      "specimen": "Probe1_8",
+      "bytes": 20971520,
+      "sha256": "afe6748d9c46b44b7132fb82f811cfc3b9d0ca17bd3fbdaba113c03a82e57db9",
+      "git_blob_sha1": "f38a75f09f2e06bc6fd66574b0327b8960d530da"
+    },
+    {
+      "path": "Data/Videos/Probe1_8.part02.rar",
+      "filename": "Probe1_8.part02.rar",
+      "specimen": "Probe1_8",
+      "bytes": 20971520,
+      "sha256": "c2cde285717141560216a0dedb8180eb12d60c448948a4ccd3c50204b7becaeb",
+      "git_blob_sha1": "800d698b2c79004975311117be9ecb1916b05cd2"
+    },
+    {
+      "path": "Data/Videos/Probe1_8.part03.rar",
+      "filename": "Probe1_8.part03.rar",
+      "specimen": "Probe1_8",
+      "bytes": 20971520,
+      "sha256": "1a552caa67a71ad589f1dfb7d4912ca070b8c0b271b466c4ec34988da3bc6c22",
+      "git_blob_sha1": "fd7385b77336e1c603e8bf089b263cc9642946ba"
+    },
+    {
+      "path": "Data/Videos/Probe1_8.part04.rar",
+      "filename": "Probe1_8.part04.rar",
+      "specimen": "Probe1_8",
+      "bytes": 19284653,
+      "sha256": "6bc86661c8b1298e3c607aa6ea2542a0d6df7a3fc76de5d69ebd20b67c7a377a",
+      "git_blob_sha1": "d1ae61cc87b0bf4fe0f01632c974df5c9abc6caf"
+    },
+    {
+      "path": "Data/Videos/Probe1_9.part01.rar",
+      "filename": "Probe1_9.part01.rar",
+      "specimen": "Probe1_9",
+      "bytes": 20971520,
+      "sha256": "4c0593f1238579f733ad92e0e979304ca237a28e37ee58e0deafe6f11ec9c829",
+      "git_blob_sha1": "408ae096bd6f3b0dd0d09658a51c8155e747808b"
+    },
+    {
+      "path": "Data/Videos/Probe1_9.part02.rar",
+      "filename": "Probe1_9.part02.rar",
+      "specimen": "Probe1_9",
+      "bytes": 20971520,
+      "sha256": "8695876cfc0f2496d699a799f3cf45037415a9136c9e15b7ddfbd3ac5882dcfa",
+      "git_blob_sha1": "9f74c56f74d866ee4768164dd2da30f2f79cc20b"
+    },
+    {
+      "path": "Data/Videos/Probe1_9.part03.rar",
+      "filename": "Probe1_9.part03.rar",
+      "specimen": "Probe1_9",
+      "bytes": 20971520,
+      "sha256": "d18200e669bce297665030f9dd01b97cd6380c617b78f40f065895d30fa91206",
+      "git_blob_sha1": "5be317cbb6d3cf6d401eb669f1c19c9a7af32911"
+    },
+    {
+      "path": "Data/Videos/Probe1_9.part04.rar",
+      "filename": "Probe1_9.part04.rar",
+      "specimen": "Probe1_9",
+      "bytes": 15854763,
+      "sha256": "4170b81cad75ff1c0f9dc7cc2a5a640ac96a71cbbe6ec48d73878c362ec38552",
+      "git_blob_sha1": "34a833ed27b268b72fa4d12b8004f36451e7dd1b"
+    }
+  ],
+  "videos": [
+    {
+      "filename": "Probe1_10.avi",
+      "specimen": "Probe1_10",
+      "bytes": 235732480,
+      "sha256": "6c014ef89d1fd5604802afec6717614aff4a16b35bc158a993c30f3739ff7b88",
+      "archive_volumes": 4,
+      "expected_frames": 2048,
+      "decoded_frames": 2048,
+      "fps_container": 49.32669067232279,
+      "width": 1024,
+      "height": 256,
+      "decoded_bgr_uint8_pixel_sha256": "fa53090492ca73491bab9faeb5fef411956b323921003af95ddc55a2a9c0d18b"
+    },
+    {
+      "filename": "Probe1_2.avi",
+      "specimen": "Probe1_2",
+      "bytes": 252387840,
+      "sha256": "880c3d25ea11bd942ef944ac6581324ea2a548fd9a0e78676bf9fa3409c20fc4",
+      "archive_volumes": 5,
+      "expected_frames": 2048,
+      "decoded_frames": 2048,
+      "fps_container": 49.32669067232279,
+      "width": 1024,
+      "height": 256,
+      "decoded_bgr_uint8_pixel_sha256": "99c9bfc675ec7eb808954a9ac7c9d7704de10570227afb3ff51c46b6101bc4eb"
+    },
+    {
+      "filename": "Probe1_8.avi",
+      "specimen": "Probe1_8",
+      "bytes": 210512896,
+      "sha256": "f419cf4f9dcd3459bc8c4f8bd9f52feb51dce33a37a7fbeccb6cc497f4a5cb62",
+      "archive_volumes": 4,
+      "expected_frames": 2048,
+      "decoded_frames": 2048,
+      "fps_container": 49.32669067232279,
+      "width": 1024,
+      "height": 256,
+      "decoded_bgr_uint8_pixel_sha256": "3bc30097a0d18ed456a28f757b9d5b2d3cf0449526ed7a1110e881ed674e107c"
+    },
+    {
+      "filename": "Probe1_9.avi",
+      "specimen": "Probe1_9",
+      "bytes": 230135296,
+      "sha256": "c692e9ca11dcc0cd62311b63181637b12b8cde5409bfbec1545509e9661b2803",
+      "archive_volumes": 4,
+      "expected_frames": 2048,
+      "decoded_frames": 2048,
+      "fps_container": 49.32669067232279,
+      "width": 1024,
+      "height": 256,
+      "decoded_bgr_uint8_pixel_sha256": "724e46380caa85e30d2138b62f8b0b355a164176c6935afb24efd15101157dad"
+    }
+  ],
+  "totals": {
+    "archive_volumes": 17,
+    "archive_bytes": 338748605,
+    "videos": 4,
+    "video_bytes": 928768512,
+    "decoded_frames": 8192
+  },
+  "decode_environment": {
+    "python": "3.12.14",
+    "opencv": "5.0.0",
+    "libarchive_c": "5.3"
+  },
+  "decode_audit": "All four AVI streams were decoded sequentially without a missing frame (2,048 each). Pixel hash concatenates OpenCV BGR uint8 frame.tobytes() in chronological order.",
+  "physical_identity_caution": "Recording names identify candidate specimens in the 2023 campaign. Admission to a physical-specimen fold requires de-duplication against other repositories and processing aliases.",
+  "force_alignment": "No force series has been synchronized to these videos; container FPS is metadata, not validated acquisition timing."
+}

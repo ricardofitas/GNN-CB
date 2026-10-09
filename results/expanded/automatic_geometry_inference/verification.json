@@ -1,0 +1,394 @@
+{
+  "checkpoint": "results/expanded/five_specimens/final/model.pt",
+  "checkpoint_sha256": "74e61d3be0e46dbfb2c61fe458662bf0459245431d22c15269432e96156585a2",
+  "verification_type": "initial-geometry-only executable inference; not accuracy evaluation",
+  "phases": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "recordings": [
+    {
+      "recording": "Probe1_2",
+      "source_npz_sha256": "f2454968b1d550141da56c4b4fe9ceec388d3516ebd79282a9169ee5f997ccb7",
+      "geometry_only_npz_sha256": "927c69bfa28a0bc161317ea0797fafe9450e40eec048626786b016df2ab32a4f",
+      "prediction_file": "Probe1_2_geometry_only_predictions.npz",
+      "prediction_sha256": "fd041d5e13cdbc67c35e72b8de6357a13448f0b7728ca890de1570b859b10604",
+      "nodes": 105,
+      "directed_edges": 302,
+      "undirected_edges": 151,
+      "scale_px": 88.0,
+      "requested_phases": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "predicted_node_phase_pairs": 525,
+      "all_predictions_finite": true,
+      "full_npz_and_geometry_only_npz_bitwise_equivalent": true,
+      "allowed_input_fields": [
+        "x0",
+        "edge_index",
+        "initial_pos_px",
+        "node_ids",
+        "scale_px"
+      ],
+      "observed_array_reads": [
+        {
+          "filename": "Probe1_2.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_2_initial_geometry_only.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_2_initial_geometry_only.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_2_initial_geometry_only.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_2_initial_geometry_only.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_2_initial_geometry_only.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_2.npz",
+          "key": "scale_px"
+        }
+      ],
+      "targets_masks_observed_positions_and_recorded_phase_read": false,
+      "geometry_archive_contains_targets": false,
+      "accuracy_claim": null,
+      "interpretation": "Geometric domain stress test only; no validated compression endpoint and no accuracy claim."
+    },
+    {
+      "recording": "Probe1_8",
+      "source_npz_sha256": "bb15e37adb6d72ceb31f2df8f72c5868d8e3fbeff3b55e905c58c7dda609702a",
+      "geometry_only_npz_sha256": "65cf1b529ed961c69be7282460a9c70b5338022c9c16032d81ef623973a78b0b",
+      "prediction_file": "Probe1_8_geometry_only_predictions.npz",
+      "prediction_sha256": "7f5232ce4d0af5a5e05f7b7d1274e5fc459a6f7746ae7c9aad2f97e34f4054ff",
+      "nodes": 106,
+      "directed_edges": 308,
+      "undirected_edges": 154,
+      "scale_px": 84.0,
+      "requested_phases": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "predicted_node_phase_pairs": 530,
+      "all_predictions_finite": true,
+      "full_npz_and_geometry_only_npz_bitwise_equivalent": true,
+      "allowed_input_fields": [
+        "x0",
+        "edge_index",
+        "initial_pos_px",
+        "node_ids",
+        "scale_px"
+      ],
+      "observed_array_reads": [
+        {
+          "filename": "Probe1_8.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_8_initial_geometry_only.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_8_initial_geometry_only.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_8_initial_geometry_only.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_8_initial_geometry_only.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_8_initial_geometry_only.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_8.npz",
+          "key": "scale_px"
+        }
+      ],
+      "targets_masks_observed_positions_and_recorded_phase_read": false,
+      "geometry_archive_contains_targets": false,
+      "accuracy_claim": null,
+      "interpretation": "Geometric domain stress test over the full requested phase range; partial pre-collapse supervision is qualified separately, but complete-collapse tracking coverage is insufficient. No accuracy claim here."
+    },
+    {
+      "recording": "Probe1_9",
+      "source_npz_sha256": "6a843adf274af9e82d7579dd4f92a9f012138f3e075255b55a18c280f008fe26",
+      "geometry_only_npz_sha256": "247e780054f756c02da8850747b54f4ed8e08c0e89ce94d53d30f41f1d82917b",
+      "prediction_file": "Probe1_9_geometry_only_predictions.npz",
+      "prediction_sha256": "ac293df61e6578aef5f551f8f95c2453ad43429f1f0357ed0380b0477f89cd59",
+      "nodes": 50,
+      "directed_edges": 138,
+      "undirected_edges": 69,
+      "scale_px": 50.75,
+      "requested_phases": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "predicted_node_phase_pairs": 250,
+      "all_predictions_finite": true,
+      "full_npz_and_geometry_only_npz_bitwise_equivalent": true,
+      "allowed_input_fields": [
+        "x0",
+        "edge_index",
+        "initial_pos_px",
+        "node_ids",
+        "scale_px"
+      ],
+      "observed_array_reads": [
+        {
+          "filename": "Probe1_9.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_9_initial_geometry_only.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_9_initial_geometry_only.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_9_initial_geometry_only.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_9_initial_geometry_only.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_9_initial_geometry_only.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_9.npz",
+          "key": "scale_px"
+        }
+      ],
+      "targets_masks_observed_positions_and_recorded_phase_read": false,
+      "geometry_archive_contains_targets": false,
+      "accuracy_claim": null,
+      "interpretation": "Functional inference on an unseen initial graph; phases are requested, not measured video endpoints. Accuracy requires a separate admissible evaluation."
+    },
+    {
+      "recording": "Probe1_10",
+      "source_npz_sha256": "7d8d108d83720e796aebdca4522f41932530db6294f138a296cd13d5fd87f301",
+      "geometry_only_npz_sha256": "0ce728154255d3963a095b6298f617ede27bdb9fa6804cc74cef7924c1ea2ba3",
+      "prediction_file": "Probe1_10_geometry_only_predictions.npz",
+      "prediction_sha256": "3c678bd908fc512a3cd23e14d7712aaee4051d48451ef94cce4ad93f2a1590b3",
+      "nodes": 48,
+      "directed_edges": 134,
+      "undirected_edges": 67,
+      "scale_px": 44.66667175292969,
+      "requested_phases": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
+      "predicted_node_phase_pairs": 240,
+      "all_predictions_finite": true,
+      "full_npz_and_geometry_only_npz_bitwise_equivalent": true,
+      "allowed_input_fields": [
+        "x0",
+        "edge_index",
+        "initial_pos_px",
+        "node_ids",
+        "scale_px"
+      ],
+      "observed_array_reads": [
+        {
+          "filename": "Probe1_10.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_10_initial_geometry_only.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_10_initial_geometry_only.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_10_initial_geometry_only.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_10_initial_geometry_only.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_10_initial_geometry_only.npz",
+          "key": "scale_px"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "x0"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "edge_index"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "initial_pos_px"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "node_ids"
+        },
+        {
+          "filename": "Probe1_10.npz",
+          "key": "scale_px"
+        }
+      ],
+      "targets_masks_observed_positions_and_recorded_phase_read": false,
+      "geometry_archive_contains_targets": false,
+      "accuracy_claim": null,
+      "interpretation": "Geometric domain stress test only; no validated compression endpoint and no accuracy claim."
+    }
+  ],
+  "total_initial_nodes": 309,
+  "total_predicted_node_phase_pairs": 1545,
+  "target_access_guard": "Reading any field other than the five initial-geometry fields raises an error.",
+  "phase_semantics": "Hypothetical protocol phase supplied by caller. No current/future image, tracked displacement, observation mask, compression window, or source progress array is used. Phase 1 is not claimed to be a true video endpoint; phase 0 is not necessarily camera frame0."
+}

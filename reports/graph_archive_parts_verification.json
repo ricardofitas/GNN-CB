@@ -1,0 +1,51 @@
+{
+  "manifest": "data/automatic/graphs/archive_parts_manifest.json",
+  "manifest_sha256": "7ea0e79b35420d0f925a3e7e8829194ea4f222f02c2d019484e40a671c53791c",
+  "archives": [
+    {
+      "specimen_id": "Probe1_10",
+      "parts": 2,
+      "bytes": 3498041,
+      "sha256": "42a5ba5228762871f7e248936c33c7a898bfc40db919672a447566b0d3eb2cd9",
+      "all_part_hashes_verified": true,
+      "whole_archive_hash_verified": true,
+      "restored": true,
+      "restored_filename": "Probe1_10.npz"
+    },
+    {
+      "specimen_id": "Probe1_2",
+      "parts": 5,
+      "bytes": 12681368,
+      "sha256": "fec606098a0fbd08fe415ba2058fcb484d01e1a6a2ff4a05a08611873cd4ff70",
+      "all_part_hashes_verified": true,
+      "whole_archive_hash_verified": true,
+      "restored": true,
+      "restored_filename": "Probe1_2.npz"
+    },
+    {
+      "specimen_id": "Probe1_8",
+      "parts": 3,
+      "bytes": 6788217,
+      "sha256": "5b8c53e1d8905dbdfb8110cf1b08f1a25179d02c18b1fba2766c0795d783ddeb",
+      "all_part_hashes_verified": true,
+      "whole_archive_hash_verified": true,
+      "restored": true,
+      "restored_filename": "Probe1_8.npz"
+    },
+    {
+      "specimen_id": "Probe1_9",
+      "parts": 1,
+      "bytes": 2889378,
+      "sha256": "78509dfbb62053900d9efdabf4a009f037e79315ed1f64a3e8a48c57e1b56c61",
+      "all_part_hashes_verified": true,
+      "whole_archive_hash_verified": true,
+      "restored": true,
+      "restored_filename": "Probe1_9.npz"
+    }
+  ],
+  "all_part_hashes_verified": true,
+  "all_whole_archive_hashes_verified": true,
+  "restoration_test_location": "separate temporary directory outside repository",
+  "corrupt_part_rejected_before_replacement": true,
+  "existing_destination_preserved_on_failure": true
+}
