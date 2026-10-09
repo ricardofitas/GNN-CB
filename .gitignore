@@ -15,3 +15,7 @@ data/automatic/graphs/*.npz
 # Reproducible exploratory checkpoints/predictions; original benchmarks retained.
 results/diagnosis/cache/
 results/diagnosis/*execution.log
+
+# Derived supervision follow-up; binary caches reproduce from registered runs.
+results/derived_supervision/cache/
+results/derived_supervision/*execution.log

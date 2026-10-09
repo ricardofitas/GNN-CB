@@ -1,0 +1,166 @@
+{
+  "status": "exploratory follow-up, original benchmark remains authoritative",
+  "source_commit": "eba8d358de1e4b6a045c8c318bd2ddac7f7e9406",
+  "registered_before_new_fits": true,
+  "prior_outcomes_known": "Original and fourteen diagnostic arms informed this design; tests are not newly untouched.",
+  "source_sha256": {
+    "data/automatic/tracks/Probe1_8.npz": "bb15e37adb6d72ceb31f2df8f72c5868d8e3fbeff3b55e905c58c7dda609702a",
+    "data/automatic/tracks/Probe1_9.npz": "6a843adf274af9e82d7579dd4f92a9f012138f3e075255b55a18c280f008fe26",
+    "data/automatic/training/Probe1_8.json": "0627022104175143da9d0f24e2e65526439df1974ef79574e3b845e7087e8440",
+    "data/automatic/training/Probe1_8.npz": "cd1ab2bf8971c12d222dff15a05ece6120b080db02084d1189b7819cb559a55a",
+    "data/automatic/training/Probe1_9.json": "c20155b2d9b3ee2bef2ac58a44587471706f321da0d61c44d3cdac5e90634c7b",
+    "data/automatic/training/Probe1_9.npz": "fe94bb34b8a50339bf752cf9ce135b3bd4d0a2e33b999a72f8cab44f25d19d84",
+    "data/expanded/Exp3.json": "0c3edfcd09d08ace1d5978e791d302c7b6f2542ae0c74640c50612f14c8513c9",
+    "data/expanded/Exp3.npz": "64557a7250936aa6ff4afec683a021c444a1e9b2bcb946ff57415d6e60e47b71",
+    "data/expanded/Exp4.json": "ae7bb3ff2fc3fd9a25c3de6adddde5d9cdbaf7056cd9f94eecf64d52ccdc33aa",
+    "data/expanded/Exp4.npz": "a246c9b64b675c10eaaaebb2ef00dfec7db2ada50c3556a6636a9a2f43c8f3e3",
+    "data/expanded/Exp5.json": "9ee344711536fa3ea43ac6e8e70f536e5d09f663082eb9a5e95371509468ff7e",
+    "data/expanded/Exp5.npz": "81fb03be3d0a6f873867274e061b3e57f8432f17b7c2140bc790ffbd504c5b7c",
+    "data/expanded/Probe1_22.json": "0b058dd557101689e77e6b6276d4795c67892c7a21ca2b6d2734c3204f197b59",
+    "data/expanded/Probe1_22.npz": "18615d76608cdb68f6654332ccfb49cd601513b5f252fc9c307cc6b42c257a3a",
+    "data/expanded/Probe2_7.json": "f983ef94414981dee789cae770c70a9bf5f20e4a5155131eff8a77cb4343ad81",
+    "data/expanded/Probe2_7.npz": "985d93e0544c72e53506785c4afe2a93289a73ed33f2f8e076d640622b5295c5",
+    "data/expanded/manifest.json": "eb30837786aa94662776d565a44eac0abe688fcbf245665b26da8fa730e3002f",
+    "data/expanded/source_tree.json": "cc4b1ab89e7a6ce3cff430317c0ad698958c26c386405e78a8bbcd394c9344d5",
+    "gnn_cb/__init__.py": "b412bd53288a68e6d265dc60a8628c47bf3084f40cff94bb21cbae843f6b3f26",
+    "gnn_cb/data.py": "5e35bad80aac5502e289e90e22118b761bb2c54c0f07de9cf972f5e170d8643f",
+    "gnn_cb/image_graph.py": "6dc9906b2912faeabbfc4339a9c8d076691ab220760d5906e41964e08079f9d2",
+    "gnn_cb/import_expanded.py": "fc0fe03778fd13ca19f4af22a3efb969d319d7e0c303501f19e9cacc8050d229",
+    "gnn_cb/model.py": "dc65e8538aa030e2db486e2a721b544616c6f4fbf376f4f3f3ae89e00bbfdf8f",
+    "gnn_cb/predict.py": "b5b7f39d44091bb33bc0355ad34f1bbc1a84490c6f903dcccd6237f4c587d612",
+    "gnn_cb/train.py": "44fd3f6e9067488a37f4f7fb09a808a0747ee0ec59fdd39b85cf95554e4f91ae",
+    "gnn_cb/train_expanded.py": "16d90d424a13bf3cd8778bf0b3c406ca25659ca07ff61300b7fc92d6c7ededb1",
+    "results/diagnosis/summary.json": "da0a342493fc3370c10c2f000cae0a3ba55243ce479c5ca056fd13b703b39543",
+    "results/expanded/five_specimens/metrics.json": "af142559154f10a107598e0c752070f875eb9df320f501bba85289543d604310",
+    "results/expanded/five_specimens/protocol.json": "2c1bd8e5cba78d5138861029b01641e4448bc4783de8e37bdcb9e982ab362e2b",
+    "results/expanded/fixed_test_comparison.json": "b1c0d99152aa71e245a0b95517622c210ca5982b85b49e4fb63c0b69cf370aff",
+    "results/expanded/seven_specimens_fixed_tests/metrics.json": "2635380311aa1283c080cb13ca56dd3682553a89e229cc5514f48243d6aa5e93",
+    "scripts/derived_objectives.py": "4301b4adb86623592e8803bfb52c0bd50cedddf61f71afae2b1615695575acbf",
+    "scripts/diagnose_augmentation.py": "88e9a6eaef205aece41f21361d1cf579c2932dc24ea19337fa7cd5031a9b1473",
+    "scripts/train_derived_supervision.py": "246e7461aa2ac59444249f16c787bef81ea5cb3d439cd00a1579cb0099dbd7c2"
+  },
+  "arms": {
+    "primary_replay": {},
+    "temporal_pairs": {
+      "temporal": 0.5
+    },
+    "temporal_balanced": {
+      "temporal": 0.5,
+      "balance_nodes": true
+    },
+    "spatial_pairs": {
+      "spatial": 0.5
+    },
+    "joint_pairs": {
+      "temporal": 0.5,
+      "spatial": 0.5
+    },
+    "mc_geometry_jitter": {
+      "jitter": 0.005
+    },
+    "global_readout": {
+      "global_readout": true
+    },
+    "global_joint": {
+      "global_readout": true,
+      "temporal": 0.5,
+      "spatial": 0.5
+    },
+    "joint_video14": {
+      "temporal": 0.5,
+      "spatial": 0.5,
+      "videos": true
+    }
+  },
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "folds": [
+    {
+      "held_out_physical_specimen": "Exp3_D12",
+      "validation_physical_specimens": [
+        "Exp4_D14"
+      ],
+      "training_physical_specimens": [
+        "Exp5_ID03",
+        "Probe1_22",
+        "Probe2_7"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Exp4_D14",
+      "validation_physical_specimens": [
+        "Exp5_ID03"
+      ],
+      "training_physical_specimens": [
+        "Exp3_D12",
+        "Probe1_22",
+        "Probe2_7"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Exp5_ID03",
+      "validation_physical_specimens": [
+        "Probe1_22"
+      ],
+      "training_physical_specimens": [
+        "Exp3_D12",
+        "Exp4_D14",
+        "Probe2_7"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Probe1_22",
+      "validation_physical_specimens": [
+        "Probe2_7"
+      ],
+      "training_physical_specimens": [
+        "Exp3_D12",
+        "Exp4_D14",
+        "Exp5_ID03"
+      ]
+    },
+    {
+      "held_out_physical_specimen": "Probe2_7",
+      "validation_physical_specimens": [
+        "Exp3_D12"
+      ],
+      "training_physical_specimens": [
+        "Exp4_D14",
+        "Exp5_ID03",
+        "Probe1_22"
+      ]
+    }
+  ],
+  "maximum_epochs": 300,
+  "patience": 75,
+  "validation_every_epochs": 5,
+  "learning_rate": 0.002,
+  "weight_decay": 0.001,
+  "gradient_clip": 5.0,
+  "threads_per_fit": 2,
+  "fitting": "3 original specimens; only joint_video14 adds both admitted videos with total weight 1/7.",
+  "normalization": "Original per-specimen initial graph height, affine fitting and scalar residual normalization unchanged.",
+  "objective": "node_MSE + temporal_weight * temporal_difference_MSE / 2 + spatial_weight * edge_difference_MSE / 2",
+  "temporal": "All unordered pairs of observed endpoints with same node ID, within compression window; no interpolation or division by phase gap.",
+  "spatial": "One copy of each initial undirected edge, only when both endpoints are observed in the same frame.",
+  "temporal_balanced": "Node mass proportional to observation count k, instead of number of pairs k(k-1)/2; singletons excluded from auxiliary loss only.",
+  "mc_geometry_jitter": "One fixed-stream random view per update; Gaussian sigma 0.005 initial graph height clipped at 3 sigma then centered. Topology, units, labels and masks unchanged. Hypothetical input noise, not simulated mechanics.",
+  "global_readout": "Learn graph-wide residual from mean hidden state, plus all-node-centered local residual. No observed deformation, mask or label is an inference input.",
+  "selection": "Only original whole validation specimen node MSE selects epochs; epoch zero eligible. No test selects arm, coefficient, phase, ensemble member or synthetic perturbation.",
+  "primary_metric": "Mean of five per-specimen normalized coordinate RMSEs, then mean over three seeds. Same original observed test masks.",
+  "primary_scientific_contrast": "joint_pairs versus primary_replay; all eight intervention contrasts are reported with Holm adjustment.",
+  "statistics": {
+    "unit": "physical test specimen, after averaging its three seed scores",
+    "nominal_test": "Two-sided exact sign flips of five paired specimen differences, 32 assignments, plus Holm over eight interventions.",
+    "significance_level": 0.05,
+    "uncertainty": "Exact empirical case bootstrap over 5^5 ordered resamples; percentile 95% sensitivity interval, conditional on these fitted models and five cases.",
+    "dependence_warning": "LOSO fits share training specimens. Independent sign symmetry / exchangeable cases are unverified; neither nominal p nor bootstrap is a calibrated population guarantee.",
+    "secondary": "Paired seed differences; leave-one-case sensitivity; fixed arithmetic three-seed prediction ensemble compared with the same ensemble of original models.",
+    "previous_study": "Apply same descriptive procedure retrospectively to all fourteen prior arms versus original, with separate Holm family and also combined 22-contrast adjustment."
+  },
+  "label_warning": "More deterministic target relationships do not increase independent physical measurements. Original tracks remain automatic image-derived supervision.",
+  "generative_images": "Not trained or used. A photorealistic generator supplies no validated displacement field. This study tests derived objectives and graph input-noise Monte Carlo only."
+}
