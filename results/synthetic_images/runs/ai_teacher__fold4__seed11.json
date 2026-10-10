@@ -1,0 +1,249 @@
+{
+  "arm": "ai_teacher",
+  "fold_index": 4,
+  "protocol_sha256": "7147f6629a64e4119e1e5886cfe9105a59c7ef9d6ac6e695f2e188b95d492773",
+  "held_out_physical_specimen": "Probe2_7",
+  "validation_physical_specimens": [
+    "Exp3_D12"
+  ],
+  "training_physical_specimens": [
+    "Exp4_D14",
+    "Exp5_ID03",
+    "Probe1_22"
+  ],
+  "seed": 11,
+  "selected_epoch": 90,
+  "completed_epochs": 165,
+  "validation_mse": 0.007497737649828196,
+  "history": [
+    {
+      "epoch": 0,
+      "validation_mse": 0.013678908348083496
+    },
+    {
+      "epoch": 5,
+      "validation_mse": 0.013718705624341965
+    },
+    {
+      "epoch": 10,
+      "validation_mse": 0.0138296689838171
+    },
+    {
+      "epoch": 15,
+      "validation_mse": 0.01317268144339323
+    },
+    {
+      "epoch": 20,
+      "validation_mse": 0.01054720301181078
+    },
+    {
+      "epoch": 25,
+      "validation_mse": 0.012155761942267418
+    },
+    {
+      "epoch": 30,
+      "validation_mse": 0.01203783880919218
+    },
+    {
+      "epoch": 35,
+      "validation_mse": 0.009892250411212444
+    },
+    {
+      "epoch": 40,
+      "validation_mse": 0.009876998141407967
+    },
+    {
+      "epoch": 45,
+      "validation_mse": 0.00987671036273241
+    },
+    {
+      "epoch": 50,
+      "validation_mse": 0.009197120554745197
+    },
+    {
+      "epoch": 55,
+      "validation_mse": 0.00858401320874691
+    },
+    {
+      "epoch": 60,
+      "validation_mse": 0.008481455035507679
+    },
+    {
+      "epoch": 65,
+      "validation_mse": 0.007596801500767469
+    },
+    {
+      "epoch": 70,
+      "validation_mse": 0.008655805140733719
+    },
+    {
+      "epoch": 75,
+      "validation_mse": 0.0075355954468250275
+    },
+    {
+      "epoch": 80,
+      "validation_mse": 0.007762173656374216
+    },
+    {
+      "epoch": 85,
+      "validation_mse": 0.007757273036986589
+    },
+    {
+      "epoch": 90,
+      "validation_mse": 0.007497737649828196
+    },
+    {
+      "epoch": 95,
+      "validation_mse": 0.008015220984816551
+    },
+    {
+      "epoch": 100,
+      "validation_mse": 0.009216653183102608
+    },
+    {
+      "epoch": 105,
+      "validation_mse": 0.008176553063094616
+    },
+    {
+      "epoch": 110,
+      "validation_mse": 0.00831801537424326
+    },
+    {
+      "epoch": 115,
+      "validation_mse": 0.008122983388602734
+    },
+    {
+      "epoch": 120,
+      "validation_mse": 0.00899319164454937
+    },
+    {
+      "epoch": 125,
+      "validation_mse": 0.00852175522595644
+    },
+    {
+      "epoch": 130,
+      "validation_mse": 0.008912990801036358
+    },
+    {
+      "epoch": 135,
+      "validation_mse": 0.008300373330712318
+    },
+    {
+      "epoch": 140,
+      "validation_mse": 0.00858398713171482
+    },
+    {
+      "epoch": 145,
+      "validation_mse": 0.008725753985345364
+    },
+    {
+      "epoch": 150,
+      "validation_mse": 0.008518443442881107
+    },
+    {
+      "epoch": 155,
+      "validation_mse": 0.008610676042735577
+    },
+    {
+      "epoch": 160,
+      "validation_mse": 0.008650888688862324
+    },
+    {
+      "epoch": 165,
+      "validation_mse": 0.008396773599088192
+    }
+  ],
+  "runtime_seconds": 23.533189844994922,
+  "residual_scale": 0.13976019620895386,
+  "synthetic_graphs": 8,
+  "synthetic_vector_targets": 15444,
+  "synthetic_targets_are_independent_measurements": false,
+  "test_specimen_id": "Probe2_7",
+  "test_source_sha256": "985d93e0544c72e53506785c4afe2a93289a73ed33f2f8e076d640622b5295c5",
+  "test": {
+    "compression_window": {
+      "observed_node_frames": 5542,
+      "rmse_normalized": 0.168792368726919,
+      "rmse_px": 6.920487117803678,
+      "mae_px": 5.005818843841553,
+      "mean_endpoint_error_px": 8.694046020507812,
+      "mean_endpoint_error_normalized": 0.21204990148544312,
+      "p95_endpoint_error_px": 15.616826057434082,
+      "r2_variance_weighted": 0.5422856981597737,
+      "rmse_x_px": 9.603979110717773,
+      "rmse_y_px": 1.8841081857681274
+    },
+    "early_phase": {
+      "observed_node_frames": 4136,
+      "rmse_normalized": 0.16019077045296176,
+      "rmse_px": 6.567821588571432,
+      "mae_px": 4.758214950561523,
+      "mean_endpoint_error_px": 8.117834091186523,
+      "mean_endpoint_error_normalized": 0.19799594581127167,
+      "p95_endpoint_error_px": 14.905967712402344,
+      "r2_variance_weighted": 0.36520387433331747,
+      "rmse_x_px": 9.076701164245605,
+      "rmse_y_px": 1.9713083505630493
+    },
+    "late_phase": {
+      "observed_node_frames": 1142,
+      "rmse_normalized": 0.1938029701365031,
+      "rmse_px": 7.945921775596627,
+      "mae_px": 5.8009419441223145,
+      "mean_endpoint_error_px": 10.480950355529785,
+      "mean_endpoint_error_normalized": 0.2556329369544983,
+      "p95_endpoint_error_px": 17.049659729003906,
+      "r2_variance_weighted": 0.6716249804040767,
+      "rmse_x_px": 11.109587669372559,
+      "rmse_y_px": 1.6889151334762573
+    },
+    "complete_track_subset": {
+      "nodes": 42,
+      "observed_node_frames": 5292,
+      "rmse_normalized": 0.16603616138670504,
+      "rmse_px": 6.807482616854907,
+      "mae_px": 4.9401044845581055,
+      "mean_endpoint_error_px": 8.560089111328125,
+      "mean_endpoint_error_normalized": 0.20878265798091888,
+      "p95_endpoint_error_px": 15.236727714538574,
+      "r2_variance_weighted": 0.5572938371263012,
+      "rmse_x_px": 9.4393949508667,
+      "rmse_y_px": 1.89247727394104
+    },
+    "phase_quintiles": [
+      {
+        "lo": 0.0,
+        "hi": 0.2,
+        "n": 1100,
+        "rmse_percent": 10.14457893371582
+      },
+      {
+        "lo": 0.2,
+        "hi": 0.4,
+        "n": 1100,
+        "rmse_percent": 16.135038375854492
+      },
+      {
+        "lo": 0.4,
+        "hi": 0.6,
+        "n": 1100,
+        "rmse_percent": 18.713150024414062
+      },
+      {
+        "lo": 0.6,
+        "hi": 0.8,
+        "n": 1100,
+        "rmse_percent": 18.222257614135742
+      },
+      {
+        "lo": 0.8,
+        "hi": 1.0,
+        "n": 1142,
+        "rmse_percent": 19.38029670715332
+      }
+    ]
+  },
+  "prediction_sha256": "d6adc7f63bcea77d90a7881ab0fb32bf6922005be8d6bdf0ceedccbd68eaa7d1",
+  "teacher_sha256": "7cb6e012ffad3281705189ce83a23e8b190886df77dc7b6b270867b063378f25",
+  "checkpoint_sha256": "e3f94fea424c82e6a78cdda1523ec4557325b784d7696bf15cdeed4891ed32c2"
+}

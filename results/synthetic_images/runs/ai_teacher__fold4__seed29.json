@@ -1,0 +1,233 @@
+{
+  "arm": "ai_teacher",
+  "fold_index": 4,
+  "protocol_sha256": "7147f6629a64e4119e1e5886cfe9105a59c7ef9d6ac6e695f2e188b95d492773",
+  "held_out_physical_specimen": "Probe2_7",
+  "validation_physical_specimens": [
+    "Exp3_D12"
+  ],
+  "training_physical_specimens": [
+    "Exp4_D14",
+    "Exp5_ID03",
+    "Probe1_22"
+  ],
+  "seed": 29,
+  "selected_epoch": 70,
+  "completed_epochs": 145,
+  "validation_mse": 0.007429300807416439,
+  "history": [
+    {
+      "epoch": 0,
+      "validation_mse": 0.013678908348083496
+    },
+    {
+      "epoch": 5,
+      "validation_mse": 0.013625871390104294
+    },
+    {
+      "epoch": 10,
+      "validation_mse": 0.013802419416606426
+    },
+    {
+      "epoch": 15,
+      "validation_mse": 0.013015846721827984
+    },
+    {
+      "epoch": 20,
+      "validation_mse": 0.01047078799456358
+    },
+    {
+      "epoch": 25,
+      "validation_mse": 0.012732347473502159
+    },
+    {
+      "epoch": 30,
+      "validation_mse": 0.011278088204562664
+    },
+    {
+      "epoch": 35,
+      "validation_mse": 0.010093562304973602
+    },
+    {
+      "epoch": 40,
+      "validation_mse": 0.010604586452245712
+    },
+    {
+      "epoch": 45,
+      "validation_mse": 0.010255356319248676
+    },
+    {
+      "epoch": 50,
+      "validation_mse": 0.009479130618274212
+    },
+    {
+      "epoch": 55,
+      "validation_mse": 0.008884888142347336
+    },
+    {
+      "epoch": 60,
+      "validation_mse": 0.007774083875119686
+    },
+    {
+      "epoch": 65,
+      "validation_mse": 0.007482987828552723
+    },
+    {
+      "epoch": 70,
+      "validation_mse": 0.007429300807416439
+    },
+    {
+      "epoch": 75,
+      "validation_mse": 0.007454013451933861
+    },
+    {
+      "epoch": 80,
+      "validation_mse": 0.007686622440814972
+    },
+    {
+      "epoch": 85,
+      "validation_mse": 0.007614252623170614
+    },
+    {
+      "epoch": 90,
+      "validation_mse": 0.007684691343456507
+    },
+    {
+      "epoch": 95,
+      "validation_mse": 0.00745858671143651
+    },
+    {
+      "epoch": 100,
+      "validation_mse": 0.007557339034974575
+    },
+    {
+      "epoch": 105,
+      "validation_mse": 0.007605521474033594
+    },
+    {
+      "epoch": 110,
+      "validation_mse": 0.007787077687680721
+    },
+    {
+      "epoch": 115,
+      "validation_mse": 0.0077097415924072266
+    },
+    {
+      "epoch": 120,
+      "validation_mse": 0.007803679909557104
+    },
+    {
+      "epoch": 125,
+      "validation_mse": 0.007915502414107323
+    },
+    {
+      "epoch": 130,
+      "validation_mse": 0.007968705147504807
+    },
+    {
+      "epoch": 135,
+      "validation_mse": 0.00805781688541174
+    },
+    {
+      "epoch": 140,
+      "validation_mse": 0.008111554197967052
+    },
+    {
+      "epoch": 145,
+      "validation_mse": 0.008242727257311344
+    }
+  ],
+  "runtime_seconds": 18.722805546000018,
+  "residual_scale": 0.13976019620895386,
+  "synthetic_graphs": 8,
+  "synthetic_vector_targets": 15444,
+  "synthetic_targets_are_independent_measurements": false,
+  "test_specimen_id": "Probe2_7",
+  "test_source_sha256": "985d93e0544c72e53506785c4afe2a93289a73ed33f2f8e076d640622b5295c5",
+  "test": {
+    "compression_window": {
+      "observed_node_frames": 5542,
+      "rmse_normalized": 0.1780426056514464,
+      "rmse_px": 7.299746831709302,
+      "mae_px": 5.188417434692383,
+      "mean_endpoint_error_px": 9.196712493896484,
+      "mean_endpoint_error_normalized": 0.22431005537509918,
+      "p95_endpoint_error_px": 16.453889846801758,
+      "r2_variance_weighted": 0.4907433119651561,
+      "rmse_x_px": 10.188908576965332,
+      "rmse_y_px": 1.6609423160552979
+    },
+    "early_phase": {
+      "observed_node_frames": 4136,
+      "rmse_normalized": 0.17008856018989424,
+      "rmse_px": 6.973630967785664,
+      "mae_px": 4.948627471923828,
+      "mean_endpoint_error_px": 8.652636528015137,
+      "mean_endpoint_error_normalized": 0.21103991568088531,
+      "p95_endpoint_error_px": 16.320148468017578,
+      "r2_variance_weighted": 0.2843354713413232,
+      "rmse_x_px": 9.708263397216797,
+      "rmse_y_px": 1.7357043027877808
+    },
+    "late_phase": {
+      "observed_node_frames": 1142,
+      "rmse_normalized": 0.2005521896335737,
+      "rmse_px": 8.222639774976523,
+      "mae_px": 5.930067539215088,
+      "mean_endpoint_error_px": 10.834181785583496,
+      "mean_endpoint_error_normalized": 0.2642483413219452,
+      "p95_endpoint_error_px": 17.243377685546875,
+      "r2_variance_weighted": 0.6483553325559602,
+      "rmse_x_px": 11.533587455749512,
+      "rmse_y_px": 1.483229398727417
+    },
+    "complete_track_subset": {
+      "nodes": 42,
+      "observed_node_frames": 5292,
+      "rmse_normalized": 0.17575371314632857,
+      "rmse_px": 7.205902238999471,
+      "mae_px": 5.1262736320495605,
+      "mean_endpoint_error_px": 9.074324607849121,
+      "mean_endpoint_error_normalized": 0.22132498025894165,
+      "p95_endpoint_error_px": 16.30117416381836,
+      "r2_variance_weighted": 0.503957112551077,
+      "rmse_x_px": 10.054521560668945,
+      "rmse_y_px": 1.660314679145813
+    },
+    "phase_quintiles": [
+      {
+        "lo": 0.0,
+        "hi": 0.2,
+        "n": 1100,
+        "rmse_percent": 11.485279083251953
+      },
+      {
+        "lo": 0.2,
+        "hi": 0.4,
+        "n": 1100,
+        "rmse_percent": 16.66144561767578
+      },
+      {
+        "lo": 0.4,
+        "hi": 0.6,
+        "n": 1100,
+        "rmse_percent": 19.72428321838379
+      },
+      {
+        "lo": 0.6,
+        "hi": 0.8,
+        "n": 1100,
+        "rmse_percent": 19.517423629760742
+      },
+      {
+        "lo": 0.8,
+        "hi": 1.0,
+        "n": 1142,
+        "rmse_percent": 20.055219650268555
+      }
+    ]
+  },
+  "prediction_sha256": "d58ca765e6c8c4591baf174fdbac365cb4eef25f7ff65ad3fe7a704930a64a89",
+  "teacher_sha256": "a8c289b6c6bddf36071729124a90133885500962b706c289fb99cbd7def3f021",
+  "checkpoint_sha256": "ad128e96ce068ce16493bb6c4b4a39000b7ea17252a10102b2d5e302d29f37f4"
+}

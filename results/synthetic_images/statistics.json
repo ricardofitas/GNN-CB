@@ -1,0 +1,2684 @@
+{
+  "warning": "Five physical test cases, three optimizer seeds, overlapping LOSO fitting sets. Nominal exact sign-flip p assumes independent sign symmetry of paired case differences; this is unverified. Bootstrap is conditional empirical case sensitivity, not a calibrated population confidence interval. Frames, pairs and seeds are not physical replicates.",
+  "primary_family": "Original GNN minus competing model classes; five contrasts with Holm.",
+  "units": "RMSE in percent of initial graph height; deltas in percentage points.",
+  "original_gnn_minus_competitors": {
+    "mlp": {
+      "delta_rmse_pp": -2.9805493463479054,
+      "relative_change_percent": -18.04222844093056,
+      "paired_specimen_delta_pp": [
+        -1.1489403387046189,
+        -1.3175503970945008,
+        -1.6502089099823056,
+        -5.5158465310025235,
+        -5.270200554955577
+      ],
+      "paired_seed_macro_delta_pp": [
+        -3.0756375067489237,
+        -2.5226890904337327,
+        -3.343321441861059
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -4.6444606163797015,
+        -1.316638076316109
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -3.4384515982587267,
+        -3.3962990836612557,
+        -3.3131344554393047,
+        -2.3467250501842507,
+        -2.408136544195987
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.3125
+    },
+    "phase_affine": {
+      "delta_rmse_pp": -2.9226852130174583,
+      "relative_change_percent": -17.75414564057684,
+      "paired_specimen_delta_pp": [
+        -1.1489403387046189,
+        -1.1151986915658896,
+        -1.5823053097193955,
+        -5.481420187087029,
+        -5.285561538010358
+      ],
+      "paired_seed_macro_delta_pp": [
+        -3.050003405226974,
+        -2.519298575276049,
+        -3.198753658549353
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -4.623253751982834,
+        -1.2221166740520826
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -3.3661214315956682,
+        -3.3745568433803506,
+        -3.2577801888419744,
+        -2.2830014695000656,
+        -2.3319661317692333
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.3125
+    },
+    "zero_displacement": {
+      "delta_rmse_pp": -13.71786026104984,
+      "relative_change_percent": -50.327543456739534,
+      "paired_specimen_delta_pp": [
+        -15.968827679204693,
+        -6.110901021578694,
+        -13.56291220153431,
+        -19.859248381975295,
+        -13.087412020956208
+      ],
+      "paired_seed_macro_delta_pp": [
+        -13.845178453259356,
+        -13.31447362330843,
+        -13.993928706581732
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -17.3407139097989,
+        -9.477788552979396
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -13.155118406511127,
+        -15.619600070917627,
+        -13.756597275928723,
+        -12.182513230818476,
+        -13.875472321073246
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.3125
+    },
+    "random_forest": {
+      "delta_rmse_pp": -5.082134397339976,
+      "relative_change_percent": -27.291849275389602,
+      "paired_specimen_delta_pp": [
+        -5.0743020257370155,
+        -4.247141956606695,
+        -3.103310648414153,
+        -6.400521440675689,
+        -6.585395915266325
+      ],
+      "paired_seed_macro_delta_pp": [
+        -5.281693370902085,
+        -4.632853743201449,
+        -5.3318560779163935
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -6.209227347524209,
+        -3.955041447155742
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -5.084092490240716,
+        -5.290882507523296,
+        -5.576840334571431,
+        -4.752537636506047,
+        -4.706319017858388
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.3125
+    },
+    "rbf_ridge": {
+      "delta_rmse_pp": -2.9621588650596484,
+      "relative_change_percent": -17.950888476410835,
+      "paired_specimen_delta_pp": [
+        -1.2680720948558293,
+        -1.0504135424927938,
+        -1.6169810457552096,
+        -5.600369049029436,
+        -5.274958593164974
+      ],
+      "paired_seed_macro_delta_pp": [
+        -3.109286888219073,
+        -2.514495694579278,
+        -3.262694012380595
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -4.673527266028806,
+        -1.2507904640904912
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -3.3856805576106037,
+        -3.440095195701362,
+        -3.298453319885758,
+        -2.302606319067202,
+        -2.383958933033317
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.3125
+    }
+  },
+  "model_rmse_percent": {
+    "gnn": {
+      "mean": 13.53930215706305,
+      "seed_sd": 0.35717256907146056,
+      "per_specimen_seed_mean": [
+        11.82710517109723,
+        14.361707938057442,
+        12.249815843386038,
+        11.933640525031143,
+        17.32424130774339
+      ]
+    },
+    "mlp": {
+      "mean": 16.51985150341095,
+      "seed_sd": 0.07590676171225398,
+      "per_specimen_seed_mean": [
+        12.976045509801848,
+        15.679258335151943,
+        13.900024753368342,
+        17.449487056033664,
+        22.59444186269896
+      ]
+    },
+    "phase_affine": {
+      "mean": 16.461987370080504,
+      "seed_sd": 0.0,
+      "per_specimen_seed_mean": [
+        12.976045509801848,
+        15.476906629623334,
+        13.832121153105433,
+        17.415060712118173,
+        22.609802845753745
+      ]
+    },
+    "zero_displacement": {
+      "mean": 27.257162418112884,
+      "seed_sd": 0.0,
+      "per_specimen_seed_mean": [
+        27.795932850301924,
+        20.472608959636137,
+        25.81272804492035,
+        31.79288890700644,
+        30.41165332869959
+      ]
+    },
+    "random_forest": {
+      "mean": 18.621436554403022,
+      "seed_sd": 0.06332117834939108,
+      "per_specimen_seed_mean": [
+        16.901407196834246,
+        18.60884989466414,
+        15.353126491800191,
+        18.33416196570683,
+        23.90963722300971
+      ]
+    },
+    "rbf_ridge": {
+      "mean": 16.501461022122694,
+      "seed_sd": 0.038415232981739676,
+      "per_specimen_seed_mean": [
+        13.09517726595306,
+        15.412121480550235,
+        13.866796889141247,
+        17.53400957406058,
+        22.59919990090836
+      ]
+    }
+  },
+  "synthetic_minus_original": {
+    "real_mass90": {
+      "delta_rmse_pp": -0.03271111350519067,
+      "relative_change_percent": -0.24160117800551673,
+      "paired_specimen_delta_pp": [
+        -0.2572252711711111,
+        0.3397805575442791,
+        -0.002754131503911239,
+        -0.27025692287260483,
+        0.026900200477394758
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.004634264369530428,
+        -0.10475485578920604,
+        0.011255779643164487
+      ],
+      "improved_specimens": 3,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.9375,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.21154370391826866,
+        0.1578033203878242
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        0.02341742591128945,
+        -0.12583403126755813,
+        -0.04020035900551052,
+        0.02667533883666288,
+        -0.04761394200083702
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "ai_affine": {
+      "delta_rmse_pp": 0.08111207501105208,
+      "relative_change_percent": 0.5990860833897435,
+      "paired_specimen_delta_pp": [
+        -0.03321399846553478,
+        0.7259243482469634,
+        -0.5393467562142664,
+        0.156487436989023,
+        0.09570934449907516
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.07805547293267238,
+        -0.3353438610026906,
+        0.5006246131031744
+      ],
+      "improved_specimens": 2,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.2853243159289298,
+        0.46020929665287563
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        0.10969359338019878,
+        -0.08009099329792575,
+        0.23622678281738171,
+        0.06226823451655934,
+        0.07746275763904631
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "ai_teacher": {
+      "delta_rmse_pp": -0.1751359049647391,
+      "relative_change_percent": -1.2935371626474554,
+      "paired_specimen_delta_pp": [
+        -0.33746778244826875,
+        0.604269799477283,
+        -0.6301655887238772,
+        -0.24260683701206767,
+        -0.26970911611676485
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.012070547301888368,
+        -0.4700574883310932,
+        -0.06742077386501251
+      ],
+      "improved_specimens": 4,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.4375,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.4805625438600928,
+        0.24654695579430247
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.13455293559385667,
+        -0.3699873310752446,
+        -0.06137848402495457,
+        -0.15826817195290693,
+        -0.15149260217673266
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_affine": {
+      "delta_rmse_pp": -0.09543151188426457,
+      "relative_change_percent": -0.7048480843193295,
+      "paired_specimen_delta_pp": [
+        -0.448781615412317,
+        0.7293520791766402,
+        -0.3401592797595641,
+        -0.02485111978946719,
+        -0.39271762363661483
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.024697930718058814,
+        -0.33789637641432824,
+        0.026903910043475678
+      ],
+      "improved_specimens": 4,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.5625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.40463155157148556,
+        0.3428847004656273
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.007093986002251473,
+        -0.30162740964949075,
+        -0.03424956991543969,
+        -0.11307660990796392,
+        -0.02110998394617701
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_teacher": {
+      "delta_rmse_pp": -0.4485440354211119,
+      "relative_change_percent": -3.312903650555725,
+      "paired_specimen_delta_pp": [
+        -0.6888395910131683,
+        -0.16170745674254228,
+        -0.4732477248407629,
+        -0.5099520280207681,
+        -0.40897337648831805
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.16018579961651902,
+        -0.9365554821027668,
+        -0.24889082454404984
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.5897479748737171,
+        -0.28632356398183056
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.38847014652309786,
+        -0.5202531800907543,
+        -0.4423681130661992,
+        -0.43319203727119787,
+        -0.4584367001543104
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.5625
+    },
+    "ai_defects_affine": {
+      "delta_rmse_pp": -0.30908729035388766,
+      "relative_change_percent": -2.282889374713054,
+      "paired_specimen_delta_pp": [
+        -1.0227742057643503,
+        0.3919230951698385,
+        -0.6374053965272429,
+        0.007949509803174474,
+        -0.2851294544508581
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.18958182061553436,
+        -0.6373328639037279,
+        -0.10034718654240074
+      ],
+      "improved_specimens": 3,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.375,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.7395557008034238,
+        0.10926267975708939
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.130665561501272,
+        -0.4843398867348192,
+        -0.22700776381054888,
+        -0.3883464903931532,
+        -0.3150767493296451
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "ai_defects_teacher": {
+      "delta_rmse_pp": -0.29926246655500865,
+      "relative_change_percent": -2.2103241591287803,
+      "paired_specimen_delta_pp": [
+        -0.7830182845465519,
+        0.24045980005103118,
+        -0.5507382885083599,
+        -0.17176852493490102,
+        -0.23124703483626163
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.051144446959103716,
+        -0.7300873820396963,
+        -0.2188444645844335
+      ],
+      "improved_specimens": 4,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.25,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.5971942877159984,
+        -0.00022548265803348233
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.17832351205712285,
+        -0.4341930332065186,
+        -0.23639351106667084,
+        -0.33113595196003554,
+        -0.3162663244846954
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_defects_affine": {
+      "delta_rmse_pp": -0.17282846453656625,
+      "relative_change_percent": -1.2764946267663198,
+      "paired_specimen_delta_pp": [
+        -0.4516465400527932,
+        0.1461663613500305,
+        -0.3091402410206647,
+        0.002111001018887393,
+        -0.25163290397829147
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.13366477802824123,
+        -0.3772083901178259,
+        -0.007612225463631717
+      ],
+      "improved_specimens": 3,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.25,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.35464129322504145,
+        0.026293968809662845
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.10312394565750957,
+        -0.2525771710082155,
+        -0.1387505204155417,
+        -0.21656333092542968,
+        -0.15312735467613497
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_defects_teacher": {
+      "delta_rmse_pp": -0.3170741869523547,
+      "relative_change_percent": -2.3418798345300726,
+      "paired_specimen_delta_pp": [
+        -0.43342808632378,
+        0.22772194482822825,
+        -0.6762457819125102,
+        -0.1706842165162641,
+        -0.5327347948374476
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.10569415083031437,
+        -0.6921131219504655,
+        -0.1534152880762843
+      ],
+      "improved_specimens": 4,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.1875,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.570277847964739,
+        -0.011321751978467154
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.2879857121094984,
+        -0.45327321989750047,
+        -0.22728128821231586,
+        -0.35367167956137735,
+        -0.2631590349810815
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    }
+  },
+  "synthetic_minus_real_mass90": {
+    "ai_affine": {
+      "delta_rmse_pp": 0.11382318851624273,
+      "relative_change_percent": 0.8427232907931433,
+      "paired_specimen_delta_pp": [
+        0.2240112727055763,
+        0.38614379070268434,
+        -0.5365926247103552,
+        0.42674435986162784,
+        0.06880914402168041
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.08268973730220282,
+        -0.23058900521348455,
+        0.48936883346001
+      ],
+      "improved_specimens": 1,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.5625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.23096498788134015,
+        0.36995751476684013
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        0.08627616746890936,
+        0.04574303796963235,
+        0.27642714182289224,
+        0.03559289567989647,
+        0.12507669963988333
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "ai_teacher": {
+      "delta_rmse_pp": -0.14242479145954845,
+      "relative_change_percent": -1.0544836295127171,
+      "paired_specimen_delta_pp": [
+        -0.08024251127715765,
+        0.2644892419330039,
+        -0.6274114572199659,
+        0.02765008586053715,
+        -0.2966093165941596
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.016704811671418796,
+        -0.3653026325418871,
+        -0.078676553508177
+      ],
+      "improved_specimens": 3,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.375,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.4289301728444821,
+        0.10490169901307782
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.15797036150514615,
+        -0.24415329980768652,
+        -0.021178125019444057,
+        -0.18494351078956983,
+        -0.10387866017589564
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_affine": {
+      "delta_rmse_pp": -0.06272039837907392,
+      "relative_change_percent": -0.4643688268698209,
+      "paired_specimen_delta_pp": [
+        -0.1915563442412059,
+        0.38957152163236114,
+        -0.3374051482556529,
+        0.24540580308313764,
+        -0.4196178241140096
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.02933219508758924,
+        -0.23314152062512222,
+        0.01564813040031119
+      ],
+      "improved_specimens": 3,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.75,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.3411204577961061,
+        0.21567966103795833
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.030511411913540926,
+        -0.17579337838193268,
+        0.005950789090070824,
+        -0.13975194874462682,
+        0.02650395805466
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_teacher": {
+      "delta_rmse_pp": -0.41583292191592125,
+      "relative_change_percent": -3.078740746461396,
+      "paired_specimen_delta_pp": [
+        -0.43161431984205717,
+        -0.5014880142868213,
+        -0.47049359333685165,
+        -0.23969510514816328,
+        -0.4358735769657128
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.1555515352469886,
+        -0.8318006263135608,
+        -0.26014660418721436
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.4766924775268456,
+        -0.32423864572467975
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.41188757243438723,
+        -0.39441914882319623,
+        -0.4021677540606886,
+        -0.4598673761078607,
+        -0.41082275815347336
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.5
+    },
+    "ai_defects_affine": {
+      "delta_rmse_pp": -0.276376176848697,
+      "relative_change_percent": -2.0462319171240337,
+      "paired_specimen_delta_pp": [
+        -0.7655489345932391,
+        0.05214253762555939,
+        -0.6346512650233317,
+        0.2782064326757793,
+        -0.31202965492825285
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.18494755624600395,
+        -0.5325780081145218,
+        -0.11160296618556523
+      ],
+      "improved_specimens": 3,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.3125,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.6224860108322788,
+        0.06973365713488491
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.15408298741256143,
+        -0.35850585546726105,
+        -0.18680740480503832,
+        -0.41502182922981606,
+        -0.267462807328808
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "ai_defects_teacher": {
+      "delta_rmse_pp": -0.266551353049818,
+      "relative_change_percent": -1.9734909585268972,
+      "paired_specimen_delta_pp": [
+        -0.5257930133754408,
+        -0.09932075749324791,
+        -0.5479841570044487,
+        0.09848839793770381,
+        -0.2581472353136564
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.05577871132863414,
+        -0.6253325262504902,
+        -0.23010024422759798
+      ],
+      "improved_specimens": 4,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.125,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.48114031521468703,
+        -0.05196239088494892
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.2017409379684123,
+        -0.30835900193896054,
+        -0.19619315206116034,
+        -0.35781129079669843,
+        -0.26865238248385837
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.875
+    },
+    "procedural_defects_affine": {
+      "delta_rmse_pp": -0.14011735103137563,
+      "relative_change_percent": -1.0373998189439992,
+      "paired_specimen_delta_pp": [
+        -0.19442126888168212,
+        -0.19361419619424858,
+        -0.30638610951675344,
+        0.2723679238914922,
+        -0.27853310445568624
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.1290305136587108,
+        -0.2724535343286199,
+        -0.018868005106796204
+      ],
+      "improved_specimens": 4,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.25,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.27826112584003904,
+        0.06899129420490838
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.12654137156879902,
+        -0.1267431397406574,
+        -0.09855016141003117,
+        -0.24323866976209257,
+        -0.10551341267529796
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_defects_teacher": {
+      "delta_rmse_pp": -0.2843630734471641,
+      "relative_change_percent": -2.105365243754787,
+      "paired_specimen_delta_pp": [
+        -0.1762028151526689,
+        -0.11205861271605085,
+        -0.6734916504085989,
+        0.09957270635634075,
+        -0.5596349953148424
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.10105988646078394,
+        -0.5873582661612595,
+        -0.16467106771944878
+      ],
+      "improved_specimens": 4,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.125,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.538433711851338,
+        -0.04023492557441781
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.3114031380207879,
+        -0.32743918862994237,
+        -0.18708092920680536,
+        -0.3803470183980403,
+        -0.2155450929802445
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.875
+    }
+  },
+  "defect_requested_minus_regular": {
+    "ai_affine": {
+      "delta_rmse_pp": -0.39019936536493977,
+      "relative_change_percent": -2.8648127635213685,
+      "paired_specimen_delta_pp": [
+        -0.9895602072988154,
+        -0.33400125307712497,
+        -0.09805864031297655,
+        -0.14853792718584855,
+        -0.3808387989499333
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.26763729354820676,
+        -0.3019890029010373,
+        -0.6009717996455752
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.6996114696064455,
+        -0.1647105294149423
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.24035915488147086,
+        -0.40424889343689346,
+        -0.46323454662793057,
+        -0.4506147249097126,
+        -0.3925395069686914
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.25
+    },
+    "ai_teacher": {
+      "delta_rmse_pp": -0.12412656159026955,
+      "relative_change_percent": -0.9288013875970783,
+      "paired_specimen_delta_pp": [
+        -0.4455505020982831,
+        -0.3638099994262518,
+        0.07942730021551725,
+        0.07083831207716666,
+        0.03846208128050321
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.03907389965721535,
+        -0.2600298937086031,
+        -0.151423690719421
+      ],
+      "improved_specimens": 2,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.5,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.3259246387287869,
+        0.06779866117317421
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.04377057646326617,
+        -0.064205702131274,
+        -0.17501502704171626,
+        -0.1728677800071286,
+        -0.16477372230796275
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_affine": {
+      "delta_rmse_pp": -0.0773969526523017,
+      "relative_change_percent": -0.5757043837673167,
+      "paired_specimen_delta_pp": [
+        -0.002864924640476237,
+        -0.5831857178266097,
+        0.03101903873889948,
+        0.026962120808354584,
+        0.14108471965832337
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.15836270874630004,
+        -0.039312013703497684,
+        -0.034516135507107394
+      ],
+      "improved_specimens": 2,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.9375,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.339126582372624,
+        0.08947027102856969
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.09602995965525807,
+        0.0490502386412753,
+        -0.104500950500102,
+        -0.10348672101746578,
+        -0.13201737072995798
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_teacher": {
+      "delta_rmse_pp": 0.13146984846875717,
+      "relative_change_percent": 1.004295146599709,
+      "paired_specimen_delta_pp": [
+        0.2554115046893883,
+        0.3894294015707705,
+        -0.20299805707174734,
+        0.339267811504504,
+        -0.12376141834912957
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.05449164878620465,
+        0.2444423601523013,
+        0.09547553646776556
+      ],
+      "improved_specimens": 2,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.3125,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.0796214892304731,
+        0.3425611861679875
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        0.10048443441359939,
+        0.06697996019325385,
+        0.2150868248538833,
+        0.07952035770982047,
+        0.19527766517322886
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.9375
+    }
+  },
+  "teacher_minus_affine_targets": {
+    "ai": {
+      "delta_rmse_pp": -0.2562479799757912,
+      "relative_change_percent": -1.8813523260721718,
+      "paired_specimen_delta_pp": [
+        -0.30425378398273395,
+        -0.12165454876968045,
+        -0.0908188325096108,
+        -0.3990942740010907,
+        -0.36541846061584
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.06598492563078402,
+        -0.13471362732840256,
+        -0.568045386968187
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.36665585064331907,
+        -0.14584010930826327
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.24424652897405547,
+        -0.2898963377773189,
+        -0.2976052668423363,
+        -0.22053640646946632,
+        -0.22895535981577897
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.25
+    },
+    "procedural": {
+      "delta_rmse_pp": -0.3531125235368473,
+      "relative_change_percent": -2.6265688867177537,
+      "paired_specimen_delta_pp": [
+        -0.24005797560085126,
+        -0.8910595359191825,
+        -0.13308844508119874,
+        -0.4851009082313009,
+        -0.016255752851703182
+      ],
+      "paired_seed_macro_delta_pp": [
+        -0.18488373033457783,
+        -0.5986591056884386,
+        -0.2757947345875255
+      ],
+      "improved_specimens": 5,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.0625,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.6474843593064536,
+        -0.10774927429333103
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.38137616052084633,
+        -0.21862577044126355,
+        -0.40811854315075946,
+        -0.3201154273632339,
+        -0.43732671620813335
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.25
+    },
+    "ai_defects": {
+      "delta_rmse_pp": 0.009824823798879005,
+      "relative_change_percent": 0.07426050066353003,
+      "paired_specimen_delta_pp": [
+        0.23975592121779835,
+        -0.1514632951188073,
+        0.086667108018883,
+        -0.1797180347380755,
+        0.053882419614596465
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.24072626757463808,
+        -0.09275451813596831,
+        -0.11849727804203276
+      ],
+      "improved_specimens": 2,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 1.0,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.12169604801983383,
+        0.14134569561759183
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.04765795055585083,
+        0.050146853528300575,
+        -0.009385747256121993,
+        0.05721053843311763,
+        -0.0011895751550503597
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 1.0
+    },
+    "procedural_defects": {
+      "delta_rmse_pp": -0.14424572241578842,
+      "relative_change_percent": -1.0791606352873733,
+      "paired_specimen_delta_pp": [
+        0.018218453729013245,
+        0.08155558347819773,
+        -0.36710554089184555,
+        -0.17279521753515148,
+        -0.2811018908591561
+      ],
+      "paired_seed_macro_delta_pp": [
+        0.027970627197926846,
+        -0.31490473183263956,
+        -0.14580306261265258
+      ],
+      "improved_specimens": 3,
+      "test_specimens": 5,
+      "nominal_two_sided_sign_flip_p": 0.25,
+      "sign_assignments": 32,
+      "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+      "conditional_case_bootstrap_95_percent_interval_pp": [
+        -0.29384201620743094,
+        0.0053505713758540945
+      ],
+      "case_bootstrap_ordered_resamples": 3125,
+      "leave_one_case_out_delta_pp": [
+        -0.18486176645198885,
+        -0.20069604888928494,
+        -0.08853076779677416,
+        -0.13710834863594767,
+        -0.1100316803049465
+      ],
+      "population_significance_established": false,
+      "nominal_holm_p": 0.5
+    }
+  },
+  "all_new_arms_minus_competing_classes": {
+    "real_mass90": {
+      "mlp": {
+        "delta_rmse_pp": -3.013260459853096,
+        "relative_change_percent": -18.24023938248434,
+        "paired_specimen_delta_pp": [
+          -1.40616560987573,
+          -0.9777698395502217,
+          -1.6529630414862169,
+          -5.786103453875128,
+          -5.243300354478182
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.080271771118454,
+          -2.6274439462229386,
+          -3.3320656622178944
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.8015552651958595,
+          -1.284166788067624
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.415034172347437,
+          -3.522133114928814,
+          -3.353334814444816,
+          -2.320049711347588,
+          -2.4557504861968242
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -2.955396326522649,
+        "relative_change_percent": -17.952852593569908,
+        "paired_specimen_delta_pp": [
+          -1.40616560987573,
+          -0.7754181340216105,
+          -1.5850594412233068,
+          -5.751677109959634,
+          -5.258661337532963
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.0546376695965045,
+          -2.624053431065255,
+          -3.1874978789061883
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.783971655457519,
+          -1.1896453858035976
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.3427040056843786,
+          -3.5003908746479087,
+          -3.2979805478474846,
+          -2.2563261306634024,
+          -2.3795800737700703
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -13.750571374555031,
+        "relative_change_percent": -50.44755269689234,
+        "paired_specimen_delta_pp": [
+          -16.226052950375806,
+          -5.771120464034415,
+          -13.565666333038223,
+          -20.1295053048479,
+          -13.060511820478814
+        ],
+        "paired_seed_macro_delta_pp": [
+          -13.849812717628888,
+          -13.419228479097637,
+          -13.982672926938571
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.503969716124026,
+          -9.319985232591574
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.131700980599838,
+          -15.745434102185186,
+          -13.796797634934235,
+          -12.155837891981815,
+          -13.923086263074087
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.114845510845166,
+        "relative_change_percent": -27.467513024046287,
+        "paired_specimen_delta_pp": [
+          -5.331527296908127,
+          -3.9073613990624163,
+          -3.1060647799180643,
+          -6.670778363548294,
+          -6.55849571478893
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.286327635271616,
+          -4.737608598990655,
+          -5.320600298273229
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.358015090716515,
+          -3.871675930973818
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.060675064329426,
+          -5.416716538790854,
+          -5.617040693576942,
+          -4.7258622976693845,
+          -4.753932959859226
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -2.9948699785648394,
+        "relative_change_percent": -18.14912009639489,
+        "paired_specimen_delta_pp": [
+          -1.5252973660269404,
+          -0.7106329849485148,
+          -1.6197351772591209,
+          -5.870625971902041,
+          -5.248058392687579
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.1139211525886035,
+          -2.6192505503684838,
+          -3.2514382327374305
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.877046734884128,
+          -1.2183191758420064
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.362263131699314,
+          -3.5659292269689202,
+          -3.338653678891269,
+          -2.2759309802305387,
+          -2.4315728750341545
+        ],
+        "population_significance_established": false
+      }
+    },
+    "ai_affine": {
+      "mlp": {
+        "delta_rmse_pp": -2.899437271336853,
+        "relative_change_percent": -17.551230837263816,
+        "paired_specimen_delta_pp": [
+          -1.1821543371701537,
+          -0.5916260488475373,
+          -2.189555666196572,
+          -5.3593590940135,
+          -5.174491210456502
+        ],
+        "paired_seed_macro_delta_pp": [
+          -2.9975820338162515,
+          -2.8580329514364236,
+          -2.842696828757884
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.651451255027315,
+          -1.1474232876463908
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.3287580048785275,
+          -3.4763900769591816,
+          -3.076907672621923,
+          -2.284456815667691,
+          -2.3306737865569405
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -2.8415731380064058,
+        "relative_change_percent": -17.26142217294454,
+        "paired_specimen_delta_pp": [
+          -1.1821543371701537,
+          -0.38927434331892624,
+          -2.1216520659336617,
+          -5.324932750098007,
+          -5.189852193511283
+        ],
+        "paired_seed_macro_delta_pp": [
+          -2.9719479322943014,
+          -2.8546424362787395,
+          -2.698129045446178
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.630244390630448,
+          -1.0529018853823644
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.2564278382154694,
+          -3.4546478366782765,
+          -3.0215534060245925,
+          -2.220733234983506,
+          -2.254503374130187
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -13.63674818603879,
+        "relative_change_percent": -50.02996268231106,
+        "paired_specimen_delta_pp": [
+          -16.00204167767023,
+          -5.384976673331731,
+          -14.102258957748576,
+          -19.702760944986274,
+          -12.991702676457132
+        ],
+        "paired_seed_macro_delta_pp": [
+          -13.767122980326684,
+          -13.64981748431112,
+          -13.49330409347856
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.462560150091196,
+          -9.029734874824511
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.045424813130927,
+          -15.699691064215553,
+          -13.520370493111342,
+          -12.120244996301917,
+          -13.798009563434203
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.001022322328923,
+        "relative_change_percent": -26.85626486290842,
+        "paired_specimen_delta_pp": [
+          -5.107516024202551,
+          -3.521217608359732,
+          -3.6426574046284195,
+          -6.244034003686667,
+          -6.48968657076725
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.203637897969412,
+          -4.968197604204139,
+          -4.83123146481322
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.114991434622077,
+          -3.887053210035771
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -4.974398896860517,
+          -5.370973500821222,
+          -5.34061355175405,
+          -4.690269401989488,
+          -4.628856260219342
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -2.881046790048596,
+        "relative_change_percent": -17.459343667728078,
+        "paired_specimen_delta_pp": [
+          -1.3012860933213641,
+          -0.3244891942458305,
+          -2.1563278019694763,
+          -5.443881612040413,
+          -5.179249248665898
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.0312314152864004,
+          -2.849839555581968,
+          -2.7620693992774203
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.680517904676419,
+          -1.081575675420773
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.2759869642304045,
+          -3.520186188999288,
+          -3.0622265370683763,
+          -2.2403380845506424,
+          -2.3064961753942708
+        ],
+        "population_significance_established": false
+      }
+    },
+    "ai_teacher": {
+      "mlp": {
+        "delta_rmse_pp": -3.1556852513126437,
+        "relative_change_percent": -19.102382673724826,
+        "paired_specimen_delta_pp": [
+          -1.4864081211528877,
+          -0.7132805976172177,
+          -2.2803744987061827,
+          -5.75845336801459,
+          -5.5399096710723414
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.0635669594470354,
+          -2.9927465787648257,
+          -3.4107422157260716
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.975420115376009,
+          -1.3359503872492788
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.5730045338525827,
+          -3.7662864147365003,
+          -3.3745129394642595,
+          -2.5049932221371574,
+          -2.5596291463727194
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -3.0978211179821975,
+        "relative_change_percent": -18.818026331452888,
+        "paired_specimen_delta_pp": [
+          -1.4864081211528877,
+          -0.5109288920886067,
+          -2.212470898443273,
+          -5.724027024099098,
+          -5.555270654127123
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.0379328579250857,
+          -2.989356063607142,
+          -3.2661744324143656
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.954213250979143,
+          -1.2414289849852522
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.500674367189525,
+          -3.744544174455595,
+          -3.319158672866929,
+          -2.4412696414529726,
+          -2.4834587339459664
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -13.892996166014578,
+        "relative_change_percent": -50.97007514172652,
+        "paired_specimen_delta_pp": [
+          -16.306295461652965,
+          -5.5066312221014115,
+          -14.193077790258187,
+          -20.101855218987364,
+          -13.357121137072971
+        ],
+        "paired_seed_macro_delta_pp": [
+          -13.833107905957467,
+          -13.784531111639524,
+          -14.061349480446747
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.738344247495696,
+          -9.236662053006034
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.289671342104983,
+          -15.989587401992873,
+          -13.817975759953677,
+          -12.340781402771384,
+          -14.026964923249981
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.257270302304715,
+        "relative_change_percent": -28.23235622528616,
+        "paired_specimen_delta_pp": [
+          -5.411769808185284,
+          -3.6428721571294123,
+          -3.73347623713803,
+          -6.643128277687758,
+          -6.85510503138309
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.269622823600196,
+          -5.102911231532542,
+          -5.399276851781406
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.481647285265396,
+          -4.032893319344034
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.2186454258345725,
+          -5.66086983859854,
+          -5.6382188185963855,
+          -4.910805808458954,
+          -4.857811620035121
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -3.1372947700243876,
+        "relative_change_percent": -19.01222422559052,
+        "paired_specimen_delta_pp": [
+          -1.605539877304098,
+          -0.4461437430155109,
+          -2.247146634479087,
+          -5.842975886041503,
+          -5.544667709281739
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.0972163409171847,
+          -2.984553182910371,
+          -3.3301147862456077
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -5.004486765025114,
+          -1.270102775023661
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.5202334932044597,
+          -3.8100825267766067,
+          -3.359831803910713,
+          -2.4608744910201086,
+          -2.5354515352100497
+        ],
+        "population_significance_established": false
+      }
+    },
+    "procedural_affine": {
+      "mlp": {
+        "delta_rmse_pp": -3.0759808582321697,
+        "relative_change_percent": -18.619906223715475,
+        "paired_specimen_delta_pp": [
+          -1.5977219541169358,
+          -0.5881983179178606,
+          -1.9903681897418697,
+          -5.540697650791991,
+          -5.662918178592192
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.050939576030865,
+          -2.860585466848061,
+          -3.316417531817583
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.879519969702047,
+          -1.2724417467622924
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.4455455842609783,
+          -3.6979264933107467,
+          -3.347384025354745,
+          -2.4598016600922143,
+          -2.4292465281421642
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -3.0181167249017227,
+        "relative_change_percent": -18.333853969461302,
+        "paired_specimen_delta_pp": [
+          -1.5977219541169358,
+          -0.38584661238924944,
+          -1.9224645894789596,
+          -5.506271306876497,
+          -5.678279161646973
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.025305474508915,
+          -2.857194951690377,
+          -3.1718497485058768
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.85831310530518,
+          -1.177920344498266
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.37321541759792,
+          -3.676184253029841,
+          -3.2920297587574137,
+          -2.3960780794080296,
+          -2.3530761157154103
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -13.813291772934104,
+        "relative_change_percent": -50.67765881511906,
+        "paired_specimen_delta_pp": [
+          -16.417609294617012,
+          -5.381548942402053,
+          -13.903071481293873,
+          -19.884099501764762,
+          -13.480129644592822
+        ],
+        "paired_seed_macro_delta_pp": [
+          -13.820480522541297,
+          -13.65236999972276,
+          -13.96702479653826
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.49168829357641,
+          -9.2084771532832
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.162212392513378,
+          -15.921227480567119,
+          -13.790846845844161,
+          -12.29558984072644,
+          -13.896582305019425
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.17756590922424,
+        "relative_change_percent": -27.80433128291603,
+        "paired_specimen_delta_pp": [
+          -5.523083641149332,
+          -3.517789877430055,
+          -3.4434699281737173,
+          -6.425372560465156,
+          -6.97811353890294
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.256995440184026,
+          -4.9707501196157775,
+          -5.3049521678729175
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.466011167977105,
+          -3.889120650471375
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.091186476242967,
+          -5.592509917172786,
+          -5.611089904486871,
+          -4.865614246414011,
+          -4.727429001804565
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -3.057590376943913,
+        "relative_change_percent": -18.529210067185883,
+        "paired_specimen_delta_pp": [
+          -1.7168537102681463,
+          -0.3210614633161537,
+          -1.957140325514774,
+          -5.625220168818903,
+          -5.667676216801588
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.084588957501014,
+          -2.852392070993606,
+          -3.235790102337119
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.908586619351151,
+          -1.2065941345366746
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.392774543612855,
+          -3.741722605350853,
+          -3.332702889801198,
+          -2.4156829289751656,
+          -2.405068916979494
+        ],
+        "population_significance_established": false
+      }
+    },
+    "procedural_teacher": {
+      "mlp": {
+        "delta_rmse_pp": -3.429093381769017,
+        "relative_change_percent": -20.75741044682509,
+        "paired_specimen_delta_pp": [
+          -1.8377799297177873,
+          -1.4792578538370431,
+          -2.1234566348230683,
+          -6.025798559023291,
+          -5.679173931443895
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.2358233063654422,
+          -3.4592445725364995,
+          -3.5922122664051086
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -5.11886990764631,
+          -1.751506440386546
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.8269217447818242,
+          -3.9165522637520103,
+          -3.755502568505504,
+          -2.7799170874554484,
+          -2.866573244350297
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -3.3712292484385706,
+        "relative_change_percent": -20.47887155208092,
+        "paired_specimen_delta_pp": [
+          -1.8377799297177873,
+          -1.2769061483084319,
+          -2.0555530345601585,
+          -5.991372215107798,
+          -5.694534914498676
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.2101892048434935,
+          -3.455854057378816,
+          -3.447644483093403
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -5.101286297907971,
+          -1.6569850381225195
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.7545915781187658,
+          -3.8948100234711047,
+          -3.7001483019081736,
+          -2.7161935067712637,
+          -2.790402831923544
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -14.166404296470953,
+        "relative_change_percent": -51.97314408288193,
+        "paired_specimen_delta_pp": [
+          -16.65766727021786,
+          -6.272608478321236,
+          -14.036159926375072,
+          -20.369200409996065,
+          -13.496385397444525
+        ],
+        "paired_seed_macro_delta_pp": [
+          -14.005364252875875,
+          -14.251029105411197,
+          -14.242819531125784
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.83598421654767,
+          -9.79437562052522
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.543588553034226,
+          -16.139853251008383,
+          -14.198965388994921,
+          -12.615705268089673,
+          -14.333909021227559
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.530678432761087,
+        "relative_change_percent": -29.70060025499678,
+        "paired_specimen_delta_pp": [
+          -5.763141616750183,
+          -4.4088494133492375,
+          -3.5765583732549158,
+          -6.910473468696458,
+          -6.994369291754643
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.441879170518604,
+          -5.569409225304216,
+          -5.580746902460443
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.714565427530478,
+          -4.346791437991698
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.472562636763814,
+          -5.81113568761405,
+          -6.019208447637631,
+          -5.185729673777245,
+          -5.164755718012699
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -3.41070290048076,
+        "relative_change_percent": -20.66909648732436,
+        "paired_specimen_delta_pp": [
+          -1.9569116858689977,
+          -1.2121209992353361,
+          -2.0902287705959726,
+          -6.110321077050204,
+          -5.683931969653291
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.2694726878355924,
+          -3.451051176682044,
+          -3.511584836924645
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -5.19436137733458,
+          -1.685658828160928
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.7741507041337012,
+          -3.9603483757921163,
+          -3.7408214329519573,
+          -2.7357983563383996,
+          -2.8423956331876274
+        ],
+        "population_significance_established": false
+      }
+    },
+    "ai_defects_affine": {
+      "mlp": {
+        "delta_rmse_pp": -3.2896366367017924,
+        "relative_change_percent": -19.91323369960415,
+        "paired_specimen_delta_pp": [
+          -2.171714544468969,
+          -0.9256273019246622,
+          -2.2876143065095484,
+          -5.507897021199348,
+          -5.555330009406435
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.2652193273644583,
+          -3.1600219543374606,
+          -3.443668628403459
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.882813673544223,
+          -1.6964595998593623
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.5691171597599984,
+          -3.880638970396075,
+          -3.5401422192498533,
+          -2.7350715405774038,
+          -2.7232132935256317
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -3.2317725033713467,
+        "relative_change_percent": -19.631727510890094,
+        "paired_specimen_delta_pp": [
+          -2.171714544468969,
+          -0.7232755963960512,
+          -2.2197107062466386,
+          -5.473470677283856,
+          -5.570690992461216
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.239585225842508,
+          -3.156631439179777,
+          -3.299100845091753
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.871451639827295,
+          -1.6019381975953357
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.496786993096941,
+          -3.85889673011517,
+          -3.4847879526525234,
+          -2.671347959893219,
+          -2.647042881098879
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -14.026947551403728,
+        "relative_change_percent": -51.46151068932459,
+        "paired_specimen_delta_pp": [
+          -16.991601884969047,
+          -5.718977926408855,
+          -14.200317598061554,
+          -19.851298872172123,
+          -13.372541475407067
+        ],
+        "paired_seed_macro_delta_pp": [
+          -14.034760273874891,
+          -13.951806487212158,
+          -14.094275893124134
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.590906362527896,
+          -9.504215427920537
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.285783968012401,
+          -16.103939957652447,
+          -13.983605039739272,
+          -12.570859721211631,
+          -14.190549070402895
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.391221687693863,
+        "relative_change_percent": -28.95169592283208,
+        "paired_specimen_delta_pp": [
+          -6.097076231501366,
+          -3.8552188614368568,
+          -3.740716044941396,
+          -6.392571930872516,
+          -6.870525369717183
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.471275191517619,
+          -5.270186607105177,
+          -5.432203264458794
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.524654166536154,
+          -4.257789208851575
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.214758051741987,
+          -5.775222394258115,
+          -5.80384809838198,
+          -5.1408841268992,
+          -5.021395767188033
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -3.271246155413536,
+        "relative_change_percent": -19.823978925429316,
+        "paired_specimen_delta_pp": [
+          -2.2908463006201796,
+          -0.6584904473229555,
+          -2.2543864422824527,
+          -5.592419539226261,
+          -5.560088047615832
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.2988687088346067,
+          -3.1518285584830057,
+          -3.3630411989229954
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.919172294860873,
+          -1.6233200159661991
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.516346119111875,
+          -3.9244350824361813,
+          -3.5254610836963067,
+          -2.690952809460355,
+          -2.699035682362962
+        ],
+        "population_significance_established": false
+      }
+    },
+    "ai_defects_teacher": {
+      "mlp": {
+        "delta_rmse_pp": -3.2798118129029135,
+        "relative_change_percent": -19.853760865984245,
+        "paired_specimen_delta_pp": [
+          -1.9319586232511707,
+          -1.0770905970434697,
+          -2.2009471984906654,
+          -5.687615055937424,
+          -5.501447589791838
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.02449305978982,
+          -3.252776472473429,
+          -3.562165906445492
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.915814497989838,
+          -1.6438091278159892
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.6167751103158494,
+          -3.8304921168677746,
+          -3.549527966505975,
+          -2.6778610021442857,
+          -2.7244028686806825
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -3.2219476795724673,
+        "relative_change_percent": -19.572045629365046,
+        "paired_specimen_delta_pp": [
+          -1.9319586232511707,
+          -0.8747388915148585,
+          -2.1330435982277556,
+          -5.653188712021932,
+          -5.51680857284662
+        ],
+        "paired_seed_macro_delta_pp": [
+          -2.99885895826787,
+          -3.249385957315745,
+          -3.4175981231337857
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.8946076335929725,
+          -1.5492877255519626
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.544444943652792,
+          -3.8087498765868695,
+          -3.4941736999086457,
+          -2.614137421460101,
+          -2.648232456253929
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -14.017122727604848,
+        "relative_change_percent": -51.42546576414797,
+        "paired_specimen_delta_pp": [
+          -16.751845963751247,
+          -5.870441221527663,
+          -14.113650490042671,
+          -20.031016906910196,
+          -13.318659055792468
+        ],
+        "paired_seed_macro_delta_pp": [
+          -13.794034006300251,
+          -14.044561005348129,
+          -14.212773171166168
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.664070340163185,
+          -9.536365736825342
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.33344191856825,
+          -16.053793104124146,
+          -13.992990786995392,
+          -12.513649182778511,
+          -14.191738645557944
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.3813968638949845,
+        "relative_change_percent": -28.898935096511437,
+        "paired_specimen_delta_pp": [
+          -5.8573203102835665,
+          -4.006682156555664,
+          -3.654048936922513,
+          -6.572289965610591,
+          -6.816642950102587
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.230548923942981,
+          -5.362941125241145,
+          -5.550700542500827
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.527037228341984,
+          -4.235756499447985
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.262416002297838,
+          -5.725075540729814,
+          -5.813233845638102,
+          -5.083673588466082,
+          -5.022585342343084
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -3.2614213316146574,
+        "relative_change_percent": -19.764439810767247,
+        "paired_specimen_delta_pp": [
+          -2.0510903794023814,
+          -0.8099537424417628,
+          -2.1677193342635697,
+          -5.772137573964336,
+          -5.5062056280012355
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.058142441259969,
+          -3.2445830766189743,
+          -3.481538476965028
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.974741745859325,
+          -1.5779615155903717
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.5640040696677264,
+          -3.874288228907881,
+          -3.5348468309524295,
+          -2.6337422710272373,
+          -2.700225257518013
+        ],
+        "population_significance_established": false
+      }
+    },
+    "procedural_defects_affine": {
+      "mlp": {
+        "delta_rmse_pp": -3.1533778108844714,
+        "relative_change_percent": -19.088414991099498,
+        "paired_specimen_delta_pp": [
+          -1.6005868787574122,
+          -1.1713840357444703,
+          -1.9593491510029704,
+          -5.513735529983635,
+          -5.521833458933869
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.209302284777165,
+          -2.8998974805515587,
+          -3.3509336673246906
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.806097425767596,
+          -1.5006581960013472
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.5415755439162364,
+          -3.6488762546694717,
+          -3.4518849758548464,
+          -2.5632883811096807,
+          -2.561263898872122
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -3.095513677554025,
+        "relative_change_percent": -18.804009552212936,
+        "paired_specimen_delta_pp": [
+          -1.6005868787574122,
+          -0.9690323302158591,
+          -1.89144555074006,
+          -5.479309186068143,
+          -5.53719444198865
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.1836681832552154,
+          -2.8965069653938746,
+          -3.2063658840129845
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.784890561370728,
+          -1.4061367937373208
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.469245377253178,
+          -3.627134014388566,
+          -3.396530709257516,
+          -2.499564800425495,
+          -2.4850934864453684
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -13.890688725586406,
+        "relative_change_percent": -50.961609695497096,
+        "paired_specimen_delta_pp": [
+          -16.42047421925749,
+          -5.964734660228664,
+          -13.872052442554974,
+          -19.857137380956406,
+          -13.339044924934498
+        ],
+        "paired_seed_macro_delta_pp": [
+          -13.978843231287598,
+          -13.691682013426256,
+          -14.001540932045367
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.46310340559583,
+          -9.530744624975597
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.258242352168637,
+          -15.872177241925842,
+          -13.895347796344264,
+          -12.399076561743907,
+          -14.028599675749383
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.254962861876542,
+        "relative_change_percent": -28.219964912610408,
+        "paired_specimen_delta_pp": [
+          -5.525948565789808,
+          -4.100975595256664,
+          -3.4124508894348176,
+          -6.398410439656803,
+          -6.837028819244616
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.415358148930326,
+          -5.010062133319275,
+          -5.339468303380025
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.399365416718529,
+          -4.110560307034555
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.187216435898225,
+          -5.543459678531511,
+          -5.7155908549869725,
+          -4.969100967431476,
+          -4.859446372534523
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -3.134987329596215,
+        "relative_change_percent": -18.99824097631896,
+        "paired_specimen_delta_pp": [
+          -1.7197186349086226,
+          -0.9042471811427634,
+          -1.9261212867758744,
+          -5.598258048010549,
+          -5.526591497143265
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.242951666247314,
+          -2.891704084697104,
+          -3.2703062378442267
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -4.835164075416701,
+          -1.4348105837757292
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.488804503268113,
+          -3.6926723667095778,
+          -3.4372038403013,
+          -2.5191696499926315,
+          -2.537086287709452
+        ],
+        "population_significance_established": false
+      }
+    },
+    "procedural_defects_teacher": {
+      "mlp": {
+        "delta_rmse_pp": -3.2976235333002597,
+        "relative_change_percent": -19.96158096590263,
+        "paired_specimen_delta_pp": [
+          -1.582368425028399,
+          -1.0898284522662725,
+          -2.3264546918948157,
+          -5.686530747518788,
+          -5.8029353497930245
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.1813316575792383,
+          -3.2148022123841984,
+          -3.496736729937343
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -5.061077377303688,
+          -1.5341696892968317
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.726437310368225,
+          -3.8495723035587566,
+          -3.5404157436516206,
+          -2.700396729745628,
+          -2.6712955791770687
+        ],
+        "population_significance_established": false
+      },
+      "phase_affine": {
+        "delta_rmse_pp": -3.239759399969813,
+        "relative_change_percent": -19.680244718557148,
+        "paired_specimen_delta_pp": [
+          -1.582368425028399,
+          -0.8874767467376614,
+          -2.258551091631906,
+          -5.6521044036032935,
+          -5.8182963328478055
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.155697556057288,
+          -3.2114116972265143,
+          -3.352168946625637
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -5.039870512906821,
+          -1.4396482870328053
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.6541071437051666,
+          -3.827830063277851,
+          -3.4850614770542894,
+          -2.6366731490614432,
+          -2.5951251667503152
+        ],
+        "population_significance_established": false
+      },
+      "zero_displacement": {
+        "delta_rmse_pp": -14.034934448002195,
+        "relative_change_percent": -51.490812699841875,
+        "paired_specimen_delta_pp": [
+          -16.402255765528473,
+          -5.883179076750466,
+          -14.239157983446821,
+          -20.029932598491563,
+          -13.620146815793655
+        ],
+        "paired_seed_macro_delta_pp": [
+          -13.950872604089671,
+          -14.006586745258895,
+          -14.14734399465802
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -17.71362275247367,
+          -9.534387962314705
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -13.443104118620626,
+          -16.072873290815128,
+          -13.983878564141039,
+          -12.536184910379854,
+          -14.138631356054331
+        ],
+        "population_significance_established": false
+      },
+      "random_forest": {
+        "delta_rmse_pp": -5.399208584292331,
+        "relative_change_percent": -28.994586795268983,
+        "paired_specimen_delta_pp": [
+          -5.507730112060796,
+          -4.019420011778467,
+          -3.779556430326663,
+          -6.571205657191953,
+          -7.118130710103773
+        ],
+        "paired_seed_macro_delta_pp": [
+          -5.387387521732399,
+          -5.324966865151914,
+          -5.485271365992678
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -6.5772805693304495,
+          -4.221136599254212
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -5.372078202350214,
+          -5.744155727420797,
+          -5.8041216227837475,
+          -5.1062093160674245,
+          -4.96947805283947
+        ],
+        "population_significance_established": false
+      },
+      "rbf_ridge": {
+        "delta_rmse_pp": -3.279233052012003,
+        "relative_change_percent": -19.87238007359286,
+        "paired_specimen_delta_pp": [
+          -1.7015001811796093,
+          -0.8226915976645657,
+          -2.29322682766772,
+          -5.7710532655457,
+          -5.807693388002421
+        ],
+        "paired_seed_macro_delta_pp": [
+          -3.2149810390493867,
+          -3.206608816529743,
+          -3.416109300456879
+        ],
+        "improved_specimens": 5,
+        "test_specimens": 5,
+        "nominal_two_sided_sign_flip_p": 0.0625,
+        "sign_assignments": 32,
+        "minimum_attainable_two_sided_p_with_nonzero_differences": 0.0625,
+        "conditional_case_bootstrap_95_percent_interval_pp": [
+          -5.090144026952792,
+          -1.468322077071214
+        ],
+        "case_bootstrap_ordered_resamples": 3125,
+        "leave_one_case_out_delta_pp": [
+          -3.6736662697201012,
+          -3.8933684155988626,
+          -3.525734608098074,
+          -2.656277998628579,
+          -2.647117968014399
+        ],
+        "population_significance_established": false
+      }
+    }
+  },
+  "interpretation": "Synthetic images and pseudo-labels add zero independent mechanical observations. No primary benchmark replacement or test-based arm selection."
+}

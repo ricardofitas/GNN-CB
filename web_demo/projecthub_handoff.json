@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "request_id": "rf-projecthub-gnn-prediction-20261010",
+  "actor": "ORION",
+  "owner_automation_id": "6ac0496f5974819184e906b9c5b33c1e",
+  "target_repository": "ricardofitas/projecthub",
+  "target_route": "/graph-cb",
+  "standalone_route": "/gnn-cb/index.html",
+  "base_commit_sha": "c60fdee0f70836a3eae9c3ee50aa31ef428e767b",
+  "model_and_image_source_commit": "50f888bcddffe3284dae77cfba0769cbd54a62fb",
+  "status": "ORION_RUN_REQUESTED_ASYNCHRONOUSLY_NOT_LIVE",
+  "request_readback_verified": true,
+  "immediate_run_request_accepted": true,
+  "schedule_and_existing_mandate_preserved": true,
+  "execution_completion_verified": false,
+  "served_delivery_verified": false,
+  "projecthub_ref_or_provider_mutated": false,
+  "contract_references": {
+    "access": "Private operational records; identifiers grant no access",
+    "manifest": "libfile_4b0ac877c4348191899aba40e97e208d",
+    "package": "libfile_6a14a3ee0cc081919fbd0af50dd88f9f",
+    "validation": "libfile_5a5283cac8508191a5c5cbc6acaac44d",
+    "handoff_receipt": "libfile_09597a4c6d2c8191afb09cd667dcadf5",
+    "version": 0
+  },
+  "integrity": {
+    "manifest_sha256": "d1f3b06748eae84134fea769a0c7a44978319737411230ce7eada38c91135b07",
+    "package_sha256": "af1aeef4f127e2969008bcc741b3995d677cefcf5013e4d737349598bbbd9819",
+    "package_bytes": 518668,
+    "package_changed_paths": 12
+  },
+  "completed_validation": [
+    "Original held-out identity checked in all five checkpoints",
+    "46604 coordinates agree with PyTorch to maximum absolute normalized difference 6.147639887710277e-7",
+    "Real-image browser controls, CSV, node zoom and desktop/mobile checks passed",
+    "Actual React18.2 wrapper and strict TypeScript5.9.3 checks passed"
+  ],
+  "remaining_gates": [
+    "ORION composes with the current queued adapter, image-gallery and real-hero work",
+    "Full combined ProjectHub build and current prose-policy validation",
+    "RELAY single-writer publication under current lease and provider gates",
+    "Actual served browser verification before VERIFIED_DELIVERY"
+  ],
+  "scientific_boundary": "Original seed11 held-out demonstration only; no generated-image or geometry-defect validation is implied, and the benchmark is unchanged."
+}

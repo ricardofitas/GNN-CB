@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-10T00:18:48.394Z",
+  "source_commit": "50f888bcddffe3284dae77cfba0769cbd54a62fb",
+  "reference_tolerance": 0.00001,
+  "cases": [
+    {
+      "id": "Exp3",
+      "held_out": "Exp3_D12",
+      "archived_phases": 95,
+      "additional_nonarchived_phases": 3,
+      "max_abs_error": 6.147639887710277e-7
+    },
+    {
+      "id": "Exp4",
+      "held_out": "Exp4_D14",
+      "archived_phases": 126,
+      "additional_nonarchived_phases": 3,
+      "max_abs_error": 4.810666318355583e-7
+    },
+    {
+      "id": "Exp5",
+      "held_out": "Exp5_ID03",
+      "archived_phases": 40,
+      "additional_nonarchived_phases": 3,
+      "max_abs_error": 5.22300242548901e-7
+    },
+    {
+      "id": "Probe1_22",
+      "held_out": "Probe1_22",
+      "archived_phases": 125,
+      "additional_nonarchived_phases": 3,
+      "max_abs_error": 1.3829472696180733e-7
+    },
+    {
+      "id": "Probe2_7",
+      "held_out": "Probe2_7",
+      "archived_phases": 126,
+      "additional_nonarchived_phases": 3,
+      "max_abs_error": 3.931046276828276e-7
+    }
+  ],
+  "coordinates_checked": 46604,
+  "max_abs_error": 6.147639887710277e-7,
+  "checks": [
+    "All five checkpoint test identities disjoint from fit and validation",
+    "All archived compression phases plus three new phases per case agree with PyTorch",
+    "Inference ignores added observation, image, mask and target properties",
+    "Invalid phase and invalid edge rejected",
+    "Every frame preserves exactly its source observation mask",
+    "Manifest SHA256 matches all exported case bytes"
+  ],
+  "browser": {
+    "browser": "134.0.6998.35",
+    "desktop": "1440x1200",
+    "mobile": "375x900",
+    "page_errors": [],
+    "external_images": "Real pinned GitHub JPEGs loaded and decoded for all five cases",
+    "checks": [
+      "5 specimen selections",
+      "10 slider keyboard endpoints",
+      "snapshot selection and overlay",
+      "continuous phase recalculates graph; unmatched observations and RMSE hidden",
+      "CSV downloaded and inspected",
+      "reset",
+      "node selection and zoom",
+      "no horizontal overflow at 375px"
+    ],
+    "proxy_tls_exception": true,
+    "limitation": "Browser trust exception used only for the environment proxy; this is not an independent public TLS audit."
+  },
+  "source_sha256": {
+    "web_demo/engine.mjs": "e76dddcb7481c026a0d2800d7faa7df91a496c9524c54ad24ea5a40b6198295e",
+    "web_demo/app.mjs": "8331a9dc3714b9c326a92fad057d3edc70997b742449b576fa46aace5c5e990f",
+    "web_demo/index.html": "8c80b0503c5f5b199ea9418f14f9a94732b010a25886d434415a57aec37bc0df",
+    "web_demo/style.css": "87ff7513b676dbb32d208dc7c0be35462710d73cc3ab3a5f57086fc439474e89",
+    "web_demo/verify.mjs": "f90df82d937151a2f2f674557e881db89cab1b3fb7f3495ba5da448d034c5a47",
+    "scripts/export_web_demo.py": "2a80f7a2e57f9c0d86468d100186e03b5452b0936d748e5541bf57d19e2965bb"
+  },
+  "status": "PASS"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "complete_selected_runs": 165,
+  "gnn_checkpoint_forwards": 135,
+  "maximum_saved_prediction_difference": 0.0,
+  "protocol_sha256": "7147f6629a64e4119e1e5886cfe9105a59c7ef9d6ac6e695f2e188b95d492773",
+  "checks": [
+    "Frozen code/input hashes match",
+    "Every physical fit/validation/test group matches original protocol",
+    "All predictions finite",
+    "Every frame ID/node ID/mask equals original data",
+    "Every score recomputed from complete prediction arrays and original masks",
+    "Every GNN checkpoint reloaded and predictions reproduced bit for bit"
+  ],
+  "competitor_limitation": "Selected competitor predictions/validation grids retained. Exact rerun regenerates the estimator; no unsafe sklearn pickle is distributed."
+}

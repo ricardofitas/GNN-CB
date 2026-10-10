@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "source_commit": "50f888bcddffe3284dae77cfba0769cbd54a62fb",
+  "seed": 11,
+  "kind": "original_five_specimen_loso_gnn",
+  "inference_inputs": [
+    "initial normalized coordinates",
+    "initial edges",
+    "protocol phase"
+  ],
+  "normalization": "initial graph height; image x-right/y-down",
+  "images_are_model_inputs": false,
+  "cases": [
+    {
+      "id": "Exp3",
+      "physical_id": "Exp3_D12",
+      "path": "data/Exp3.json",
+      "sha256": "2c3c0d629eeb2c8cfad643575087eb8d3b390c9845c4c6a329d4d27e328b36d8",
+      "nodes": 46,
+      "edges": 67
+    },
+    {
+      "id": "Exp4",
+      "physical_id": "Exp4_D14",
+      "path": "data/Exp4.json",
+      "sha256": "7f76e41c6a6354fe9c7a9805f080d804a4dc1c0fd15cde95d94ddfc7bffb5171",
+      "nodes": 48,
+      "edges": 71
+    },
+    {
+      "id": "Exp5",
+      "physical_id": "Exp5_ID03",
+      "path": "data/Exp5.json",
+      "sha256": "3a0993fc43a1f703edb553784dd463972a5dadb3dd0f0124d67c771ce6531a67",
+      "nodes": 42,
+      "edges": 61
+    },
+    {
+      "id": "Probe1_22",
+      "physical_id": "Probe1_22",
+      "path": "data/Probe1_22.json",
+      "sha256": "bc8ed304e24d32843a840d1165f11ac0b5259f0e775aebb90d089d5428827f1a",
+      "nodes": 40,
+      "edges": 58
+    },
+    {
+      "id": "Probe2_7",
+      "physical_id": "Probe2_7",
+      "path": "data/Probe2_7.json",
+      "sha256": "8a89c7156a86f8287e286001e094ab80ccf4d8be0b3a3ea25283040aec65d06b",
+      "nodes": 44,
+      "edges": 64
+    }
+  ]
+}

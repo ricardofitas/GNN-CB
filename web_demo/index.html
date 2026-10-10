@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>GNN-CB · Predict the deformation</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header><div><p class="eyebrow">CORRUGATED BOARD · GRAPH NEURAL NETWORK</p><h1>Predict the deformation</h1><p class="intro">Choose a specimen. Move through compression. Compare the predicted graph with the tracked nodes.</p></div><span class="badge">Unseen specimen · original model</span></header>
+  <div class="flow" aria-label="Model workflow"><span><b>01</b> Initial image</span><i>→</i><span><b>02</b> Nodes & edges</span><i>→</i><span><b>03</b> GNN + phase</span><i>→</i><span><b>04</b> Predicted position</span></div>
+  <section class="controls" aria-label="Prediction controls">
+    <label>Specimen<select id="specimen" disabled><option>Loading…</option></select></label>
+    <div class="phase-control"><div class="phase-label"><label for="phase">Compression phase</label><output id="phase-label">—</output></div><input id="phase" type="range" min="0" max="100" value="0" aria-label="Compression phase" disabled><div class="phase-ends"><span>Start</span><span>End</span></div></div>
+    <label class="free-phase">Continuous phase<input id="free-phase" type="number" min="0" max="1" step="0.001" value="0" disabled><small>Type any value from 0 to 1</small></label>
+    <button id="reset" disabled>Reset</button>
+  </section>
+  <p id="status" role="status" aria-live="polite">Loading verified model files…</p>
+  <section class="viewer-grid">
+    <article class="panel image-panel"><div class="panel-head"><h2>Initial image → graph</h2><span id="graph-count">—</span></div><div id="image-view"><svg id="initial-svg" role="img" aria-label="Archived initial specimen image with initial graph overlay"></svg></div><p class="caption">Frame 0. Image and graph share the original pixel coordinates.</p><div id="snapshots" aria-label="Archived image snapshots"></div></article>
+    <article class="panel prediction-panel"><div class="panel-head"><h2>GNN prediction</h2><span class="live-dot">Calculated in this browser</span></div><svg id="prediction-svg" role="img" aria-label="Initial, predicted and observed specimen graph"></svg><div class="legend"><span class="initial">Initial graph</span><span class="predicted">Predicted</span><span class="observed">Observed</span><span class="missing">No observation</span></div><div class="toggles"><label><input id="show-initial" type="checkbox" checked> Initial graph</label><label><input id="show-observed" type="checkbox" checked> Observed nodes</label><label><input id="show-vectors" type="checkbox"> Displacement vectors</label></div><p id="comparison-note" class="caption">—</p></article>
+  </section>
+  <section id="snapshot-panel" class="panel" hidden><div class="panel-head"><h2>Archived frame + prediction</h2><span id="snapshot-label"></span></div><svg id="snapshot-svg" role="img" aria-label="Archived camera frame with prediction and observed node overlays"></svg><p class="caption">Orange: GNN position. Cyan: accepted tracking observation. An unobserved node still has a prediction, but contributes no error.</p></section>
+  <section class="metrics" aria-label="Current prediction statistics"><div><span>Observed node coverage</span><strong id="coverage">—</strong></div><div><span>Frame RMSE / initial height</span><strong id="rmse">—</strong></div><div><span>Mean predicted displacement</span><strong id="mean-displacement">—</strong></div><div><span>Prediction time</span><strong id="latency">—</strong></div></section>
+  <section class="bottom-grid"><article class="panel"><div class="panel-head"><h2>Inspect a node</h2><label class="sr-only" for="node">Node</label><select id="node" disabled></select></div><label class="zoom-control"><input id="zoom-node" type="checkbox"> Zoom to selected node</label><p id="node-values" class="node-values">—</p><button id="download" disabled>Download predicted positions · CSV</button></article><details class="panel"><summary>What does this prediction mean?</summary><p>The model receives initial geometry, initial edges and a supplied protocol phase. The images and observed positions are for comparison only.</p><p>Phase follows the archived video protocol; it is not calibrated strain or an autonomous forecast. Displacements use image pixels, with error divided by the initial graph height. Tracking observations are image-derived labels, not independent DIC or FEM measurements.</p><p id="split-details"></p><p>One original seed-11 checkpoint per specimen is shown. This interactive display is not the three-seed benchmark aggregate and does not replace it.</p><a id="source-link" href="https://github.com/ricardofitas/GNN-CB" target="_blank" rel="noopener noreferrer">Source, benchmark and scientific limits ↗</a></details></section>
+  <noscript>This demonstration needs JavaScript to run the trained GNN locally.</noscript>
+</main>
+<script type="module" src="app.mjs"></script>
+</body>
+</html>

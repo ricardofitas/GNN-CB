@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "remote_original_source_commit": "50f888bcddffe3284dae77cfba0769cbd54a62fb",
+  "original_files_checked": 821,
+  "unchanged_files": 819,
+  "changed_existing_files": [
+    ".gitignore",
+    "README.md"
+  ],
+  "permitted_changes": "Documentation and ignore rules only; original datasets, benchmark records, checkpoints, core and frozen study code unchanged."
+}

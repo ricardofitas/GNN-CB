@@ -6,9 +6,15 @@ A trained **graph neural surrogate for corrugated-board deformation**, with audi
 
 The current primary benchmark uses **five physical specimens**, expanded from the original two. Four further camera recordings were recovered and processed into graphs and masked tracks; their quality qualification and supplementary experiments are kept distinct from the fixed five-specimen benchmark.
 
-[Read the approach report](reports/GNN_CB_Approach_Report.pdf) · [Expanded data audit](reports/EXPANDED_DATA_AUDIT.md) · [Recorded benchmark](results/expanded/five_specimens/metrics.json) · [Why augmentation regressed](reports/AUGMENTATION_DIAGNOSIS.md) · [More labels and statistical evidence](reports/DERIVED_SUPERVISION_AND_SIGNIFICANCE.md)
+[Read the approach report](reports/GNN_CB_Approach_Report.pdf) · [Expanded data audit](reports/EXPANDED_DATA_AUDIT.md) · [Recorded benchmark](results/expanded/five_specimens/metrics.json) · [Why augmentation regressed](reports/AUGMENTATION_DIAGNOSIS.md) · [More labels and statistical evidence](reports/DERIVED_SUPERVISION_AND_SIGNIFICANCE.md) · [Generated defects and competing models](reports/GENERATED_IMAGES_AND_COMPETING_MODELS.md) · [Interactive prediction](web_demo/README.md)
 
-![Additional source images and initial graphs](reports/figures/expanded_source_graphs.png)
+![Real held-out camera images with original GNN predictions, tracking observations and missing nodes](reports/figures/gnn_heldout_image_predictions.jpg)
+
+Orange graphs are original held-out GNN predictions (seed 11); cyan marks are
+accepted image-tracking observations. Magenta rings identify unobserved nodes,
+which still receive predictions but contribute no measured error.
+
+![Original GNN architecture: initial geometry and phase, encoder, three message-passing rounds, residual decoder and training-only affine prior](reports/figures/gnn_architecture.svg)
 
 ## Current result: five physical specimens
 
@@ -35,7 +41,39 @@ The GNN's normalized error is **17.75% lower than the affine baseline**. Its see
 
 The fixed protocol, source dataset hashes, full metrics, histories, checkpoints and numerical predictions are under [`results/expanded/five_specimens`](results/expanded/five_specimens). These are experiments on recovered archived specimens, not a prospective locked external study.
 
-## Run the trained model
+## Interactive prediction: images, graphs and phase
+
+The [browser demonstration](web_demo/README.md) runs the actual original GNN,
+with a different held-out checkpoint for each of the five real specimens.
+Select a specimen, move the phase slider, inspect a node or download its predicted
+coordinates. It shows the initial image, initial/predicted/observed graphs and
+the accepted observation mask. A continuous phase without an exact archived
+observation produces a prediction and no invented observed marker or RMSE.
+
+![Verified desktop demonstration with real images and computed graphs](reports/figures/gnn_web_demo.png)
+
+```bash
+python -m http.server 8000
+# Open http://localhost:8000/web_demo/
+
+# Optional self-contained offline HTML with embedded original images and weights:
+python scripts/bundle_web_demo.py
+# Open web_demo/standalone.html directly.
+```
+
+JavaScript inference agrees with PyTorch within **6.15×10⁻⁷** normalized units
+across **46,604 coordinates**, including unrecorded phases. Desktop/mobile and
+the offline bundle passed executable checks. The interface calculates model
+outputs; it does not interpolate a table of saved predictions. See
+[verification](web_demo/verification.json) and
+[offline verification](web_demo/standalone_verification.json).
+
+The ProjectHub integration package was delivered to **ORION**, and one immediate
+run was requested. Its [handoff receipt](web_demo/projecthub_handoff.json) records
+the remaining integration/build and RELAY publishing gates. This repository's
+working demo does **not** imply that the ProjectHub version is already live.
+
+## Run the trained model in Python
 
 Python 3.10+ and CPU are sufficient. Prepared datasets and checkpoints are included.
 
@@ -74,6 +112,8 @@ This constructs temporary NPZ files containing only the five initial-geometry fi
 All **1,545 node-phase predictions** are finite. Saved outputs and the access audit are in [`results/expanded/automatic_geometry_inference`](results/expanded/automatic_geometry_inference). This establishes executable inference on different graph sizes. It does not establish accuracy: Probe1_2 and Probe1_10 lack an observed complete compression endpoint, and Probe1_8 loses substantial tracking coverage near collapse. These are useful geometry stress tests, with accuracy claims requiring a separately qualified evaluation.
 
 ## Audited benchmark data
+
+![Additional source images and initial graphs](reports/figures/expanded_source_graphs.png)
 
 | Physical specimen | Nodes / undirected edges | Archived frames | Compression frames | Valid compression node observations | Coverage |
 |---|---:|---:|---:|---:|---:|
@@ -301,10 +341,11 @@ case-bootstrap intervals are sensitivity statistics, not population guarantees.
 The previously reported lower-video-weight result also lacks significance
 against the original GNN (nominal p = 0.875).
 
-This study tests Monte Carlo graph input noise, not a generative image model.
+That second study tests Monte Carlo graph input noise, not a generative image model.
 Generated appearance alone cannot supply validated physical displacement labels.
 The report specifies how simulation-labelled or correspondence-preserving images
-could support a separate future experiment. The primary benchmark, original
+could support a separate experiment; the subsequent image/defect experiment is
+reported below. The primary benchmark, original
 models, source data and earlier results remain unchanged. All **59 integrity
 tests pass**; all **135 checkpoint predictions** are reproduced bit-for-bit.
 
@@ -313,6 +354,72 @@ tests pass**; all **135 checkpoint predictions** are reproduced bit-for-bit.
 [Statistical analysis](results/derived_supervision/statistics.json) ·
 [Frozen protocol](results/derived_supervision/protocol.json) ·
 [Verification](results/derived_supervision/verification.json)
+
+## Generated images, defects and competing model classes
+
+**Four images were generated and tested**, including prompts focused on flute
+height/pitch defects, leaning webs, local crush and unbonded contacts. An analytic
+renderer adds **168 frames** with known geometry and prescribed motion, including
+a 12-pixel open contact. These provide reproducible image-pipeline checks, **not
+new independent mechanical measurements**.
+
+![Generated regular/defective source images and extracted graphs](reports/figures/synthetic_native_graphs.jpg)
+
+The new study completes **135 GNN fits** (eight geometry/target interventions plus
+a real-loss control) and **30 selected competitor fits**, on the unchanged five
+test specimens and three seeds. The statistical emphasis is **GNN versus other
+model classes**:
+
+| Model | RMSE / initial height | GNN − competitor, pp | Nominal paired p | Holm p (5 models) |
+|---|---:|---:|---:|---:|
+| Zero displacement | 27.257162% ± 0.000000 | -13.717860 | 0.0625 | 0.3125 |
+| Affine phase/geometry | 16.461987% ± 0.000000 | -2.922685 | 0.0625 | 0.3125 |
+| Node MLP | 16.519852% ± 0.075907 | -2.980549 | 0.0625 | 0.3125 |
+| Random forest + affine prior | 18.621437% ± 0.063321 | -5.082134 | 0.0625 | 0.3125 |
+| RBF ridge + affine prior | 16.501461% ± 0.038415 | -2.962159 | 0.0625 | 0.3125 |
+| Original GNN | 13.539302% ± 0.357173 | — | — | — |
+
+![GNN and competing models by physical specimen](reports/figures/gnn_competing_models.svg)
+
+These nominal two-sided paired tests use **five physical cases**, after averaging
+seeds within each case. Their minimum attainable nonzero p is 0.0625; overlapping
+LOSO training also leaves the independent-sign assumption unverified. **No
+population-level significance is established.** The ± values are seed SD, and
+Holm adjusts the five competing-model contrasts.
+
+| Registered arm | RMSE / height | Δ vs original, pp | Nominal p | Holm p (9 arms) |
+|---|---:|---:|---:|---:|
+| `real_mass90` | 13.506591% ± 0.294540 | -0.032711 | 0.9375 | 1.0000 |
+| `ai_affine` | 13.620414% ± 0.137376 | +0.081112 | 0.6250 | 1.0000 |
+| `ai_teacher` | 13.364166% ± 0.147807 | -0.175136 | 0.4375 | 1.0000 |
+| `procedural_affine` | 13.443871% ± 0.157451 | -0.095432 | 0.5625 | 1.0000 |
+| `procedural_teacher` | 13.090758% ± 0.139525 | -0.448544 | 0.0625 | 0.5625 |
+| `ai_defects_affine` | 13.230215% ± 0.071555 | -0.309087 | 0.3750 | 1.0000 |
+| `ai_defects_teacher` | 13.240040% ± 0.210714 | -0.299262 | 0.2500 | 1.0000 |
+| `procedural_defects_affine` | 13.366474% ± 0.172718 | -0.172828 | 0.2500 | 1.0000 |
+| `procedural_defects_teacher` | 13.222228% ± 0.101257 | -0.317074 | 0.1875 | 1.0000 |
+
+The synthetic labels are either a real-training-only affine field or a frozen
+same-fold GNN teacher. Only training specimens fit normalization; no held-out
+specimen is in its teacher's fit or validation set. All nine outcomes are retained.
+For `procedural_teacher`, the change is -0.448544 pp
+(-3.313% relative). This exploratory result does
+**not replace the original 13.539302% benchmark**.
+
+![All generated-image ablations](reports/figures/gnn_synthetic_ablation.svg)
+
+An exact geometric probe also exposes an architectural limitation: changing the
+interior of an open flute by **12 pixels**, with the same nodes and adjacency,
+produces **identical predictions**. Current edge features encode endpoints and
+straight distance, not full curvature or parallel material paths. This demonstrates
+lost defect information; it does not prove the cause of the earlier video regression.
+
+![Known contact geometry versus extracted skeleton junctions](reports/figures/synthetic_contact_topology.png)
+
+[Full report, every specimen and matched defect tests](reports/GENERATED_IMAGES_AND_COMPETING_MODELS.md) ·
+[Registered protocol](results/synthetic_images/protocol.json) ·
+[Competing-model statistics](results/synthetic_images/statistics.json) ·
+[Verification](results/synthetic_images/verification.json)
 
 ## Model and evaluation details
 

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "verified_at_utc": "2026-10-10T00:31:14.714Z",
+  "artifact": "web_demo/standalone.html",
+  "artifact_bytes": 4047949,
+  "artifact_sha256": "53506502c6950ea4bc3d90d845bd0d4ecb637a1ba3c3db2941f8191d4220cbf7",
+  "bundler_sha256": "dde8f1b8512c13e09c35ed4b7fecea506b4263f7c7bc672e35ae15aa6ec3d2d9",
+  "browser": "134.0.6998.35",
+  "load_protocol": "file://",
+  "browser_offline": true,
+  "network_http_requests": 0,
+  "page_errors": [],
+  "cases": [
+    {
+      "id": "Exp3",
+      "physical_id": "Exp3_D12",
+      "nodes": 46,
+      "initial_load": "PASS",
+      "reference_images": "EMBEDDED_JPEG_DECODED",
+      "image_elements": 5
+    },
+    {
+      "id": "Exp4",
+      "physical_id": "Exp4_D14",
+      "nodes": 48,
+      "initial_load": "PASS",
+      "reference_images": "EMBEDDED_JPEG_DECODED",
+      "image_elements": 5
+    },
+    {
+      "id": "Exp5",
+      "physical_id": "Exp5_ID03",
+      "nodes": 42,
+      "initial_load": "PASS",
+      "reference_images": "EMBEDDED_JPEG_DECODED",
+      "image_elements": 5
+    },
+    {
+      "id": "Probe1_22",
+      "physical_id": "Probe1_22",
+      "nodes": 40,
+      "initial_load": "PASS",
+      "reference_images": "EMBEDDED_JPEG_DECODED",
+      "image_elements": 5
+    },
+    {
+      "id": "Probe2_7",
+      "physical_id": "Probe2_7",
+      "nodes": 44,
+      "initial_load": "PASS",
+      "reference_images": "EMBEDDED_JPEG_DECODED",
+      "image_elements": 5
+    }
+  ],
+  "continuous_phase": {
+    "phase": 0.3812345,
+    "predicted_graph_changed": true,
+    "observed_overlay_hidden": true,
+    "rmse_hidden": true
+  },
+  "recorded_snapshot_overlay": "PASS",
+  "original_verification_json_unchanged": true,
+  "orion_package_unchanged": true,
+  "limitations": [
+    "Focused local offline bundle check; numerical engine parity remains recorded separately in verification.json.",
+    "No ProjectHub deployment or served publication is claimed."
+  ],
+  "orion_package_sha256": "af1aeef4f127e2969008bcc741b3995d677cefcf5013e4d737349598bbbd9819"
+}

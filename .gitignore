@@ -23,3 +23,5 @@ results/derived_supervision/*execution.log
 # Generated-image exploratory study; exact inputs and compact results retained.
 results/synthetic_images/cache/
 results/synthetic_images/*execution.log
+data/synthetic_images/rendered/
+web_demo/standalone.html
