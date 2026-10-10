@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "method": "OpenAI native image_gen tool; model version and internal random seed not exposed",
+  "source_commit": "50f888bcddffe3284dae77cfba0769cbd54a62fb",
+  "conditioning": "Text only; no specimen images or measurements supplied",
+  "independent_physical_measurements": 0,
+  "labels": "These source images have no validated physical displacement labels. Any extracted nodes are algorithmic outputs.",
+  "observed_prompt_deviations": [
+    "ai_asymmetric.png is cropped at both horizontal borders, despite the full-object prompt; neither native image has verified geometry."
+  ],
+  "images": [
+    {
+      "path": "ai_regular.png",
+      "prompt": "Use case: scientific-educational. Asset type: synthetic source photograph for corrugated-board image-to-graph research, NOT a diagram or experimental measurement. Generate a new monochrome laboratory macro image of a single-wall corrugated cardboard cross-section seen exactly from the side, orthographic, no perspective. Two thin bright horizontal paper liners, connected by one continuous thin sinusoidal fluting layer with about fourteen regular waves. Full board cross-section extends nearly the whole width, with a physical width-to-height ratio about 22:1. White to light grey paper edges against pure matte black background, fine fibrous texture, slight natural imperfections. The full object is visible, centered in a wide 1536 by 1024 composition with generous empty black background above/below. Material thickness remains small relative to flute height. No platen, no objects in foreground or background, no shadows resembling extra material paths. No text, no scales, no arrows, no graphs, no borders, no watermark. This must be a plausible photograph with clear connected corrugation junctions for automated skeleton extraction, not a drawn schematic."
+    },
+    {
+      "path": "ai_asymmetric.png",
+      "prompt": "Use case: scientific-educational. Asset type: a second synthetic source photograph for corrugated-board image-to-graph research, NOT an experimental measurement. Generate a new high contrast grayscale laboratory macro image of a single-wall corrugated cardboard cross-section, orthographic side view, no perspective. Two thin bright horizontal paper liners connected by one continuous corrugated paper layer with about twelve gently asymmetric waves: rounded crests and slightly uneven flute spacings. Width-to-height ratio about 19:1. Light grey fibrous material cut edges clearly distinct against a pure matte black background. Full cross-section visible across almost the complete image width, centered in a wide 1536 by 1024 composition, large black areas above and below, no crop. Thin connected material at every junction, no loading plates, no other objects, no text, no scale marks, no diagrams, no arrows, no watermark. Preserve photographic texture while keeping the geometry clearly traceable."
+    }
+  ]
+}

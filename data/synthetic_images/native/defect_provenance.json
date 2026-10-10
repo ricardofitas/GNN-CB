@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10",
+  "reason": "User requested stronger attention to geometric defects before any new GNN fits.",
+  "method": "OpenAI native image_gen; text only, no physical observations or specimen images supplied",
+  "independent_physical_measurements": 0,
+  "images": [
+    {
+      "path": "ai_crushed.png",
+      "prompt": "Use case: scientific educational synthetic input for image-to-graph research, NOT an experimental measurement or mechanical ground truth. Generate a new grayscale laboratory macro photograph of the full cross section of a single-wall corrugated cardboard strip in a perfectly orthographic side view. Light fibrous paper edges against pure black background. Two thin near-horizontal liners and about fourteen flutes, width-to-height ratio about 18:1, centered within a wide composition with black margin around every side. Focus on GEOMETRIC MANUFACTURING DEFECTS clearly visible in the silhouette: mildly irregular flute pitch throughout; three neighboring flutes near the center have unequal height and strong left/right lean; one localized shallow crushed zone indents the top liner and flattens two crests. Most of the remaining flutes are regular to serve as internal visual context. Paper stays thin, connected, mechanically plausible as a shape. No loading machine, no arrows, no text, no labels, no extra panels or objects, no watermark. Entire strip including both ends visible. Do not invent a displacement scale, strain map, or force values.",
+      "visual_review": "Clearly uneven flute height, leaning central webs, local upper-liner indentation and flattened crests. Dimensions are not calibrated."
+    },
+    {
+      "path": "ai_contact_requested.png",
+      "prompt": "Use case: scientific educational synthetic photograph for graph-extraction robustness, NOT experimental data or simulated mechanical truth. Grayscale orthographic macro side view of a full single-wall corrugated cardboard cross section, pale paper on uniform matte black. Two thin liners, about fourteen sinusoidal flutes, width/height about 18:1. Preserve black margins on all four sides; object fully inside the frame. Focus on distinct local GEOMETRIC DEFECTS rather than texture: at one upper contact near one third of the width the flute crest falls short of the upper liner, leaving a clearly visible narrow dark air gap; near two thirds of the width a leaning flute has a visibly bent web and its neighboring pitch is wider; a second crest is slightly flattened. All other contacts remain connected and the rest looks regular. Fine paper edge texture, crisp geometry, no perspective, no text, no arrows, no coloured overlays, no measurement marks, no machine, no watermark. The photograph must make the unbonded contact and irregular corrugation inspectable, without claiming any physical displacement response.",
+      "visual_review": "Some irregular pitch and leaning/flattened flutes visible; requested open contact is not unambiguously realized. Do not treat prompt compliance as a validated defect label."
+    }
+  ]
+}
